@@ -4,6 +4,7 @@ import toast from "react-hot-toast";
 import Navbar from "../../components/Navbar/Navbar";
 import { adminApi } from "../../utils/api_request/admin";
 import { useUser } from "../../hooks/useUser";
+import { SkeletonBase } from "../../components/Skeleton/Skeleton";
 
 interface Stats {
   total_users: number;
@@ -70,8 +71,10 @@ const AdminDashboard: React.FC = () => {
               style={{ padding: "1.5rem", textAlign: "center" }}
             >
               <div style={{ fontSize: "2rem", marginBottom: "0.4rem" }}>{s.emoji}</div>
-              <div style={{ fontSize: "1.75rem", fontWeight: 900, color: s.color, letterSpacing: "-0.02em" }}>
-                {loading ? "—" : s.value}
+              <div style={{ fontSize: "1.75rem", fontWeight: 900, color: s.color, letterSpacing: "-0.02em", display: "flex", justifyContent: "center", alignItems: "center", minHeight: "42px" }}>
+                {loading ? (
+                  <SkeletonBase style={{ width: "80px", height: "24px", borderRadius: "6px" }} />
+                ) : s.value}
               </div>
               <div style={{ fontSize: "0.82rem", color: "var(--text-muted)", marginTop: "0.2rem" }}>{s.label}</div>
             </div>
@@ -98,7 +101,7 @@ const AdminDashboard: React.FC = () => {
                   ? "#DC2626"
                   : stats.wa_daily_count >= stats.wa_daily_limit * 0.8
                   ? "#F59E0B"
-                  : "var(--saffron)",
+                  : "var(--bhagwa)",
                 transition: "width 0.4s ease",
               }} />
             </div>

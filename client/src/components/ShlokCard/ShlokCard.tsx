@@ -36,8 +36,12 @@ const ShlokCard: React.FC<ShlokCardProps> = ({
 
   return (
     <div
-      className={`card animate-fade-in ${className}`}
-      style={{ padding: compact ? "1.5rem" : "2rem", overflow: "hidden", position: "relative" }}
+      className={`card animate-fade-in shlok-card ${className}`}
+      style={{
+        overflow: "hidden",
+        position: "relative",
+        wordBreak: "break-word",
+      }}
     >
       {/* Om watermark */}
       <div
@@ -57,12 +61,12 @@ const ShlokCard: React.FC<ShlokCardProps> = ({
       </div>
 
       {/* Header */}
-      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", marginBottom: "1.5rem", flexWrap: "wrap", gap: "0.5rem" }}>
+      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", marginBottom: "1.25rem", flexWrap: "wrap", gap: "0.5rem" }}>
         <div>
-          <span style={{ fontSize: "0.8rem", textTransform: "uppercase", letterSpacing: "0.08em", color: "var(--bhagwa)", fontWeight: 700 }}>
+          <span style={{ fontSize: "0.75rem", textTransform: "uppercase", letterSpacing: "0.08em", color: "var(--bhagwa)", fontWeight: 700 }}>
             🌼 Bhagavad Gita
           </span>
-          <h2 style={{ fontSize: compact ? "1rem" : "1.15rem", fontWeight: 700, color: "var(--text-primary)", marginTop: "0.25rem" }}>
+          <h2 className="shlok-card-title" style={{ fontSize: compact ? "1rem" : "1.2rem", fontWeight: 800, color: "var(--text-primary)", marginTop: "0.25rem" }}>
             Adhyay {chapterNum}, Shlok {verseNum}
           </h2>
           {verse.chapterName || verse.chapter_name ? (
@@ -72,26 +76,27 @@ const ShlokCard: React.FC<ShlokCardProps> = ({
           ) : null}
         </div>
         {shlokCount !== undefined && totalVerses !== undefined && (
-          <span className="badge badge-bhagwa">{shlokCount} / {totalVerses}</span>
+          <span className="badge badge-bhagwa" style={{ fontSize: "0.75rem" }}>{shlokCount} / {totalVerses}</span>
         )}
       </div>
 
       {/* Sanskrit */}
       <section style={{ marginBottom: "1.25rem" }}>
         <div style={{ display: "flex", alignItems: "center", gap: "0.4rem", marginBottom: "0.5rem" }}>
-          <span style={{ fontSize: "1rem" }}>🕉️</span>
-          <span style={{ fontSize: "0.78rem", fontWeight: 700, color: "var(--bhagwa)", textTransform: "uppercase", letterSpacing: "0.06em" }}>Sanskrit</span>
+          <span style={{ fontSize: "0.9rem" }}>🕉️</span>
+          <span style={{ fontSize: "0.75rem", fontWeight: 700, color: "var(--bhagwa)", textTransform: "uppercase", letterSpacing: "0.06em" }}>Sanskrit</span>
         </div>
         <p
-          className="devanagari"
+          className="devanagari shlok-card-sanskrit"
           style={{
-            fontSize: compact ? "1rem" : "1.1rem",
+            fontSize: compact ? "1.05rem" : "clamp(1.05rem, 3.5vw, 1.2rem)",
             color: "var(--text-primary)",
-            lineHeight: 2,
+            lineHeight: 1.9,
             backgroundColor: "rgba(255,107,0,0.04)",
             padding: "0.75rem 1rem",
             borderRadius: "10px",
             borderLeft: "3px solid var(--bhagwa)",
+            whiteSpace: "pre-line",
           }}
         >
           {verse.sanskrit}
@@ -101,10 +106,10 @@ const ShlokCard: React.FC<ShlokCardProps> = ({
       {/* Transliteration */}
       <section style={{ marginBottom: "1.25rem" }}>
         <div style={{ display: "flex", alignItems: "center", gap: "0.4rem", marginBottom: "0.5rem" }}>
-          <span style={{ fontSize: "1rem" }}>🔤</span>
-          <span style={{ fontSize: "0.78rem", fontWeight: 700, color: "var(--bhagwa)", textTransform: "uppercase", letterSpacing: "0.06em" }}>Transliteration</span>
+          <span style={{ fontSize: "0.9rem" }}>🔤</span>
+          <span style={{ fontSize: "0.75rem", fontWeight: 700, color: "var(--bhagwa)", textTransform: "uppercase", letterSpacing: "0.06em" }}>Transliteration</span>
         </div>
-        <p style={{ fontSize: "0.9rem", color: "var(--text-secondary)", fontStyle: "italic", lineHeight: 1.8 }}>
+        <p style={{ fontSize: "clamp(0.85rem, 2.8vw, 0.92rem)", color: "var(--text-secondary)", fontStyle: "italic", lineHeight: 1.7 }}>
           {verse.transliteration}
         </p>
       </section>
@@ -112,10 +117,10 @@ const ShlokCard: React.FC<ShlokCardProps> = ({
       {/* Hinglish Meaning */}
       <section style={{ marginBottom: "1.25rem" }}>
         <div style={{ display: "flex", alignItems: "center", gap: "0.4rem", marginBottom: "0.5rem" }}>
-          <span style={{ fontSize: "1rem" }}>🪷</span>
-          <span style={{ fontSize: "0.78rem", fontWeight: 700, color: "var(--bhagwa)", textTransform: "uppercase", letterSpacing: "0.06em" }}>Hinglish Meaning</span>
+          <span style={{ fontSize: "0.9rem" }}>🪷</span>
+          <span style={{ fontSize: "0.75rem", fontWeight: 700, color: "var(--bhagwa)", textTransform: "uppercase", letterSpacing: "0.06em" }}>Hinglish Meaning</span>
         </div>
-        <p style={{ fontSize: "0.95rem", color: "var(--text-primary)", lineHeight: 1.75 }}>
+        <p style={{ fontSize: "clamp(0.88rem, 3vw, 0.95rem)", color: "var(--text-primary)", lineHeight: 1.7 }}>
           {verse.hinglishMeaning}
         </p>
       </section>
@@ -125,10 +130,10 @@ const ShlokCard: React.FC<ShlokCardProps> = ({
           {/* Simple Explanation */}
           <section style={{ marginBottom: "1.25rem" }}>
             <div style={{ display: "flex", alignItems: "center", gap: "0.4rem", marginBottom: "0.5rem" }}>
-              <span style={{ fontSize: "1rem" }}>✨</span>
-              <span style={{ fontSize: "0.78rem", fontWeight: 700, color: "var(--bhagwa)", textTransform: "uppercase", letterSpacing: "0.06em" }}>Simple Explanation</span>
+              <span style={{ fontSize: "0.9rem" }}>✨</span>
+              <span style={{ fontSize: "0.75rem", fontWeight: 700, color: "var(--bhagwa)", textTransform: "uppercase", letterSpacing: "0.06em" }}>Simple Explanation</span>
             </div>
-            <p style={{ fontSize: "0.95rem", color: "var(--text-secondary)", lineHeight: 1.8 }}>
+            <p style={{ fontSize: "clamp(0.88rem, 3vw, 0.95rem)", color: "var(--text-secondary)", lineHeight: 1.7, whiteSpace: "pre-line" }}>
               {verse.simpleExplanation}
             </p>
           </section>
@@ -136,8 +141,8 @@ const ShlokCard: React.FC<ShlokCardProps> = ({
           {/* Life Lesson */}
           <section>
             <div style={{ display: "flex", alignItems: "center", gap: "0.4rem", marginBottom: "0.5rem" }}>
-              <span style={{ fontSize: "1rem" }}>📚</span>
-              <span style={{ fontSize: "0.78rem", fontWeight: 700, color: "var(--bhagwa)", textTransform: "uppercase", letterSpacing: "0.06em" }}>Life Lesson</span>
+              <span style={{ fontSize: "0.9rem" }}>📚</span>
+              <span style={{ fontSize: "0.75rem", fontWeight: 700, color: "var(--bhagwa)", textTransform: "uppercase", letterSpacing: "0.06em" }}>Life Lesson</span>
             </div>
             <div
               style={{
@@ -147,7 +152,7 @@ const ShlokCard: React.FC<ShlokCardProps> = ({
                 border: "1px solid rgba(255,107,0,0.12)",
               }}
             >
-              <p style={{ fontSize: "0.95rem", color: "var(--text-primary)", lineHeight: 1.75, fontStyle: "italic" }}>
+              <p style={{ fontSize: "clamp(0.88rem, 3vw, 0.95rem)", color: "var(--text-primary)", lineHeight: 1.7, fontStyle: "italic" }}>
                 {verse.lifeLesson}
               </p>
             </div>

@@ -4,6 +4,7 @@ import toast from "react-hot-toast";
 import Navbar from "../../components/Navbar/Navbar";
 import { adminApi } from "../../utils/api_request/admin";
 import { useUser } from "../../hooks/useUser";
+import { SkeletonUsers } from "../../components/Skeleton/Skeleton";
 
 interface AdminUser {
   id: number;
@@ -74,9 +75,7 @@ const AdminUsers: React.FC = () => {
 
         <div className="card" style={{ overflow: "hidden" }}>
           {loading ? (
-            <div style={{ padding: "3rem", textAlign: "center" }}>
-              <div className="spinner" style={{ margin: "0 auto" }} />
-            </div>
+            <SkeletonUsers />
           ) : (
             <div style={{ overflowX: "auto" }}>
               <table style={{ width: "100%", borderCollapse: "collapse", minWidth: "700px" }}>

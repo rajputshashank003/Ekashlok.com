@@ -343,3 +343,224 @@ body {
   color: #15803d;
   border: 1px solid rgba(34, 197, 94, 0.2);
 }
+
+/* ─── Skeleton Screen Styles ─────────────────────────────────────────────────── */
+.skeleton {
+  position: relative;
+  overflow: hidden;
+  background-color: #f3eae0;
+  border-radius: 8px;
+}
+
+.skeleton::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: translateX(-100%);
+  background-image: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.4) 20%,
+    rgba(255, 255, 255, 0.6) 60%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  animation: skeletonShimmer 1.6s infinite;
+}
+
+@keyframes skeletonShimmer {
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.skeleton-text {
+  height: 12px;
+  margin-bottom: 8px;
+  border-radius: 4px;
+}
+
+.skeleton-text.short {
+  width: 40%;
+}
+
+.skeleton-text.medium {
+  width: 70%;
+}
+
+.skeleton-text.large {
+  width: 85%;
+}
+
+.skeleton-text.full {
+  width: 100%;
+}
+
+.skeleton-circle {
+  border-radius: 50%;
+}
+
+/* ─── Pulse Animation for WhatsApp USP ────────────────────────────────────────── */
+@keyframes waPulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.5);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(34, 197, 94, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(34, 197, 94, 0);
+  }
+}
+
+.wa-pulse-btn {
+  animation: waPulse 2s infinite;
+  background: linear-gradient(135deg, #25D366 0%, #128C7E 100%) !important;
+  color: white !important;
+  border: none !important;
+}
+
+.wa-pulse-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 15px rgba(34, 197, 94, 0.4) !important;
+}
+
+/* ─── Responsive Drawer / Navbar ──────────────────────────────────────────────── */
+.nav-mobile-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(26, 8, 0, 0.4);
+  backdrop-filter: blur(4px);
+  z-index: 998;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.nav-mobile-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.nav-mobile-drawer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 290px;
+  background: var(--surface);
+  border-left: 1px solid var(--border);
+  box-shadow: var(--shadow-lg);
+  z-index: 999;
+  transform: translateX(100%);
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  padding: 2rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.nav-mobile-drawer.active {
+  transform: translateX(0);
+}
+
+.hamburger-btn {
+  display: none;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+  z-index: 1000;
+}
+
+.hamburger-icon {
+  width: 22px;
+  height: 2px;
+  background: var(--text-primary);
+  display: block;
+  position: relative;
+  transition: background 0.2s ease;
+}
+
+.hamburger-icon::before, .hamburger-icon::after {
+  content: "";
+  position: absolute;
+  width: 22px;
+  height: 2px;
+  background: var(--text-primary);
+  transition: transform 0.25s ease, top 0.25s ease;
+}
+
+.hamburger-icon::before {
+  top: -6px;
+  left: 0;
+}
+
+.hamburger-icon::after {
+  top: 6px;
+  left: 0;
+}
+
+.hamburger-btn.active .hamburger-icon {
+  background: transparent;
+}
+
+.hamburger-btn.active .hamburger-icon::before {
+  transform: rotate(45deg);
+  top: 0;
+}
+
+.hamburger-btn.active .hamburger-icon::after {
+  transform: rotate(-45deg);
+  top: 0;
+}
+
+/* ─── Mobile Layout Adaptations ──────────────────────────────────────────────── */
+.shlok-card {
+  padding: 2rem;
+}
+
+.hero-section {
+  padding: 5rem 1.5rem 7rem;
+}
+
+.wa-preview-container {
+  padding: 2rem 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .shlok-card {
+    padding: 1.25rem !important;
+  }
+  .shlok-card-sanskrit {
+    padding: 0.6rem 0.8rem !important;
+    line-height: 1.8 !important;
+  }
+  .hero-section {
+    padding: 3.5rem 1rem 5rem !important;
+  }
+  .wa-preview-container {
+    padding: 1rem 0.5rem !important;
+    border-radius: 14px !important;
+  }
+  .hamburger-btn {
+    display: block;
+  }
+  .nav-desktop-links {
+    display: none !important;
+  }
+  .container-app {
+    padding: 0 1rem;
+  }
+  .section-title {
+    font-size: 1.6rem;
+  }
+  .section-subtitle {
+    font-size: 0.95rem;
+  }
+}
+
+
+

@@ -8,6 +8,7 @@ import { shlokApi } from "../../utils/api_request/shlok";
 import { waApi } from "../../utils/api_request/whatsapp";
 import { useUser } from "../../hooks/useUser";
 import { TOTAL_SHLOKS, DAILY_SEND_TIME } from "../../utils/constants";
+import { SkeletonShlok } from "../../components/Skeleton/Skeleton";
 
 interface TodayShlok {
   shlok_count: number;
@@ -107,22 +108,7 @@ const Home: React.FC = () => {
 
         {/* Today's Shlok */}
         {fetching ? (
-          <div
-            style={{
-              background: "white",
-              borderRadius: "20px",
-              padding: "2rem",
-              minHeight: "400px",
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-            }}
-          >
-            <div style={{ textAlign: "center" }}>
-              <div className="spinner" style={{ margin: "0 auto 1rem" }} />
-              <p style={{ color: "var(--text-muted)", fontSize: "0.9rem" }}>Loading today's shlok…</p>
-            </div>
-          </div>
+          <SkeletonShlok />
         ) : todayShlok ? (
           <ShlokCard
             verse={todayShlok.verse}

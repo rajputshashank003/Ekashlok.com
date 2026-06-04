@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link, useParams, useNavigate } from "react-router-dom";
 import Navbar from "../../components/Navbar/Navbar";
 import { shlokApi } from "../../utils/api_request/shlok";
+import { SkeletonVerses } from "../../components/Skeleton/Skeleton";
 
 interface Verse {
   verseNumber: number;
@@ -79,13 +80,7 @@ const ChapterVerses: React.FC = () => {
         </div>
 
         {loading ? (
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(260px, 1fr))", gap: "1rem" }}>
-            {Array.from({ length: 12 }).map((_, i) => (
-              <div key={i} style={{ height: "100px", borderRadius: "14px", overflow: "hidden", position: "relative" }}>
-                <div className="animate-shimmer" style={{ position: "absolute", inset: 0 }} />
-              </div>
-            ))}
-          </div>
+          <SkeletonVerses />
         ) : (
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(260px, 1fr))", gap: "1rem" }}>
             {verses.map((v, i) => (

@@ -57,11 +57,11 @@ const Landing: React.FC = () => {
 
       {/* ── Hero Section ─────────────────────────────────────────────────── */}
       <section
+        className="hero-section"
         style={{
           position: "relative",
           overflow: "hidden",
           background: "var(--grad-hero)",
-          padding: "5rem 1.5rem 7rem",
           textAlign: "center",
         }}
       >
@@ -197,11 +197,11 @@ const Landing: React.FC = () => {
 
         {/* WhatsApp bubble wrapper */}
         <div
+          className="wa-preview-container"
           style={{
             position: "relative",
             background: "linear-gradient(135deg, #128C7E 0%, #075E54 100%)",
             borderRadius: "20px",
-            padding: "2rem 1.5rem",
             boxShadow: "0 16px 48px rgba(7,94,84,0.3)",
           }}
         >

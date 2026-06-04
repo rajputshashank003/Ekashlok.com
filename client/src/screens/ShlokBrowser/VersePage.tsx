@@ -3,6 +3,7 @@ import { Link, useParams, useNavigate } from "react-router-dom";
 import Navbar from "../../components/Navbar/Navbar";
 import ShlokCard from "../../components/ShlokCard/ShlokCard";
 import { shlokApi } from "../../utils/api_request/shlok";
+import { SkeletonShlok } from "../../components/Skeleton/Skeleton";
 
 const VersePage: React.FC = () => {
   const { chapter, verse } = useParams<{ chapter: string; verse: string }>();
@@ -58,9 +59,7 @@ const VersePage: React.FC = () => {
 
       <div className="container-app" style={{ padding: "1.5rem", maxWidth: "820px" }}>
         {loading ? (
-          <div style={{ minHeight: "500px", borderRadius: "20px", overflow: "hidden", position: "relative" }}>
-            <div className="animate-shimmer" style={{ position: "absolute", inset: 0 }} />
-          </div>
+          <SkeletonShlok />
         ) : verseData ? (
           <ShlokCard verse={verseData} />
         ) : (

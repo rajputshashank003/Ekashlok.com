@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Navbar from "../../components/Navbar/Navbar";
 import { shlokApi } from "../../utils/api_request/shlok";
 import { TOTAL_SHLOKS } from "../../utils/constants";
+import { SkeletonChapters } from "../../components/Skeleton/Skeleton";
 
 interface ChapterSummary {
   chapter_number: number;
@@ -62,13 +63,7 @@ const ShlokBrowser: React.FC = () => {
 
       <div className="container-app" style={{ padding: "2.5rem 1.5rem" }}>
         {loading ? (
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))", gap: "1.25rem" }}>
-            {Array.from({ length: 18 }).map((_, i) => (
-              <div key={i} style={{ height: "160px", borderRadius: "16px", overflow: "hidden", position: "relative" }}>
-                <div className="animate-shimmer" style={{ position: "absolute", inset: 0 }} />
-              </div>
-            ))}
-          </div>
+          <SkeletonChapters />
         ) : (
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))", gap: "1.25rem" }}>
             {chapters.map((ch, i) => (
