@@ -39,6 +39,7 @@ func main() {
 		AllowOrigins: []string{
 			"http://localhost:5173",
 			"http://localhost:5174",
+			"https://gitadaily1.vercel.app/",
 			config.FrontendURL,
 		},
 		AllowMethods:     []string{"GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"},
