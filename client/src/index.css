@@ -1,0 +1,345 @@
+/* Google Fonts are loaded via <link> in index.html for better PostCSS compatibility */
+@import "tailwindcss";
+
+
+/* ─── Design Tokens ─────────────────────────────────────────────────────────── */
+:root {
+  /* Bhagwa (Saffron) Palette */
+  --bhagwa:        #FF6B00;
+  --bhagwa-deep:   #E55A00;
+  --bhagwa-light:  #FF9500;
+  --bhagwa-pale:   #FFB347;
+  --gold:          #FFD700;
+  --gold-muted:    #C9A84C;
+
+  /* Surface & Backgrounds */
+  --cream:         #FFF8F0;
+  --cream-dark:    #FFF0DC;
+  --surface:       #FFFFFF;
+  --surface-warm:  #FFFBF5;
+  --deep:          #1A0800;
+  --deep-2:        #2D1200;
+
+  /* Text */
+  --text-primary:  #1A0800;
+  --text-secondary:#6B3A1A;
+  --text-muted:    #9A6B4B;
+  --text-on-dark:  #FFF8F0;
+
+  /* Borders */
+  --border:        rgba(255, 107, 0, 0.2);
+  --border-strong: rgba(255, 107, 0, 0.4);
+
+  /* Gradients */
+  --grad-hero:     linear-gradient(135deg, #FF6B00 0%, #FF9500 40%, #FFB347 100%);
+  --grad-card:     linear-gradient(145deg, #FFFFFF 0%, #FFF8F0 100%);
+  --grad-dark:     linear-gradient(135deg, #1A0800 0%, #2D1200 60%, #3D1800 100%);
+
+  /* Shadows */
+  --shadow-sm:     0 1px 3px rgba(255, 107, 0, 0.08);
+  --shadow-md:     0 4px 20px rgba(255, 107, 0, 0.12);
+  --shadow-lg:     0 12px 40px rgba(255, 107, 0, 0.18);
+  --shadow-glow:   0 0 30px rgba(255, 107, 0, 0.3);
+}
+
+/* ─── Base Reset ─────────────────────────────────────────────────────────────── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: "Inter", system-ui, sans-serif;
+  background-color: var(--cream);
+  color: var(--text-primary);
+  min-height: 100vh;
+  line-height: 1.6;
+}
+
+/* Sanskrit / Devanagari text */
+.devanagari {
+  font-family: "Noto Serif Devanagari", serif;
+  line-height: 1.8;
+}
+
+/* ─── Animations ─────────────────────────────────────────────────────────────── */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeInScale {
+  from { opacity: 0; transform: scale(0.95); }
+  to   { opacity: 1; transform: scale(1); }
+}
+
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50%       { transform: translateY(-12px) rotate(5deg); }
+}
+
+@keyframes floatReverse {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50%       { transform: translateY(-8px) rotate(-4deg); }
+}
+
+@keyframes glowPulse {
+  0%, 100% { box-shadow: 0 0 20px rgba(255, 107, 0, 0.2); }
+  50%       { box-shadow: 0 0 40px rgba(255, 107, 0, 0.5); }
+}
+
+@keyframes shimmer {
+  0%   { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+@keyframes spinSlow {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+@keyframes dotBounce {
+  0%, 80%, 100% { transform: scale(0); opacity: 0.5; }
+  40%           { transform: scale(1); opacity: 1; }
+}
+
+@keyframes progressFill {
+  from { width: 0%; }
+}
+
+/* ─── Utility Classes ────────────────────────────────────────────────────────── */
+.animate-fade-in    { animation: fadeIn 0.5s ease forwards; }
+.animate-fade-scale { animation: fadeInScale 0.4s ease forwards; }
+.animate-slide-up   { animation: slideUp 0.6s ease forwards; }
+.animate-float      { animation: float 4s ease-in-out infinite; }
+.animate-float-rev  { animation: floatReverse 5s ease-in-out infinite; }
+.animate-glow       { animation: glowPulse 2s ease-in-out infinite; }
+.animate-spin-slow  { animation: spinSlow 20s linear infinite; }
+
+/* Loading skeleton shimmer */
+.animate-shimmer {
+  background: linear-gradient(90deg, #f0e6d8 25%, #ffe4c4 50%, #f0e6d8 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
+
+/* ─── Glassmorphism Cards ────────────────────────────────────────────────────── */
+.glass {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 107, 0, 0.15);
+}
+
+.glass-dark {
+  background: rgba(26, 8, 0, 0.6);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 107, 0, 0.2);
+}
+
+/* ─── Buttons ────────────────────────────────────────────────────────────────── */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  background: var(--grad-hero);
+  color: white;
+  font-weight: 600;
+  font-size: 0.95rem;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: var(--shadow-md);
+  text-decoration: none;
+}
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-glow);
+}
+.btn-primary:active { transform: translateY(0); }
+.btn-primary:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.btn-outline {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  background: transparent;
+  color: var(--bhagwa);
+  font-weight: 600;
+  font-size: 0.95rem;
+  border: 2px solid var(--bhagwa);
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-decoration: none;
+}
+.btn-outline:hover {
+  background: var(--bhagwa);
+  color: white;
+  transform: translateY(-2px);
+}
+
+.btn-ghost {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  background: transparent;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+.btn-ghost:hover {
+  background: rgba(255, 107, 0, 0.08);
+  color: var(--bhagwa);
+}
+
+/* ─── Cards ──────────────────────────────────────────────────────────────────── */
+.card {
+  background: var(--surface);
+  border-radius: 20px;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-md);
+  transition: all 0.3s ease;
+}
+.card:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-2px);
+  border-color: var(--border-strong);
+}
+
+.card-warm {
+  background: var(--surface-warm);
+  border-radius: 20px;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-sm);
+}
+
+/* ─── Input fields ───────────────────────────────────────────────────────────── */
+.input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 2px solid var(--border);
+  border-radius: 12px;
+  font-size: 1rem;
+  font-family: "Inter", sans-serif;
+  background: var(--surface);
+  color: var(--text-primary);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  outline: none;
+}
+.input:focus {
+  border-color: var(--bhagwa);
+  box-shadow: 0 0 0 3px rgba(255, 107, 0, 0.12);
+}
+.input::placeholder { color: var(--text-muted); }
+
+/* ─── Section headings ───────────────────────────────────────────────────────── */
+.section-title {
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--text-primary);
+  letter-spacing: -0.02em;
+}
+.section-subtitle {
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+}
+
+/* ─── Om Symbol Decoration ────────────────────────────────────────────────────── */
+.om-bg {
+  font-family: "Noto Serif Devanagari", serif;
+  font-size: 12rem;
+  color: rgba(255, 107, 0, 0.06);
+  line-height: 1;
+  user-select: none;
+  pointer-events: none;
+}
+
+/* ─── Progress Bar ───────────────────────────────────────────────────────────── */
+.progress-track {
+  width: 100%;
+  height: 6px;
+  background: rgba(255, 107, 0, 0.12);
+  border-radius: 99px;
+  overflow: hidden;
+}
+.progress-fill {
+  height: 100%;
+  background: var(--grad-hero);
+  border-radius: 99px;
+  transition: width 0.8s ease;
+  animation: progressFill 0.8s ease;
+}
+
+/* ─── Spinner / Loading ──────────────────────────────────────────────────────── */
+.spinner {
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 3px solid rgba(255, 107, 0, 0.2);
+  border-top-color: var(--bhagwa);
+  border-radius: 50%;
+  animation: spinSlow 0.8s linear infinite;
+}
+
+/* ─── Scrollbar ──────────────────────────────────────────────────────────────── */
+::-webkit-scrollbar       { width: 6px; }
+::-webkit-scrollbar-track { background: var(--cream); }
+::-webkit-scrollbar-thumb { background: rgba(255, 107, 0, 0.3); border-radius: 99px; }
+::-webkit-scrollbar-thumb:hover { background: var(--bhagwa); }
+
+/* ─── Page transition wrapper ────────────────────────────────────────────────── */
+.page-enter { animation: fadeIn 0.4s ease forwards; }
+
+/* ─── Responsive Container ───────────────────────────────────────────────────── */
+.container-app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* ─── Tag / Badge ────────────────────────────────────────────────────────────── */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.25rem 0.75rem;
+  border-radius: 99px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+.badge-bhagwa {
+  background: rgba(255, 107, 0, 0.1);
+  color: var(--bhagwa-deep);
+  border: 1px solid rgba(255, 107, 0, 0.2);
+}
+.badge-green {
+  background: rgba(34, 197, 94, 0.1);
+  color: #15803d;
+  border: 1px solid rgba(34, 197, 94, 0.2);
+}
