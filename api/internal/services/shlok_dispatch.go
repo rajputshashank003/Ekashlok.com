@@ -66,11 +66,22 @@ func DispatchDailyShloks() error {
 
 // dispatchToUser sends the shlok and advances the count for one subscriber.
 func dispatchToUser(user models.User) error {
-	verse := gita.GetByShlokCount(user.ShlokCount)
+	// shlok_count = 0 means the user is new / was reset to the beginning.
+	// Their first delivery should be shlok #1.
+	// We normalise here so the rest of the logic is uniform.
+	if user.ShlokCount < 1 {
+		log.Printf("[DISPATCH] User %d has shlok_count=0 (new/reset) — will deliver shlok #1\n", user.ID)
+		user.ShlokCount = 0 // AdvanceCount(0) = 1, so they get shlok #1
+	}
+
+	// Determine which shlok to send: AdvanceCount gives the NEXT shlok.
+	// shlok_count represents "last completed", so the next one to send is count+1.
+	nextCount := gita.AdvanceCount(user.ShlokCount)
+	verse := gita.GetByShlokCount(nextCount)
 	if verse == nil {
-		log.Printf("[DISPATCH] Invalid shlok_count %d for user %d, resetting to 1\n", user.ShlokCount, user.ID)
-		database.DB.Model(&models.User{}).Where("id = ?", user.ID).Update("shlok_count", 1)
-		verse = gita.GetByShlokCount(1)
+		// Should never happen given AdvanceCount wraps 700→1, but guard anyway.
+		log.Printf("[DISPATCH] Could not find verse for count %d (user %d) — skipping\n", nextCount, user.ID)
+		return nil
 	}
 
 	message := FormatShlokMessage(verse)
@@ -80,9 +91,8 @@ func dispatchToUser(user models.User) error {
 		return err
 	}
 
-	// Advance shlok count
-	nextCount := gita.AdvanceCount(user.ShlokCount)
-	wasLast := user.ShlokCount == gita.TotalVerses()
+	// Mark this shlok as delivered — advance the stored count.
+	wasLast := nextCount == gita.TotalVerses()
 	now := time.Now()
 
 	database.DB.Model(&models.User{}).Where("id = ?", user.ID).Updates(map[string]interface{}{
@@ -97,6 +107,7 @@ func dispatchToUser(user models.User) error {
 
 	return nil
 }
+
 
 // sendCompletionMessage sends a congratulatory message when user finishes all 700 shloks.
 func sendCompletionMessage(phone, name string) {

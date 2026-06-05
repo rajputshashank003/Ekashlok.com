@@ -45,6 +45,7 @@ func SetupRoutes(r *gin.Engine) {
 		{
 			shlok.GET("/today", controllers.GetTodayShlok)
 			shlok.POST("/reset", controllers.ResetShlokCount)
+			shlok.PATCH("/count", controllers.SetShlokCount)
 		}
 
 		// ── WhatsApp (Protected) ──────────────────────────────────────────

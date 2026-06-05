@@ -13,6 +13,10 @@ export const shlokApi = {
   resetShlokCount: () =>
     utils.request({ url: "/shlok/reset", method: METHODS.POST }),
 
+  /** Set progress to any specific shlok (1–700). */
+  setShlokCount: (count: number) =>
+    utils.request({ url: "/shlok/count", method: METHODS.PATCH, data: { count } }),
+
   /** Authenticated user profile — not cached. */
   getMe: () =>
     utils.request({ url: "/users/me", method: METHODS.GET }),

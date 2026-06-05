@@ -21,8 +21,6 @@ const Home: React.FC = () => {
   const [todayShlok, setTodayShlok] = useState<TodayShlok | null>(null);
   const [fetching, setFetching] = useState(true);
   const [showOTP, setShowOTP] = useState(false);
-  const [resetting, setResetting] = useState(false);
-  const [showResetConfirm, setShowResetConfirm] = useState(false);
   const [unsubscribing, setUnsubscribing] = useState(false);
 
   if (!isLoading && !isAuthenticated) return <Navigate to="/" replace />;
@@ -41,18 +39,6 @@ const Home: React.FC = () => {
       // handled globally
     } finally {
       setFetching(false);
-    }
-  };
-
-  const handleReset = async () => {
-    setResetting(true);
-    try {
-      await shlokApi.resetShlokCount();
-      toast.success("Shlok count reset to 1 🌱");
-      setShowResetConfirm(false);
-      await fetchTodayShlok();
-    } finally {
-      setResetting(false);
     }
   };
 
@@ -202,45 +188,11 @@ const Home: React.FC = () => {
           <Link to="/shloks" className="btn-outline" style={{ flex: 1, minWidth: "160px", justifyContent: "center" }}>
             Browse All Shloks
           </Link>
-          <button
-            className="btn-ghost"
-            onClick={() => setShowResetConfirm(true)}
-            style={{ flex: 1, minWidth: "160px", border: "1px solid var(--border)", borderRadius: "12px" }}
-          >
-            🔄 Reset Progress
-          </button>
+          <Link to="/profile" className="btn-ghost" style={{ flex: 1, minWidth: "160px", justifyContent: "center", border: "1px solid var(--border)", borderRadius: "12px", textDecoration: "none", display: "flex", alignItems: "center" }}>
+            ⚙️ Settings
+          </Link>
         </div>
       </div>
-
-      {/* Reset Confirm */}
-      {showResetConfirm && (
-        <div
-          style={{
-            position: "fixed", inset: 0,
-            background: "rgba(26,8,0,0.5)",
-            backdropFilter: "blur(4px)",
-            display: "flex", alignItems: "center", justifyContent: "center",
-            zIndex: 200, padding: "1rem",
-          }}
-          onClick={e => e.target === e.currentTarget && setShowResetConfirm(false)}
-        >
-          <div className="card animate-fade-scale" style={{ maxWidth: "360px", width: "100%", padding: "2rem", textAlign: "center" }}>
-            <div style={{ fontSize: "2.5rem", marginBottom: "0.75rem" }}>🔄</div>
-            <h3 style={{ fontWeight: 800, marginBottom: "0.5rem" }}>Reset to Shlok 1?</h3>
-            <p style={{ color: "var(--text-muted)", fontSize: "0.9rem", marginBottom: "1.5rem" }}>
-              Your progress ({user?.shlok_count || 1} shloks) will be reset to the beginning.
-            </p>
-            <div style={{ display: "flex", gap: "0.75rem" }}>
-              <button className="btn-ghost" style={{ flex: 1, border: "1px solid var(--border)", borderRadius: "10px" }} onClick={() => setShowResetConfirm(false)}>
-                Cancel
-              </button>
-              <button className="btn-primary" style={{ flex: 1, background: "#dc2626", boxShadow: "none" }} onClick={handleReset} disabled={resetting}>
-                {resetting ? "Resetting…" : "Yes, Reset"}
-              </button>
-            </div>
-          </div>
-        </div>
-      )}
 
       {/* OTP Modal */}
       {showOTP && user && (

@@ -70,26 +70,35 @@ func GetTodayShlok(c *gin.Context) {
 		}
 	}
 
-	verse := gita.GetByShlokCount(user.ShlokCount)
+	// shlok_count = 0 means the user just signed up; tomorrow's first delivery will
+	// be shlok #1.  Show them shlok #1 on the home page as a preview.
+	displayCount := user.ShlokCount
+	if displayCount < 1 {
+		displayCount = 1
+	}
+
+	verse := gita.GetByShlokCount(displayCount)
 	if verse == nil {
 		c.JSON(http.StatusInternalServerError, gin.H{"error": "Shlok not found"})
 		return
 	}
 
 	c.JSON(http.StatusOK, gin.H{
-		"shlok_count":  user.ShlokCount,
+		"shlok_count":  user.ShlokCount, // raw value for progress bar
 		"total_verses": gita.TotalVerses(),
 		"verse":        verse,
 	})
 }
 
-// ResetShlokCount resets the user's shlok_count to 1.
+// ResetShlokCount resets the user's shlok_count to 0 (so the next morning
+// delivery will be shlok #1). Clears LastShlokAdvanced so the website also
+// re-serves shlok #1 on the next visit.
 // POST /api/shlok/reset
 func ResetShlokCount(c *gin.Context) {
 	userID := c.MustGet("userID").(uint)
 
 	if err := database.DB.Model(&models.User{}).Where("id = ?", userID).Updates(map[string]interface{}{
-		"shlok_count":         1,
+		"shlok_count":         0,
 		"last_shlok_advanced": nil,
 	}).Error; err != nil {
 		c.JSON(http.StatusInternalServerError, gin.H{"error": "Failed to reset shlok count"})
@@ -97,7 +106,34 @@ func ResetShlokCount(c *gin.Context) {
 	}
 	cache.AppCache.Invalidate(fmt.Sprintf("user_%d", userID))
 
-	c.JSON(http.StatusOK, gin.H{"message": "Shlok count reset to 1"})
+	c.JSON(http.StatusOK, gin.H{"message": "Shlok count reset", "shlok_count": 0})
+}
+
+// SetShlokCount sets the user's shlok_count to any valid value (1–700).
+// The value represents the last shlok the user has completed; the next
+// morning delivery will be count+1.
+// PATCH /api/shlok/count
+func SetShlokCount(c *gin.Context) {
+	userID := c.MustGet("userID").(uint)
+
+	var req struct {
+		Count int `json:"count" binding:"required,min=1,max=700"`
+	}
+	if err := c.ShouldBindJSON(&req); err != nil {
+		c.JSON(http.StatusBadRequest, gin.H{"error": fmt.Sprintf("count must be between 1 and %d", gita.TotalVerses())})
+		return
+	}
+
+	if err := database.DB.Model(&models.User{}).Where("id = ?", userID).Updates(map[string]interface{}{
+		"shlok_count":         req.Count,
+		"last_shlok_advanced": nil,
+	}).Error; err != nil {
+		c.JSON(http.StatusInternalServerError, gin.H{"error": "Failed to update shlok count"})
+		return
+	}
+	cache.AppCache.Invalidate(fmt.Sprintf("user_%d", userID))
+
+	c.JSON(http.StatusOK, gin.H{"message": "Shlok count updated", "shlok_count": req.Count})
 }
 
 // GetChapters returns all 18 chapter summaries (public).
