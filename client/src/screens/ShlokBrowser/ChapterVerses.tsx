@@ -41,7 +41,7 @@ const ChapterVerses: React.FC = () => {
       <Navbar />
 
       {/* Header */}
-      <div style={{ background: "var(--grad-hero)", padding: "2.5rem 1.5rem", position: "relative", overflow: "hidden" }}>
+      <div className="chapter-header">
         <div style={{ position: "absolute", right: "5%", bottom: "-20px", fontFamily: "'Noto Serif Devanagari', serif", fontSize: "7rem", color: "rgba(255,255,255,0.06)", userSelect: "none" }}>
           {chapterNum}
         </div>
@@ -58,24 +58,24 @@ const ChapterVerses: React.FC = () => {
         </div>
       </div>
 
-      <div className="container-app" style={{ padding: "2rem 1.5rem" }}>
+      <div className="container-app section-container">
         {/* Chapter navigation */}
-        <div style={{ display: "flex", justifyContent: "space-between", marginBottom: "1.5rem" }}>
+        <div className="chapter-navigation">
           <button
-            className="btn-outline"
-            style={{ padding: "0.5rem 1rem", fontSize: "0.85rem" }}
+            className="btn-outline nav-btn"
             onClick={() => chapterNum > 1 && navigate(`/shloks/${chapterNum - 1}`)}
             disabled={chapterNum <= 1}
           >
-            ← Previous Chapter
+            <span className="nav-btn-text-desktop">← Previous Chapter</span>
+            <span className="nav-btn-text-mobile">← Prev Ch</span>
           </button>
           <button
-            className="btn-outline"
-            style={{ padding: "0.5rem 1rem", fontSize: "0.85rem" }}
+            className="btn-outline nav-btn"
             onClick={() => chapterNum < 18 && navigate(`/shloks/${chapterNum + 1}`)}
             disabled={chapterNum >= 18}
           >
-            Next Chapter →
+            <span className="nav-btn-text-desktop">Next Chapter →</span>
+            <span className="nav-btn-text-mobile">Next Ch →</span>
           </button>
         </div>
 

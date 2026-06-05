@@ -10,6 +10,11 @@ export default defineConfig({
             "@": path.resolve(__dirname, "src"),
         },
     },
+    // Stamp the build time into the bundle so the cache version changes
+    // automatically on every deploy — no manual version bumping needed.
+    define: {
+        __BUILD_TIMESTAMP__: JSON.stringify(new Date().toISOString()),
+    },
     server: {
         port: 5173,
         proxy: {
@@ -25,3 +30,4 @@ export default defineConfig({
         },
     },
 });
+

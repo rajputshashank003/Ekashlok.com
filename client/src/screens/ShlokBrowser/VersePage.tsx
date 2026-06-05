@@ -45,7 +45,7 @@ const VersePage: React.FC = () => {
       <Navbar />
 
       {/* Breadcrumb */}
-      <div className="container-app" style={{ padding: "1.25rem 1.5rem 0", maxWidth: "820px" }}>
+      <div className="container-app breadcrumb-container" style={{ maxWidth: "820px" }}>
         <div style={{ display: "flex", alignItems: "center", gap: "0.4rem", fontSize: "0.82rem", color: "var(--text-muted)", flexWrap: "wrap" }}>
           <Link to="/shloks" style={{ color: "var(--bhagwa)", textDecoration: "none" }}>Chapters</Link>
           <span>›</span>
@@ -57,7 +57,7 @@ const VersePage: React.FC = () => {
         </div>
       </div>
 
-      <div className="container-app" style={{ padding: "1.5rem", maxWidth: "820px" }}>
+      <div className="container-app shlok-page-container" style={{ maxWidth: "820px" }}>
         {loading ? (
           <SkeletonShlok />
         ) : verseData ? (
@@ -69,29 +69,29 @@ const VersePage: React.FC = () => {
         )}
 
         {/* Navigation */}
-        <div style={{ display: "flex", justifyContent: "space-between", marginTop: "1.5rem", gap: "0.75rem" }}>
+        <div className="shlok-navigation">
           <button
-            className="btn-outline"
+            className="btn-outline nav-btn"
             onClick={goToPrev}
             disabled={!hasPrev}
-            style={{ flex: 1, justifyContent: "center", padding: "0.7rem 1rem" }}
           >
-            ← Previous
+            <span className="nav-btn-text-desktop">← Previous</span>
+            <span className="nav-btn-text-mobile">← Prev</span>
           </button>
           <Link
             to={`/shloks/${chapterNum}`}
-            className="btn-ghost"
-            style={{ flex: 0.5, textAlign: "center", padding: "0.7rem 1rem", border: "1px solid var(--border)", borderRadius: "12px" }}
+            className="btn-ghost nav-btn-chapter"
           >
-            Chapter {chapterNum}
+            <span className="nav-btn-text-desktop">Chapter {chapterNum}</span>
+            <span className="nav-btn-text-mobile">Ch {chapterNum}</span>
           </Link>
           <button
-            className="btn-primary"
+            className="btn-primary nav-btn"
             onClick={goToNext}
             disabled={!hasNext}
-            style={{ flex: 1, justifyContent: "center", padding: "0.7rem 1rem" }}
           >
-            Next →
+            <span className="nav-btn-text-desktop">Next →</span>
+            <span className="nav-btn-text-mobile">Next →</span>
           </button>
         </div>
 

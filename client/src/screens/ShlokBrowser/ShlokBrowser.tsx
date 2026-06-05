@@ -36,15 +36,7 @@ const ShlokBrowser: React.FC = () => {
       <Navbar />
 
       {/* Header */}
-      <div
-        style={{
-          background: "var(--grad-hero)",
-          padding: "3rem 1.5rem",
-          textAlign: "center",
-          position: "relative",
-          overflow: "hidden",
-        }}
-      >
+      <div className="browser-header">
         <div
           style={{
             position: "absolute", top: 0, right: "10%",
@@ -61,7 +53,7 @@ const ShlokBrowser: React.FC = () => {
         </p>
       </div>
 
-      <div className="container-app" style={{ padding: "2.5rem 1.5rem" }}>
+      <div className="container-app section-container">
         {loading ? (
           <SkeletonChapters />
         ) : (

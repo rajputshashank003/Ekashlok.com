@@ -519,7 +519,7 @@ body {
 
 /* ─── Mobile Layout Adaptations ──────────────────────────────────────────────── */
 .shlok-card {
-  padding: 2rem;
+  padding: 2.25rem;
 }
 
 .hero-section {
@@ -530,13 +530,99 @@ body {
   padding: 2rem 1.5rem;
 }
 
+/* Responsive Containers & Headers Layout System */
+.section-container {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.chapter-header {
+  background: var(--grad-hero);
+  padding: 2.5rem 1.5rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.browser-header {
+  background: var(--grad-hero);
+  padding: 3rem 1.5rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.breadcrumb-container {
+  padding-top: 1.25rem;
+  padding-bottom: 0;
+}
+
+.shlok-page-container {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+/* Chapter & Shlok Navigation systems */
+.chapter-navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+  gap: 0.75rem;
+}
+
+.chapter-navigation .nav-btn {
+  flex: 1;
+  justify-content: center;
+  padding: 0.6rem 1rem;
+  font-size: 0.85rem;
+}
+
+.shlok-navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+  gap: 0.75rem;
+}
+
+.shlok-navigation .nav-btn {
+  flex: 1;
+  justify-content: center;
+  padding: 0.75rem 1rem;
+}
+
+.shlok-navigation .nav-btn-chapter {
+  flex: 0.5;
+  text-align: center;
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.shlok-navigation .nav-btn-chapter:hover {
+  background: rgba(255, 107, 0, 0.08);
+  color: var(--bhagwa);
+  border-color: var(--bhagwa);
+}
+
+.nav-btn-text-mobile {
+  display: none;
+}
+
 @media (max-width: 768px) {
   .shlok-card {
-    padding: 1.25rem !important;
+    padding: 1rem !important; /* Decreased card padding for better screen economy on mobile */
   }
   .shlok-card-sanskrit {
-    padding: 0.6rem 0.8rem !important;
+    padding: 0.75rem 0.85rem !important;
     line-height: 1.8 !important;
+    font-size: 1.05rem !important;
   }
   .hero-section {
     padding: 3.5rem 1rem 5rem !important;
@@ -552,7 +638,7 @@ body {
     display: none !important;
   }
   .container-app {
-    padding: 0 1rem;
+    padding: 0 0.75rem; /* Decreased container side padding on mobile (from 1rem to 0.75rem) */
   }
   .section-title {
     font-size: 1.6rem;
@@ -560,7 +646,55 @@ body {
   .section-subtitle {
     font-size: 0.95rem;
   }
+  .section-container {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+  }
+  .chapter-header {
+    padding: 1.75rem 1rem;
+  }
+  .browser-header {
+    padding: 2.25rem 1rem;
+  }
+  .breadcrumb-container {
+    padding-top: 0.75rem;
+  }
+  .shlok-page-container {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
 }
+
+@media (max-width: 600px) {
+  .chapter-navigation {
+    gap: 0.5rem;
+  }
+  .chapter-navigation .nav-btn {
+    padding: 0.6rem 0.5rem;
+    font-size: 0.8rem;
+    border-radius: 10px;
+  }
+  .shlok-navigation {
+    gap: 0.5rem;
+  }
+  .shlok-navigation .nav-btn {
+    padding: 0.65rem 0.5rem;
+    font-size: 0.82rem;
+    border-radius: 10px;
+  }
+  .shlok-navigation .nav-btn-chapter {
+    padding: 0.65rem 0.5rem;
+    font-size: 0.82rem;
+    border-radius: 10px;
+  }
+  .nav-btn-text-desktop {
+    display: none;
+  }
+  .nav-btn-text-mobile {
+    display: inline;
+  }
+}
+
 
 
 
