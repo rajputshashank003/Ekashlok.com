@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import toast from "react-hot-toast";
 import { waApi } from "../../utils/api_request/whatsapp";
 import { WA_START_CHOICES, TOTAL_SHLOKS, DAILY_SEND_TIME } from "../../utils/constants";
+import { useMaintenance } from "../../context/MaintenanceContext";
 
 interface OTPModalProps {
   currentShlokCount: number;
@@ -19,8 +20,14 @@ const OTPModal: React.FC<OTPModalProps> = ({ currentShlokCount, onSuccess, onClo
   const [customCount, setCustomCount] = useState<string>("");
   const [loading, setLoading] = useState(false);
   const [sandboxNote, setSandboxNote] = useState<string>("");
+  const { otpMaintenance } = useMaintenance();
 
   const handleSendOTP = async () => {
+    // Eager frontend guard — avoids an unnecessary API call when maintenance is on
+    if (otpMaintenance) {
+      toast.error("WhatsApp is under maintenance. Please try again later.");
+      return;
+    }
     if (phone.replace(/\D/g, "").length < 10) {
       toast.error("Enter a valid phone number");
       return;
@@ -28,6 +35,11 @@ const OTPModal: React.FC<OTPModalProps> = ({ currentShlokCount, onSuccess, onClo
     setLoading(true);
     try {
       const res = await waApi.sendOTP(phone);
+      // Backend fallback guard (handles stale context)
+      if (res?.maintenance) {
+        toast.error("WhatsApp is under maintenance. OTP not sent. Please try again later.");
+        return;
+      }
       if (res.sandbox_note) setSandboxNote(res.sandbox_note);
       toast.success("OTP sent on WhatsApp! 📱");
       setStep("otp");
@@ -125,6 +137,23 @@ const OTPModal: React.FC<OTPModalProps> = ({ currentShlokCount, onSuccess, onClo
         {/* ── Step 1: Phone ── */}
         {step === "phone" && (
           <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
+            {/* OTP Maintenance notice */}
+            {otpMaintenance && (
+              <div
+                style={{
+                  background: "rgba(180,83,9,0.08)",
+                  border: "1px solid rgba(180,83,9,0.25)",
+                  borderRadius: "12px",
+                  padding: "0.9rem 1rem",
+                  fontSize: "0.85rem",
+                  color: "#92400e",
+                  lineHeight: 1.6,
+                }}
+              >
+                <strong>🔧 Under Maintenance</strong><br />
+                WhatsApp verification is temporarily unavailable. Please try again later.
+              </div>
+            )}
             <div>
               <label style={{ fontSize: "0.85rem", fontWeight: 600, color: "var(--text-secondary)", display: "block", marginBottom: "0.4rem" }}>
                 WhatsApp Number
@@ -136,14 +165,15 @@ const OTPModal: React.FC<OTPModalProps> = ({ currentShlokCount, onSuccess, onClo
                 placeholder="+91 9876543210"
                 value={phone}
                 onChange={e => setPhone(e.target.value)}
-                onKeyDown={e => e.key === "Enter" && handleSendOTP()}
+                onKeyDown={e => !otpMaintenance && e.key === "Enter" && handleSendOTP()}
+                disabled={otpMaintenance}
               />
               <p style={{ fontSize: "0.78rem", color: "var(--text-muted)", marginTop: "0.4rem" }}>
                 Include country code (e.g. +91 for India)
               </p>
             </div>
-            <button className="btn-primary" onClick={handleSendOTP} disabled={loading}>
-              {loading ? "Sending…" : "Send OTP on WhatsApp →"}
+            <button className="btn-primary" onClick={handleSendOTP} disabled={loading || otpMaintenance}>
+              {loading ? "Sending…" : otpMaintenance ? "🔧 OTP Unavailable" : "Send OTP on WhatsApp →"}
             </button>
           </div>
         )}

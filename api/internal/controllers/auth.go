@@ -50,12 +50,12 @@ func VerifyGoogleToken(c *gin.Context) {
 		// New user
 		isAdmin := strings.EqualFold(email, config.AdminEmail)
 		user = models.User{
-			Email:     email,
-			Name:      name,
-			AvatarURL: picture,
-			GoogleID:  googleID,
-			IsAdmin:   isAdmin,
-			ShlokCount: 1,
+			Email:      email,
+			Name:       name,
+			AvatarURL:  picture,
+			GoogleID:   googleID,
+			IsAdmin:    isAdmin,
+			ShlokCount: 0, // 0 = brand new; first WA delivery tomorrow = shlok #1
 		}
 		if err := database.DB.Create(&user).Error; err != nil {
 			c.JSON(http.StatusInternalServerError, gin.H{"error": "Failed to create user"})

@@ -42,6 +42,7 @@ func AutoMigrate() {
 		&models.User{},
 		&models.OTP{},
 		&models.AppSetting{},
+		&models.WASignupAttempt{},
 	)
 	if err != nil {
 		log.Fatalf("AutoMigrate failed: %v\n", err)
@@ -55,6 +56,9 @@ func AutoMigrate() {
 func seedDefaultSettings() {
 	defaults := map[string]string{
 		"max_daily_wa_messages": "200",
+		// Maintenance flags — default OFF so no behaviour changes on first deploy
+		"otp_maintenance":      "false",
+		"dispatch_maintenance": "false",
 	}
 	for k, v := range defaults {
 		DB.Where(models.AppSetting{Key: k}).FirstOrCreate(&models.AppSetting{

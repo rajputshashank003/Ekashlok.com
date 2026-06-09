@@ -11,6 +11,7 @@ import (
 	"bgs/internal/database"
 	"bgs/internal/gita"
 	"bgs/internal/models"
+	"bgs/internal/settings"
 )
 
 // DispatchDailyShloks sends the daily shlok WhatsApp message to all active subscribers.
@@ -19,6 +20,15 @@ import (
 // send failures are logged but do not abort the whole batch.
 func DispatchDailyShloks() error {
 	log.Println("[DISPATCH] Starting daily shlok dispatch...")
+
+	// ── Dispatch maintenance guard ────────────────────────────────────────────
+	// When an admin sets dispatch_maintenance=true the cron exits immediately;
+	// NO shloks are sent and NO shlok_count values are advanced.
+	if settings.IsDispatchMaintenance() {
+		log.Println("[DISPATCH] Paused — dispatch_maintenance=true. No shloks sent, counts unchanged.")
+		return nil
+	}
+
 
 	// Read max messages limit from DB settings
 	maxMessages := readMaxMessages()

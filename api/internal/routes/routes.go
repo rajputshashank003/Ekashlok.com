@@ -18,6 +18,10 @@ func SetupRoutes(r *gin.Engine) {
 			c.JSON(http.StatusOK, gin.H{"status": "ok", "service": "Gita Daily API"})
 		})
 
+		// ── Public Settings (no auth required) ─────────────────────────
+		// Returns maintenance flags so the frontend can show banners without auth.
+		api.GET("/settings/public", controllers.GetPublicSettings)
+
 		// ── Auth ──────────────────────────────────────────────────────────
 		auth := api.Group("/auth")
 		{
@@ -67,6 +71,7 @@ func SetupRoutes(r *gin.Engine) {
 			admin.PATCH("/users/:id/toggle-admin", controllers.ToggleAdminStatus)
 			admin.GET("/settings", controllers.GetSettings)
 			admin.PATCH("/settings", controllers.UpdateSettings)
+			admin.GET("/signup-attempts", controllers.GetFailedSignupAttempts)
 		}
 	}
 }

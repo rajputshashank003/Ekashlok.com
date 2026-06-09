@@ -13,6 +13,7 @@ const VersePage = lazy(() => import("./screens/ShlokBrowser/VersePage"));
 const Profile = lazy(() => import("./screens/Profile/Profile"));
 const AdminDashboard = lazy(() => import("./screens/Admin/AdminDashboard"));
 const AdminUsers = lazy(() => import("./screens/Admin/AdminUsers"));
+const AdminSignupAttempts = lazy(() => import("./screens/Admin/AdminSignupAttempts"));
 
 const PageLoader = () => (
     <div style={{ display: "flex", alignItems: "center", justifyContent: "center", minHeight: "100vh", background: "var(--cream)" }}>
@@ -52,6 +53,7 @@ function App() {
                     {/* Admin */}
                     <Route path="/admin" element={<AdminDashboard />} />
                     <Route path="/admin/users" element={<AdminUsers />} />
+                    <Route path="/admin/signup-attempts" element={<AdminSignupAttempts />} />
 
                     {/* Fallback */}
                     <Route path="*" element={<Navigate to="/" replace />} />

@@ -3,6 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { useUser } from "../../hooks/useUser";
 import { APP_NAME } from "../../utils/constants";
 import OTPModal from "../OTPModal/OTPModal";
+import { useMaintenance } from "../../context/MaintenanceContext";
 
 interface NavbarProps {
     transparent?: boolean;
@@ -10,6 +11,7 @@ interface NavbarProps {
 
 const Navbar: React.FC<NavbarProps> = ({ transparent = false }) => {
     const { user, isAuthenticated, logout, updateUser } = useUser();
+    const { dispatchMaintenance } = useMaintenance();
     const navigate = useNavigate();
     const [isOpen, setIsOpen] = useState(false);
     const [showOTP, setShowOTP] = useState(false);
@@ -30,6 +32,24 @@ const Navbar: React.FC<NavbarProps> = ({ transparent = false }) => {
 
     return (
         <>
+            {/* ── Dispatch Maintenance Banner ────────────────────────────── */}
+            {dispatchMaintenance && (
+                <div
+                    style={{
+                        background: "linear-gradient(90deg, #92400e, #b45309)",
+                        color: "#fef3c7",
+                        textAlign: "center",
+                        padding: "0.5rem 1rem",
+                        fontSize: "0.82rem",
+                        fontWeight: 600,
+                        letterSpacing: "0.01em",
+                        zIndex: 200,
+                        position: "relative",
+                    }}
+                >
+                    🔧 WhatsApp delivery is currently under maintenance — daily shloks are paused. We'll be back soon!
+                </div>
+            )}
             <nav
                 style={{
                     position: "sticky",

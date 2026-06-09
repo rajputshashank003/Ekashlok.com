@@ -14,10 +14,30 @@ import (
 	"bgs/internal/gita"
 	"bgs/internal/models"
 	"bgs/internal/services"
+	"bgs/internal/settings"
 
 	"github.com/gin-gonic/gin"
 )
 
+// ── Failure log helper ────────────────────────────────────────────────────────
+
+// logSignupFailure records a failed WhatsApp signup attempt in wa_signup_attempts.
+// userID: authenticated caller. phone: target number (may be empty for early failures).
+// stage: "send_otp" | "verify_otp" | "subscribe"
+// reason: "maintenance" | "twilio_error" | "invalid_phone" | "invalid_otp" | "phone_not_verified" | "db_error"
+func logSignupFailure(userID uint, phone, stage, reason, detail string) {
+	attempt := models.WASignupAttempt{
+		UserID:      userID,
+		Phone:       phone,
+		Stage:       stage,
+		FailReason:  reason,
+		ErrorDetail: detail,
+	}
+	if err := database.DB.Create(&attempt).Error; err != nil {
+		// Non-fatal: log to stdout so it doesn't swallow errors silently
+		fmt.Printf("[WA_ATTEMPT] Failed to log signup failure: %v\n", err)
+	}
+}
 
 // SendOTP generates a 6-digit OTP and sends it via Twilio WhatsApp.
 // POST /api/wa/send-otp
@@ -34,7 +54,18 @@ func SendOTP(c *gin.Context) {
 
 	phone := sanitizePhone(req.Phone)
 	if len(phone) < 10 {
+		logSignupFailure(userID, phone, "send_otp", "invalid_phone", "phone too short after sanitize")
 		c.JSON(http.StatusBadRequest, gin.H{"error": "Invalid phone number"})
+		return
+	}
+
+	// ── OTP Maintenance guard ─────────────────────────────────────────────────
+	if settings.IsOTPMaintenance() {
+		logSignupFailure(userID, phone, "send_otp", "maintenance", "otp_maintenance=true")
+		c.JSON(http.StatusServiceUnavailable, gin.H{
+			"error":       "WhatsApp verification is temporarily under maintenance. Please try again later.",
+			"maintenance": true,
+		})
 		return
 	}
 
@@ -46,6 +77,7 @@ func SendOTP(c *gin.Context) {
 	// Generate 6-digit OTP
 	code, err := generateOTP()
 	if err != nil {
+		logSignupFailure(userID, phone, "send_otp", "db_error", "OTP generation failed: "+err.Error())
 		c.JSON(http.StatusInternalServerError, gin.H{"error": "Failed to generate OTP"})
 		return
 	}
@@ -58,6 +90,7 @@ func SendOTP(c *gin.Context) {
 		ExpiresAt: time.Now().Add(10 * time.Minute),
 	}
 	if err := database.DB.Create(&otp).Error; err != nil {
+		logSignupFailure(userID, phone, "send_otp", "db_error", "OTP store failed: "+err.Error())
 		c.JSON(http.StatusInternalServerError, gin.H{"error": "Failed to store OTP"})
 		return
 	}
@@ -66,6 +99,7 @@ func SendOTP(c *gin.Context) {
 	waNumber := "whatsapp:+" + strings.TrimPrefix(phone, "+")
 	message := services.FormatOTPMessage(code)
 	if err := services.SendWhatsAppMessage(waNumber, message, true); err != nil {
+		logSignupFailure(userID, phone, "send_otp", "twilio_error", err.Error())
 		c.JSON(http.StatusServiceUnavailable, gin.H{
 			"error":            "Failed to send WhatsApp message. Please check your number.",
 			"sandbox_join_msg": services.SandboxJoinMessage(),
@@ -102,6 +136,7 @@ func VerifyOTP(c *gin.Context) {
 		userID, phone, req.Code, time.Now(),
 	).First(&otp).Error
 	if err != nil {
+		logSignupFailure(userID, phone, "verify_otp", "invalid_otp", "OTP not found or expired")
 		c.JSON(http.StatusBadRequest, gin.H{"error": "Invalid or expired OTP"})
 		return
 	}
@@ -114,6 +149,7 @@ func VerifyOTP(c *gin.Context) {
 		"phone":             phone,
 		"is_phone_verified": true,
 	}).Error; err != nil {
+		logSignupFailure(userID, phone, "verify_otp", "db_error", "Failed to update user: "+err.Error())
 		c.JSON(http.StatusInternalServerError, gin.H{"error": "Failed to update user"})
 		return
 	}
@@ -128,7 +164,7 @@ func SubscribeWA(c *gin.Context) {
 	userID := c.MustGet("userID").(uint)
 
 	var req struct {
-		// "from_start"  → shlok_count = 1
+		// "from_start"  → shlok_count = 0 (delivers shlok #1 next morning)
 		// "current"     → keep existing shlok_count
 		// "custom"      → shlok_count = CustomCount
 		StartChoice string `json:"start_choice" binding:"required"`
@@ -146,6 +182,7 @@ func SubscribeWA(c *gin.Context) {
 	}
 
 	if !user.IsPhoneVerified {
+		logSignupFailure(userID, user.Phone, "subscribe", "phone_not_verified", "user tried to subscribe without verified phone")
 		c.JSON(http.StatusBadRequest, gin.H{"error": "Phone number must be verified before subscribing"})
 		return
 	}
@@ -154,16 +191,20 @@ func SubscribeWA(c *gin.Context) {
 	var newCount int
 	switch req.StartChoice {
 	case "from_start":
-		newCount = 1
+		newCount = 0 // 0 = start from beginning; cron sends shlok #1 next morning
 	case "current":
 		newCount = user.ShlokCount
 	case "custom":
 		if req.CustomCount < 1 || req.CustomCount > gita.TotalVerses() {
+			logSignupFailure(userID, user.Phone, "subscribe", "invalid_choice",
+				fmt.Sprintf("custom_count %d out of range 1-%d", req.CustomCount, gita.TotalVerses()))
 			c.JSON(http.StatusBadRequest, gin.H{"error": fmt.Sprintf("custom_count must be between 1 and %d", gita.TotalVerses())})
 			return
 		}
 		newCount = req.CustomCount
 	default:
+		logSignupFailure(userID, user.Phone, "subscribe", "invalid_choice",
+			"unknown start_choice: "+req.StartChoice)
 		c.JSON(http.StatusBadRequest, gin.H{"error": "start_choice must be 'from_start', 'current', or 'custom'"})
 		return
 	}
@@ -173,15 +214,16 @@ func SubscribeWA(c *gin.Context) {
 		"shlok_count":      newCount,
 	}
 	if err := database.DB.Model(&models.User{}).Where("id = ?", userID).Updates(updates).Error; err != nil {
+		logSignupFailure(userID, user.Phone, "subscribe", "db_error", "DB update failed: "+err.Error())
 		c.JSON(http.StatusInternalServerError, gin.H{"error": "Failed to subscribe"})
 		return
 	}
 
 	cache.AppCache.Invalidate(fmt.Sprintf("user_%d", userID))
 
-	// Send a welcome WhatsApp message
+	// Send a welcome WhatsApp message (best-effort — not fatal if maintenance is on)
 	waNumber := "whatsapp:+" + strings.TrimPrefix(user.Phone, "+")
-	verse := gita.GetByShlokCount(newCount)
+	verse := gita.GetByShlokCount(gita.AdvanceCount(newCount)) // first shlok they'll receive
 	welcomeMsg := fmt.Sprintf(
 		"🌼 *Gita Daily* — Subscription Confirmed!\n\nNamaste 🙏\n\nYou're now subscribed to receive a daily shlok at *6:00 AM IST*.\n\nYour journey begins at Shlok *%d / %d*.\n\n✨ Starting tomorrow, you'll receive:\n%s\n\n_To manage your subscription, visit our website._",
 		newCount, gita.TotalVerses(),

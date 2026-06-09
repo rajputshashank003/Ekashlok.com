@@ -26,4 +26,10 @@ export const adminApi = {
       method: METHODS.PATCH,
       data: settings,
     }),
+
+  getSignupAttempts: (page = 1, limit = 20) =>
+    utils.request({
+      url: `/admin/signup-attempts?page=${page}&limit=${limit}`,
+      method: METHODS.GET,
+    }),
 };
