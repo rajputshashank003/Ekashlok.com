@@ -22,6 +22,8 @@ interface AuthContextType {
   token: string | null;
   isAuthenticated: boolean;
   isLoading: boolean;
+  currentStreak: number;
+  setCurrentStreak: (n: number) => void;
   login: (token: string, user: User) => void;
   logout: () => void;
   updateUser: (partial: Partial<User>) => void;
@@ -33,6 +35,7 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
   const [user, setUser] = useState<User | null>(null);
   const [token, setToken] = useState<string | null>(null);
   const [isLoading, setIsLoading] = useState(true);
+  const [currentStreak, setCurrentStreak] = useState(0);
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -81,6 +84,8 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
         token,
         isAuthenticated: !!token,
         isLoading,
+        currentStreak,
+        setCurrentStreak,
         login,
         logout,
         updateUser,

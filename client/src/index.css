@@ -466,6 +466,10 @@ body {
   transform: translateX(0);
 }
 
+.nav-mobile-controls {
+  display: none !important;
+}
+
 .hamburger-btn {
   display: none;
   background: transparent;
@@ -630,6 +634,11 @@ body {
   .wa-preview-container {
     padding: 1rem 0.5rem !important;
     border-radius: 14px !important;
+  }
+  .nav-mobile-controls {
+    display: flex !important;
+    align-items: center;
+    gap: 0.5rem;
   }
   .hamburger-btn {
     display: block;

@@ -51,7 +51,12 @@ export const shlokApi = {
   getVerse: (chapter: number, verse: number) =>
     cache.swr(
       CACHE_KEYS.verse(chapter, verse),
-      () => utils.request({ url: `/shloks/${chapter}/${verse}`, method: METHODS.GET, show_error: false })
+      () => utils.request({ url: `/shloks/${chapter}/${verse}`, method: METHODS.GET, show_error: false }),
     ),
+
+  /** User's per-day reading history for the heatmap — always fresh (user-specific). */
+  getActivityHeatmap: () =>
+    utils.request({ url: "/shlok/activity-heatmap", method: METHODS.GET }),
 };
+
 

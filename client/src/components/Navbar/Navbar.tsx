@@ -10,7 +10,7 @@ interface NavbarProps {
 }
 
 const Navbar: React.FC<NavbarProps> = ({ transparent = false }) => {
-    const { user, isAuthenticated, logout, updateUser } = useUser();
+    const { user, isAuthenticated, logout, updateUser, currentStreak } = useUser();
     const { dispatchMaintenance } = useMaintenance();
     const navigate = useNavigate();
     const [isOpen, setIsOpen] = useState(false);
@@ -149,6 +149,31 @@ const Navbar: React.FC<NavbarProps> = ({ transparent = false }) => {
                                 Today's Shlok
                             </Link>
 
+                            {/* Streak flame badge — shows when user has an active streak */}
+                            {currentStreak > 0 && (
+                                <div
+                                    style={{
+                                        display: "flex",
+                                        alignItems: "center",
+                                        gap: "4px",
+                                        padding: "0.28rem 0.65rem",
+                                        borderRadius: "99px",
+                                        background: "rgba(255,107,0,0.1)",
+                                        border: "1px solid rgba(255,107,0,0.2)",
+                                    }}
+                                >
+                                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" style={{ flexShrink: 0 }}>
+                                        <path
+                                            d="M12 2C12 2 7 8 7 13C7 15.7614 9.23858 18 12 18C14.7614 18 17 15.7614 17 13C17 10 14 7 14 7C14 7 13.5 10 12 10C10.5 10 10 8 10 8C10 8 8 10 8 12.5C8 11 9 9 9 9C9 9 12 11 12 14C12 12 13 10 13 10C13 10 17 12 17 15C17 12 12 2 12 2Z"
+                                            fill="#FF6B00"
+                                        />
+                                    </svg>
+                                    <span style={{ fontSize: "0.82rem", fontWeight: 800, color: "var(--bhagwa)", lineHeight: 1 }}>
+                                        {currentStreak}
+                                    </span>
+                                </div>
+                            )}
+
                             <button
                                 onClick={() => navigate("/profile")}
                                 style={{
@@ -227,14 +252,39 @@ const Navbar: React.FC<NavbarProps> = ({ transparent = false }) => {
                     )}
                 </div>
 
-                {/* Mobile Hamburger Toggle */}
-                <button
-                    className={`hamburger-btn ${isOpen ? "active" : ""}`}
-                    onClick={() => setIsOpen(!isOpen)}
-                    aria-label="Toggle navigation menu"
-                >
-                    <span className="hamburger-icon" />
-                </button>
+                {/* Mobile Right Controls (Streak & Hamburger) */}
+                <div className="nav-mobile-controls">
+                    {currentStreak > 0 && (
+                        <div
+                            style={{
+                                display: "flex",
+                                alignItems: "center",
+                                gap: "4px",
+                                padding: "0.28rem 0.65rem",
+                                borderRadius: "99px",
+                                background: "rgba(255,107,0,0.1)",
+                                border: "1px solid rgba(255,107,0,0.2)",
+                            }}
+                        >
+                            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" style={{ flexShrink: 0 }}>
+                                <path
+                                    d="M12 2C12 2 7 8 7 13C7 15.7614 9.23858 18 12 18C14.7614 18 17 15.7614 17 13C17 10 14 7 14 7C14 7 13.5 10 12 10C10.5 10 10 8 10 8C10 8 8 10 8 12.5C8 11 9 9 9 9C9 9 12 11 12 14C12 12 13 10 13 10C13 10 17 12 17 15C17 12 12 2 12 2Z"
+                                    fill="#FF6B00"
+                                />
+                            </svg>
+                            <span style={{ fontSize: "0.82rem", fontWeight: 800, color: "var(--bhagwa)", lineHeight: 1 }}>
+                                {currentStreak}
+                            </span>
+                        </div>
+                    )}
+                    <button
+                        className={`hamburger-btn ${isOpen ? "active" : ""}`}
+                        onClick={() => setIsOpen(!isOpen)}
+                        aria-label="Toggle navigation menu"
+                    >
+                        <span className="hamburger-icon" />
+                    </button>
+                </div>
             </nav>
 
             {/* Mobile Drawer Overlay */}

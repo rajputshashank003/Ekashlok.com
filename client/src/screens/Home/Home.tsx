@@ -4,6 +4,7 @@ import toast from "react-hot-toast";
 import Navbar from "../../components/Navbar/Navbar";
 import ShlokCard from "../../components/ShlokCard/ShlokCard";
 import OTPModal from "../../components/OTPModal/OTPModal";
+import ActivityHeatmap, { HeatmapData } from "../../components/ActivityHeatmap/ActivityHeatmap";
 import { shlokApi } from "../../utils/api_request/shlok";
 import { waApi } from "../../utils/api_request/whatsapp";
 import { useUser } from "../../hooks/useUser";
@@ -17,16 +18,21 @@ interface TodayShlok {
 }
 
 const Home: React.FC = () => {
-  const { user, isAuthenticated, isLoading, updateUser } = useUser();
+  const { user, isAuthenticated, isLoading, updateUser, setCurrentStreak } = useUser();
   const [todayShlok, setTodayShlok] = useState<TodayShlok | null>(null);
   const [fetching, setFetching] = useState(true);
   const [showOTP, setShowOTP] = useState(false);
   const [unsubscribing, setUnsubscribing] = useState(false);
+  const [heatmapData, setHeatmapData] = useState<HeatmapData | null>(null);
+  const [heatmapLoading, setHeatmapLoading] = useState(true);
 
   if (!isLoading && !isAuthenticated) return <Navigate to="/" replace />;
 
   useEffect(() => {
-    if (isAuthenticated) fetchTodayShlok();
+    if (isAuthenticated) {
+      fetchTodayShlok();
+      fetchHeatmap();
+    }
   }, [isAuthenticated]);
 
   const fetchTodayShlok = async () => {
@@ -39,6 +45,20 @@ const Home: React.FC = () => {
       // handled globally
     } finally {
       setFetching(false);
+    }
+  };
+
+  const fetchHeatmap = async () => {
+    setHeatmapLoading(true);
+    try {
+      const data = await shlokApi.getActivityHeatmap();
+      setHeatmapData(data);
+      // Write streak into shared context so Navbar can display it
+      setCurrentStreak(data.current_streak ?? 0);
+    } catch {
+      // Heatmap failure is non-critical — shlok card still shows
+    } finally {
+      setHeatmapLoading(false);
     }
   };
 
@@ -61,7 +81,7 @@ const Home: React.FC = () => {
     <div style={{ minHeight: "100vh", background: "var(--cream)" }}>
       <Navbar />
 
-      <div className="container-app" style={{ padding: "2rem 1.5rem", maxWidth: "820px" }}>
+      <div className="container-app" style={{ padding: "2rem 1.5rem", maxWidth: "960px" }}>
         {/* Greeting */}
         <div className="animate-fade-in" style={{ marginBottom: "1.5rem" }}>
           <h1 style={{ fontSize: "1.5rem", fontWeight: 800, color: "var(--text-primary)" }}>
@@ -103,6 +123,9 @@ const Home: React.FC = () => {
             className="animate-fade-in"
           />
         ) : null}
+
+        {/* Reading Streak Heatmap */}
+        <ActivityHeatmap data={heatmapData} loading={heatmapLoading} />
 
         {/* WhatsApp CTA / Status */}
         <div className="animate-fade-in" style={{ marginTop: "1.5rem" }}>

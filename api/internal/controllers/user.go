@@ -1,15 +1,15 @@
 package controllers
 
 import (
+	"fmt"
 	"net/http"
 	"time"
 
+	"bgs/internal/activitylog"
 	"bgs/internal/cache"
 	"bgs/internal/database"
 	"bgs/internal/gita"
 	"bgs/internal/models"
-
-	"fmt"
 
 	"github.com/gin-gonic/gin"
 )
@@ -83,10 +83,106 @@ func GetTodayShlok(c *gin.Context) {
 		return
 	}
 
+	// Record today as an active day in the heatmap.
+	// The call is idempotent — visiting multiple times per day is safe.
+	activitylog.Log(userID)
+
 	c.JSON(http.StatusOK, gin.H{
 		"shlok_count":  user.ShlokCount, // raw value for progress bar
 		"total_verses": gita.TotalVerses(),
 		"verse":        verse,
+	})
+}
+
+// GetActivityHeatmap returns the user's per-day reading history from their
+// account creation date up to today (IST), pre-computed streak counts, and
+// the full list of active date strings for the frontend heatmap component.
+// GET /api/shlok/activity-heatmap
+func GetActivityHeatmap(c *gin.Context) {
+	userID := c.MustGet("userID").(uint)
+
+	var user models.User
+	if err := database.DB.First(&user, userID).Error; err != nil {
+		c.JSON(http.StatusNotFound, gin.H{"error": "User not found"})
+		return
+	}
+
+	istLoc, _ := time.LoadLocation("Asia/Kolkata")
+	nowIST := time.Now().In(istLoc)
+	// "Today" in UTC-midnight form so it matches stored dates
+	today := time.Date(nowIST.Year(), nowIST.Month(), nowIST.Day(), 0, 0, 0, 0, time.UTC)
+
+	// Determine the start date for the DB query: user's actual join day
+	createdIST := user.CreatedAt.In(istLoc)
+	joinDate := time.Date(createdIST.Year(), createdIST.Month(), createdIST.Day(), 0, 0, 0, 0, time.UTC)
+
+	// For the heatmap view we always start from Jan 1 of the join year so the
+	// grid shows a full calendar year (like LeetCode) even if the user joined
+	// mid-year. Days before the join date simply appear as inactive cells.
+	displayStart := time.Date(createdIST.Year(), 1, 1, 0, 0, 0, 0, time.UTC)
+
+	// Fetch all activity rows since actual join date (no logs exist before that)
+	var logs []models.ShlokActivityLog
+	database.DB.
+		Where("user_id = ? AND date >= ?", userID, joinDate).
+		Order("date ASC").
+		Find(&logs)
+
+	// Build a de-duplicated ordered list and a fast lookup set
+	seen := make(map[string]bool, len(logs))
+	activeDates := make([]string, 0, len(logs))
+	for _, l := range logs {
+		ds := l.Date.UTC().Format("2006-01-02")
+		if !seen[ds] {
+			seen[ds] = true
+			activeDates = append(activeDates, ds)
+		}
+	}
+
+	totalActive := len(activeDates)
+
+	// ── Current streak ────────────────────────────────────────────────────────
+	// If today is not yet active (user hasn't visited yet), count from yesterday.
+	currentStreak := 0
+	checkDate := today
+	if !seen[checkDate.Format("2006-01-02")] {
+		checkDate = checkDate.AddDate(0, 0, -1)
+	}
+	for {
+		if seen[checkDate.Format("2006-01-02")] {
+			currentStreak++
+			checkDate = checkDate.AddDate(0, 0, -1)
+		} else {
+			break
+		}
+	}
+
+	// ── Max streak ────────────────────────────────────────────────────────────
+	maxStreak := 0
+	if totalActive > 0 {
+		maxStreak = 1
+		run := 1
+		for i := 1; i < len(activeDates); i++ {
+			prev, _ := time.Parse("2006-01-02", activeDates[i-1])
+			curr, _ := time.Parse("2006-01-02", activeDates[i])
+			if curr.Sub(prev) == 24*time.Hour {
+				run++
+				if run > maxStreak {
+					maxStreak = run
+				}
+			} else {
+				run = 1
+			}
+		}
+	}
+
+	c.JSON(http.StatusOK, gin.H{
+		"start_date":        displayStart.Format("2006-01-02"),
+		"end_date":          today.Format("2006-01-02"),
+		"total_active_days": totalActive,
+		"current_streak":    currentStreak,
+		"max_streak":        maxStreak,
+		"active_dates":      activeDates,
 	})
 }
 

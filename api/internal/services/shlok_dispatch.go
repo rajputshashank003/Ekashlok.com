@@ -7,6 +7,7 @@ import (
 	"strings"
 	"time"
 
+	"bgs/internal/activitylog"
 	"bgs/internal/config"
 	"bgs/internal/database"
 	"bgs/internal/gita"
@@ -109,6 +110,9 @@ func dispatchToUser(user models.User) error {
 		"shlok_count":         nextCount,
 		"last_shlok_advanced": now,
 	})
+
+	// Record today as an active day in the reading heatmap.
+	activitylog.Log(user.ID)
 
 	// If user just completed all 700 shloks, send a completion message
 	if wasLast {

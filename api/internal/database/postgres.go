@@ -43,6 +43,7 @@ func AutoMigrate() {
 		&models.OTP{},
 		&models.AppSetting{},
 		&models.WASignupAttempt{},
+		&models.ShlokActivityLog{}, // reading-streak heatmap
 	)
 	if err != nil {
 		log.Fatalf("AutoMigrate failed: %v\n", err)
