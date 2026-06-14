@@ -2,6 +2,7 @@ package controllers
 
 import (
 	"fmt"
+	"log"
 	"net/http"
 	"time"
 
@@ -83,9 +84,9 @@ func GetTodayShlok(c *gin.Context) {
 		return
 	}
 
-	// Record today as an active day in the heatmap.
+	// Record today as an active day in the heatmap, storing which shlok was served.
 	// The call is idempotent — visiting multiple times per day is safe.
-	activitylog.Log(userID)
+	activitylog.Log(userID, displayCount)
 
 	c.JSON(http.StatusOK, gin.H{
 		"shlok_count":  user.ShlokCount, // raw value for progress bar
@@ -121,24 +122,73 @@ func GetActivityHeatmap(c *gin.Context) {
 	// mid-year. Days before the join date simply appear as inactive cells.
 	displayStart := time.Date(createdIST.Year(), 1, 1, 0, 0, 0, 0, time.UTC)
 
-	// Fetch all activity rows since actual join date (no logs exist before that)
-	var logs []models.ShlokActivityLog
-	database.DB.
-		Where("user_id = ? AND date >= ?", userID, joinDate).
-		Order("date ASC").
-		Find(&logs)
-
-	// Build a de-duplicated ordered list and a fast lookup set
-	seen := make(map[string]bool, len(logs))
-	activeDates := make([]string, 0, len(logs))
-	for _, l := range logs {
-		ds := l.Date.UTC().Format("2006-01-02")
-		if !seen[ds] {
-			seen[ds] = true
-			activeDates = append(activeDates, ds)
+	// Fetch all activity rows since actual join date (no logs exist before that).
+	// We use a raw query so the result always works regardless of whether the
+	// shlok_count column has been added yet by AutoMigrate.  COALESCE handles
+	// the NULL case for rows created before the migration.
+	type rawRow struct {
+		ID         uint
+		UserID     uint
+		Date       time.Time
+		ShlokCount int
+	}
+	var rawRows []rawRow
+	rawResult := database.DB.Raw(
+		`SELECT id, user_id, date,
+		        COALESCE(shlok_count, 0) AS shlok_count
+		   FROM shlok_activity_logs
+		  WHERE user_id = ? AND date >= ?
+		  ORDER BY date ASC`,
+		userID, joinDate,
+	).Scan(&rawRows)
+	if rawResult.Error != nil {
+		// If the shlok_count column doesn't exist yet (migration still pending),
+		// fall back to a simpler query without that column.
+		log.Printf("[HEATMAP] Rich query failed for user %d (%v) — retrying without shlok_count", userID, rawResult.Error)
+		rawResult = database.DB.Raw(
+			`SELECT id, user_id, date, 0 AS shlok_count
+			   FROM shlok_activity_logs
+			  WHERE user_id = ? AND date >= ?
+			  ORDER BY date ASC`,
+			userID, joinDate,
+		).Scan(&rawRows)
+		if rawResult.Error != nil {
+			log.Printf("[HEATMAP] Fallback query also failed for user %d: %v", userID, rawResult.Error)
 		}
 	}
 
+	// activeDateEntry is the per-day enriched entry returned to the frontend.
+	// chapter and verse are 0 when shlok_count is unknown (legacy rows).
+	type activeDateEntry struct {
+		Date       string `json:"date"`
+		ShlokCount int    `json:"shlok_count"`
+		Chapter    int    `json:"chapter"`
+		Verse      int    `json:"verse"`
+	}
+
+	// Build a de-duplicated ordered list and a fast lookup set.
+	// seen maps date-string → true for streak calculation.
+	seen := make(map[string]bool, len(rawRows))
+	activeDates := make([]activeDateEntry, 0, len(rawRows))
+	for _, l := range rawRows {
+		ds := l.Date.UTC().Format("2006-01-02")
+		if !seen[ds] {
+			seen[ds] = true
+			ch, v := gita.ShlokCountToChapterVerse(l.ShlokCount)
+			activeDates = append(activeDates, activeDateEntry{
+				Date:       ds,
+				ShlokCount: l.ShlokCount,
+				Chapter:    ch,
+				Verse:      v,
+			})
+		}
+	}
+
+	// Build a sorted plain date-string list for streak calculations.
+	activeDateStrs := make([]string, len(activeDates))
+	for i, e := range activeDates {
+		activeDateStrs[i] = e.Date
+	}
 	totalActive := len(activeDates)
 
 	// ── Current streak ────────────────────────────────────────────────────────
@@ -162,9 +212,9 @@ func GetActivityHeatmap(c *gin.Context) {
 	if totalActive > 0 {
 		maxStreak = 1
 		run := 1
-		for i := 1; i < len(activeDates); i++ {
-			prev, _ := time.Parse("2006-01-02", activeDates[i-1])
-			curr, _ := time.Parse("2006-01-02", activeDates[i])
+		for i := 1; i < len(activeDateStrs); i++ {
+			prev, _ := time.Parse("2006-01-02", activeDateStrs[i-1])
+			curr, _ := time.Parse("2006-01-02", activeDateStrs[i])
 			if curr.Sub(prev) == 24*time.Hour {
 				run++
 				if run > maxStreak {

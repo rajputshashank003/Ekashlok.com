@@ -111,8 +111,8 @@ func dispatchToUser(user models.User) error {
 		"last_shlok_advanced": now,
 	})
 
-	// Record today as an active day in the reading heatmap.
-	activitylog.Log(user.ID)
+	// Record today as an active day in the reading heatmap, storing which shlok was delivered.
+	activitylog.Log(user.ID, nextCount)
 
 	// If user just completed all 700 shloks, send a completion message
 	if wasLast {
