@@ -35,7 +35,9 @@ func Log(userID uint, shlokCount int) {
 		 VALUES ($1, $2, $3)
 		 ON CONFLICT (user_id, date) DO UPDATE
 		   SET shlok_count = EXCLUDED.shlok_count
-		   WHERE shlok_activity_logs.shlok_count IS NULL OR shlok_activity_logs.shlok_count = 0`,
+		   WHERE shlok_activity_logs.shlok_count IS NULL
+		      OR shlok_activity_logs.shlok_count = 0
+		      OR shlok_activity_logs.shlok_count < EXCLUDED.shlok_count`,
 		userID, date, shlokCount,
 	)
 	if result.Error != nil {
