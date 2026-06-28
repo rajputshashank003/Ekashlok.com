@@ -1,8 +1,6 @@
 import React, { useMemo, useState, useCallback, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 
-// ─── Types ────────────────────────────────────────────────────────────────────
-
 export interface ActiveDateEntry {
     date: string;        // "YYYY-MM-DD"
     shlok_count: number; // global 1–700 (0 = unknown / legacy row)
