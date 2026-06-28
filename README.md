@@ -1,4 +1,4 @@
-# 🌟 Gita Daily — Timeless Wisdom, Delivered Daily
+# 🌟 Gita Daily — Timeless Wisdom, Delivered Daily 
 
 > **Tech Stack:** Go (Golang) • Gin Framework • React • TypeScript • Tailwind CSS • PostgreSQL • Twilio WhatsApp API • Google OAuth 2.0
 
