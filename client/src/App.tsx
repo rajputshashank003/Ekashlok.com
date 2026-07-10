@@ -23,7 +23,7 @@ const PageLoader = () => (
                     fontFamily: "'Noto Serif Devanagari', serif",
                     fontSize: "3rem",
                     color: "var(--bhagwa)",
-                    animation: "spinSlow 3s linear infinite",
+                    // animation: "spinSlow 3s linear infinite",
                     display: "inline-block",
                 }}
             >ॐ</div>
