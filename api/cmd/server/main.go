@@ -37,9 +37,11 @@ func main() {
 
 	r.Use(cors.New(cors.Config{
 		AllowOrigins: []string{
-			"http://localhost:5173",
-			"http://localhost:5174",
+			// "http://localhost:5173",
+			// "http://localhost:5174",
 			"https://gitadaily1.vercel.app/",
+			"https://www.ekashlok.com",
+			"https://ekashlok.com",
 			config.FrontendURL,
 		},
 		AllowMethods:     []string{"GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"},
