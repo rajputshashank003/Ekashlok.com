@@ -1699,234 +1699,263 @@
             {
                 "verseNumber": 1,
                 "sanskrit": "अर्जुन उवाच ।\nसंन्यासं कर्मणां कृष्ण पुनर्योगं च शंससि ।\nयच्छ्रेय एतयोरेकं तन्मे ब्रूहि सुनिश्चितम् ॥",
-                "transliteration": "arjuna uvāca.\nsaṃnyāsaṃ karmaṇāṃ kṛṣṇa punaryogaṃ ca śaṃsasi.\nyacchreya etayorekaṃ tanme brūhi suniścitam",
-                "hinglishMeaning": "Arjun ne kahaa hey -- Krishna ! aapa karmon ke sannyaasa kee aura phira yoga (karma ke aacharana) kee prashansaa karate hain. ina donon men eka jo nishchaya poorvaka shreyaskara hai, usako mere lie kahiye",
-                "simpleExplanation": "Saral bhav: Arjun ne kahaa hey -- Krishna ! aapa karmon ke sannyaasa kee aura phira yoga (karma ke aacharana) kee prashansaa karate hain. ina donon men eka jo nishchaya poorvaka shreyaskara hai, usako mere lie kahiye. Iska sandarbh Adhyay 5 ke mool vishay se juda hai: tyag aur karm ko ek shuddh antarik drishti se jodne ki seekh deta hai.",
-                "lifeLesson": "Apna kartavya imaandari se karo, par phal ki chinta mein apni shanti mat khona."
+                "transliteration": "Arjuna Uvacha:\nSannyasam Karmanam Krishna Punar Yogam Ca Shamsasi,\nYac Chreya Etayor Ekam Tan Me Bruhi Su Nishcitam.",
+                "englishMeaning": "Arjun said: O Krishna, you praise the renunciation of actions and then again the practice of yoga. Tell me with certainty which one of these two is truly better for me.",
+                "hinglishMeaning": "Arjun ne kaha:\n\nHey Krishna! Aap ek taraf karmon ka tyaag karne ki taarif karte hain, aur doosri taraf karm karte rehne ki. Inn dono mein se jo ek sachchi aur poori tarah behtar ho — woh mujhe nishchit roop se batayein.",
+                "simpleExplanation": "Arjun ek bahut zaroori sawaal poochh rahe hain — aur yeh sawaal sirf unka nahi, har insaan ka hai.\n\nKya sab kuch chhhod do aur shaant baith jao — ya phir duniya mein rehkar kaam karte raho?\n\nArjun confuse hain kyunki Krishna ne dono ki taarif ki hai. Aur woh seedha jawab chahte hain — dono mein se ek chunna hai, dono saath nahi chal sakte.\n\nYeh shlok dikhata hai ki sachcha shishya woh hota hai jo seedha aur saaf sawaal poochhhta hai — ghoomata nahi, darta nahi.",
+                "lifeLesson": "Jab do raaston mein se ek chunna ho aur dil confuse ho — tab seedha poochhhna hi sabse badi samajhdaari hai. Sawaal karna kamzori nahi, sachchi talash ki nishaani hai."
             },
             {
                 "verseNumber": 2,
                 "sanskrit": "श्रीभगवानुवाच ।\nसंन्यासः कर्मयोगश्च निःश्रेयसकरावुभौ ।\nतयोस्तु कर्मसंन्यासात्कर्मयोगो विशिष्यते ॥",
-                "transliteration": "śrībhagavānuvāca.\nsaṃnyāsaḥ karmayogaśca niḥśreyasakarāvubhau.\ntayostu karmasaṃnyāsātkarmayogo viśiṣyate",
-                "hinglishMeaning": "Shreebhagavaan ne kahaa -- karmasannyaasa aura karmayoga ye donon hee parama kalyaanakaaraka hain; parantu una donon men karmasannyaasa se karmayoga shreshtha hai",
-                "simpleExplanation": "Saral bhav: Shreebhagavaan ne kahaa -- karmasannyaasa aura karmayoga ye donon hee parama kalyaanakaaraka hain; parantu una donon men karmasannyaasa se karmayoga shreshtha hai. Iska sandarbh Adhyay 5 ke mool vishay se juda hai: tyag aur karm ko ek shuddh antarik drishti se jodne ki seekh deta hai.",
-                "lifeLesson": "Apna kartavya imaandari se karo, par phal ki chinta mein apni shanti mat khona."
+                "transliteration": "Shri Bhagavan Uvacha:\nSannyasah Karma Yogas Ca Nihshreyasa Karav Ubhau,\nTayos Tu Karma Sannyasat Karma Yogo Vishishyate.",
+                "englishMeaning": "Shri Krishna said: Both renunciation of action and the yoga of action lead to the highest good. But between the two, the yoga of action is superior to the mere renunciation of action.",
+                "hinglishMeaning": "Shri Krishna ne kaha:\n\nDono raaste — karmon ka tyaag aur karm karte rehna — dono hi insaan ko oonchi jagah le jaate hain. Lekin inn dono mein, sirf karmon ko chhhod dene se behtar hai karm karte hue yoga mein rehna.",
+                "simpleExplanation": "Shri Krishna Arjun ke sawaal ka jawab dete hain — aur woh bahut seedha hai.\n\nDono raaste theek hain. Lekin ek zyaada behtar hai — karm yoga. Kyun?\n\nKyunki sirf kaam chhhod dena aasaan nahi hota. Andar se lagav tab bhi rehta hai. Lekin jab koi kaam karte hue bhi natije se nahi chipakta — tab sachchi azaadi hoti hai.\n\nYeh ek bahut gehri baat hai — azaadi bhagne mein nahi, theek wahan rehne mein hai jahan tum ho. Bas bhaav badlna hai, jagah nahi.",
+                "lifeLesson": "Azaadi kaam chhhhodne mein nahi — kaam karte hue natije se azaad rehne mein hai. Jagah mat badlo, apna bhaav badlo."
             },
             {
                 "verseNumber": 3,
                 "sanskrit": "ज्ञेयः स नित्यसंन्यासी यो न द्वेष्टि न काङ्क्षति ।\nनिर्द्वन्द्वो हि महाबाहो सुखं बन्धात्प्रमुच्यते ॥",
-                "transliteration": "jñeyaḥ sa nityasaṃnyāsī yo na dveṣṭi na kāṅkṣati.\nnirdvandvo hi mahābāho sukhaṃ bandhātpramucyate",
-                "hinglishMeaning": "Jo purusha na kisee se dvesha karataa hai aura na kisee kee aakaankshaa, vaha sadaa sannyaasee hee samajhane yogya hai; kyonki, hey mahaabaaho ! dvandvon se rahita purusha sahaja hee bandhana mukta ho jaataa hai",
-                "simpleExplanation": "Saral bhav: Jo purusha na kisee se dvesha karataa hai aura na kisee kee aakaankshaa, vaha sadaa sannyaasee hee samajhane yogya hai; kyonki, hey mahaabaaho ! dvandvon se rahita purusha sahaja hee bandhana mukta ho jaataa hai. Iska sandarbh Adhyay 5 ke mool vishay se juda hai: tyag aur karm ko ek shuddh antarik drishti se jodne ki seekh deta hai.",
-                "lifeLesson": "Asakti kam karne se karm halka, spasht aur shant ho jata hai."
+                "transliteration": "Jneyah Sa Nitya Sannyasi Yo Na Dveshti Na Kankshati,\nNir Dvandvo Hi Mahabaho Sukham Bandhat Pramucyate.",
+                "englishMeaning": "One who neither hates nor desires anything — that person should be understood as one who is always in renunciation. Free from all opposites, such a person is easily and joyfully liberated from all bondage.",
+                "hinglishMeaning": "Jo insaan na kisi se nafrat karta hai aur na kisi cheez ki chahat rakhta hai — woh hamesha ka sachcha sanyaasi hai.\n\nHey Arjun! Jo insaan sukh-dukh, laabh-haani jaise dono chhonon se upar uth jaata hai, woh aasani se aur sukh ke saath har bandhan se azaad ho jaata hai.",
+                "simpleExplanation": "Shri Krishna sanyaas ka sachcha matlab bata rahe hain — sanyaas matlab kapde badalna ya ghar chhhodni nahi hai.\n\nSachcha sanyaasi woh hai jiske mann mein na kisi ke liye nafrat hai, na kisi cheez ki lalak hai.\n\nJab koi insaan in dono se — nafrat aur chahat — mukt ho jaata hai, tab woh duniya mein rehte hue bhi bilkul azaad hota hai. Koi bhi cheez use nahi baandh sakti.\n\nYeh bahut badi baat hai — azaadi kahin jaane mein nahi, andar ki nafrat aur chahat khatam hone mein hai.",
+                "lifeLesson": "Sachcha sanyaas ghar chhhodni nahi — andar ki nafrat aur chahat chhhodni hai. Jis din yeh dono gaye, usi din tu azaad hua."
             },
             {
                 "verseNumber": 4,
                 "sanskrit": "साङ्ख्ययोगौ पृथग्बालाः प्रवदन्ति न पण्डिताः ।\nएकमप्यास्थितः सम्यगुभयोर्विन्दते फलम् ॥",
-                "transliteration": "sāṅkhyayogau pṛthagbālāḥ pravadanti na paṇḍitāḥ.\nekamapyāsthitaḥ samyagubhayorvindate phalam",
-                "hinglishMeaning": "Baalaka arthaat baalabuddhi ke loga saankhya (sannyaasa) aura yoga ko paraspara bhinna samajhate hain; kisee eka men bhee samyak prakaara se sthita huaa purusha donon ke phala ko praapta kara letaa hai",
-                "simpleExplanation": "Saral bhav: Baalaka arthaat baalabuddhi ke loga saankhya (sannyaasa) aura yoga ko paraspara bhinna samajhate hain; kisee eka men bhee samyak prakaara se sthita huaa purusha donon ke phala ko praapta kara letaa hai. Iska sandarbh Adhyay 5 ke mool vishay se juda hai: tyag aur karm ko ek shuddh antarik drishti se jodne ki seekh deta hai.",
-                "lifeLesson": "Apna kartavya imaandari se karo, par phal ki chinta mein apni shanti mat khona."
+                "transliteration": "Sankhya Yogau Prithag Balah Pravadanti Na Panditah,\nEkam Api Asthitah Samyag Ubhayor Vindate Phalam.",
+                "englishMeaning": "Only the immature say that the path of knowledge and the path of action are different and separate. The truly wise do not say this. One who is sincerely established in either path attains the fruits of both.",
+                "hinglishMeaning": "Jo log samajh mein abhi chhote hain, woh gyaan ke raaste aur karm ke raaste ko alag-alag maante hain. Lekin sachche gyaani aisa nahi kehte.\n\nJo koi bhi inn dono mein se kisi ek mein poori tarah se tik jaata hai, woh dono ke phal paa leta hai.",
+                "simpleExplanation": "Shri Krishna ek bahut badi galatfahmi door kar rahe hain.\n\nLog sochte hain — gyaan ka raasta alag hai aur karm ka raasta alag. Lekin yeh soch abhaag ki nishani hai.\n\nSachchi baat yeh hai ki dono raaste ek hi jagah le jaate hain. Farq sirf shuruwaat ka hai — baad mein dono ek hi ho jaate hain.\n\nAur jo koi ek mein bhi sachche mann se tik jaata hai — woh dono ka fal paata hai. Isliye ek chunno aur poori tarah us par chal pado — baaki sab apne aap ho jaayega.",
+                "lifeLesson": "Raasta ek chunno aur poori tarah us par chal pado — sachche mann se liya gaya ek kadam do raaste bhaagne se kahin behtar hai."
             },
             {
                 "verseNumber": 5,
                 "sanskrit": "यत्साङ्ख्यैः प्राप्यते स्थानं तद्योगैरपि गम्यते ।\nएकं साङ्ख्यं च योगं च यः पश्यति स पश्यति ॥",
-                "transliteration": "yatsāṅkhyaiḥ prāpyate sthānaṃ tadyogairapi gamyate.\nekaṃ sāṅkhyaṃ ca yogaṃ ca yaḥ paśyati sa paśyati",
-                "hinglishMeaning": "Jo sthaana jnyaaniyon dvaaraa praapta kiyaa jaataa hai, usee sthaana para karmayogee bhee pahunchate hain. isalie jo purusha saankhya aura yoga ko (phalaroopa se) eka hee dekhataa hai, vahee (vaastava men) dekhataa hai",
-                "simpleExplanation": "Saral bhav: Jo sthaana jnyaaniyon dvaaraa praapta kiyaa jaataa hai, usee sthaana para karmayogee bhee pahunchate hain. isalie jo purusha saankhya aura yoga ko (phalaroopa se) eka hee dekhataa hai, vahee (vaastava men) dekhataa hai. Iska sandarbh Adhyay 5 ke mool vishay se juda hai: tyag aur karm ko ek shuddh antarik drishti se jodne ki seekh deta hai.",
-                "lifeLesson": "Apna kartavya imaandari se karo, par phal ki chinta mein apni shanti mat khona."
+                "transliteration": "Yat Sankhyaih Prapyate Sthanam Tad Yogair Api Gamyate,\nEkam Sankhyam Ca Yogam Ca Yah Pashyati Sa Pashyati.",
+                "englishMeaning": "The destination reached by those on the path of knowledge is the same as that reached by those on the path of action. One who sees knowledge and action as one — truly sees.",
+                "hinglishMeaning": "Jo manzil gyaan ke raaste waale paate hain, wahi manzil karm ke raaste waale bhi paate hain.\n\nJo insaan gyaan aur karm ko ek hi cheez ke do roop dekhta hai — wahi sachchi nazar rakhta hai, wahi sachchi tarah se dekhta hai.",
+                "simpleExplanation": "Shri Krishna pichle shlok ki baat ko aur gehra karte hain.\n\nDono raaston ka anjaama ek hi hai — ek hi sachcaai tak pahunchna. Farq sirf yeh hai ki ek raaste par chalne waale gyaan se pahuunche, doosre karm se.\n\nLekin jo insaan dono ko ek hi sachcaai ke do darwaaze maanta hai — woh sachchi nazar waala hai. Woh raaste mein nahi uljha, manzil par nazar tiki hai.\n\nYeh shlok sikhata hai ki sachcha gyaan woh hai jo vibhaajan nahi, ekta dekhta hai.",
+                "lifeLesson": "Jo dono raaston mein ek hi manzil dekhe — woh sachche mein samajhdaar hai. Raaste alag ho sakte hain, sachcaai hamesha ek hi hoti hai."
             },
             {
                 "verseNumber": 6,
                 "sanskrit": "संन्यासस्तु महाबाहो दुःखमाप्तुमयोगतः ।\nयोगयुक्तो मुनिर्ब्रह्म नचिरेणाधिगच्छति ॥",
-                "transliteration": "saṃnyāsastu mahābāho duḥkhamāptumayogataḥ.\nyogayukto munirbrahma nacireṇādhigacchati",
-                "hinglishMeaning": "Parantu, hey mahaabaaho ! yoga ke binaa sannyaasa praapta honaa kathina hai; yogayukta mananasheela purusha paramatma ko sheeghra hee praapta hotaa hai",
-                "simpleExplanation": "Saral bhav: Parantu, hey mahaabaaho ! yoga ke binaa sannyaasa praapta honaa kathina hai; yogayukta mananasheela purusha paramatma ko sheeghra hee praapta hotaa hai. Iska sandarbh Adhyay 5 ke mool vishay se juda hai: tyag aur karm ko ek shuddh antarik drishti se jodne ki seekh deta hai.",
-                "lifeLesson": "Apni asli pehchaan shareer se pare samajhne par bhay aur moh kam hote hain."
+                "transliteration": "Sannyasas Tu Mahabaho Duhkham Aptum Ayogatah,\nYoga Yukto Munir Brahma Na Cirena Adhigacchati.",
+                "englishMeaning": "But renunciation without the practice of yoga is difficult and painful to achieve. The contemplative person who is united in yoga attains Brahman swiftly.",
+                "hinglishMeaning": "Lekin hey Arjun! Yoga ke bina sirf karm chhhod dena bahut mushkil aur dukhdayi hota hai.\n\nLekin jo muni yoga mein tika hua hai — yaani jo karm karte hue bhi andar se azaad rehta hai — woh bahut jaldi Brahman tak pahunch jaata hai.",
+                "simpleExplanation": "Shri Krishna ek bahut zaroori sach bata rahe hain — sirf kaam chhhod dena itna aasaan nahi hota jitna lagta hai.\n\nAndar se lagav tab bhi rehta hai. Mann tab bhi baahri duniya ke baare mein sochta rehta hai. Isliye sirf baahri tyaag kafi nahi.\n\nLekin jo insaan kaam karte hue bhi andar se sthir rehta hai, jo natije se nahi chipakta, jo har kaam ek arpan ki tarah karta hai — woh bahut jaldi sachcaai tak pahunch jaata hai.\n\nRaasta wahi theek hai jo andar se shuru ho — baahir se nahi.",
+                "lifeLesson": "Baahri duniya chhhodni mushkil hai — pehle andar ka lagav chhhodo. Jab andar se azaad ho gaye, tab baahri koi cheez baandh nahi sakti."
             },
             {
                 "verseNumber": 7,
                 "sanskrit": "योगयुक्तो विशुद्धात्मा विजितात्मा जितेन्द्रियः ।\nसर्वभूतात्मभूतात्मा कुर्वन्नपि न लिप्यते ॥",
-                "transliteration": "yogayukto viśuddhātmā vijitātmā jitendriyaḥ.\nsarvabhūtātmabhūtātmā kurvannapi na lipyate",
-                "hinglishMeaning": "Jo purusha yogayukta, vishuddha antakarana vaalaa, shareera ko vasha men kiye hue, jitendriya tathaa bhootamaatra men sthita atma ke saatha ekatva anubhava kiye hue hai vaha karma karate hue bhee unase lipta naheen hotaa",
-                "simpleExplanation": "Saral bhav: Jo purusha yogayukta, vishuddha antakarana vaalaa, shareera ko vasha men kiye hue, jitendriya tathaa bhootamaatra men sthita atma ke saatha ekatva anubhava kiye hue hai vaha karma karate hue bhee unase lipta naheen hotaa. Iska sandarbh Adhyay 5 ke mool vishay se juda hai: tyag aur karm ko ek shuddh antarik drishti se jodne ki seekh deta hai.",
-                "lifeLesson": "Apna kartavya imaandari se karo, par phal ki chinta mein apni shanti mat khona."
+                "transliteration": "Yoga Yukto Vishuddha Atma Vijita Atma Jita Indriyah,\nSarva Bhuta Atma Bhuta Atma Kurvan Api Na Lipyate.",
+                "englishMeaning": "One who is united in yoga, whose inner self is purified, who has mastered the mind and senses, and who sees the self in all living beings — even while acting, such a person is never touched by sin.",
+                "hinglishMeaning": "Jo yoga mein tika hua hai, jiska andar ka mann saaf ho gaya hai, jisne apne aap ko aur apni indriyaan ko kaaboo kar liya hai, aur jo har jeev mein apni hi aatma dekhta hai — aisa insaan kaam karte hue bhi kisi karm se lipat nahi hota.",
+                "simpleExplanation": "Shri Krishna ek sachche yogi ki poori tasweer khinch rahe hain.\n\nWoh yoga mein tika hai — yaani andar se sthir hai. Uska mann saaf hai — koi purana daag, koi purani jalaan nahi. Woh apne aap ko kaaboo mein rakhta hai. Aur sabse badi baat — woh har jagah, har insaan, har jeev mein apni hi aatma dekhta hai.\n\nAur jab koi yeh sab jeeta hai — tab woh kaam karte hue bhi kisi karm ka bojh nahi uthata. Jaise kamal paani mein rehta hai lekin bheegta nahi.",
+                "lifeLesson": "Jab har insaan mein apni hi aatma dikhe — tab na nafrat bachti hai, na ahankar. Aur usi din koi bhi kaam bojh nahi lagta."
             },
             {
                 "verseNumber": 8,
                 "sanskrit": "नैव किञ्चित्करोमीति युक्तो मन्येत तत्त्ववित् ।\nपश्यञ्शृण्वन्स्पृशञ्जिघ्रन्नश्नन्गच्छन्स्वपञ्श्वसन् ॥",
-                "transliteration": "naiva kiñcitkaromīti yukto manyeta tattvavit.\npaśyañśruṇvanspṛśañjighrannaśnangacchansvapañśvasan",
-                "hinglishMeaning": "Tattvavit yukta purusha yaha sochegaa (arthaat jaanataa hai) ki \"main kinchit maatra karma naheen karataa hoon\" dekhataa huaa, sunataa huaa, sparsha karataa huaa, soonghataa huaa, khaataa huaa, chalataa huaa, sotaa huaa, shvaasa letaa huaa,",
-                "simpleExplanation": "Saral bhav: Tattvavit yukta purusha yaha sochegaa (arthaat jaanataa hai) ki \"main kinchit maatra karma naheen karataa hoon\" dekhataa huaa, sunataa huaa, sparsha karataa huaa, soonghataa huaa, khaataa huaa, chalataa huaa, sotaa huaa, shvaasa letaa huaa,. Iska sandarbh Adhyay 5 ke mool vishay se juda hai: tyag aur karm ko ek shuddh antarik drishti se jodne ki seekh deta hai.",
-                "lifeLesson": "Apna kartavya imaandari se karo, par phal ki chinta mein apni shanti mat khona."
+                "transliteration": "Naiva Kincit Karomi Iti Yukto Manyeta Tattva Vit,\nPashyan Shrinvan Sprishan Jighran Nashnan Gacchan Svapan Shvasan.",
+                "englishMeaning": "The one who knows the truth, established in yoga, thinks — I am truly doing nothing at all — even while seeing, hearing, touching, smelling, eating, walking, sleeping and breathing.",
+                "hinglishMeaning": "Jo sachcaai ko jaanta hai aur yoga mein tika hua hai — woh yeh maanta hai ki main asal mein kuch nahi kar raha — chahe woh dekh raha ho, sun raha ho, chhhoo raha ho, soong raha ho, kha raha ho, chal raha ho, so raha ho ya saans le raha ho.",
+                "simpleExplanation": "Yeh shlok sunne mein ajeeb lagta hai — main kuch nahi kar raha? Toh kar kya raha hai?\n\nShri Krishna ek gehra raaz khol rahe hain — jo insaan sachcaai ko jaanta hai, woh jaanta hai ki yeh sab kaam sharir kar raha hai, indriyaan kar rahi hain, prakriti kar rahi hai.\n\nMeri aatma kuch nahi karti — woh toh sirf dekhne waali hai. Aankhein dekhti hain, kaan sunte hain, haath chhhooate hain — lekin andar jo baitha hai, woh sirf saakshi hai.\n\nJab yeh samajh aa jaati hai, tab koi bhi kaam ahankar nahi banta. Kaam hota hai, par kartapan nahi rehta.",
+                "lifeLesson": "Jis din samajh aa jaaye ki main karta nahi — sirf dekhta hoon — usi din koi bhi kaam ahankar nahi banta aur koi bhi natija dukh nahi deta."
             },
             {
                 "verseNumber": 9,
                 "sanskrit": "प्रलपन्विसृजन्गृह्णन्नुन्मिषन्निमिषन्नपि ।\nइन्द्रियाणीन्द्रियार्थेषु वर्तन्त इति धारयन् ॥",
-                "transliteration": "pralapanvisṛjangṛhṇannunmiṣannimiṣannapi.\nindriyāṇīndriyārtheṣu vartanta iti dhārayan",
-                "hinglishMeaning": "Bolataa huaa, tyaagataa huaa, grahana karataa huaa tathaa aankhon ko kholataa aura banda karataa huaa (vaha) nishchayaatmaka roopa se jaanataa hai ki saba indriyaan apane-apane vishayon men vicharana kara rahee hain",
-                "simpleExplanation": "Saral bhav: Bolataa huaa, tyaagataa huaa, grahana karataa huaa tathaa aankhon ko kholataa aura banda karataa huaa (vaha) nishchayaatmaka roopa se jaanataa hai ki saba indriyaan apane-apane vishayon men vicharana kara rahee hain. Iska sandarbh Adhyay 5 ke mool vishay se juda hai: tyag aur karm ko ek shuddh antarik drishti se jodne ki seekh deta hai.",
-                "lifeLesson": "Man ko saadhne se jeevan mein santulan, dhairya aur spashtata aati hai."
+                "transliteration": "Pralapan Visrijan Grihnan Unmishan Nimishan Api,\nIndriyani Indriyartheshu Vartanta Iti Dharan.",
+                "englishMeaning": "Even while speaking, releasing, grasping, opening and closing the eyes — such a person firmly holds the understanding that it is only the senses moving among their objects, and not the self.",
+                "hinglishMeaning": "Bolta hua, chhhoodta hua, pakadta hua, aankhein kholte aur band karte hue — aisa insaan poori tarah se yeh jaanta aur maanta hai ki yeh sab indriyaan apne-apne kaam kar rahi hain — main nahi.",
+                "simpleExplanation": "Yeh shlok pichle shlok ka hi aagla hissa hai — krishna aur gehraai se samjha rahe hain.\n\nHar ek kaam — bolna, pakadna, chhhoodna, aankhein kholna — yeh sab indriyaan kar rahi hain.\n\nAur jo sachcha gyaani hai, woh har pal yeh yaad rakhta hai — main nahi kar raha, yeh sab prakriti kar rahi hai, indriyaan kar rahi hain.\n\nYeh sirf ek soch nahi — yeh ek gehri samajh hai jo hamesha uske saath rehti hai. Jaise ek jaagta hua insaan jaanta hai ki woh jaag raha hai — usi tarah woh hamesha jaanta hai ki karta woh nahi, prakriti hai.",
+                "lifeLesson": "Har kaam ke waqt yeh yaad rakho — yeh kaam ho raha hai, main kar nahi raha. Jis din yeh samajh pakki ho gayi, usi din koi bhi kaam tujhe baandhega nahi."
             },
             {
                 "verseNumber": 10,
                 "sanskrit": "ब्रह्मण्याधाय कर्माणि सङ्गं त्यक्त्वा करोति यः ।\nलिप्यते न स पापेन पद्मपत्रमिवाम्भसा ॥",
-                "transliteration": "brahmaṇyādhāya karmāṇi saṅgaṃ tyaktvā karoti yaḥ.\nlipyate na sa pāpena padmapatramivāmbhasā",
-                "hinglishMeaning": "Jo purusha saba karma brahma men arpana karake aura aasakti ko tyaagakara karataa hai, vaha purusha kamala ke patte ke sadrisha paapa se lipta naheen hotaa",
-                "simpleExplanation": "Saral bhav: Jo purusha saba karma brahma men arpana karake aura aasakti ko tyaagakara karataa hai, vaha purusha kamala ke patte ke sadrisha paapa se lipta naheen hotaa. Iska sandarbh Adhyay 5 ke mool vishay se juda hai: tyag aur karm ko ek shuddh antarik drishti se jodne ki seekh deta hai.",
-                "lifeLesson": "Apna kartavya imaandari se karo, par phal ki chinta mein apni shanti mat khona."
+                "transliteration": "Brahmany Adhaya Karmani Sangam Tyaktva Karoti Yah,\nLipyate Na Sa Papena Padma Patram Ivambhasa.",
+                "englishMeaning": "One who performs all actions as an offering to Brahman, giving up all attachment — that person is not touched by sin, just as a lotus leaf is untouched by water.",
+                "hinglishMeaning": "Jo insaan apne saare kaam Brahman ko arpan karke, bina kisi lagav ke karta hai — woh kisi bhi galti se lipat nahi hota. Bilkul aise jaise kamal ka patta paani mein rehta hai lekin paani usse chhhoo nahi paata.",
+                "simpleExplanation": "Shri Krishna yahan ek bahut sundar aur aasaan misaal dete hain — kamal ka patta.\n\nKamal paani mein rehta hai — lekin paani usse bheegota nahi. Patta paani ke oopar hota hai, paani ke andar nahi.\n\nUsi tarah jo insaan apna har kaam Brahman ko arpan karta hai aur natije se nahi chipakta — woh duniya mein rehta hai, duniya ka kaam karta hai, lekin duniya ki gandagi use andar tak nahi pahunchti.\n\nYeh duniya se bhaagna nahi — iske beech rehkar bhi saaf rehna hai. Aur yeh mumkin hai — bas bhaav badlna hai.",
+                "lifeLesson": "Kamal ki tarah jeeo — duniya mein raho, par duniya ko andar mat aane do. Kaam karo, par kaam ko apna sab kuch mat maano."
             },
             {
                 "verseNumber": 11,
                 "sanskrit": "कायेन मनसा बुद्ध्या केवलैरिन्द्रियैरपि ।\nयोगिनः कर्म कुर्वन्ति सङ्गं त्यक्त्वात्मशुद्धये ॥",
-                "transliteration": "kāyena manasā buddhyā kevalairindriyairapi.\nyoginaḥ karma kurvanti saṅgaṃ tyaktvātmaśuddhaye",
-                "hinglishMeaning": "Yogeejana, shareera, mana, buddhi aura indriyon dvaaraa aasakti ko tyaaga kara aatmashuddhi (chittashuddhi) ke lie karma karate hain",
-                "simpleExplanation": "Saral bhav: Yogeejana, shareera, mana, buddhi aura indriyon dvaaraa aasakti ko tyaaga kara aatmashuddhi (chittashuddhi) ke lie karma karate hain. Iska sandarbh Adhyay 5 ke mool vishay se juda hai: tyag aur karm ko ek shuddh antarik drishti se jodne ki seekh deta hai.",
-                "lifeLesson": "Apna kartavya imaandari se karo, par phal ki chinta mein apni shanti mat khona."
+                "transliteration": "Kayena Manasa Buddhya Kevalair Indriyair Api,\nYoginah Karma Kurvanti Sangam Tyaktva Atma Shuddhaye.",
+                "englishMeaning": "Yogis perform actions with the body, mind, intellect and even the senses alone — having given up all attachment — for the purification of the self.",
+                "hinglishMeaning": "Sachche yogi apne sharir se, mann se, buddhi se aur indriyaan se kaam karte hain — lekin kisi bhi cheez se lagav rakhe bina. Aur yeh sab woh sirf ek maqsad ke liye karte hain — apne aap ko andar se saaf aur shuddh karna.",
+                "simpleExplanation": "Shri Krishna yahan yogi ki ek bahut khaas pehchaan bata rahe hain.\n\nYogi bhi uthta hai, khaata hai, kaam karta hai — bilkul aam insaan ki tarah. Fark sirf itna hai ki woh yeh sab bina kisi lagav ke karta hai. Na taareef ke liye, na nateeje ke liye, na apne fayade ke liye.\n\nWoh karta hai kyunki yeh zaroori hai — aur iss karne se woh andar se shuddh hota jaata hai. Jaise paani mitti ko saaf karta hai, aise nishkaam karm mann ko saaf karta hai.",
+                "lifeLesson": "Kaam karo — par apne andar ki shuddhi ke liye, na taareef ya natije ke liye. Isi mein sachchi taraqqui chhuppi hai."
             },
             {
                 "verseNumber": 12,
                 "sanskrit": "युक्तः कर्मफलं त्यक्त्वा शान्तिमाप्नोति नैष्ठिकीम् ।\nअयुक्तः कामकारेण फले सक्तो निबध्यते ॥",
-                "transliteration": "yuktaḥ karmaphalaṃ tyaktvā śāntimāpnoti naiṣṭhikīm.\nayuktaḥ kāmakāreṇa phale sakto nibadhyate",
-                "hinglishMeaning": "Yukta purusha karmaphala kaa tyaaga karake parama shaanti ko praapta hotaa hai; aura ayukta purusha phala men aasakta huaa kaamanaa ke dvaaraa bandhataa hai",
-                "simpleExplanation": "Saral bhav: Yukta purusha karmaphala kaa tyaaga karake parama shaanti ko praapta hotaa hai; aura ayukta purusha phala men aasakta huaa kaamanaa ke dvaaraa bandhataa hai. Iska sandarbh Adhyay 5 ke mool vishay se juda hai: tyag aur karm ko ek shuddh antarik drishti se jodne ki seekh deta hai.",
-                "lifeLesson": "Apna kartavya imaandari se karo, par phal ki chinta mein apni shanti mat khona."
+                "transliteration": "Yuktah Karma Phalam Tyaktva Shantim Apnoti Naishthakim,\nAyuktah Kama Karena Phale Sakto Nibadhyate.",
+                "englishMeaning": "The one who is united in yoga gives up the fruits of action and attains lasting peace. The one who is not united, driven by desire and attached to results, remains bound.",
+                "hinglishMeaning": "Jo insaan karm ke natije se apna lagav chhhod deta hai, use ek gehri aur tikaau shanti milti hai.\n\nLekin jo insaan apni khwaishon ke peeche bhaagta hai aur nateeje se chipka rehta hai — woh khud hi apne bandhan baan leta hai.",
+                "simpleExplanation": "Shri Krishna do tarah ke logon ki tasweer khinch rahe hain — ek jo andar se azaad hai, ek jo andar se jakda hua hai.\n\nPehla woh jo kaam karta hai lekin natije se nahi chipakta — use ek aisi shanti milti hai jo na koi cheez de sakti hai aur na koi chhin sakti hai.\n\nDoosra woh jo har kaam nateeje ke liye karta hai — woh jab nateeja milta hai tab khush, jab nahi milta tab dukhi. Woh hamesha ek see-saw par baitha rehta hai — kabhi oopar, kabhi neeche. Aur isi mein poori zindagi nikal jaati hai.",
+                "lifeLesson": "Kaam ke baad sukoon chahiye toh natije se nahi, kaam ke bhaav se chipko — jo natije se mukt hai, wahi sachchi shanti mein jeeta hai."
             },
             {
                 "verseNumber": 13,
                 "sanskrit": "सर्वकर्माणि मनसा संन्यस्यास्ते सुखं वशी ।\nनवद्वारे पुरे देही नैव कुर्वन्न कारयन् ॥",
-                "transliteration": "sarvakarmāṇi manasā saṃnyasyāste sukhaṃ vaśī.\nnavadvāre pure dehī naiva kurvanna kārayan",
-                "hinglishMeaning": "Saba karmon kaa mana se sannyaasa karake sanyamee purusha navadvaara vaalee shareera roopa nagaree men sukha se rahataa huaa na karma karataa hai aura na karavaataa hai",
-                "simpleExplanation": "Saral bhav: Saba karmon kaa mana se sannyaasa karake sanyamee purusha navadvaara vaalee shareera roopa nagaree men sukha se rahataa huaa na karma karataa hai aura na karavaataa hai. Iska sandarbh Adhyay 5 ke mool vishay se juda hai: tyag aur karm ko ek shuddh antarik drishti se jodne ki seekh deta hai.",
-                "lifeLesson": "Apna kartavya imaandari se karo, par phal ki chinta mein apni shanti mat khona."
+                "transliteration": "Sarva Karmani Manasa Sannyasya Aste Sukham Vashi,\nNava Dvare Pure Dehi Naiva Kurvan Na Karayan.",
+                "englishMeaning": "The one who has mastered the self, having mentally renounced all actions, lives in contentment within the nine-gated city of the body — neither acting nor causing others to act.",
+                "hinglishMeaning": "Jo insaan apne mann ko poori tarah kaaboo kar leta hai, woh apne saare kaarnaamon ko mann se hi chhhod deta hai aur nau darwaazon waale is sharir ke shehar mein sukoon ke saath rehta hai — na khud kuch karta hai aur na doosron se karata hai.",
+                "simpleExplanation": "Shri Krishna sharir ko ek shehar se tulna de rahe hain — nau darwaaze yaani aankhein, kaan, naak, munh aur baaki indriyaan.\n\nIss shehar mein jo aatma rehti hai, woh asal mein kuch nahi karti. Kaam toh sharir, mann aur indriyaan karti hain.\n\nJo insaan yeh samajh leta hai — ki main yeh sab nahi hoon, main toh sirf andar baitha hoon — woh andar se bilkul shaant aur azaad rehta hai. Na kuch karne ki halaachal, na ruk jaane ki uljhan.",
+                "lifeLesson": "Tu jo sochta hai — main karta hoon — wahi teri sabse badi bhool hai. Jis din jaana ki main sirf dekhne waala hoon, usi din andar ki azaadi mili."
             },
             {
                 "verseNumber": 14,
                 "sanskrit": "न कर्तृत्वं न कर्माणि लोकस्य सृजति प्रभुः ।\nन कर्मफलसंयोगं स्वभावस्तु प्रवर्तते ॥",
-                "transliteration": "na kartṛtvaṃ na karmāṇi lokasya sṛjati prabhuḥ.\nna karmaphalasaṃyogaṃ svabhāvastu pravartate",
-                "hinglishMeaning": "Lokamaatra ke lie prabhu (eeshvara) na kartritva, na karma aura na karmaphala ke sanyoga ko rachataa hai. parantu prakriti (saba kuchha) karatee hai",
-                "simpleExplanation": "Saral bhav: Lokamaatra ke lie prabhu (eeshvara) na kartritva, na karma aura na karmaphala ke sanyoga ko rachataa hai. parantu prakriti (saba kuchha) karatee hai. Iska sandarbh Adhyay 5 ke mool vishay se juda hai: tyag aur karm ko ek shuddh antarik drishti se jodne ki seekh deta hai.",
-                "lifeLesson": "Apna kartavya imaandari se karo, par phal ki chinta mein apni shanti mat khona."
+                "transliteration": "Na Kartritvam Na Karmani Lokasya Srijati Prabhuh,\nNa Karma Phala Sanyogam Svabhavas Tu Pravartate.",
+                "englishMeaning": "The Supreme does not create the sense of doership, nor the actions, nor the connection of actions to their results for anyone. It is nature alone that moves and acts.",
+                "hinglishMeaning": "Ishwar na kissi ke liye karne ka ahankar paida karta hai, na karm paida karta hai, aur na hi karm aur phal ka rishta banata hai.\n\nYeh sab prakriti khud karti hai — apne niyam se, apni chaal se.",
+                "simpleExplanation": "Shri Krishna ek bahut badi bhool door kar rahe hain jo zyaadatar log karte hain — yeh sochna ki Bhagwan hi sab kuch kara raha hai isliye main kuch bhi nahi kar sakta, ya yeh sochna ki main hi sab kuch kar raha hoon.\n\nDono galat hain. Na Ishwar tumhara ahankar banata hai, na tumhare karm, na natija. Yeh sab prakriti ke niyam hain — aur woh apne aap chalte rehte hain.\n\nTumhara kaam hai — prakriti ko samjho aur apna bhaav sahi rakho. Bas itna kafi hai.",
+                "lifeLesson": "Na yeh soch ki Bhagwan sab kar dega, na yeh soch ki main hi sab kuch hoon — dono bharam hain. Apna kaam karo, prakriti apna kaam karti rahegi."
             },
             {
                 "verseNumber": 15,
                 "sanskrit": "नादत्ते कस्यचित्पापं न चैव सुकृतं विभुः ।\nअज्ञानेनावृतं ज्ञानं तेन मुह्यन्ति जन्तवः ॥",
-                "transliteration": "nādatte kasyacitpāpaṃ na caiva sukṛtaṃ vibhuḥ.\najñānenāvṛtaṃ jñānaṃ tena muhyanti jantavaḥ",
-                "hinglishMeaning": "Vibhu paramatma na kisee ke paapakarma ko aura na punyakarma ko hee grahana karataa hai; (kintu) ajnyaana se jnyaana dhakaa huaa hai, isase saba jeeva mohita hote hain",
-                "simpleExplanation": "Saral bhav: Vibhu paramatma na kisee ke paapakarma ko aura na punyakarma ko hee grahana karataa hai; (kintu) ajnyaana se jnyaana dhakaa huaa hai, isase saba jeeva mohita hote hain. Iska sandarbh Adhyay 5 ke mool vishay se juda hai: tyag aur karm ko ek shuddh antarik drishti se jodne ki seekh deta hai.",
-                "lifeLesson": "Apna kartavya imaandari se karo, par phal ki chinta mein apni shanti mat khona."
+                "transliteration": "Na Adatte Kasyacit Papam Na Caiva Sukritam Vibhuh,\nAjnanena Avritam Jnanam Tena Muhyanti Jantavah.",
+                "englishMeaning": "The all-pervading Supreme neither accepts the sin of anyone nor the merit. Knowledge is covered by ignorance — and because of this, all living beings are deluded.",
+                "hinglishMeaning": "Woh sarvavyaapi Parmatma na kisi ka paap leta hai, na kisi ka punya.\n\nSachcha gyaan anjaane se dhaka hua hai — aur isi wajah se sab jeev bhatak rahe hain, sahi aur galat mein ulajhe hue hain.",
+                "simpleExplanation": "Shri Krishna ek bahut gehri sachcaai bata rahe hain — Ishwar judge nahi hai. Woh na tumhara paap leta hai, na tumhara punya.\n\nToh phir insaan galat kyun karta hai? Kyunki sachcha gyaan chhupa hua hai — anjaane ki paraton ke neeche.\n\nJab tak yeh anjaana nahi hata, insaan sahi-galat mein bhatakta rehta hai. Woh sochta hai jo cheez usse sukh deti dikhti hai woh sahi hai — lekin woh asli sukoon nahi hota. Bas ek dhoka hota hai.",
+                "lifeLesson": "Galti karne waala bura nahi hota — woh anjaane mein hota hai. Jab gyaan ki roshni aati hai, tab andhera khud mit jaata hai."
             },
             {
                 "verseNumber": 16,
                 "sanskrit": "ज्ञानेन तु तदज्ञानं येषां नाशितमात्मनः ।\nतेषामादित्यवज्ज्ञानं प्रकाशयति तत्परम् ॥",
-                "transliteration": "jñānena tu tadajñānaṃ yeṣāṃ nāśitamātmanaḥ.\nteṣāmādityavajjñānaṃ prakāśayati tatparam",
-                "hinglishMeaning": "Parantu jinakaa vaha ajnyaana aatmajnyaana se nashta ho jaataa hai, unake lie vaha jnyaana, soorya ke sadrisha, paramatma ko prakaashita karataa hai",
-                "simpleExplanation": "Saral bhav: Parantu jinakaa vaha ajnyaana aatmajnyaana se nashta ho jaataa hai, unake lie vaha jnyaana, soorya ke sadrisha, paramatma ko prakaashita karataa hai. Iska sandarbh Adhyay 5 ke mool vishay se juda hai: tyag aur karm ko ek shuddh antarik drishti se jodne ki seekh deta hai.",
-                "lifeLesson": "Sahi gyaan ahankar ko kam karta hai aur drishti ko saaf banata hai."
+                "transliteration": "Jnanena Tu Tad Ajnanam Yesham Nashitam Atmanah,\nTesham Aditya Vaj Jnanam Prakashayati Tat Param.",
+                "englishMeaning": "But for those whose ignorance has been destroyed by the knowledge of the self — for them, that knowledge shines like the sun and illuminates the Supreme.",
+                "hinglishMeaning": "Lekin jinke andar ka woh anjaan — jo sachcaai ko dhak raha tha — sachche gyaan se khatam ho jaata hai, unke liye woh gyaan suraj ki tarah chamak uthta hai aur unhe sachchi aur gehra sachai dikha deta hai.",
+                "simpleExplanation": "Shri Krishna ek bahut sundar tasweer bana rahe hain — gyaan suraj jaisa hai.\n\nJis tarah suraj ke aane se poori raat ka andhera ek pal mein mit jaata hai — usi tarah sachcha gyaan aane se saara anjaan ek pal mein door ho jaata hai.\n\nAndhera kuch kaam nahi karta suraj ke saamne — aur usi tarah anjaan kuch nahi kar sakta sachche gyaan ke saamne.\n\nJab woh roshni andar aati hai — sab kuch saaf ho jaata hai. Kaun hoon main, kyun hoon, kya karna hai — sab ek pal mein spashtho jaata hai.",
+                "lifeLesson": "Andar ka andhera mitaane ke liye bahut kuch karne ki zaroorat nahi — sirf sachcha gyaan ki ek kiran kaafi hai, poori zindagi roshni se bhar jaati hai."
             },
             {
                 "verseNumber": 17,
                 "sanskrit": "तद्बुद्धयस्तदात्मानस्तन्निष्ठास्तत्परायणाः ।\nगच्छन्त्यपुनरावृत्तिं ज्ञाननिर्धूतकल्मषाः ॥",
-                "transliteration": "tadbuddhayastadātmānastanniṣṭhāstatparāyaṇāḥ.\ngacchantyapunarāvṛttiṃ jñānanirdhūtakalmaṣāḥ",
-                "hinglishMeaning": "Jinakee buddhi usa (paramatma) men sthita hai, jinakaa mana tadroopa huaa hai, usamen hee jinakee nishthaa hai, vaha (brahma) hee jinakaa parama lakshya hai, jnyaana ke dvaaraa paaparahita purusha apunaraavritti ko praapta hote hain, arthaat unakaa punarjanma naheen hotaa hai",
-                "simpleExplanation": "Saral bhav: Jinakee buddhi usa (paramatma) men sthita hai, jinakaa mana tadroopa huaa hai, usamen hee jinakee nishthaa hai, vaha (brahma) hee jinakaa parama lakshya hai, jnyaana ke dvaaraa paaparahita purusha apunaraavritti ko praapta hote hain, arthaat unakaa punarjanma naheen hotaa hai. Iska sandarbh Adhyay 5 ke mool vishay se juda hai: tyag aur karm ko ek shuddh antarik drishti se jodne ki seekh deta hai.",
-                "lifeLesson": "Sahi gyaan ahankar ko kam karta hai aur drishti ko saaf banata hai."
+                "transliteration": "Tad Buddhayah Tad Atmanah Tan Nishthah Tat Parayanah,\nGacchanty Apunar Avritim Jnana Nirdhuta Kalmashah.",
+                "englishMeaning": "Those whose intellect is absorbed in that supreme truth, whose very self is that truth, who are firmly established in it, who have made it their only goal — they, with all impurities washed away by knowledge, reach the state of no return.",
+                "hinglishMeaning": "Jinki buddhi usi sachcaai mein tiki hai, jinka mann usi mein sama gaya hai, jinka tika rehna usi ek jagah hai, aur usi ko paana jinki zindagi ka ek hi maqsad hai — aur jinke saare paap sachche gyaan se dhul gaye hain — woh us jagah pahunchte hain jahan se phir lautna nahi hota.",
+                "simpleExplanation": "Shri Krishna ek aisi zindagi ka naqsha bana rahe hain jo poori tarah ek ek sachcaai mein simit ho gayi ho.\n\nNa iss cheez ki chinta, na uss cheez ki fikar. Sirf ek. Buddhi wahan, mann wahan, vishwas wahan, maqsad wahan.\n\nAur jab koi itni poori tarah usi ek mein sama jaata hai — tab gyaan andar ki saari gandagi saaf kar deta hai. Aur aisa insaan ek aisi jagah pahunchta hai jahan se phir wapas aana nahi padta — uss bhatkane ka, uss takleef ka, uss chakkar ka koi naam nahi rehta.",
+                "lifeLesson": "Jab poori zindagi ek hi sachchi cheez ke liye ho jaaye — tab na bhatakna hoga, na takleef hogi. Sirf woh ek, aur sab kuch apne aap theek ho jaayega."
             },
             {
                 "verseNumber": 18,
                 "sanskrit": "विद्याविनयसम्पन्ने ब्राह्मणे गवि हस्तिनि ।\nशुनि चैव श्वपाके च पण्डिताः समदर्शिनः ॥",
-                "transliteration": "vidyāvinayasampanne brāhmaṇe gavi hastini.\nśuni caiva śvapāke ca paṇḍitāḥ samadarśinaḥ",
-                "hinglishMeaning": "(aise ve) jnyaaneejana vidyaa aura vinaya se sampanna braahmana, tathaa gaaya, haathee, shvaana aura chaandaala men bhee sama tattva ko dekhate hain",
-                "simpleExplanation": "Saral bhav: (aise ve) jnyaaneejana vidyaa aura vinaya se sampanna braahmana, tathaa gaaya, haathee, shvaana aura chaandaala men bhee sama tattva ko dekhate hain. Iska sandarbh Adhyay 5 ke mool vishay se juda hai: tyag aur karm ko ek shuddh antarik drishti se jodne ki seekh deta hai.",
-                "lifeLesson": "Sahi gyaan ahankar ko kam karta hai aur drishti ko saaf banata hai."
+                "transliteration": "Vidya Vinaya Sampanne Brahmane Gavi Hastini,\nShuni Caiva Shvapake Ca Panditah Sama Darshinah.",
+                "englishMeaning": "The truly wise see with equal eyes a learned and humble brahmin, a cow, an elephant, a dog and even a person of the lowest birth — they see the same living truth in all.",
+                "hinglishMeaning": "Jo sachche gyaani hote hain, woh ek padhe-likhe aur vinamra brahmin mein, ek gaay mein, ek haathi mein, ek kutte mein aur ek bahut neeche samjhe jaane waale insaan mein — sab mein ek hi sachcaai dekhte hain.",
+                "simpleExplanation": "Yeh Gita ke sabse bade aur gehre shlokkon mein se ek hai.\n\nShri Krishna keh rahe hain ki sachcha gyaan woh nahi jo kitabon mein bhar jaaye — sachcha gyaan woh hai jo ankhon ka nazar badal de.\n\nJab koi sach mein gyaani hota hai, tab woh oopar-neeche, sundar-badsoorat, ameer-gareeb nahi dekhta. Woh dekhta hai ki ek hi sachcaai — ek hi rooh — har jagah, har jeev mein hai.\n\nJab yeh drishti aati hai, tab na nafrat rehti hai, na ghamand. Sirf ek gehra pyaar aur ek gehra sukoon.",
+                "lifeLesson": "Jab tak hum logon mein farq dekhte hain — hum abhi sachche gyaan se door hain. Sachcha gyaan woh hai jo har insaan mein, har jeev mein ek hi roshni dekhe."
             },
             {
                 "verseNumber": 19,
                 "sanskrit": "इहैव तैर्जितः सर्गो येषां साम्ये स्थितं मनः ।\nनिर्दोषं हि समं ब्रह्म तस्माद् ब्रह्मणि ते स्थिताः ॥",
-                "transliteration": "ihaiva tairjitaḥ sargo yeṣāṃ sāmye sthitaṃ manaḥ.\nnirdoṣaṃ hi samaṃ brahma tasmād brahmaṇi te sthitāḥ",
-                "hinglishMeaning": "Jinakaa mana samatvabhaava men sthita hai, unake dvaaraa yaheen para yaha sarga jeeta liyaa jaataa hai; kyonki brahma nirdosha aura sama hai isaliye ve brahma men hee sthita hain",
-                "simpleExplanation": "Saral bhav: Jinakaa mana samatvabhaava men sthita hai, unake dvaaraa yaheen para yaha sarga jeeta liyaa jaataa hai; kyonki brahma nirdosha aura sama hai isaliye ve brahma men hee sthita hain. Iska sandarbh Adhyay 5 ke mool vishay se juda hai: tyag aur karm ko ek shuddh antarik drishti se jodne ki seekh deta hai.",
-                "lifeLesson": "Apni asli pehchaan shareer se pare samajhne par bhay aur moh kam hote hain."
+                "transliteration": "Ihaiva Tair Jitah Sargo Yesham Samye Sthitam Manah,\nNirdosham Hi Samam Brahma Tasmad Brahmani Te Sthitah.",
+                "englishMeaning": "Even here in this life, the cycle of birth and death is conquered by those whose mind is established in equality. Since Brahman is flawless and equal in all — they are already established in Brahman.",
+                "hinglishMeaning": "Jinke mann mein samata — yaani sab mein ek hi cheez dekhne ki drishti — sthir ho jaati hai, unhone is duniya mein hi janam-maran ka chakkar jeet liya hai.\n\nKyunki Brahman — woh sachchi aur gehri haqeeqat — nirmal aur sab mein ek jaisi hai. Isliye aisa insaan is duniya mein rahte hue bhi Brahman mein hi sthit hota hai.",
+                "simpleExplanation": "Shri Krishna ek bahut badi khushkhabri de rahe hain — mukti ke liye marna nahi padta. Mukti yahan, isi zindagi mein, isi pal mein mil sakti hai.\n\nJab mann sab mein samanta dekhne lage — na koi bada, na koi chhota, na koi dushman, na koi paraya — tab andar ki ladaai khatam ho jaati hai. Aur jab andar ki ladaai khatam hoti hai, tab bahar koi lad nahi sakta.\n\nWoh insaan is duniya mein rehta hai — lekin is duniya ka nahi rehta. Woh sachcaai mein tika rehta hai.",
+                "lifeLesson": "Azaadi kisi aur duniya mein nahi milti — jab yahan, iss pal, sab mein ek hi sachcaai dikhne lage — tab samjho azaad ho gaye."
             },
             {
                 "verseNumber": 20,
                 "sanskrit": "न प्रहृष्येत्प्रियं प्राप्य नोद्विजेत्प्राप्य चाप्रियम् ।\nस्थिरबुद्धिरसम्मूढो ब्रह्मविद् ब्रह्मणि स्थितः ॥",
-                "transliteration": "na prahṛṣyetpriyaṃ prāpya nodvijetprāpya cāpriyam.\nsthirabuddhirasammūḍho brahmavid brahmaṇi sthitaḥ",
-                "hinglishMeaning": "Jo sthirabuddhi, sanmoharahita brahmavit purusha brahma men sthita hai, vaha priya vastu ko praapta hokara harshita naheen hotaa aura apriya ko paakara udvigna naheen hotaa",
-                "simpleExplanation": "Saral bhav: Jo sthirabuddhi, sanmoharahita brahmavit purusha brahma men sthita hai, vaha priya vastu ko praapta hokara harshita naheen hotaa aura apriya ko paakara udvigna naheen hotaa. Iska sandarbh Adhyay 5 ke mool vishay se juda hai: tyag aur karm ko ek shuddh antarik drishti se jodne ki seekh deta hai.",
-                "lifeLesson": "Sahi gyaan ahankar ko kam karta hai aur drishti ko saaf banata hai."
+                "transliteration": "Na Prahrishyet Priyam Prapya Na Udvijet Prapya Ca Apriyam,\nSthira Buddhir Asammudho Brahmavid Brahmani Sthitah.",
+                "englishMeaning": "One who neither rejoices on receiving what is pleasant nor becomes disturbed on receiving what is unpleasant — who is steady in intellect, free from delusion and who knows Brahman — is established in Brahman.",
+                "hinglishMeaning": "Jo insaan achhi baat milne par bahut zyaada khush nahi hota, aur buri baat aane par ghabrata nahi — jiska mann hamesha sthir rehta hai, jo bhram se mukt hai aur jo sachcaai ko jaanta hai — woh sachcaai mein hi tika rehta hai.",
+                "simpleExplanation": "Shri Krishna sachche gyaani ki ek aur gehri pehchaan bata rahe hain — woh na bahut zyaada khush hota hai, na bahut zyaada toota hota hai.\n\nYeh sunta hai toh lagta hai — kya aisa insaan feelingless hai? Nahi. Woh mehsoos karta hai — par doob nahi jaata.\n\nJaise ek gehra saagar — oopar lehren aati hain jaati hain, lekin andar ki gehraai mein koi halaachal nahi. Usi tarah aisa insaan zindagi ki tarangon ko dekhta hai — par unse bahta nahi.\n\nYeh sthirta hi sachchi taaqat hai. Aur isi mein sachcha sukoon rehta hai.",
+                "lifeLesson": "Jab khushi mein phaila nahi aur gham mein toota nahi — tab samjho andar kuch mazboot ho gaya hai. Yahi sachchi taaqat hai, yahi sachcha sukoon hai."
             },
             {
                 "verseNumber": 21,
                 "sanskrit": "बाह्यस्पर्शेष्वसक्तात्मा विन्दत्यात्मनि यत्सुखम् ।\nस ब्रह्मयोगयुक्तात्मा सुखमक्षयमश्नुते ॥",
-                "transliteration": "bāhyasparśeṣvasaktātmā vindatyātmani yatsukham.\nsa brahmayogayuktātmā sukhamakṣayamaśnute",
-                "hinglishMeaning": "Baahya vishayon men aasaktirahita anta:karana vaalaa purusha atma men hee sukha praapta karataa hai; brahma ke dhyaana men samaahita chitta vaalaa purusha akshaya sukha praapta karataa hai",
-                "simpleExplanation": "Saral bhav: Baahya vishayon men aasaktirahita anta:karana vaalaa purusha atma men hee sukha praapta karataa hai; brahma ke dhyaana men samaahita chitta vaalaa purusha akshaya sukha praapta karataa hai. Iska sandarbh Adhyay 5 ke mool vishay se juda hai: tyag aur karm ko ek shuddh antarik drishti se jodne ki seekh deta hai.",
-                "lifeLesson": "Apni asli pehchaan shareer se pare samajhne par bhay aur moh kam hote hain."
+                "transliteration": "Bahya Sparshe Shv Asakta Atma Vindaty Atmani Yat Sukham,\nSa Brahma Yoga Yukta Atma Sukham Akshayam Ashnute.",
+                "englishMeaning": "One whose inner self is not attached to outward pleasures finds joy within the self. Such a person, whose mind is united with Brahman through yoga, attains lasting and unending happiness.",
+                "hinglishMeaning": "Jis insaan ka mann baahri cheezon se chipka nahi hota, woh apne andar hi ek gehre sukoon ko paata hai.\n\nAur jo apni aatma ko Brahman se jod leta hai, use ek aisa sukh milta hai jo kabhi khatam nahi hota.",
+                "simpleExplanation": "Shri Krishna ek bahut badi sachcaai bata rahe hain — baahri duniya ka sukh aata hai aur chala jaata hai. Ek din naya phone milta hai, khushi hoti hai — agle mahine woh purana lag jaata hai.\n\nYeh silsila kabhi khatam nahi hota. Kyunki jo sukh baahir se aata hai, woh baahir hi rehta hai — andar tak pahunchta nahi.\n\nLekin jo insaan apne andar sukh dhundhna seekh leta hai — jo apni aatma se jud jaata hai — use ek aisa sukh milta hai jo na koi de sakta hai, na koi chhin sakta hai. Woh hamesha ke liye hai.",
+                "lifeLesson": "Baahri duniya mein sukh dhundhna aisa hai jaise pyaas bujhaane ke liye namkeen paani peena — jitna peeo, utni pyaas badhti hai. Sachcha sukh sirf andar hai."
             },
             {
                 "verseNumber": 22,
                 "sanskrit": "ये हि संस्पर्शजा भोगा दुःखयोनय एव ते ।\nआद्यन्तवन्तः कौन्तेय न तेषु रमते बुधः ॥",
-                "transliteration": "ye hi saṃsparśajā bhogā duḥkhayonaya eva te.\nādyantavantaḥ kaunteya na teṣu ramate budhaḥ",
-                "hinglishMeaning": "Hey kaunteya (indriya tathaa vishayon ke) sanyoga se utpanna hone vaale jo bhoga hain ve du:kha ke hee hetu hain, kyonki ve aadi-anta vaale hain. buddhimaan purusha unamen naheen ramataa",
-                "simpleExplanation": "Saral bhav: Hey kaunteya (indriya tathaa vishayon ke) sanyoga se utpanna hone vaale jo bhoga hain ve du:kha ke hee hetu hain, kyonki ve aadi-anta vaale hain. buddhimaan purusha unamen naheen ramataa. Iska sandarbh Adhyay 5 ke mool vishay se juda hai: tyag aur karm ko ek shuddh antarik drishti se jodne ki seekh deta hai.",
-                "lifeLesson": "Sahi gyaan ahankar ko kam karta hai aur drishti ko saaf banata hai."
+                "transliteration": "Ye Hi Samsparshaja Bhoga Duhkha Yonaya Eva Te,\nAdy Antavantah Kaunteya Na Teshu Ramate Budhah.",
+                "englishMeaning": "The pleasures that arise from contact with the senses are truly sources of suffering alone. They have a beginning and an end, dear Arjun — the wise person does not find lasting delight in them.",
+                "hinglishMeaning": "Jo sukh baahri cheezon ko chhoone se, sunne se, dekhne se milta hai — woh sab dukh ka hi asal zariya hai.\n\nKyunki woh shuru hota hai aur khatam bhi ho jaata hai, hey Arjun. Isliye sachcha gyaani unhe apna asli sukh nahi maanta.",
+                "simpleExplanation": "Shri Krishna yahan bilkul seedhi baat keh rahe hain — jo sukh baahir se aata hai, woh hamesha dukh leke aata hai.\n\nKyun? Kyunki woh tikaata nahi. Aaj jo khushi deta hai, kal wahi cheez nahi rahi toh dukh deta hai. Aur phir uss cheez ko dobara paane ki bhookh lagti hai.\n\nYeh chakkar kabhi khatam nahi hota — aur yahi sabse bada dukh hai.\n\nSachcha gyaani yeh jaanta hai. Isliye woh in cheezon mein ghus ke nahi baith jaata. Woh inhe use karta hai, lekin inhe apna sab kuch nahi maanta.",
+                "lifeLesson": "Jo cheez shuru hoti hai, woh khatam bhi hoti hai — agar sukh sirf baahri cheezon se aa raha hai, toh dukh bhi unhi ke saath aayega. Sachcha sukh woh hai jo khone ka darr na ho."
             },
             {
                 "verseNumber": 23,
                 "sanskrit": "शक्नोतीहैव यः सोढुं प्राक्शरीरविमोक्षणात् ।\nकामक्रोधोद्भवं वेगं स युक्तः स सुखी नरः ॥",
-                "transliteration": "śaknotīhaiva yaḥ soḍhuṃ prākśarīravimokṣaṇāt.\nkāmakrodhodbhavaṃ vegaṃ sa yuktaḥ sa sukhī naraḥ",
-                "hinglishMeaning": "Jo manushya isee loka men shareera tyaagane ke poorva hee kaama aura krodha se utpanna hue vega ko sahana karane men samartha hai, vaha yogee (yukta) aura sukhee manushya hai",
-                "simpleExplanation": "Saral bhav: Jo manushya isee loka men shareera tyaagane ke poorva hee kaama aura krodha se utpanna hue vega ko sahana karane men samartha hai, vaha yogee (yukta) aura sukhee manushya hai. Iska sandarbh Adhyay 5 ke mool vishay se juda hai: tyag aur karm ko ek shuddh antarik drishti se jodne ki seekh deta hai.",
-                "lifeLesson": "Apni asli pehchaan shareer se pare samajhne par bhay aur moh kam hote hain."
+                "transliteration": "Shaknoti Ihaiva Yah Sodhum Prak Sharira Vimokshanat,\nKama Krodha Udbhavam Vegam Sa Yuktah Sa Sukhi Narah.",
+                "englishMeaning": "One who is able to withstand, right here in this life before leaving the body, the force and impulse born of desire and anger — that person is a true yogi and is truly happy.",
+                "hinglishMeaning": "Jo insaan is duniya mein, is zindagi mein hi — sharir chhoodne se pehle — kaama aur krodh ke toofan ko bardaasht kar leta hai aur unhe kaaboo kar leta hai — wahi sachcha yogi hai, wahi sachche mein sukhi insaan hai.",
+                "simpleExplanation": "Shri Krishna yahan ek bilkul seedha aur zaroori sawaal uthaa rahe hain — kya tu apne andar ke toofan ko rok sakta hai?\n\nKaama — yaani woh tarishna jo uthti hai aur sab kuch bharaana chahti hai. Krodh — yaani woh aag jo tab bhadakti hai jab kuch marzee ke khilaf ho jaata hai.\n\nDono bahut tez hote hain. Ek pal mein aate hain aur sab kuch badal dete hain.\n\nJo insaan in dono ko is zindagi mein hi roka sakata hai — woh sachcha yogi hai. Marne ke baad nahi, yahan, abhi. Yahi sachchi kamiyaabi hai. Yahi sachcha sukh hai.",
+                "lifeLesson": "Duniya ko jeetne se pehle khud ko jeeto — jo apne andar ke kaama aur krodh ko rok sakta hai, woh kisi bhi baahri mushkil ko rok sakta hai."
             },
             {
                 "verseNumber": 24,
                 "sanskrit": "योऽन्तःसुखोऽन्तरारामस्तथान्तर्ज्योतिरेव यः ।\nस योगी ब्रह्मनिर्वाणं ब्रह्मभूतोऽधिगच्छति ॥",
-                "transliteration": "yo.antaḥsukho.antarārāmastathāntarjyotireva yaḥ.\nsa yogī brahmanirvāṇaṃ brahmabhūto.adhigacchati",
-                "hinglishMeaning": "Jo purusha antaratma men hee sukha vaalaa, atma men hee aaraama vaalaa tathaa atma men hee jnyaana vaalaa hai, vaha yogee brahmaroopa banakara brahmanirvaana arthaat parama moksha ko praapta hotaa hai",
-                "simpleExplanation": "Saral bhav: Jo purusha antaratma men hee sukha vaalaa, atma men hee aaraama vaalaa tathaa atma men hee jnyaana vaalaa hai, vaha yogee brahmaroopa banakara brahmanirvaana arthaat parama moksha ko praapta hotaa hai. Iska sandarbh Adhyay 5 ke mool vishay se juda hai: tyag aur karm ko ek shuddh antarik drishti se jodne ki seekh deta hai.",
-                "lifeLesson": "Sahi gyaan ahankar ko kam karta hai aur drishti ko saaf banata hai."
+                "transliteration": "Yo Antah Sukho Antar Aramas Tatha Antar Jyotir Eva Yah,\nSa Yogi Brahma Nirvanam Brahma Bhuto Adhigacchati.",
+                "englishMeaning": "One who finds happiness within, who finds rest within, and who finds the light of wisdom within — that yogi, becoming one with Brahman, attains the supreme liberation of Brahman.",
+                "hinglishMeaning": "Jo insaan apna sukh andar se paata hai, apna sukoon andar se paata hai, aur apni roshni bhi andar se paata hai — aisa yogi Brahman ka hi hissa ban jaata hai aur sachchi aur poori mukti paata hai.",
+                "simpleExplanation": "Shri Krishna yahan sachche yogi ki teen khaas nishaniyan bata rahe hain.\n\nPehli — sukh andar se. Baahri kuch mila toh khushi, nahi mila toh gham — aisa nahi. Sukh hamesha andar se aa raha hai.\n\nDoosri — sukoon andar se. Thakaan hoti hai, mushkilein aati hain — lekin woh andar se hila nahi. Woh apne andar hi apna aaram dhundhta hai.\n\nTeesri — roshni andar se. Kisi ne bataya, kisi ne dikhaya — aisi zaroorat nahi. Uska apna andar ki samajh hi use raah dikhati hai.\n\nAur jab yeh teeno ek jagah aa jaati hain — tab woh Brahman mein sama jaata hai. Yahi sachchi mukti hai.",
+                "lifeLesson": "Jab sukh, sukoon aur samajh — teeno baahir se nahi, andar se aane lagein — tab samjho ki tu wahan pahunch gaya jahan koi takleef nahi pahunch sakti."
             },
             {
                 "verseNumber": 25,
                 "sanskrit": "लभन्ते ब्रह्मनिर्वाणमृषयः क्षीणकल्मषाः ।\nछिन्नद्वैधा यतात्मानः सर्वभूतहिते रताः ॥",
-                "transliteration": "labhante brahmanirvāṇamṛṣayaḥ kṣīṇakalmaṣāḥ.\nchinnadvaidhā yatātmānaḥ sarvabhūtahite ratāḥ",
-                "hinglishMeaning": "Ve rishigana moksha ko praapta hote hain - jinake paapa nashta ho gaye hain, jo chhinnasanshaya, sanyamee aura bhootamaatra ke hita men ramane vaale hain",
-                "simpleExplanation": "Saral bhav: Ve rishigana moksha ko praapta hote hain - jinake paapa nashta ho gaye hain, jo chhinnasanshaya, sanyamee aura bhootamaatra ke hita men ramane vaale hain. Iska sandarbh Adhyay 5 ke mool vishay se juda hai: tyag aur karm ko ek shuddh antarik drishti se jodne ki seekh deta hai.",
-                "lifeLesson": "Apni asli pehchaan shareer se pare samajhne par bhay aur moh kam hote hain."
+                "transliteration": "Labhante Brahma Nirvanam Rishayah Kshina Kalmashah,\nChhinna Dvaidha Yata Atmanah Sarva Bhuta Hite Ratah.",
+                "englishMeaning": "The wise sages whose sins have been destroyed, whose doubts have been cut away, whose minds are disciplined, and who are devoted to the wellbeing of all living beings — they attain the supreme liberation of Brahman.",
+                "hinglishMeaning": "Woh gyaani jo andar se shuddh ho gaye hain, jinke saare shak khatam ho gaye hain, jinhone apne mann ko kaaboo kar liya hai, aur jo har jeev ki bhalaai mein lage rehte hain — woh Brahman ki sachchi aur poori mukti paate hain.",
+                "simpleExplanation": "Shri Krishna yahan mukti paane waale insaan ki chaar nishaniyan bata rahe hain.\n\nPehli — andar ki gandagi saaf ho gayi. Na purana gussa, na purana dard, na purani jalaan.\n\nDoosri — shak khatam. Na yeh shak ki main sahi hoon ya galat, na yeh shak ki Ishwar hai ya nahi. Sab saaf ho gaya.\n\nTeesri — mann kaaboo mein. Hawa chalti hai, toofan aata hai — par woh nahi hiltaa.\n\nChawthi — aur sabse zaroori — woh sirf apne liye nahi jeeta. Har jeev ki bhalaai mein laga rehta hai.\n\nYeh chaar cheezein jo insaan mein aa gayi — woh sachchi azaadi paata hai.",
+                "lifeLesson": "Sachchi mukti tab milti hai jab andar saaf ho, shak mit jaayein, mann sthir ho aur jeena sirf apne liye nahi, doosron ke liye bhi ho."
             },
             {
                 "verseNumber": 26,
                 "sanskrit": "कामक्रोधवियुक्तानां यतीनां यतचेतसाम् ।\nअभितो ब्रह्मनिर्वाणं वर्तते विदितात्मनाम् ॥",
-                "transliteration": "kāmakrodhaviyuktānāṃ yatīnāṃ yatacetasām.\nabhito brahmanirvāṇaṃ vartate viditātmanām",
-                "hinglishMeaning": "Kaama aura krodha se rahita, sanyatachitta vaale tathaa atma ko jaanane vaale yatiyon ke lie saba ora moksha (yaa brahmaananda) vidyamaana rahataa hai",
-                "simpleExplanation": "Saral bhav: Kaama aura krodha se rahita, sanyatachitta vaale tathaa atma ko jaanane vaale yatiyon ke lie saba ora moksha (yaa brahmaananda) vidyamaana rahataa hai. Iska sandarbh Adhyay 5 ke mool vishay se juda hai: tyag aur karm ko ek shuddh antarik drishti se jodne ki seekh deta hai.",
-                "lifeLesson": "Apni asli pehchaan shareer se pare samajhne par bhay aur moh kam hote hain."
+                "transliteration": "Kama Krodha Viyuktanam Yatinam Yata Cetasam,\nAbhito Brahma Nirvanam Vartate Vidita Atmanam.",
+                "englishMeaning": "For those seekers who are free from desire and anger, who have mastered their minds, and who have truly known the self — liberation in Brahman exists all around them, on all sides.",
+                "hinglishMeaning": "Jo log kaama aur krodh se azaad ho gaye hain, jinhone apne mann ko saadhh liya hai, aur jo apni aatma ko sachchi tarah jaante hain — unke liye sachchi mukti har taraf maujood hai, har pal maujood hai.",
+                "simpleExplanation": "Yeh shlok ek bahut badi umeed deta hai.\n\nShri Krishna keh rahe hain ki mukti koi door ki jagah nahi hai — woh aasmaani nahi, zameen par hai. Woh marne ke baad nahi, jeete ji milti hai.\n\nBas teen cheezein chahiye — kaama aur krodh se azaadi, saadhha hua mann, aur apni aatma ki sachchi pehchaan.\n\nAur jab yeh ho jaata hai, tab mukti kisi ek jagah nahi milti — woh har taraf dikhti hai. Har pal mein, har cheez mein. Kyunki ab andar ki aankhein khul gayi hain.",
+                "lifeLesson": "Mukti kisi mandir mein nahi, kisi pahad par nahi — jab kaama, krodh aur anjaana kat jaaye, tab jo insaan dhoondh raha tha woh uske andar hi tha, hamesha se."
             },
             {
                 "verseNumber": 27,
                 "sanskrit": "स्पर्शान्कृत्वा बहिर्बाह्यांश्चक्षुश्चैवान्तरे भ्रुवोः ।\nप्राणापानौ समौ कृत्वा नासाभ्यन्तरचारिणौ ॥",
-                "transliteration": "sparśānkṛtvā bahirbāhyāṃścakṣuścaivāntare bhruvoḥ.\nprāṇāpānau samau kṛtvā nāsābhyantaracāriṇau",
-                "hinglishMeaning": "Baahya vishayon ko baahara hee rakhakara netron kee drishti ko bhrikuti ke beecha men sthita karake tathaa naasikaa men vicharane vaale praana aura apaanavaayu ko sama karake,",
-                "simpleExplanation": "Saral bhav: Baahya vishayon ko baahara hee rakhakara netron kee drishti ko bhrikuti ke beecha men sthita karake tathaa naasikaa men vicharane vaale praana aura apaanavaayu ko sama karake,. Iska sandarbh Adhyay 5 ke mool vishay se juda hai: tyag aur karm ko ek shuddh antarik drishti se jodne ki seekh deta hai.",
-                "lifeLesson": "Apna kartavya imaandari se karo, par phal ki chinta mein apni shanti mat khona."
+                "transliteration": "Sparshan Kritva Bahir Bahyams Chakshus Caiva Antare Bhruvoh,\nPrana Apanau Samau Kritva Nasa Abhyantara Carinau.",
+                "englishMeaning": "Keeping all outer objects and sensory contacts outside, fixing the gaze between the two eyebrows, and making the inward and outward breath move equally within the nostrils —",
+                "hinglishMeaning": "Baahri duniya ki saari cheezon ko baahir hi chhod do — unhe andar mat aane do. Aankhon ki drishti ko dono bhaunon ke beech tika lo. Aur naak ke andar aati-jaati saans ko ek jaisi aur sthir kar lo.",
+                "simpleExplanation": "Yeh shlok ek sadhna ki shuruwaat hai — dhyaan ki vidhi.\n\nShri Krishna teen cheezein bata rahe hain — pehli, baahri duniya ko baahir rehne do. Aankhein band karo ya aa rha kuch dekho mat — sirf andar.\n\nDoosri, aankhon ko bhaunon ke beech tika lo — yeh ek gehri dhyan ki jagah hai jahan mann theharne lagta hai.\n\nTeesri, saans ko sama kar lo — na bahut tez, na bahut dheemi. Seedhi, sthir, ek jaisi.\n\nYeh teeno kaam ek saath karne se mann dheere-dheere baahri shor se hat kar andar aane lagta hai. Yeh dhyaan ka darwaaza hai.",
+                "lifeLesson": "Jab baahri duniya ko baahir chhod do, drishti andar tiko aur saans sthir ho — tab mann apne aap shaant hone lagta hai. Andar jaane ka raasta hamesha saans se hi hota hai."
             },
             {
                 "verseNumber": 28,
                 "sanskrit": "यतेन्द्रियमनोबुद्धिर्मुनिर्मोक्षपरायणः ।\nविगतेच्छाभयक्रोधो यः सदा मुक्त एव सः ॥",
-                "transliteration": "yatendriyamanobuddhirmunirmokṣaparāyaṇaḥ.\nvigatecchābhayakrodho yaḥ sadā mukta eva saḥ",
-                "hinglishMeaning": "Jisa purusha kee indriyaan, mana aura buddhi sanyata hain, aisaa moksha paraayana muni ichchhaa, bhaya aura krodha se rahita hai, vaha sadaa mukta hee hai",
-                "simpleExplanation": "Saral bhav: Jisa purusha kee indriyaan, mana aura buddhi sanyata hain, aisaa moksha paraayana muni ichchhaa, bhaya aura krodha se rahita hai, vaha sadaa mukta hee hai. Iska sandarbh Adhyay 5 ke mool vishay se juda hai: tyag aur karm ko ek shuddh antarik drishti se jodne ki seekh deta hai.",
-                "lifeLesson": "Sahi gyaan ahankar ko kam karta hai aur drishti ko saaf banata hai."
+                "transliteration": "Yata Indriya Mano Buddhir Munir Moksha Parayanah,\nVigata Iccha Bhaya Krodho Yah Sada Mukta Eva Sah.",
+                "englishMeaning": "The sage whose senses, mind and intellect are fully mastered, who is devoted to liberation, who is free from desire, fear and anger — that person is forever liberated.",
+                "hinglishMeaning": "Jis muni ne apni indriyaan, mann aur buddhi — teeno ko poori tarah kaaboo kar liya hai, jo sirf mukti ko apna maqsad maanta hai, aur jo ichchha, darr aur gusse se mukta ho gaya hai — woh hamesha ke liye azaad hai.",
+                "simpleExplanation": "Shri Krishna pichle shlok mein dhyaan ki vidhi batai — aur ab uss insaan ka fal bata rahe hain jo woh vidhi sachche mann se jee leta hai.\n\nWoh muni — yaani woh insaan jo andar se jeeta hai — uski indriyaan baahir nahi bhaagti. Uska mann halaachal mein nahi aata. Uski buddhi bhatak nahi jaati.\n\nAur teen cheezein jo sabse zyaada dukh deti hain — ichchha, darr aur gussa — woh teeno usse chhhod chuke hain.\n\nAur jab yeh sab ho jaata hai — woh hamesha ke liye mukta hai. Yeh koi bhavishya ki baat nahi — woh abhi, isi pal, azaad hai.",
+                "lifeLesson": "Sachchi azaadi tab milti hai jab ichchha, darr aur gussa — yeh teen andar se nikal jaayein. Phir na koi rok sakta hai, na koi tod sakta hai."
             },
             {
                 "verseNumber": 29,
                 "sanskrit": "भोक्तारं यज्ञतपसां सर्वलोकमहेश्वरम् ।\nसुहृदं सर्वभूतानां ज्ञात्वा मां शान्तिमृच्छति ॥",
-                "transliteration": "bhoktāraṃ yajñatapasāṃ sarvalokamaheśvaram.\nsuhṛdaṃ sarvabhūtānāṃ jñātvā māṃ śāntimṛcchati",
-                "hinglishMeaning": "(saadhaka bhakta) mujhey yajnya aura tapon kaa bhoktaa aura sampoorna lokon kaa mahaan eeshvara tathaa bhootamaatra kaa suhrid (mitra) jaanakara shaanti ko praapta hotaa hai",
-                "simpleExplanation": "Saral bhav: (saadhaka bhakta) mujhey yajnya aura tapon kaa bhoktaa aura sampoorna lokon kaa mahaan eeshvara tathaa bhootamaatra kaa suhrid (mitra) jaanakara shaanti ko praapta hotaa hai. Iska sandarbh Adhyay 5 ke mool vishay se juda hai: tyag aur karm ko ek shuddh antarik drishti se jodne ki seekh deta hai.",
-                "lifeLesson": "Shraddha aur prem se ki gayi chhoti kriya bhi Bhagavan tak pahunchti hai."
+                "transliteration": "Bhoktaram Yajna Tapasam Sarva Loka Maheshvaram,\nSuhridam Sarva Bhutanam Jnatva Mam Shantim Ricchati.",
+                "englishMeaning": "Knowing me as the one who receives all sacrifices and austerities, as the supreme lord of all the worlds, and as the true friend of all living beings — one attains lasting peace.",
+                "hinglishMeaning": "Jab koi yeh sachchi tarah se jaanta hai ki main hi saare yajna aur tapasya ka phalataa hoon, main hi teeno lokon ka sabse bada Ishwar hoon, aur main hi har jeev ka sachcha dost hoon — tab woh sachchi aur tikaau shanti paata hai.",
+                "simpleExplanation": "Yeh poore Adhyaay 5 ka aakhiri shlok hai — aur Shri Krishna iss mein apna sabse bada parichay dete hain.\n\nWoh keh rahe hain — main woh hoon jo teri har mehnat, har ibadat, har tapasya ko paata hai. Koi koshish barbaad nahi hoti.\n\nMain hi is poori srishti ka maalik hoon — koi aur nahi.\n\nAur sabse badi baat — main tera sachcha dost hoon. Na koi shart, na koi laalach. Sirf tera bhala.\n\nJo insaan yeh teen cheezein sachchi tarah se samajh leta hai — uske andar ek aisi shanti aati hai jo phir kabhi nahi jaati.",
+                "lifeLesson": "Jab yeh pata chal jaaye ki jo sab kuch dekh raha hai, sab kuch sambhaal raha hai aur jo tera sachcha dost bhi hai — woh ek hi hai — tab dil mein ek aisi shanti aati hai jo koi nahi chhin sakta."
             }
         ]
     },
@@ -1940,378 +1969,425 @@
             {
                 "verseNumber": 1,
                 "sanskrit": "श्रीभगवानुवाच ।\nअनाश्रितः कर्मफलं कार्यं कर्म करोति यः ।\nस संन्यासी च योगी च न निरग्निर्न चाक्रियः ॥",
-                "transliteration": "śrībhagavānuvāca.\nanāśritaḥ karmaphalaṃ kāryaṃ karma karoti yaḥ.\nsa saṃnyāsī ca yogī ca na niragnirna cākriyaḥ",
-                "hinglishMeaning": "Shreebhagavaan ne kahaa -- jo purusha karmaphala para aashrita na hokara kartavya karma karataa hai, vaha sannyaasee aura yogee hai, na ki vaha jisane kevala agni kaa aura kriyaayon kaa tyaaga kiyaa hai",
-                "simpleExplanation": "Saral bhav: Shreebhagavaan ne kahaa -- jo purusha karmaphala para aashrita na hokara kartavya karma karataa hai, vaha sannyaasee aura yogee hai, na ki vaha jisane kevala agni kaa aura kriyaayon kaa tyaaga kiyaa hai. Iska sandarbh Adhyay 6 ke mool vishay se juda hai: man ko saadhkar dhyan, santulan aur atma-uddhar ka marg batata hai.",
-                "lifeLesson": "Apna kartavya imaandari se karo, par phal ki chinta mein apni shanti mat khona."
+                "transliteration": "Shri Bhagavan Uvacha:\nAnashritah Karma Phalam Karyam Karma Karoti Yah,\nSa Sannyasi Ca Yogi Ca Na Niragnir Na Ca Akriyah.",
+                "englishMeaning": "Shri Krishna said: One who performs their duty without depending on the results of action — that person is both a true renunciant and a true yogi. Not the one who has merely given up fire or stopped all activity.",
+                "hinglishMeaning": "Shri Krishna ne kaha:\n\nJo insaan apna zaroori kaam karta hai bina natije ki parwaah kiye — wahi sachcha sanyaasi hai aur wahi sachcha yogi bhi hai. Na ki woh jo sirf baahri cheezein chhhod deta hai ya kaam karna hi band kar deta hai.",
+                "simpleExplanation": "Shri Krishna Chapter 6 ki shuruwaat ek bahut badi galti door karte hue karte hain.\n\nLog sochte hain ki sanyaasi woh hota hai jo ghar chhhod de, khaana-peena chhhod de, sab kuch chhhod de. Aur yogi woh hota hai jo sirf aasana lagaake baithta hai.\n\nLekin Shri Krishna keh rahe hain — nahi. Sachcha sanyaasi woh hai jo kaam karta hai lekin natije se nahi chipakta. Aur sachcha yogi woh hai jo duniya mein rehta hai lekin duniya uske andar nahi rehti.\n\nYeh shlok dikhata hai ki sachchi sadhana baahri dikhawe mein nahi, andar ke bhaav mein hai.",
+                "lifeLesson": "Kaam chhhodni sachchi taaqat nahi — kaam karte hue natije se azaad rehna sachchi taaqat hai. Sachcha yogi duniya mein rehta hai, duniya usmein nahi rehti."
             },
             {
                 "verseNumber": 2,
                 "sanskrit": "यं संन्यासमिति प्राहुर्योगं तं विद्धि पाण्डव ।\nन ह्यसंन्यस्तसङ्कल्पो योगी भवति कश्चन ॥",
-                "transliteration": "yaṃ saṃnyāsamiti prāhuryogaṃ taṃ viddhi pāṇḍava.\nna hyasaṃnyastasaṅkalpo yogī bhavati kaścana",
-                "hinglishMeaning": "Hey paandava ! jisako (shaastravit) sannyaasa kahate hain, usee ko tuma yoga samajho; kyonki sankalpon ko na tyaagane vaalaa koee bhee purusha yogee naheen hotaa",
-                "simpleExplanation": "Saral bhav: Hey paandava ! jisako (shaastravit) sannyaasa kahate hain, usee ko tuma yoga samajho; kyonki sankalpon ko na tyaagane vaalaa koee bhee purusha yogee naheen hotaa. Iska sandarbh Adhyay 6 ke mool vishay se juda hai: man ko saadhkar dhyan, santulan aur atma-uddhar ka marg batata hai.",
-                "lifeLesson": "Apna kartavya imaandari se karo, par phal ki chinta mein apni shanti mat khona."
+                "transliteration": "Yam Sannyasam Iti Prahur Yogam Tam Viddhi Pandava,\nNa Hi Asannyasta Sankalpo Yogi Bhavati Kashcana.",
+                "englishMeaning": "What the wise call renunciation — know that to be yoga itself, Arjun. For no one can become a true yogi without first giving up selfish intentions and desires.",
+                "hinglishMeaning": "Hey Arjun! Jise log sanyaas kehte hain — us hi ko tum yoga samjho.\n\nKyunki jo insaan apne swarth bhari soch aur manshaaon ko nahi chhhod sakta, woh kabhi sachcha yogi nahi ban sakta.",
+                "simpleExplanation": "Shri Krishna yahan ek bahut badi baat saaf kar rahe hain — sanyaas aur yoga alag-alag nahi hain.\n\nJo cheez sanyaas mein chhhodi jaati hai — woh hai swarth, natije ki chahat, apni manshaaein. Aur yogi bhi yahi karta hai — kaam karta hai par apni manshaaon ko beech mein nahi laata.\n\nToh dono ek hi cheez hain — farq sirf naam ka hai.\n\nAur sabse zaroori baat — jo apni khwaishein aur manshaaein nahi chhhod sakta, woh yogi nahi ban sakta — chahe kitna bhi aasana lagaaye.",
+                "lifeLesson": "Yoga sirf sharir ka nahi, mann ka kaam hai. Jab tak andar ki khwaishein aur manshaaein nahi chhhodi, koi bhi sachcha yogi nahi ban sakta."
             },
             {
                 "verseNumber": 3,
                 "sanskrit": "आरुरुक्षोर्मुनेर्योगं कर्म कारणमुच्यते ।\nयोगारूढस्य तस्यैव शमः कारणमुच्यते ॥",
-                "transliteration": "ārurukṣormuneryogaṃ karma kāraṇamucyate.\nyogārūḍhasya tasyaiva śamaḥ kāraṇamucyate",
-                "hinglishMeaning": "Yoga men aaroodha hone kee ichchhaa vaale muni ke lie karma karanaa hee hetu (saadhana) kahaa hai aura yogaaroodha ho jaane para usee purusha ke lie shama ko (shaanti, sankalpasannyaasa) saadhana kahaa gayaa hai",
-                "simpleExplanation": "Saral bhav: Yoga men aaroodha hone kee ichchhaa vaale muni ke lie karma karanaa hee hetu (saadhana) kahaa hai aura yogaaroodha ho jaane para usee purusha ke lie shama ko (shaanti, sankalpasannyaasa) saadhana kahaa gayaa hai. Iska sandarbh Adhyay 6 ke mool vishay se juda hai: man ko saadhkar dhyan, santulan aur atma-uddhar ka marg batata hai.",
-                "lifeLesson": "Apna kartavya imaandari se karo, par phal ki chinta mein apni shanti mat khona."
+                "transliteration": "Arurukshor Muner Yogam Karma Karanam Ucyate,\nYoga Arudhasya Tasya Eva Shamah Karanam Ucyate.",
+                "englishMeaning": "For a seeker who is beginning to climb the path of yoga, sincere action is said to be the means. But for the same person who has already reached the heights of yoga, inner stillness and quietude become the means.",
+                "hinglishMeaning": "Jo muni yoga ki seedhi chadhna shuru kar raha hai — uske liye karm karna hi raasta hai.\n\nLekin jo wahi muni yoga ki oonchaayi par pahunch jaata hai — uske liye andar ki shanti aur sthirata hi aage ka raasta ban jaata hai.",
+                "simpleExplanation": "Shri Krishna yahan sadhna ke do pado ki baat karte hain — shuruwaat aur poornata.\n\nJab koi abhi seekh raha hota hai, abhi chal raha hota hai — tab uske liye karm sabse bada saadhana hai. Kaam karo, mehnat karo, seekhte raho.\n\nLekin jab woh pahunch jaata hai — tab kaam ki jagah andar ki shanti le leti hai. Ab woh itna sthir ho jaata hai ki koi halaachal nahi hoti.\n\nYeh shlok sikhata hai ki har safar mein ek waqt aata hai — pehle chalna padta hai, phir thamna padta hai.",
+                "lifeLesson": "Shuruwaat mein karm karo, seekhte raho, chalte raho. Lekin jab andar ki shanti aa jaaye — tab woh shanti hi teri sabse badi taaqat ban jaati hai."
             },
             {
                 "verseNumber": 4,
                 "sanskrit": "यदा हि नेन्द्रियार्थेषु न कर्मस्वनुषज्जते ।\nसर्वसङ्कल्पसंन्यासी योगारूढस्तदोच्यते ॥",
-                "transliteration": "yadā hi nendriyārtheṣu na karmasvanuṣajjate.\nsarvasaṅkalpasaṃnyāsī yogārūḍhastadocyate",
-                "hinglishMeaning": "Jaba (saadhaka) na indriyon ke vishayon men aura na karmon men aasakta hotaa hai taba sarva sankalpon ke sannyaasee ko yogaaroodha kahaa jaataa hai",
-                "simpleExplanation": "Saral bhav: Jaba (saadhaka) na indriyon ke vishayon men aura na karmon men aasakta hotaa hai taba sarva sankalpon ke sannyaasee ko yogaaroodha kahaa jaataa hai. Iska sandarbh Adhyay 6 ke mool vishay se juda hai: man ko saadhkar dhyan, santulan aur atma-uddhar ka marg batata hai.",
-                "lifeLesson": "Apna kartavya imaandari se karo, par phal ki chinta mein apni shanti mat khona."
+                "transliteration": "Yada Hi Na Indriya Artheshu Na Karmasu Anushajjate,\nSarva Sankalpa Sannyasi Yoga Arudhah Tada Ucyate.",
+                "englishMeaning": "When a person no longer clings to sense pleasures or to actions for personal gain, and has completely given up all selfish intentions — that person is then said to have truly ascended to yoga.",
+                "hinglishMeaning": "Jab koi insaan na indriyaan ke sukh mein aur na karmon ke natije mein chipakta hai, aur jab woh apni saari swarth bhari manshaaon ko poori tarah chhhod deta hai — tab kaha jaata hai ki woh sachchi tarah yoga ki oonchaayi par pahunch gaya.",
+                "simpleExplanation": "Shri Krishna yahan yogaarudha — yaani yoga ki oonchaayi par pahunche hue insaan — ki sachchi nishani bata rahe hain.\n\nDo cheezein nahi rehti usmein — pehli, indriyaan ke sukh ki lalak. Na achha khaana, na sundar dikhna, na baahri cheezein paane ki bhookh. Doosri, karm ke natije se lagav. Na yeh sochna ki mera kaam kaisa gaya, log kya sochenge.\n\nAur teesri aur sabse badi — saari manshaaein khatam. Koi agenda nahi. Sirf kaam, sirf seva, sirf sachcaai.\n\nJab yeh teeno khatam ho jaayein — tab sachcha yogi paida hota hai.",
+                "lifeLesson": "Jab na sukh ki bhookh ho, na natije ki chinta, na koi chhupa iraada — tab samjho sachchi yoga shuru hui. Yahi sachchi azaadi ki pehchaan hai."
             },
             {
                 "verseNumber": 5,
                 "sanskrit": "उद्धरेदात्मनात्मानं नात्मानमवसादयेत् ।\nआत्मैव ह्यात्मनो बन्धुरात्मैव रिपुरात्मनः ॥",
-                "transliteration": "uddharedātmanātmānaṃ nātmānamavasādayet.\nātmaiva hyātmano bandhurātmaiva ripurātmanaḥ",
-                "hinglishMeaning": "Manushya ko apane dvaaraa apanaa uddhaara karanaa chaahiye aura apanaa adha: patana naheen karanaa chaahiye; kyonki atma hee atma kaa mitra hai aura atma (manushya svayan) hee atma kaa (apanaa) shatru hai",
-                "simpleExplanation": "Saral bhav: Manushya ko apane dvaaraa apanaa uddhaara karanaa chaahiye aura apanaa adha: patana naheen karanaa chaahiye; kyonki atma hee atma kaa mitra hai aura atma (manushya svayan) hee atma kaa (apanaa) shatru hai. Iska sandarbh Adhyay 6 ke mool vishay se juda hai: man ko saadhkar dhyan, santulan aur atma-uddhar ka marg batata hai.",
-                "lifeLesson": "Apni asli pehchaan shareer se pare samajhne par bhay aur moh kam hote hain."
+                "transliteration": "Uddhared Atmana Atmanam Na Atmanam Avasadayet,\nAtmaiva Hi Atmano Bandhur Atmaiva Ripur Atmanah.",
+                "englishMeaning": "Let a person lift themselves up by their own self — let them not pull themselves down. For the self alone is the friend of the self, and the self alone is the enemy of the self.",
+                "hinglishMeaning": "Apne aap ko apne hi dum par uthao — apne aap ko mat girane do.\n\nKyunki tu hi apna sabse achha dost hai — aur tu hi apna sabse bada dushman bhi.",
+                "simpleExplanation": "Yeh Gita ke sabse taaqatwar aur seedhe shlokkon mein se ek hai.\n\nShri Krishna keh rahe hain — tera uddhaar koi aur nahi karega. Na koi dost, na koi guru, na koi Bhagwan tujhe uthane aayega jab tak tu khud nahi uthna chahta.\n\nTu hi apna dost hai — jab tu sahi sochta hai, sahi kaam karta hai, khud ko sambhalta hai.\n\nAur tu hi apna dushman hai — jab tu khud ko kosta hai, galat raastonpar chalta hai, apne aap ko girata hai.\n\nKoi baahri duniya zimmedaar nahi — tu hi hai.",
+                "lifeLesson": "Tera sabse bada dost aur sabse bada dushman — dono tu hi hai. Jis din tune khud ko sambhaala, usi din duniya ne bhi tera saath diya."
             },
             {
                 "verseNumber": 6,
                 "sanskrit": "बन्धुरात्मात्मनस्तस्य येनात्मैवात्मना जितः ।\nअनात्मनस्तु शत्रुत्वे वर्तेतात्मैव शत्रुवत् ॥",
-                "transliteration": "bandhurātmātmanastasya yenātmaivātmanā jitaḥ.\nanātmanastu śatrutve vartetātmaiva śatruvat",
-                "hinglishMeaning": "Jisane atma (indriyon,aadi) ko atma ke dvaaraa jeeta liyaa hai, usa purusha kaa atma usakaa mitra hotaa hai, parantu ajitendriya ke lie atma shatru ke samaana sthita hotaa hai",
-                "simpleExplanation": "Saral bhav: Jisane atma (indriyon,aadi) ko atma ke dvaaraa jeeta liyaa hai, usa purusha kaa atma usakaa mitra hotaa hai, parantu ajitendriya ke lie atma shatru ke samaana sthita hotaa hai. Iska sandarbh Adhyay 6 ke mool vishay se juda hai: man ko saadhkar dhyan, santulan aur atma-uddhar ka marg batata hai.",
-                "lifeLesson": "Apni asli pehchaan shareer se pare samajhne par bhay aur moh kam hote hain."
+                "transliteration": "Bandhur Atma Atmanas Tasya Yena Atmaiva Atmana Jitah,\nAnatmanas Tu Shatrutve Varteta Atmaiva Shatruvat.",
+                "englishMeaning": "For the one who has conquered the self by the self — the self becomes a true friend. But for the one who has not mastered the self — the self acts as an enemy, just like a foe.",
+                "hinglishMeaning": "Jis insaan ne apne aap ko — apne mann aur indriyaan ko — apne hi dum par jeeta liya hai, uska apna aap hi uska sachcha dost ban jaata hai.\n\nLekin jo apne aap ko nahi jeet paya — uske liye woh khud hi ek dushman ki tarah kaam karta hai.",
+                "simpleExplanation": "Shri Krishna pichle shlok ki baat aur gehra karte hain.\n\nJo insaan apne mann ko, apni khwaishon ko, apne gusse ko, apne darr ko — kaaboo kar leta hai — woh apna dost hai. Tab woh khud ko aage badhata hai, khud ko sambhalta hai.\n\nLekin jo nahi kar paata — woh khud ka dushman hai. Woh khud hi apni neend uraata hai, khud hi apna sukun chhinata hai, khud hi apni taraqqui rokhta hai.\n\nKoi baahri dushman utna nuksan nahi pahunchata jitna andar ka bhatka hua mann pahunchata hai.",
+                "lifeLesson": "Apne mann ko jeeto — phir koi bhi tujhe nahi hara sakta. Aur agar mann ne tujhe haraaya — toh koi bhi dost tujhe nahi bacha sakta."
             },
             {
                 "verseNumber": 7,
                 "sanskrit": "जितात्मनः प्रशान्तस्य परमात्मा समाहितः ।\nशीतोष्णसुखदुःखेषु तथा मानापमानयोः ॥",
-                "transliteration": "jitātmanaḥ praśāntasya paramātmā samāhitaḥ.\nśītoṣṇasukhaduḥkheṣu tathā mānāpamānayoḥ",
-                "hinglishMeaning": "Sheeta-ushna, sukha-du:kha tathaa maana-apamaana men jo prashaanta rahataa hai, aise jitatma purusha ke liye paramatma samyak prakaara se sthita hai, arthaat, aatmaroopa se vidyamaana hai",
-                "simpleExplanation": "Saral bhav: Sheeta-ushna, sukha-du:kha tathaa maana-apamaana men jo prashaanta rahataa hai, aise jitatma purusha ke liye paramatma samyak prakaara se sthita hai, arthaat, aatmaroopa se vidyamaana hai. Iska sandarbh Adhyay 6 ke mool vishay se juda hai: man ko saadhkar dhyan, santulan aur atma-uddhar ka marg batata hai.",
-                "lifeLesson": "Apni asli pehchaan shareer se pare samajhne par bhay aur moh kam hote hain."
+                "transliteration": "Jita Atmanah Prashantasya Paramatma Samahitah,\nShita Ushna Sukha Duhkheshu Tatha Mana Apamanayoh.",
+                "englishMeaning": "For the one who has conquered the self and attained deep inner peace — the Supreme Self is ever present and fully realised — whether in cold or heat, in joy or sorrow, in honour or dishonour.",
+                "hinglishMeaning": "Jo insaan apne aap ko jeet chuka hai aur andar se poora shaant hai — uske liye Parmatma har waqt, har jagah maujood rehta hai.\n\nChahe thandi ho ya garmi, sukh ho ya dukh, izzat mile ya beiizzati — koi fark nahi padta.",
+                "simpleExplanation": "Shri Krishna ek bahut sundar aur gehra sach bata rahe hain — Parmatma door nahi hai.\n\nWoh har waqt maujood hai — lekin uss insaan ko dikhta hai jiska andar shaant hai. Jiska mann ulajha hua hai, bhatka hua hai, woh Parmatma ko dekh hi nahi sakta — kyunki woh sheeshe par dhool hai.\n\nLekin jo andar se jeeta hua hai, jo gar mi-thandi, sukh-dukh, taareef-burai — sab mein ek jaisa rehta hai — uske liye Parmatma kabhi door nahi hota. Woh har pal uss ke saath hai.",
+                "lifeLesson": "Parmatma ko dhundhne ke liye door jaane ki zaroorat nahi — andar ki shanti aa jaaye, tab woh khud nazaar aata hai. Jo andar sthir hai, use Ishwar har jagah dikhta hai."
             },
             {
                 "verseNumber": 8,
                 "sanskrit": "ज्ञानविज्ञानतृप्तात्मा कूटस्थो विजितेन्द्रियः ।\nयुक्त इत्युच्यते योगी समलोष्टाश्मकाञ्चनः ॥",
-                "transliteration": "jñānavijñānatṛptātmā kūṭastho vijitendriyaḥ.\nyukta ityucyate yogī samaloṣṭāśmakāñcanaḥ",
-                "hinglishMeaning": "Jo yogee jnyaana aura vijnyaana se tripta hai, jo vikaara rahita (kootastha) aura jitendriya hai, jisako mittee, paashaana aura kanchana samaana hai, vaha (paramatma se) yukta kahalaataa hai",
-                "simpleExplanation": "Saral bhav: Jo yogee jnyaana aura vijnyaana se tripta hai, jo vikaara rahita (kootastha) aura jitendriya hai, jisako mittee, paashaana aura kanchana samaana hai, vaha (paramatma se) yukta kahalaataa hai. Iska sandarbh Adhyay 6 ke mool vishay se juda hai: man ko saadhkar dhyan, santulan aur atma-uddhar ka marg batata hai.",
-                "lifeLesson": "Sahi gyaan ahankar ko kam karta hai aur drishti ko saaf banata hai."
+                "transliteration": "Jnana Vijnana Tripta Atma Kutastho Vijita Indriyah,\nYukta Iti Ucyate Yogi Sama Loshta Ashma Kancanah.",
+                "englishMeaning": "The yogi who is fully content with knowledge and wisdom, who is unshakeable and unmoved, who has mastered the senses, and who sees a clod of earth, a stone and gold as equal — that person is said to be truly united with the divine.",
+                "hinglishMeaning": "Jo yogi gyaan aur anubhav se poori tarah tripta hai, jo kisi bhi cheez se nahi hilda, jisne apni indriyaan kaaboo kar li hain, aur jo mitti, patthar aur sona — teeno ko ek jaisi nazar se dekhta hai — wahi sachcha yukta yogi kehlaata hai.",
+                "simpleExplanation": "Shri Krishna sachche yogi ki kuch aur khaas nishaniyan bata rahe hain.\n\nPehli — woh gyaan se aur anubhav se poora tripta hai. Use aur kuch chahiye nahi.\n\nDoosri — woh kisi bhi haalat mein nahi hilda. Toofan aaye, koi fark nahi.\n\nTeesri — indriyaan uski gulam hain, woh indriyaan ka gulam nahi.\n\nAur sabse ajeeb aur gehra — mitti, patthar aur sona — teeno mein koi fark nahi. Kyunki jo sachche gyaan waala hai, woh cheezoin ki qeemat se nahi, sachcaai se dekhta hai.\n\nAur jo yeh sab jeeta hai — woh sachcha yogi hai, sachcha yukta hai.",
+                "lifeLesson": "Jab sona aur mitti ek jaisi lage — tab samjho sachcha gyaan aa gaya. Cheezein wahi hain, bas nazar badal gayi — aur wahi sachchi azaadi hai."
             },
             {
                 "verseNumber": 9,
                 "sanskrit": "सुहृन्मित्रार्युदासीनमध्यस्थद्वेष्यबन्धुषु ।\nसाधुष्वपि च पापेषु समबुद्धिर्विशिष्यते ॥",
-                "transliteration": "suhṛnmitrāryudāsīnamadhyasthadveṣyabandhuṣu.\nsādhuṣvapi ca pāpeṣu samabuddhirviśiṣyate",
-                "hinglishMeaning": "Jo purusha suhrid, mitra, shatru, udaaseena, madhyastha, dveshee aura baandhavon men tathaa dharmatmaon men aura paapiyon men bhee samaana bhaava vaalaa hai, vaha shreshtha hai",
-                "simpleExplanation": "Saral bhav: Jo purusha suhrid, mitra, shatru, udaaseena, madhyastha, dveshee aura baandhavon men tathaa dharmatmaon men aura paapiyon men bhee samaana bhaava vaalaa hai, vaha shreshtha hai. Iska sandarbh Adhyay 6 ke mool vishay se juda hai: man ko saadhkar dhyan, santulan aur atma-uddhar ka marg batata hai.",
-                "lifeLesson": "Sahi gyaan ahankar ko kam karta hai aur drishti ko saaf banata hai."
+                "transliteration": "Suhrin Mitra Ari Udasina Madhyastha Dveshya Bandhushu,\nSadhushu Api Ca Papeshu Sama Buddhir Vishishyate.",
+                "englishMeaning": "One who sees with an equal and steady mind — a well-wisher, a friend, an enemy, a neutral person, a mediator, the hateful, a relative, the righteous and even the sinful — that person truly stands apart and above all.",
+                "hinglishMeaning": "Jo insaan apna dost ho ya dushman, jo beech mein ho ya nafrat karne waala, jo riste daaar ho ya pakka bura insaan — sabko ek jaisi nazar se dekhe — aisa insaan sachche mein ooncha aur khaas hota hai.",
+                "simpleExplanation": "Shri Krishna yahan sachchi samanta ki baat kar rahe hain — aur yeh bahut mushkil hai.\n\nDost ko achha kehna aasaan hai. Dushman ko bura kehna aasaan hai. Lekin dono ko ek jaisi nazar se dekhna — yeh bahut badi sadhana hai.\n\nAur Shri Krishna keh rahe hain ki jo aise dekh sakta hai — jo achhe insaan aur bure insaan mein bhi ek hi sachcaai dekhta hai — woh sachche mein shreshtha hai. Woh sab se alag hai, sab se ooncha hai.\n\nYeh vibhajan ki nazar nahi — yeh ekta ki nazar hai.",
+                "lifeLesson": "Jab dost aur dushman, achhe aur bure — sab mein ek hi roshni dikhe — tab samjho tu sachchi oonchaayi par pahunch gaya. Yeh nazar aana hi sachchi sadhana ki nishaani hai."
             },
             {
                 "verseNumber": 10,
                 "sanskrit": "योगी युञ्जीत सततमात्मानं रहसि स्थितः ।\nएकाकी यतचित्तात्मा निराशीरपरिग्रहः ॥",
-                "transliteration": "yogī yuñjīta satatamātmānaṃ rahasi sthitaḥ.\nekākī yatacittātmā nirāśīraparigrahaḥ",
-                "hinglishMeaning": "Shareera aura mana ko sanyamita kiyaa huaa yogee ekaanta sthaana para akelaa rahataa huaa aashaa aura parigraha se mukta hokara nirantara mana ko atma men sthira kare",
-                "simpleExplanation": "Saral bhav: Shareera aura mana ko sanyamita kiyaa huaa yogee ekaanta sthaana para akelaa rahataa huaa aashaa aura parigraha se mukta hokara nirantara mana ko atma men sthira kare. Iska sandarbh Adhyay 6 ke mool vishay se juda hai: man ko saadhkar dhyan, santulan aur atma-uddhar ka marg batata hai.",
-                "lifeLesson": "Apni asli pehchaan shareer se pare samajhne par bhay aur moh kam hote hain."
+                "transliteration": "Yogi Yunjita Satatam Atmanam Rahasi Sthitah,\nEkaki Yata Citta Atma Nirashir Aparigraham.",
+                "englishMeaning": "The yogi should constantly keep the mind absorbed in the self, living in a secluded place, alone, with the mind and body disciplined, free from expectations and free from the desire to possess.",
+                "hinglishMeaning": "Yogi ko chahiye ki woh ekant mein rehkar, akela rehkar, apne mann aur sharir ko kaaboo mein rakhte hue, bina kisi umeed ke aur bina kisi cheez ko apnaane ki chahat ke — apne mann ko hamesha aatma mein lagaaye rakhe.",
+                "simpleExplanation": "Shri Krishna dhyaan ki shuruwaat ka raasta bata rahe hain — aur ismein chaar cheezein hain.\n\nPehli — ekant. Shor mein mann nahi theherta. Isliye pehle ek shaant jagah chahiye.\n\nDoosri — akela rehna. Jab doosron ki awaazen nahi hoti, tab andar ki awaaz sunni milti hai.\n\nTeesri — mann aur sharir kaaboo mein. Nahi toh dhyaan bhatak jaata hai.\n\nChawthi — aur sabse zaroori — koi umeed nahi, koi cheez apnaane ki chahat nahi. Khali haath, khali mann — tab hi Parmatma aata hai.\n\nYeh chaar cheezein dhyaan ka darwaaza khol deti hain.",
+                "lifeLesson": "Kuch paane ke liye pehle sab chhhodo — umeed bhi, cheezein bhi, shor bhi. Jab sab kuch khaali ho jaata hai, tab jo bhar jaata hai woh koi cheez nahi le jaati."
             },
             {
                 "verseNumber": 11,
                 "sanskrit": "शुचौ देशे प्रतिष्ठाप्य स्थिरमासनमात्मनः ।\nनात्युच्छ्रितं नातिनीचं चैलाजिनकुशोत्तरम् ॥",
-                "transliteration": "śucau deśe pratiṣṭhāpya sthiramāsanamātmanaḥ.\nnātyucchritaṃ nātinīcaṃ cailājinakuśottaram",
-                "hinglishMeaning": "Shuddha (svachchha) bhoomi men kusha, mrigashaalaa aura usa para vastra rakhaa ho aise apane aasana ko na ati oonchaa aura na ati neechaa sthira sthaapita karake....৷৷",
-                "simpleExplanation": "Saral bhav: Shuddha (svachchha) bhoomi men kusha, mrigashaalaa aura usa para vastra rakhaa ho aise apane aasana ko na ati oonchaa aura na ati neechaa sthira sthaapita karake....৷৷. Iska sandarbh Adhyay 6 ke mool vishay se juda hai: man ko saadhkar dhyan, santulan aur atma-uddhar ka marg batata hai.",
-                "lifeLesson": "Apni asli pehchaan shareer se pare samajhne par bhay aur moh kam hote hain."
+                "transliteration": "Shucau Deshe Pratishthapya Sthiram Asanam Atmanah,\nNa Atyucchritam Na Ati Nicam Caila Ajina Kushottaram.",
+                "englishMeaning": "In a clean and pure place, one should set up a firm seat for oneself — neither too high nor too low — covered with sacred grass, a deer skin and a cloth, one upon the other.",
+                "hinglishMeaning": "Ek saaf aur pavitra jagah par apna aasana taiyaar karo — na bahut ooncha, na bahut neecha — neeche kusha ghaans, phir mrigacharm, aur uske upar ek kapda.",
+                "simpleExplanation": "Shri Krishna dhyaan ki taiyaari ke baare mein bata rahe hain — aur woh pehle jagah se shuru karte hain.\n\nJagah saaf ho — baahir se bhi, andar se bhi. Jo jagah dhyaan ke liye chunte ho, woh tumhare mann ko prabhavit karti hai.\n\nAur aasana na itna ooncha ho ki girne ka darr ho, na itna neecha ki zameen ki thandi ya gelaapan pareshan kare. Ek sthir, aaram-deh aur pavitra jagah.\n\nYeh sirf baahri taiyaari nahi — yeh ek sandesh hai ki andar ke dhyaan ke liye baahri sthirata bhi zaroori hai.",
+                "lifeLesson": "Koi bhi badi cheez karne se pehle mahaul theek karo — saaf jagah, sthir mann, pavitra bhaav. Taiyaari hi aadhi jeet hoti hai."
             },
             {
                 "verseNumber": 12,
                 "sanskrit": "तत्रैकाग्रं मनः कृत्वा यतचित्तेन्द्रियक्रियः ।\nउपविश्यासने युञ्ज्याद्योगमात्मविशुद्धये ॥",
-                "transliteration": "tatraikāgraṃ manaḥ kṛtvā yatacittendriyakriyaḥ.\nupaviśyāsane yuñjyādyogamātmaviśuddhaye",
-                "hinglishMeaning": "Vahaan (aasana men baithakara) mana ko ekaagra karake, chitta aura indriyon kee kriyaaon ko vasha men kiye huye aatmashuddhi ke lie yoga kaa abhyaasa kare",
-                "simpleExplanation": "Saral bhav: Vahaan (aasana men baithakara) mana ko ekaagra karake, chitta aura indriyon kee kriyaaon ko vasha men kiye huye aatmashuddhi ke lie yoga kaa abhyaasa kare. Iska sandarbh Adhyay 6 ke mool vishay se juda hai: man ko saadhkar dhyan, santulan aur atma-uddhar ka marg batata hai.",
-                "lifeLesson": "Apni asli pehchaan shareer se pare samajhne par bhay aur moh kam hote hain."
+                "transliteration": "Tatra Ekagram Manah Kritva Yata Citta Indriya Kriyah,\nUpavishya Asane Yunjyad Yogam Atma Vishuddhaye.",
+                "englishMeaning": "There, sitting on that seat, with the mind focused on a single point, with the activities of the mind and senses brought under control — one should practise yoga for the purification of the inner self.",
+                "hinglishMeaning": "Wahan us aasane par baith kar, mann ko ek jagah tika kar, apne chitta aur indriyaan ki saari halaachal kaaboo mein karke — apne andar ki shuddhi ke liye yoga ka abhyaas karo.",
+                "simpleExplanation": "Shri Krishna ab aasane par baithne ke baad kya karna hai — woh bata rahe hain.\n\nTeen cheezein ek saath karni hain — pehli, mann ko ek jagah tikana. Ek cheez, ek sawaal, ek sachcaai — bas usi par dhyaan.\n\nDoosri, chitta aur indriyaan ki halaachal band karna. Kaan kuch nahi sunenge, aankhein kuch nahi dekhenge — sirf andar.\n\nTeesri aur sabse zaroori — yeh sab karne ka maqsad kya hai? Apne andar ki shuddhi. Koi dikhaawa nahi, koi record banana nahi — sirf andar saaf karna.\n\nJab yeh teeno ek saath hoti hain, tab sachcha yoga shuru hota hai.",
+                "lifeLesson": "Dhyaan ka matlab sirf aankhein band karna nahi — mann ko ek jagah tikana, indriyaan ko shaant karna, aur andar saaf karna. Yeh teeno saath hon tab dhyaan sachcha hota hai."
             },
             {
                 "verseNumber": 13,
                 "sanskrit": "समं कायशिरोग्रीवं धारयन्नचलं स्थिरः ।\nसम्प्रेक्ष्य नासिकाग्रं स्वं दिशश्चानवलोकयन् ॥",
-                "transliteration": "samaṃ kāyaśirogrīvaṃ dhārayannacalaṃ sthiraḥ.\nsamprekṣya nāsikāgraṃ svaṃ diśaścānavalokayan",
-                "hinglishMeaning": "Kaayaa, sira aura greevaa ko samaana aura achala dhaarana kiye hue sthira hokara apanee naasikaa ke agra bhaaga ko dekhakara anya dishaaon ko na dekhataa huaa",
-                "simpleExplanation": "Saral bhav: Kaayaa, sira aura greevaa ko samaana aura achala dhaarana kiye hue sthira hokara apanee naasikaa ke agra bhaaga ko dekhakara anya dishaaon ko na dekhataa huaa. Iska sandarbh Adhyay 6 ke mool vishay se juda hai: man ko saadhkar dhyan, santulan aur atma-uddhar ka marg batata hai.",
-                "lifeLesson": "Man ko saadhne se jeevan mein santulan, dhairya aur spashtata aati hai."
+                "transliteration": "Samam Kaya Shiro Grivam Dharayan Acalam Sthirah,\nSamprekshya Nasikagram Svam Dishas Ca Anavalokayan.",
+                "englishMeaning": "Holding the body, head and neck erect and still, in a straight line, without movement — gazing steadily at the tip of the nose, without letting the eyes wander in any other direction.",
+                "hinglishMeaning": "Apna sharir, sar aur gardan — teeno seedhe, ek line mein, bilkul sthir rakhkar — apni naak ki nok par dhyaan lagao aur aankhon ko kisi aur taraf mat jaane do.",
+                "simpleExplanation": "Shri Krishna dhyaan ki baithne ki vidhi bata rahe hain — aur yeh bahut sochke batayi gayi hai.\n\nSharir, sar aur gardan ek seedhi line mein — kyunki jab sharir seedha hota hai, tab saans seedha chalta hai, aur jab saans seedha chalta hai, tab mann seedha hone lagta hai.\n\nAur naak ki nok par drishti — yeh ek bahut gehra abhyaas hai. Jab aankhein naak ki nok par tikti hain, tab woh na bahut andar jaati hain, na bahut baahir. Mann ek jagah theharna shuru karta hai.\n\nYeh sirf ek baithne ki vidhi nahi — yeh ek poori sadhna hai.",
+                "lifeLesson": "Jab sharir sthir hota hai, tab mann bhi sthir hone lagta hai. Andar ki shanti ki shuruwaat aksar baahri sthirata se hoti hai."
             },
             {
                 "verseNumber": 14,
                 "sanskrit": "प्रशान्तात्मा विगतभीर्ब्रह्मचारिव्रते स्थितः ।\nमनः संयम्य मच्चित्तो युक्त आसीत मत्परः ॥",
-                "transliteration": "praśāntātmā vigatabhīrbrahmacārivrate sthitaḥ.\nmanaḥ saṃyamya maccitto yukta āsīta matparaḥ",
-                "hinglishMeaning": "(saadhaka ko) prashaanta anta:karana, nirbhaya aura brahmacharya brata men sthita hokara, mana ko sanyamita karake chitta ko mujhamen lagaakara mujhey hee parama lakshya samajhakara baithanaa chaahie",
-                "simpleExplanation": "Saral bhav: (saadhaka ko) prashaanta anta:karana, nirbhaya aura brahmacharya brata men sthita hokara, mana ko sanyamita karake chitta ko mujhamen lagaakara mujhey hee parama lakshya samajhakara baithanaa chaahie. Iska sandarbh Adhyay 6 ke mool vishay se juda hai: man ko saadhkar dhyan, santulan aur atma-uddhar ka marg batata hai.",
-                "lifeLesson": "Man ko saadhne se jeevan mein santulan, dhairya aur spashtata aati hai."
+                "transliteration": "Prashanta Atma Vigata Bhir Brahmacari Vrate Sthitah,\nManah Samyamya Mac Citto Yukta Asita Mat Parah.",
+                "englishMeaning": "With the inner self completely at peace, free from all fear, firmly established in the vow of brahmacharya — with the mind fully controlled, let the seeker sit absorbed in me, with me alone as the highest goal.",
+                "hinglishMeaning": "Andar se bilkul shaant, har tarah ke darr se mukta, aur brahmacharya ke vrat mein tike hue — apne mann ko poori tarah kaaboo karke, chitta mujh mein lagaao aur mujhe hi apna sabse bada maqsad maano.",
+                "simpleExplanation": "Shri Krishna dhyaan ke liye andar ki haalat bata rahe hain — baahri aasana theek karne ke baad ab andar theek karna hai.\n\nPehli baat — andar bilkul shaant hona. Na gussa, na ghabrahat, na bekar ki soch.\n\nDoosri — koi darr nahi. Na bhavishya ka darr, na kho jaane ka darr, na kisi ki fikr.\n\nTeesri — brahmacharya — yaani apni urja ko sahi jagah lagaana, bikhaarne nahi dena.\n\nAur sabse aakhir — poora chitta sirf Ishwar mein. Koi doosra khayal nahi, koi doosra maqsad nahi — sirf woh ek.\n\nJab yeh chaar cheezein saath aati hain — tab sachcha dhyaan shuru hota hai.",
+                "lifeLesson": "Sachcha dhyaan tab hota hai jab andar koi darr na ho, koi bikharaav na ho, aur sirf ek ek jagah, ek ek sachcaai par poora dhyaan ho."
             },
             {
                 "verseNumber": 15,
                 "sanskrit": "युञ्जन्नेवं सदात्मानं योगी नियतमानसः ।\nशान्तिं निर्वाणपरमां मत्संस्थामधिगच्छति ॥",
-                "transliteration": "yuñjannevaṃ sadātmānaṃ yogī niyatamānasaḥ.\nśāntiṃ nirvāṇaparamāṃ matsaṃsthāmadhigacchati",
-                "hinglishMeaning": "Isa prakaara sadaa mana ko sthira karane kaa prayaasa karataa huaa sanyamita mana kaa yogee mujhamen sthita parama nirvaana (moksha) svaroopa shaanti ko praapta hotaa hai",
-                "simpleExplanation": "Saral bhav: Isa prakaara sadaa mana ko sthira karane kaa prayaasa karataa huaa sanyamita mana kaa yogee mujhamen sthita parama nirvaana (moksha) svaroopa shaanti ko praapta hotaa hai. Iska sandarbh Adhyay 6 ke mool vishay se juda hai: man ko saadhkar dhyan, santulan aur atma-uddhar ka marg batata hai.",
-                "lifeLesson": "Man ko saadhne se jeevan mein santulan, dhairya aur spashtata aati hai."
+                "transliteration": "Yunjan Evam Sada Atmanam Yogi Niyata Manasah,\nShantim Nirvana Paramam Mat Samstham Adhigacchati.",
+                "englishMeaning": "The yogi who constantly keeps the mind thus absorbed in the self, with a disciplined and controlled mind — attains the supreme peace that rests in me, the peace of nirvana, of complete liberation.",
+                "hinglishMeaning": "Jo yogi isi tarah se hamesha apne mann ko aatma mein lagaaye rakhta hai, apne mann ko sanyamit rakhta hai — woh mujhman sthit param nirvaana ki shanti ko paata hai — woh shanti jo sachchi aur poori mukti hai.",
+                "simpleExplanation": "Shri Krishna pichle shlokkon ka fal bata rahe hain — agar koi sachchi tarah se yeh sab karta rahe, kya milta hai?\n\nParam nirvaana ki shanti — yaani woh shanti jo kabhi khatam nahi hoti. Woh shanti jo kisi mushkil se nahi tootti, kisi khushi se nahi aati.\n\nYeh duniyawi shanti nahi hai — woh toh aati jaati rehti hai. Yeh woh shanti hai jo andar se ugti hai aur hamesha rehti hai.\n\nAur Shri Krishna keh rahe hain — woh shanti mujh mein hai. Iska matlab yeh hai ki jo Ishwar tak pahuncha, us ne yeh shanti paali — jo kabhi nahi chhini ja sakti.",
+                "lifeLesson": "Jo shanti baahri cheezein de sakti hain woh aarti jaati hai. Sachchi shanti sirf andar se aati hai — aur jab ek baar aa jaaye, koi bhi cheez use nahi le jaati."
             },
             {
                 "verseNumber": 16,
                 "sanskrit": "नात्यश्नतस्तु योगोऽस्ति न चैकान्तमनश्नतः ।\nन चातिस्वप्नशीलस्य जाग्रतो नैव चार्जुन ॥",
-                "transliteration": "nātyaśnatastu yogo.asti na caikāntamanaśnataḥ.\nna cātisvapnaśīlasya jāgrato naiva cārjuna",
-                "hinglishMeaning": "Parantu, hey Arjun ! yaha yoga usa purusha ke lie sambhava naheen hotaa, jo adhika khaane vaalaa hai yaa bilkula na khaane vaalaa hai tathaa jo adhika sone vaalaa hai yaa sadaa jaagane vaalaa hai",
-                "simpleExplanation": "Saral bhav: Parantu, hey Arjun ! yaha yoga usa purusha ke lie sambhava naheen hotaa, jo adhika khaane vaalaa hai yaa bilkula na khaane vaalaa hai tathaa jo adhika sone vaalaa hai yaa sadaa jaagane vaalaa hai. Iska sandarbh Adhyay 6 ke mool vishay se juda hai: man ko saadhkar dhyan, santulan aur atma-uddhar ka marg batata hai.",
-                "lifeLesson": "Man ko saadhne se jeevan mein santulan, dhairya aur spashtata aati hai."
+                "transliteration": "Na Ati Ashnatas Tu Yogo Asti Na Ca Ekantam Anashnata,\nNa Ca Ati Svapna Shilasya Jagrato Na Eva Ca Arjuna.",
+                "englishMeaning": "Yoga is not possible for the one who eats too much, nor for the one who does not eat at all. It is not for the one who sleeps too much, nor for the one who is always awake, O Arjun.",
+                "hinglishMeaning": "Hey Arjun! Yoga us insaan ke liye nahi hota jo bahut zyaada khaata hai — aur na hi us ke liye jo bilkul nahi khaata.\n\nAur na us ke liye jo bahut zyaada sota hai — aur na us ke liye jo bilkul sona hi nahi chahta.",
+                "simpleExplanation": "Shri Krishna yahan ek bahut zaroori baat keh rahe hain — yoga ka raasta sangam ka raasta hai, kisi bhi cheez ki ati nahi.\n\nNa bahut khaao — kyunki zyaada khaane se mann bhari ho jaata hai, bhaari ho jaata hai, dhyaan nahi lagta.\n\nNa bilkul mat khaao — kyunki bhooka mann bhi bhatkta hai, takleef mein rehta hai.\n\nNa bahut soo — kyunki zyaada neend aalas laati hai, mann sust ho jaata hai.\n\nNa bilkul mat soo — kyunki thaka hua sharir aur mann kabhi dhyaan nahi laga sakta.\n\nSantulan — yahi yoga ka raasta hai.",
+                "lifeLesson": "Zindagi mein kisi bhi ek cheez ki ati nahi — na khaane ki, na soone ki, na kaam ki. Jo santulan mein jeeta hai, wahi sachcha yogi hai."
             },
             {
                 "verseNumber": 17,
                 "sanskrit": "युक्ताहारविहारस्य युक्तचेष्टस्य कर्मसु ।\nयुक्तस्वप्नावबोधस्य योगो भवति दुःखहा ॥",
-                "transliteration": "yuktāhāravihārasya yuktaceṣṭasya karmasu.\nyuktasvapnāvabodhasya yogo bhavati duḥkhahā",
-                "hinglishMeaning": "Usa purusha ke lie yoga du:khanaashaka hotaa hai, jo yukta aahaara aura vihaara karane vaalaa hai, yathaayogya cheshtaa karane vaalaa hai aura parimita shayana aura jaagarana karane vaalaa hai",
-                "simpleExplanation": "Saral bhav: Usa purusha ke lie yoga du:khanaashaka hotaa hai, jo yukta aahaara aura vihaara karane vaalaa hai, yathaayogya cheshtaa karane vaalaa hai aura parimita shayana aura jaagarana karane vaalaa hai. Iska sandarbh Adhyay 6 ke mool vishay se juda hai: man ko saadhkar dhyan, santulan aur atma-uddhar ka marg batata hai.",
-                "lifeLesson": "Apna kartavya imaandari se karo, par phal ki chinta mein apni shanti mat khona."
+                "transliteration": "Yukta Ahara Viharasya Yukta Ceshtasya Karmasu,\nYukta Svapna Avabodhasya Yogo Bhavati Duhkhaha.",
+                "englishMeaning": "For the one who eats and moves in the right measure, who acts with the right effort in all tasks, who sleeps and stays awake in the right balance — for such a person, yoga becomes the destroyer of all suffering.",
+                "hinglishMeaning": "Jo insaan sahi matra mein khaata aur ghoomta hai, jo apne harr kaam mein sahi mehnat karta hai, aur jo sahi matra mein sota aur jaagta hai — aisa insaan yoga ke zariye apne saare dukh door kar sakta hai.",
+                "simpleExplanation": "Shri Krishna pichle shlok ka jawab is mein de rahe hain — na zyaada, na kam. Theek utna, jitna zaroori hai.\n\nKhaana theek utna jo sharir ko urja de — na itna zyaada ki bhaari lag jaaye, na itna kam ki kamzori aa jaaye.\n\nKaam mein mehnat theek utni jo sahi ho — na zyaada ki toota jaaye, na itni kam ki kuch bane hi nahi.\n\nNeend theek utni jo sharir aur mann ko taza kare — na zyaada ki din barbad ho, na itni kam ki thakan rahe.\n\nAur jab koi yeh sab sahi tarah se karta hai — tab yoga sirf ek abhyaas nahi rehta, woh ek dukh-nashak ban jaata hai.",
+                "lifeLesson": "Zindagi ka raaz santulan mein hai — sahi khaana, sahi kaam, sahi neend. Jab yeh teeno sahi hon, tab koi bhi dukh tujhe zyaada der nahi rok sakta."
             },
             {
                 "verseNumber": 18,
                 "sanskrit": "यदा विनियतं चित्तमात्मन्येवावतिष्ठते ।\nनिःस्पृहः सर्वकामेभ्यो युक्त इत्युच्यते तदा ॥",
-                "transliteration": "yadā viniyataṃ cittamātmanyevāvatiṣṭhate.\nniḥspṛhaḥ sarvakāmebhyo yukta ityucyate tadā",
-                "hinglishMeaning": "Vasha men kiyaa huaa chitta jisa kaalamen apane svarupamen hee sthita ho jaataa hai aura svayan sampoorna padaarthon ni: spriha ho jaataa hai, usa kaalamen vaha yogee kahaa jaataa hai",
-                "simpleExplanation": "Saral bhav: Vasha men kiyaa huaa chitta jisa kaalamen apane svarupamen hee sthita ho jaataa hai aura svayan sampoorna padaarthon ni: spriha ho jaataa hai, usa kaalamen vaha yogee kahaa jaataa hai. Iska sandarbh Adhyay 6 ke mool vishay se juda hai: man ko saadhkar dhyan, santulan aur atma-uddhar ka marg batata hai.",
-                "lifeLesson": "Apni asli pehchaan shareer se pare samajhne par bhay aur moh kam hote hain."
+                "transliteration": "Yada Viniyatam Cittam Atmani Eva Avatishthate,\nNih Sprihah Sarva Kamebhyo Yukta Iti Ucyate Tada.",
+                "englishMeaning": "When the fully controlled mind rests in the self alone, free from longing for any and all desires — that person is then said to be truly united in yoga.",
+                "hinglishMeaning": "Jab poori tarah kaaboo mein aaya hua chitta sirf aatma mein hi tik jaata hai, aur insaan har tarah ki khwaishon se bilkul mukt ho jaata hai — tab woh sachcha yukta yogi kehlaata hai.",
+                "simpleExplanation": "Shri Krishna yahan sachche yogi ki sabse gehra pehchaan bata rahe hain.\n\nDo cheezein ek saath hoti hain — pehli, mann poori tarah aatma mein tik jaata hai. Matlab mann baahri duniya mein nahi bhaagta, woh andar andar rehta hai, andar hi andar.\n\nDoosri — koi bhi khwaish nahi rehti. Na chhoti, na badi. Na yeh chahiye, na woh chahiye. Sirf woh jo hai — wahi kaafi hai.\n\nAur jab dono ek saath hoti hain — tab Shri Krishna kehte hain — woh sachcha yukta hai. Sachcha yogi hai.\n\nYeh koi ek din ki baat nahi — yeh ek gehra aur dheema aur tikaau badlaav hai jo andar se hota hai.",
+                "lifeLesson": "Jab mann ko koi khwaish nahi khainchti aur woh andar hi tika rehta hai — tab samjho sachcha yoga ho gaya. Woh pal tab aata hai jab lagna shuru ho jaata hai ki jo hai, wahi kaafi hai."
             },
             {
                 "verseNumber": 19,
                 "sanskrit": "यथा दीपो निवातस्थो नेङ्गते सोपमा स्मृता ।\nयोगिनो यतचित्तस्य युञ्जतो योगमात्मनः ॥",
-                "transliteration": "yathā dīpo nivātastho neṅgate sopamā smṛtā.\nyogino yatacittasya yuñjato yogamātmanaḥ",
-                "hinglishMeaning": "Jaise spandanarahita vaayuke sthaanamen sthita deepakakee lau cheshtaarahita ho jaatee hai, yogakaa abhyaasa karate hue yatachittavaale yogeeke chittakee vaisee hee upamaa kahee gayee hai",
-                "simpleExplanation": "Saral bhav: Jaise spandanarahita vaayuke sthaanamen sthita deepakakee lau cheshtaarahita ho jaatee hai, yogakaa abhyaasa karate hue yatachittavaale yogeeke chittakee vaisee hee upamaa kahee gayee hai. Iska sandarbh Adhyay 6 ke mool vishay se juda hai: man ko saadhkar dhyan, santulan aur atma-uddhar ka marg batata hai.",
-                "lifeLesson": "Apni asli pehchaan shareer se pare samajhne par bhay aur moh kam hote hain."
+                "transliteration": "Yatha Dipo Nivata Stho Na Ingate Sa Upama Smrita,\nYogino Yata Cittasya Yunjato Yogam Atmanah.",
+                "englishMeaning": "Just as a lamp placed in a windless spot does not flicker — that is the classic image used for the mind of a yogi whose thoughts are stilled, who is absorbed in the yoga of the self.",
+                "hinglishMeaning": "Jaise hawa se door rakhaa hua ek diya bilkul nahi kaampata — wahi misaal di jaati hai us yogi ke mann ki jo apne chitta ko kaaboo karke aatma ke dhyaan mein poora duba hua hai.",
+                "simpleExplanation": "Shri Krishna yahan ek bahut sundar aur seedhi misaal dete hain — ek diye ki.\n\nJab diya hawa mein hota hai, tab woh kaampata rehta hai — lau idhhar-udhhaar jaati hai. Lekin jab hawa bilkul nahi hoti — diya bilkul sthir rehta hai. Na idhar, na udhar. Sirf ek seedhi, sthir roshni.\n\nUsi tarah sachche yogi ka mann hota hai. Duniya ki baatein, khwaishein, khayaalaat — yeh sab hawa ki tarah hoti hain. Jab yogi inhe andar aane nahi deta — tab uska mann ek sthir diye ki tarah ho jaata hai.\n\nNa kaampna, na bhatakna — sirf sthir, shaant, roshan.",
+                "lifeLesson": "Sachcha dhyaan tab hota hai jab mann ka diya bilkul sthir ho — baahri duniya ki hawa andar tak na pahunche. Yeh sthirata hi sachchi roshni hai."
             },
             {
                 "verseNumber": 20,
                 "sanskrit": "यत्रोपरमते चित्तं निरुद्धं योगसेवया ।\nयत्र चैवात्मनात्मानं पश्यन्नात्मनि तुष्यति ॥",
-                "transliteration": "yatroparamate cittaṃ niruddhaṃ yogasevayā.\nyatra caivātmanātmānaṃ paśyannātmani tuṣyati",
-                "hinglishMeaning": "Yogakaa sevana karanese jisa avasthaamen nirudhda chitta uparaama ho jaataa hai tathaa jisa avasthaamen svayan apane-aapamen apane-aapako dekhataa huaa apane-aapamen santushta ho jaataa hai",
-                "simpleExplanation": "Saral bhav: Yogakaa sevana karanese jisa avasthaamen nirudhda chitta uparaama ho jaataa hai tathaa jisa avasthaamen svayan apane-aapamen apane-aapako dekhataa huaa apane-aapamen santushta ho jaataa hai. Iska sandarbh Adhyay 6 ke mool vishay se juda hai: man ko saadhkar dhyan, santulan aur atma-uddhar ka marg batata hai.",
-                "lifeLesson": "Apni asli pehchaan shareer se pare samajhne par bhay aur moh kam hote hain."
+                "transliteration": "Yatra Uparamate Cittam Niruddham Yoga Sevaya,\nYatra Ca Eva Atmana Atmanam Pashyan Atmani Tushyati.",
+                "englishMeaning": "That state in which the mind, restrained by the practice of yoga, comes to rest completely — and in which, seeing the self by the self alone, one finds deep contentment within the self.",
+                "hinglishMeaning": "Woh avastha jisme yoga ke abhyaas se kaaboo mein aaya hua chitta poori tarah shaant ho jaata hai — aur jisme insaan apne aap ko apne aap mein dekhta hai aur apne aap mein hi tripta ho jaata hai.",
+                "simpleExplanation": "Shri Krishna woh gehri avastha bata rahe hain jo sachche dhyaan se milti hai.\n\nPehle chitta ruk jaata hai — bhaagta nahi, bhatakta nahi. Yoga ke lambe aur sachche abhyaas se woh sthir ho jaata hai.\n\nAur phir kuch aur hota hai — insaan apne aap ko apne aap mein dekhne lagta hai. Na baahri aaine mein, na doosron ki raay mein — apne andar.\n\nAur jab woh apne aap ko sachchi tarah dekhta hai — tab ek gehri tripti aati hai. Na koi cheez chahiye, na koi insaan chahiye. Sirf apne andar ka woh sukoon — jo kaafi hai, jo poora hai.\n\nYeh woh jagah hai jahan sachcha dhyaan le jaata hai.",
+                "lifeLesson": "Jab andar jaake khud ko dekh lo aur wahan hi tripti mil jaaye — tab samjho sachcha dhyaan ho gaya. Woh jagah koi aur nahi de sakta, sirf tu apne aap ko de sakta hai."
             },
             {
                 "verseNumber": 21,
                 "sanskrit": "सुखमात्यन्तिकं यत्तद् बुद्धिग्राह्यमतीन्द्रियम् ।\nवेत्ति यत्र न चैवायं स्थितश्चलति तत्त्वतः ॥",
-                "transliteration": "sukhamātyantikaṃ yattad buddhigrāhyamatīndriyam.\nvetti yatra na caivāyaṃ sthitaścalati tattvataḥ",
-                "hinglishMeaning": "Jo sukha aatyantika, ateendriya aura budhdigraahma hai, usa sukhakaa jisa avasthaamen anubhava karataa hai aura jisa sukhamen sthita huaa yaha dhyaanayogee phira kabhee tatvase vichalita naheen hotaa hai",
-                "simpleExplanation": "Saral bhav: Jo sukha aatyantika, ateendriya aura budhdigraahma hai, usa sukhakaa jisa avasthaamen anubhava karataa hai aura jisa sukhamen sthita huaa yaha dhyaanayogee phira kabhee tatvase vichalita naheen hotaa hai. Iska sandarbh Adhyay 6 ke mool vishay se juda hai: man ko saadhkar dhyan, santulan aur atma-uddhar ka marg batata hai.",
-                "lifeLesson": "Sahi gyaan ahankar ko kam karta hai aur drishti ko saaf banata hai."
+                "transliteration": "Sukham Atyantikam Yat Tad Buddhi Grahyam Ati Indriyam,\nVetti Yatra Na Ca Eva Ayam Sthitas Calati Tattvatah.",
+                "englishMeaning": "That infinite and absolute happiness which is beyond the senses and can only be grasped by a purified intellect — once a person knows that happiness and is established in it, they never move away from that truth.",
+                "hinglishMeaning": "Woh sukh jo anant hai, jo indriyaan se nahi, sirf shuddh buddhi se hi mehsoos hota hai — jab koi uss sukh ko jaanta hai aur usmein tik jaata hai, tab woh sachcaai se kabhi nahi hilda.",
+                "simpleExplanation": "Shri Krishna woh sukh bata rahe hain jo is duniya ka nahi hai.\n\nDuniya ka sukh indriyaan se aata hai — aankhon se, kaano se, sparsh se. Woh aata hai aur chala jaata hai.\n\nLekin jo sukh Shri Krishna yahan bata rahe hain — woh indriyaan se pare hai. Woh tab milta hai jab buddhi shuddh ho jaati hai aur andar ki aankhein khulti hain.\n\nAur sabse badi baat — jo ek baar uss sukh ko sachchi tarah mehsoos kar leta hai, woh phir kabhi sachcaai se nahi bhatakta. Kyunki ab usse pata chal gaya hai ki sachcha kya hai.\n\nUske baad baahri duniya ki koi bhi cheez use uss jagah se nahi hila sakti.",
+                "lifeLesson": "Ek baar andar ka sachcha sukh mehsoos ho jaaye — tab baahri duniya ki koi bhi cheez tujhe zyaada der ke liye nahi bahakaati. Uss sukh ki koi tulna nahi."
             },
             {
                 "verseNumber": 22,
                 "sanskrit": "यं लब्ध्वा चापरं लाभं मन्यते नाधिकं ततः ।\nयस्मिन्स्थितो न दुःखेन गुरुणापि विचाल्यते ॥",
-                "transliteration": "yaṃ labdhvā cāparaṃ lābhaṃ manyate nādhikaṃ tataḥ.\nyasminsthito na duḥkhena guruṇāpi vicālyate",
-                "hinglishMeaning": "Jisa laabhakee praapti honepara usase adhika koee doosaraa laabha usake maananemen bhee naheen aataa aura jisamen sthita honepara vaha bade bhaaree du:kha se bhee vichalita naheen hotaa hai",
-                "simpleExplanation": "Saral bhav: Jisa laabhakee praapti honepara usase adhika koee doosaraa laabha usake maananemen bhee naheen aataa aura jisamen sthita honepara vaha bade bhaaree du:kha se bhee vichalita naheen hotaa hai. Iska sandarbh Adhyay 6 ke mool vishay se juda hai: man ko saadhkar dhyan, santulan aur atma-uddhar ka marg batata hai.",
-                "lifeLesson": "Man ko saadhne se jeevan mein santulan, dhairya aur spashtata aati hai."
+                "transliteration": "Yam Labdhva Ca Aparam Labham Manyate Na Adhikam Tatah,\nYasmin Sthito Na Duhkhena Gurunapi Vicalyate.",
+                "englishMeaning": "Having attained which, one believes there is no greater gain beyond it — and being established in which, even the heaviest of sorrows cannot shake a person.",
+                "hinglishMeaning": "Jise paakar insaan yeh maanta hai ki isse bada aur koi laabh nahi ho sakta — aur jisme sthit hokar woh bade se bade dukh se bhi nahi hilda.",
+                "simpleExplanation": "Shri Krishna woh prapti bata rahe hain jo sab praptiyon se badi hai.\n\nJab koi cheez milti hai aur mann kehta hai — ab kuch aur chahiye — woh sachchi prapti nahi hoti. Duniya ki saari cheezein aise hi hain — milti hain, thodi der khushi deti hain, phir aur chahiye.\n\nLekin jo sachcha sukh hai — jab woh milta hai, tab mann kehta hai — bas, yahi kaafi hai. Yisse bada kuch nahi. Koi lalak nahi, koi kami nahi.\n\nAur phir jo dukh aata hai duniya mein — bada se bada — tab bhi woh insaan nahi hilda. Woh toot nahi jaata. Kyunki jo us ke paas hai, woh koi le nahi sakta.",
+                "lifeLesson": "Sachcha dhan woh hai jiske milne ke baad aur kuch nahi chahiye — aur jiske hote hue koi bhi dukh tujhe poori tarah tod nahi sakta."
             },
             {
                 "verseNumber": 23,
                 "sanskrit": "तं विद्याद् दुःखसंयोगवियोगं योगसंज्ञितम् ।\nस निश्चयेन योक्तव्यो योगोऽनिर्विण्णचेतसा ॥",
-                "transliteration": "taṃ vidyād duḥkhasaṃyogaviyogaṃ yogasaṃjñitam.\nsa niścayena yoktavyo yogo.anirviṇṇacetasā",
-                "hinglishMeaning": "Du:kha ke sanyoga se viyoga hai, useeko 'yoga' naamase jaananaa chaahiye . (vaha yoga jisa dhyaanayoga lakshya hai,) usa dhyaanayokaa abhyaasa na ukataaye hue chittase nishchayapoorvaka karanaa chaahiye",
-                "simpleExplanation": "Saral bhav: Du:kha ke sanyoga se viyoga hai, useeko 'yoga' naamase jaananaa chaahiye . (vaha yoga jisa dhyaanayoga lakshya hai,) usa dhyaanayokaa abhyaasa na ukataaye hue chittase nishchayapoorvaka karanaa chaahiye. Iska sandarbh Adhyay 6 ke mool vishay se juda hai: man ko saadhkar dhyan, santulan aur atma-uddhar ka marg batata hai.",
-                "lifeLesson": "Man ko saadhne se jeevan mein santulan, dhairya aur spashtata aati hai."
+                "transliteration": "Tam Vidyad Duhkha Sanyoga Viyogam Yoga Sanjnitam,\nSa Nishcayena Yoktavyo Yogo Anirvinna Cetasa.",
+                "englishMeaning": "Know this to be what is called yoga — the complete separation from all connection with suffering. This yoga must be practised with firm determination and with a mind that does not grow weary or lose heart.",
+                "hinglishMeaning": "Isi ko 'yoga' samjho — dukh ke har rishte se poori tarah mukti.\n\nAur is yoga ka abhyaas poori nishchinta aur dridh nishchay se karo — bina thake, bina haare, bina mann mein udaasi laaye.",
+                "simpleExplanation": "Shri Krishna yahan yoga ki sabse gehri paribhasha dete hain — yoga kya hai?\n\nYoga matlab dukh se poori tarah mukti. Na sirf ek dukh, na kuch dukh — balki dukh ke saath jo bhi rishta hai, woh poori tarah khatam ho jaana.\n\nAur yeh kaise hoga? Sirf ek tarah se — dridh nishchay se. Bina uke, bina thake, bina haar ke.\n\nKyunki dhyaan aur yoga ek din ka kaam nahi. Kai baar mann bhatakta hai, kai baar thakaan aati hai. Lekin jo rukta nahi, jo haar ke wapas shuru karta hai — woh ek din zaroor pahunchta hai.",
+                "lifeLesson": "Dukh se mukti ek pal mein nahi milti — woh milti hai roz ke dridh aur sabar bhari koshish se. Thako mat, ruko mat — ek din zaroor pahunchoge."
             },
             {
                 "verseNumber": 24,
                 "sanskrit": "सङ्कल्पप्रभवान्कामांस्त्यक्त्वा सर्वानशेषतः ।\nमनसैवेन्द्रियग्रामं विनियम्य समन्ततः ॥",
-                "transliteration": "saṅkalpaprabhavānkāmāṃstyaktvā sarvānaśeṣataḥ.\nmanasaivendriyagrāmaṃ viniyamya samantataḥ",
-                "hinglishMeaning": "Sankalpa se utpanna samasta kaamanaaon ko ni:shesha roopa se parityaaga kara mana ke dvaaraa indriya samudaaya ko saba ora se samyak prakaara vasha men karake",
-                "simpleExplanation": "Saral bhav: Sankalpa se utpanna samasta kaamanaaon ko ni:shesha roopa se parityaaga kara mana ke dvaaraa indriya samudaaya ko saba ora se samyak prakaara vasha men karake. Iska sandarbh Adhyay 6 ke mool vishay se juda hai: man ko saadhkar dhyan, santulan aur atma-uddhar ka marg batata hai.",
-                "lifeLesson": "Man ko saadhne se jeevan mein santulan, dhairya aur spashtata aati hai."
+                "transliteration": "Sankalpa Prabhavan Kaman Tyaktva Sarvan Asheshatah,\nManasaiva Indriya Gramam Viniyamya Samantatah.",
+                "englishMeaning": "Giving up completely, without any remainder, all desires that arise from selfish intentions — and restraining the entire group of senses from all sides through the mind alone —",
+                "hinglishMeaning": "Apni soch aur iraade se paida hone waali saari khwaishon ko poori tarah — bilkul bhi kuch baaki chhhode bina — chhhod do.\n\nAur apne mann ke zariye hi apni saari indriyaan ko har taraf se kaaboo mein lo.",
+                "simpleExplanation": "Yeh shlok ek pukhta qadam hai sachche dhyaan ki taraf — aur Shri Krishna bahut saaf kehte hain.\n\nPehle — saari khwaishein chhhodni hain. Woh khwaishein jo soch se janam leti hain — yeh milega toh achha hoga, woh hoga toh theek hoga. Inn sab ko — ek-ek karke — poori tarah chhhod dena hai. Koi baaki nahi.\n\nDoosra — indriyaan kaaboo mein leni hain. Aankhein, kaan, naak, haath — sab. Aur yeh sirf mann ke zariye hoga — koi zabardasti nahi, koi bandhan nahi. Andar se kaaboo.\n\nYeh dono milkar dhyaan ka darwaaza khol dete hain.",
+                "lifeLesson": "Dhyaan tab shuru hota hai jab saari khwaishein chhoot jaati hain — ek bhi baaki nahi. Ek khwaish bhi andar rahi toh woh mann ko baahir le jaayegi."
             },
             {
                 "verseNumber": 25,
                 "sanskrit": "शनैः शनैरुपरमेद् बुद्ध्या धृतिगृहीतया ।\nआत्मसंस्थं मनः कृत्वा न किञ्चिदपि चिन्तयेत् ॥",
-                "transliteration": "śanaiḥ śanairuparamed buddhyā dhṛtigṛhītayā.\nātmasaṃsthaṃ manaḥ kṛtvā na kiñcidapi cintayet",
-                "hinglishMeaning": "Shanai: shanai: dhairyayukta buddhi ke dvaaraa (yogee) uparaamataa (shaanti) ko praapta hove; mana ko atma men sthita karake phira anya kuchha bhee chintana na kare",
-                "simpleExplanation": "Saral bhav: Shanai: shanai: dhairyayukta buddhi ke dvaaraa (yogee) uparaamataa (shaanti) ko praapta hove; mana ko atma men sthita karake phira anya kuchha bhee chintana na kare. Iska sandarbh Adhyay 6 ke mool vishay se juda hai: man ko saadhkar dhyan, santulan aur atma-uddhar ka marg batata hai.",
-                "lifeLesson": "Sahi gyaan ahankar ko kam karta hai aur drishti ko saaf banata hai."
+                "transliteration": "Shanaih Shanaih Uparamed Buddhya Dhrti Grhitaya,\nAtma Samstham Manah Kritva Na Kincid Api Cintayet.",
+                "englishMeaning": "Gradually, step by step, with patience held firm by the intellect — let the seeker bring the mind to rest in the self alone, and think of nothing else whatsoever.",
+                "hinglishMeaning": "Dheere-dheere, ek ek qadam se, dhairya aur mazboot buddhi ke saath — mann ko aatma mein tika lo aur phir kisi bhi cheez ke baare mein kuch mat socho.",
+                "simpleExplanation": "Yeh shlok bahut zaroori hai kyunki Shri Krishna yahan keh rahe hain — dheere-dheere.\n\nKoi jaldi nahi. Koi ek raat ka kaam nahi. Mann saalon se bhaagta aaya hai — woh ek din mein nahi thamega.\n\nIsliye buddhi ko mazboot karo aur dhairya rakho. Roz thodi koshish karo — aaj thoda khayal aaya, rok liya. Kal thoda aur. Parso aur thoda.\n\nAur dheere-dheere, bahut dheere-dheere — mann aatma mein tikne lagta hai. Aur jab tikta hai — tab koi khayal nahi, koi chinta nahi, koi shor nahi. Sirf woh sthirata.\n\nSabra karo — yeh safar lamba hai par manzil poori tarah worth it hai.",
+                "lifeLesson": "Sachcha badlaav dheere-dheere aata hai — roz ek chhoti koshish, roz thoda aur dhairya. Jo sabr rakhta hai, woh ek din wahan pahunchta hai jahan jaldi karne waale kabhi nahi pahunchte."
             },
             {
                 "verseNumber": 26,
                 "sanskrit": "यतो यतो निश्चरति मनश्चञ्चलमस्थिरम् ।\nततस्ततो नियम्यैतदात्मन्येव वशं नयेत् ॥",
-                "transliteration": "yato yato niścarati manaścañcalamasthiram.\ntatastato niyamyaitadātmanyeva vaśaṃ nayet",
-                "hinglishMeaning": "Yaha chanchala aura asthira mana jina kaaranon se (vishayon men) vicharana karataa hai, unase sanyamita karake use atma ke hee vasha men laave arthaat atma men sthira kare",
-                "simpleExplanation": "Saral bhav: Yaha chanchala aura asthira mana jina kaaranon se (vishayon men) vicharana karataa hai, unase sanyamita karake use atma ke hee vasha men laave arthaat atma men sthira kare. Iska sandarbh Adhyay 6 ke mool vishay se juda hai: man ko saadhkar dhyan, santulan aur atma-uddhar ka marg batata hai.",
-                "lifeLesson": "Apni asli pehchaan shareer se pare samajhne par bhay aur moh kam hote hain."
+                "transliteration": "Yato Yato Nishcarati Manas Cancalam Asthiram,\nTatas Tato Niyamya Etad Atmani Eva Vasham Nayet.",
+                "englishMeaning": "Wherever and whenever the restless and unsteady mind wanders away — from each of those directions, bring it back and lead it gently under the control of the self alone.",
+                "hinglishMeaning": "Yeh chanchal aur asthir mann jahan bhi, jab bhi bhaagta hai — wahin se, us waqt hi, ise rokkar wapas aatma ki taraf le aao aur apne kaaboo mein karo.",
+                "simpleExplanation": "Yeh shlok har us insaan ke liye hai jo kabhi dhyaan mein baitha ho aur mann bhaaga ho — yaani har koi.\n\nShri Krishna keh rahe hain — mann bhaagega. Yeh pakka hai. Yeh uski fitrat hai — woh chanchal hai, asthir hai, ek jagah nahi thamta.\n\nLekin kya karna hai? Ghabrana nahi. Haar nahi maanni. Bas jab bhi bhaage — wapas laao. Jahan bhi jaaye — wapas laao. Dhire se, bina gusse ke, bina khosar ke.\n\nYeh dhyaan ka sabse zaroori hissa hai — mann ko baar baar wapas laana. Aur jo yeh karta rehta hai — woh ek din sachchi sthirata paata hai.",
+                "lifeLesson": "Mann bhaagega — yeh normal hai. Galti yeh nahi ki woh bhaaga. Galti tab hoti hai jab tum uske peeche bhaag jaate ho. Baar baar wapas laao — yahi sachcha abhyaas hai."
             },
             {
                 "verseNumber": 27,
                 "sanskrit": "प्रशान्तमनसं ह्येनं योगिनं सुखमुत्तमम् ।\nउपैति शान्तरजसं ब्रह्मभूतमकल्मषम् ॥",
-                "transliteration": "praśāntamanasaṃ hyenaṃ yoginaṃ sukhamuttamam.\nupaiti śāntarajasaṃ brahmabhūtamakalmaṣam",
-                "hinglishMeaning": "Jisakaa mana prashaanta hai, jo paaparahita (akalmasham) hai aura jisakaa rajoguna (vikshepa) shaanta huaa hai, aise brahmaroopa hue isa yogee ko uttama sukha praapta hotaa hai",
-                "simpleExplanation": "Saral bhav: Jisakaa mana prashaanta hai, jo paaparahita (akalmasham) hai aura jisakaa rajoguna (vikshepa) shaanta huaa hai, aise brahmaroopa hue isa yogee ko uttama sukha praapta hotaa hai. Iska sandarbh Adhyay 6 ke mool vishay se juda hai: man ko saadhkar dhyan, santulan aur atma-uddhar ka marg batata hai.",
-                "lifeLesson": "Man ko saadhne se jeevan mein santulan, dhairya aur spashtata aati hai."
+                "transliteration": "Prashanta Manasam Hi Enam Yoginam Sukham Uttamam,\nUpaiti Shanta Rajasam Brahma Bhutam Akalmashham.",
+                "englishMeaning": "The highest happiness comes to this yogi whose mind is deeply at peace, whose restlessness has become still, who is free from all impurity and who has become one with Brahman.",
+                "hinglishMeaning": "Jis yogi ka mann poori tarah shaant ho gaya hai, jiske andar ki bechtaini tham gayi hai, jo har tarah ki gandagi se mukt ho gaya hai aur jo Brahman ka hi roop ban gaya hai — aisa insaan sabse oonche sukh ko paata hai.",
+                "simpleExplanation": "Shri Krishna yahan woh insaan ka naqsha khinchte hain jo dhyaan ki poori yatra khatam karke pahunch gaya hai.\n\nUska mann shaant hai — na gussa, na darr, na bekar ki soch. Sirf gehri shanti.\n\nRajoguna — yaani andar ki bechtaini aur halaachal — woh tham gayi hai. Ab koi toofan andar nahi uthta.\n\nWoh andar se bilkul saaf hai — koi purana daag nahi, koi purani jalaan nahi.\n\nAur woh Brahman ka hi hissa ban gaya hai — duniya mein rehta hai par duniya usse nahi baandh sakti.\n\nAur aisa insaan — sabse ooncha sukh paata hai. Woh sukh jo na koi de sakta hai, na koi le sakta hai.",
+                "lifeLesson": "Jab andar ki bechtaini khatam ho jaaye, mann saaf ho jaaye aur sab mein ek hi sachcaai dikhe — tab jo sukh milta hai woh is duniya ki kisi bhi cheez se milne wala nahi hota."
             },
             {
                 "verseNumber": 28,
                 "sanskrit": "युञ्जन्नेवं सदात्मानं योगी विगतकल्मषः ।\nसुखेन ब्रह्मसंस्पर्शमत्यन्तं सुखमश्नुते ॥",
-                "transliteration": "yuñjannevaṃ sadātmānaṃ yogī vigatakalmaṣaḥ.\nsukhena brahmasaṃsparśamatyantaṃ sukhamaśnute",
-                "hinglishMeaning": "Isa prakaara mana ko sadaa atma men sthira karane kaa yoga karane vaalaa paaparahita yogee sukhapoorvaka brahmasansparsha kaa parama sukha praapta karataa hai",
-                "simpleExplanation": "Saral bhav: Isa prakaara mana ko sadaa atma men sthira karane kaa yoga karane vaalaa paaparahita yogee sukhapoorvaka brahmasansparsha kaa parama sukha praapta karataa hai. Iska sandarbh Adhyay 6 ke mool vishay se juda hai: man ko saadhkar dhyan, santulan aur atma-uddhar ka marg batata hai.",
-                "lifeLesson": "Apni asli pehchaan shareer se pare samajhne par bhay aur moh kam hote hain."
+                "transliteration": "Yunjan Evam Sada Atmanam Yogi Vigata Kalmashah,\nSukhena Brahma Samsparsham Atyantam Sukham Ashnute.",
+                "englishMeaning": "The yogi who is thus always engaged in uniting the self, who is free from all impurity — such a person effortlessly attains the supreme happiness of touching Brahman, of being in complete contact with the divine.",
+                "hinglishMeaning": "Jo yogi isi tarah hamesha apne mann ko aatma mein lagaaye rakhta hai aur andar se bilkul saaf ho gaya hai — woh sukh ke saath Brahman ka sparsh paata hai — woh anant aur poora sukh jo iss duniya mein kisi cheez se nahi milta.",
+                "simpleExplanation": "Yeh Chapter 6 ke dhyaan ki poori yatra ka fal hai — Brahmasparsha.\n\nBrahmasparsha — yaani Brahman ka sparsh. Matlab uss sachcaai ko, uss gehri aur poori haqeeqat ko — seedha mehsoos karna. Na sirf sunna, na sirf padhna — seedha andar tak mehsoos karna.\n\nAur yeh jo sukh hai — woh is duniya ka nahi hai. Yeh baahri cheezein deney waala sukh nahi — yeh woh sukh hai jo andar se aa raha hai, Brahman ke sparsh se aa raha hai.\n\nAur Shri Krishna keh rahe hain — yeh sukh uss yogi ko milta hai jo saaf hai, jo roz koshish karta hai, jo rukata nahi. Woh yogi ek din yeh sparsh paata hai — aur phir kuch baaki nahi rehta.",
+                "lifeLesson": "Jo roz andar jaata hai, andar saaf karta hai aur bina thake koshish karta rehta hai — ek din woh uss sukh ko chhoota hai jo koi cheez nahi de sakti aur koi cheez le nahi sakti."
             },
             {
                 "verseNumber": 29,
                 "sanskrit": "सर्वभूतस्थमात्मानं सर्वभूतानि चात्मनि ।\nईक्षते योगयुक्तात्मा सर्वत्र समदर्शनः ॥",
-                "transliteration": "sarvabhūtasthamātmānaṃ sarvabhūtāni cātmani.\nīkṣate yogayuktātmā sarvatra samadarśanaḥ",
-                "hinglishMeaning": "Yogayukta anta:karana vaalaa aura sarvatra samadarshee yogee atma ko saba bhooton men aura bhootamaatra ko atma men dekhataa hai",
-                "simpleExplanation": "Saral bhav: Yogayukta anta:karana vaalaa aura sarvatra samadarshee yogee atma ko saba bhooton men aura bhootamaatra ko atma men dekhataa hai. Iska sandarbh Adhyay 6 ke mool vishay se juda hai: man ko saadhkar dhyan, santulan aur atma-uddhar ka marg batata hai.",
-                "lifeLesson": "Apni asli pehchaan shareer se pare samajhne par bhay aur moh kam hote hain."
+                "transliteration": "Sarva Bhuta Stham Atmanam Sarva Bhutani Ca Atmani,\nIkshate Yoga Yukta Atma Sarvatra Sama Darshanah.",
+                "englishMeaning": "The yogi whose mind is united in yoga and who sees equally everywhere — perceives the self present in all beings, and all beings present within the self.",
+                "hinglishMeaning": "Jo yogi yoga mein tika hua hai aur jis ki nazar sab jagah ek jaisi hai — woh apni aatma ko har jeev mein dekhta hai aur har jeev ko apni aatma mein dekhta hai.",
+                "simpleExplanation": "Shri Krishna yahan sachche yogi ki sabse oonchi drishti bata rahe hain — samadarshanata.\n\nAam insaan dekhta hai — yeh mera hai, yeh paraya hai. Yeh achha hai, yeh bura. Yeh bada, yeh chhota.\n\nLekin sachcha yogi alag dekhta hai — woh dekhta hai ki jo kuch bhi uske andar hai — wahi sab mein hai. Ek hi aatma, ek hi sachcaai — har jagah, har jeev mein.\n\nYeh sirf ek soch nahi — yeh ek gehri anubhuti hai. Jab yeh anubhuti aati hai, tab na nafrat rehti hai, na darr, na bair. Kyunki jab dusre mein khud dikhta hai — tab dusre ko takleef dena khud ko takleef dena lagta hai.",
+                "lifeLesson": "Jis din har insaan mein, har jeev mein khud ki hi aatma dikhne lage — usi din nafrat, bair aur darr sab apne aap khatam ho jaate hain."
             },
             {
                 "verseNumber": 30,
                 "sanskrit": "यो मां पश्यति सर्वत्र सर्वं च मयि पश्यति ।\nतस्याहं न प्रणश्यामि स च मे न प्रणश्यति ॥",
-                "transliteration": "yo māṃ paśyati sarvatra sarvaṃ ca mayi paśyati.\ntasyāhaṃ na praṇaśyāmi sa ca me na praṇaśyati",
-                "hinglishMeaning": "Jo purusha mujhey sarvatra dekhataa hai aura sabako mujhamen dekhataa hai, usake lie main nashta naheen hotaa (arthaat usake lie main doora naheen hotaa) aura vaha mujhase viyukta naheen hotaa",
-                "simpleExplanation": "Saral bhav: Jo purusha mujhey sarvatra dekhataa hai aura sabako mujhamen dekhataa hai, usake lie main nashta naheen hotaa (arthaat usake lie main doora naheen hotaa) aura vaha mujhase viyukta naheen hotaa. Iska sandarbh Adhyay 6 ke mool vishay se juda hai: man ko saadhkar dhyan, santulan aur atma-uddhar ka marg batata hai.",
-                "lifeLesson": "Apni asli pehchaan shareer se pare samajhne par bhay aur moh kam hote hain."
+                "transliteration": "Yo Mam Pashyati Sarvatra Sarvam Ca Mayi Pashyati,\nTasya Aham Na Pranashyami Sa Ca Me Na Pranashyati.",
+                "englishMeaning": "For the one who sees me everywhere and sees everything within me — I am never lost to them, and they are never lost to me.",
+                "hinglishMeaning": "Jo insaan mujhe har jagah dekhta hai aur har cheez ko mujh mein dekhta hai — uske liye main kabhi door nahi hota, aur woh mere liye kabhi door nahi hota.",
+                "simpleExplanation": "Yeh shlok Gita ke sabse pyaare aur gehre shlokkon mein se ek hai.\n\nShri Krishna ek bahut bada wada kar rahe hain — jo mujhe har jagah dekhta hai, jo patthar mein bhi, insaan mein bhi, apne dost mein bhi, apne dushman mein bhi mujhe dekhta hai — uske liye main kabhi gum nahi hota.\n\nAur jo mere liye kabhi gum nahi hota — woh mujhse kabhi alag nahi hota.\n\nYeh rishta kisi mandir ya pooja ka nahi — yeh nazar ka rishta hai. Jab nazar badal jaati hai — tab Ishwar door nahi, woh har pal, har jagah maujood rehta hai.",
+                "lifeLesson": "Ishwar ko dhundhne ke liye kahin door jaane ki zaroorat nahi — jab har cheez mein usi ki roshni dikhne lage, tab woh hamesha ke liye paas aa jaata hai."
             },
             {
                 "verseNumber": 31,
                 "sanskrit": "सर्वभूतस्थितं यो मां भजत्येकत्वमास्थितः ।\nसर्वथा वर्तमानोऽपि स योगी मयि वर्तते ॥",
-                "transliteration": "sarvabhūtasthitaṃ yo māṃ bhajatyekatvamāsthitaḥ.\nsarvathā vartamāno.api sa yogī mayi vartate",
-                "hinglishMeaning": "Jo purusha ekatvabhaava mane sthita huaa sampoorna bhooton men sthita mujhey bhajataa hai, vaha yogee saba prakaara se vartataa huaa (rahataa huaa) mujhamen sthita rahataa hai",
-                "simpleExplanation": "Saral bhav: Jo purusha ekatvabhaava mane sthita huaa sampoorna bhooton men sthita mujhey bhajataa hai, vaha yogee saba prakaara se vartataa huaa (rahataa huaa) mujhamen sthita rahataa hai. Iska sandarbh Adhyay 6 ke mool vishay se juda hai: man ko saadhkar dhyan, santulan aur atma-uddhar ka marg batata hai.",
-                "lifeLesson": "Man ko saadhne se jeevan mein santulan, dhairya aur spashtata aati hai."
+                "transliteration": "Sarva Bhuta Sthitam Yo Mam Bhajaty Ekatvam Asthitah,\nSarvatha Vartamano Api Sa Yogi Mayi Vartate.",
+                "englishMeaning": "The yogi who worships me as dwelling in all beings, established in the vision of oneness — that person, no matter what their outward circumstances, always lives and abides in me.",
+                "hinglishMeaning": "Jo yogi har jeev mein mujhe maujood dekh kar, ekta ke bhaav mein tika hua, meri bhakti karta hai — woh yogi zindagi mein jo bhi kar raha ho, har haal mein mujh mein hi rehta hai.",
+                "simpleExplanation": "Shri Krishna pichle shlok ki baat aur gehra karte hain.\n\nJo insaan har jeev mein Ishwar ko dekhta hai — woh bhakti sirf mandir mein nahi karta. Woh jab bhi kisi se milta hai, kisi ki madad karta hai, kisi ko pyaar deta hai — woh Ishwar ki hi bhakti kar raha hota hai.\n\nAur aisa insaan zindagi mein chahe kuch bhi ho raha ho — chahe safar ho, kaam ho, ghar ho — woh hamesha Ishwar ke saath rehta hai. Kyunki uski nazar hi Ishwar mein tiki hai.\n\nYeh ek bahut ooncha maqam hai — jahan bhakti kisi ek samay ya jagah tak simit nahi, woh poori zindagi mein phail jaati hai.",
+                "lifeLesson": "Sachchi bhakti mandir mein nahi, zindagi mein hoti hai — jab har insaan mein, har kaam mein Ishwar dikhne lage, tab samjho sachchi pooja shuru hui."
             },
             {
                 "verseNumber": 32,
                 "sanskrit": "आत्मौपम्येन सर्वत्र समं पश्यति योऽर्जुन ।\nसुखं वा यदि वा दुःखं स योगी परमो मतः ॥",
-                "transliteration": "ātmaupamyena sarvatra samaṃ paśyati yo.arjuna.\nsukhaṃ vā yadi vā duḥkhaṃ sa yogī paramo mataḥ",
-                "hinglishMeaning": "Hey Arjun ! jo purusha apane samaana sarvatra sama dekhataa hai, chaahey vaha sukha ho yaa du:kha, vaha parama yogee maanaa gayaa hai",
-                "simpleExplanation": "Saral bhav: Hey Arjun ! jo purusha apane samaana sarvatra sama dekhataa hai, chaahey vaha sukha ho yaa du:kha, vaha parama yogee maanaa gayaa hai. Iska sandarbh Adhyay 6 ke mool vishay se juda hai: man ko saadhkar dhyan, santulan aur atma-uddhar ka marg batata hai.",
-                "lifeLesson": "Apni asli pehchaan shareer se pare samajhne par bhay aur moh kam hote hain."
+                "transliteration": "Atma Aupamyena Sarvatra Samam Pashyati Yo Arjuna,\nSukham Va Yadi Va Duhkham Sa Yogi Paramo Matah.",
+                "englishMeaning": "The one who sees everywhere, by comparison with their own self — seeing all equally, whether in joy or in sorrow — that person, O Arjun, is considered the highest yogi.",
+                "hinglishMeaning": "Hey Arjun! Jo insaan apne aap ko saamne rakhkar — jaise mujhe sukh hota hai toh doosre ko bhi hota hai, jaise mujhe dukh hota hai toh doosre ko bhi — is soch se har jagah, sabmein ek jaisi nazar rakhta hai — wahi sabse ooncha yogi hai.",
+                "simpleExplanation": "Shri Krishna sabse oonche yogi ki ek aur sundar pehchaan bata rahe hain.\n\nEk bahut saral soch — jaise mujhe takleef hoti hai, waise doosre ko bhi hoti hai. Jaise mujhe khushi chahiye, waise doosre ko bhi chahiye.\n\nJo insaan yeh samjhkar sabke sukh-dukh ko apne sukh-dukh jaisa maanta hai — woh dushmani nahi karta, zulm nahi karta, nafrat nahi karta. Kyunki woh jaanta hai ki jo main doosre ko de raha hoon, woh mujhe bhi lautega.\n\nAur Shri Krishna keh rahe hain — aisa insaan jo sabmein ek jaisi nazar rakhta hai — woh param yogi hai. Sabse ooncha.",
+                "lifeLesson": "Jab doosre ka dukh apna dukh lagne lage aur doosre ki khushi apni khushi — tab samjho tu sachchi insaniyat aur sachche yoga ke karib pahunch gaya."
             },
             {
                 "verseNumber": 33,
                 "sanskrit": "अर्जुन उवाच ।\nयोऽयं योगस्त्वया प्रोक्तः साम्येन मधुसूदन ।\nएतस्याहं न पश्यामि चञ्चलत्वात्स्थितिं स्थिराम् ॥",
-                "transliteration": "arjuna uvāca.\nyo.ayaṃ yogastvayā proktaḥ sāmyena madhusūdana.\netasyāhaṃ na paśyāmi cañcalatvātsthitiṃ sthirām",
-                "hinglishMeaning": "Arjun ne kahaa -- hey madhusoodana ! jo yaha saamya yoga aapane kahaa, main mana ke chanchala hone se isakee chirasthaayee sthiti ko naheen dekhataa hoon",
-                "simpleExplanation": "Saral bhav: Arjun ne kahaa -- hey madhusoodana ! jo yaha saamya yoga aapane kahaa, main mana ke chanchala hone se isakee chirasthaayee sthiti ko naheen dekhataa hoon. Iska sandarbh Adhyay 6 ke mool vishay se juda hai: man ko saadhkar dhyan, santulan aur atma-uddhar ka marg batata hai.",
-                "lifeLesson": "Man ko saadhne se jeevan mein santulan, dhairya aur spashtata aati hai."
+                "transliteration": "Arjuna Uvacha:\nYo Ayam Yogas Tvaya Proktah Samyena Madhusudana,\nEtasya Aham Na Pashyami Cancalatvat Sthitim Sthiram.",
+                "englishMeaning": "Arjun said: O Madhusudana, this yoga of equanimity that you have described — I do not see how it can remain steady and lasting, because the mind is so restless.",
+                "hinglishMeaning": "Arjun ne kaha:\n\nHey Madhusudana! Yeh samata ka yoga jo aapne bataya — main nahi dekh pa raha ki yeh sthir kaise rah sakta hai, kyunki mera mann itna chanchal hai.",
+                "simpleExplanation": "Arjun yahan woh sawaal poochh rahe hain jo har koi poochhhna chahta hai lekin poochhhta nahi.\n\nKrishna ne bahut sundar yoga bataya — samata, shaanti, sthirata. Lekin Arjun sachchi baat keh rahe hain — yeh sab sunkar achha lagta hai, lekin karte waqt mann nahi tikta.\n\nMann bhaagta hai. Khayal aate hain. Dhyaan uthta hai. Toh phir yeh sab kaise hoga?\n\nYeh shlok dikhata hai ki sachche sawaal poochhna bhi ek taaqat hai. Arjun ne woh kaha jo andar tha — aur isi ki wajah se Krishna ka gehra jawab aata hai.",
+                "lifeLesson": "Jo andar ata hai woh seedha poochhhna himmat ki nishaani hai — jhoot se kabhi jawab nahi milta, seedhe sawaal se hi sachcha raasta khulta hai."
             },
             {
                 "verseNumber": 34,
                 "sanskrit": "चञ्चलं हि मनः कृष्ण प्रमाथि बलवद् दृढम् ।\nतस्याहं निग्रहं मन्ये वायोरिव सुदुष्करम् ॥",
-                "transliteration": "cañcalaṃ hi manaḥ kṛṣṇa pramāthi balavad dṛḍham.\ntasyāhaṃ nigrahaṃ manye vāyoriva suduṣkaram",
-                "hinglishMeaning": "Kyonki hey Krishna ! yaha mana chanchala aura pramathana svabhaava kaa tathaa balavaan aura dridha hai; usakaa nigraha karanaa main vaayu ke samaana ati dushkara maanataa hoon",
-                "simpleExplanation": "Saral bhav: Kyonki hey Krishna ! yaha mana chanchala aura pramathana svabhaava kaa tathaa balavaan aura dridha hai; usakaa nigraha karanaa main vaayu ke samaana ati dushkara maanataa hoon. Iska sandarbh Adhyay 6 ke mool vishay se juda hai: man ko saadhkar dhyan, santulan aur atma-uddhar ka marg batata hai.",
-                "lifeLesson": "Man ko saadhne se jeevan mein santulan, dhairya aur spashtata aati hai."
+                "transliteration": "Cancalam Hi Manah Krishna Pramathi Balavad Dridham,\nTasya Aham Nigraham Manye Vayor Iva Su Dushkaram.",
+                "englishMeaning": "The mind is truly restless, O Krishna — turbulent, powerful and stubborn. I believe controlling it is as difficult as trying to control the wind.",
+                "hinglishMeaning": "Hey Krishna! Yeh mann sachchi mein bahut chanchal hai — bechain karne waala, bahut taaqatwar aur bahut ziddi. Isse kaaboo karna mere liye utna hi mushkil lagta hai jitna hawa ko rokna.",
+                "simpleExplanation": "Arjun apni takleef aur seedha bayan karte hain — aur yeh bayan aaj bhi har insaan ka hai.\n\nMann tez hai. Woh ek pal mein past mein jaata hai, ek pal mein future mein. Ek pal mein khushi ki soch, ek pal mein darr. Koi rok nahi paata.\n\nAur Arjun ne isse hawa se compare kiya — bahut sahi misaal. Hawa ko na dekha ja sakta hai, na pakada ja sakta hai. Woh apni marzi se chalti hai.\n\nUsi tarah mann — woh apni marzi se chalta hai. Aur isse rokna? Bahut mushkil.\n\nLekin Arjun ne kaha mushkil — impossible nahi. Aur yahi ek roshni hai.",
+                "lifeLesson": "Mann ko rokna mushkil zaroor hai — lekin namukin nahi. Jab mushkil ko sweekar kar lo, tab usse jeeto — tab raasta dikhta hai."
             },
             {
                 "verseNumber": 35,
                 "sanskrit": "श्रीभगवानुवाच ।\nअसंशयं महाबाहो मनो दुर्निग्रहं चलम् ।\nअभ्यासेन तु कौन्तेय वैराग्येण च गृह्यते ॥",
-                "transliteration": "śrībhagavānuvāca.\nasaṃśayaṃ mahābāho mano durnigrahaṃ calam.\nabhyāsena tu kaunteya vairāgyeṇa ca gṛhyate",
-                "hinglishMeaning": "Shreebhagavaan kahate hain -- hey mahabaaho ! ni:sandeha mana chanchala aura kathinataa se vasha men hone vaalaa hai; parantu, hey kunteeputra ! use abhyaasa aura vairaagya ke dvaaraa vasha men kiyaa jaa sakataa hai",
-                "simpleExplanation": "Saral bhav: Shreebhagavaan kahate hain -- hey mahabaaho ! ni:sandeha mana chanchala aura kathinataa se vasha men hone vaalaa hai; parantu, hey kunteeputra ! use abhyaasa aura vairaagya ke dvaaraa vasha men kiyaa jaa sakataa hai. Iska sandarbh Adhyay 6 ke mool vishay se juda hai: man ko saadhkar dhyan, santulan aur atma-uddhar ka marg batata hai.",
-                "lifeLesson": "Man ko saadhne se jeevan mein santulan, dhairya aur spashtata aati hai."
+                "transliteration": "Shri Bhagavan Uvacha:\nAsamshayam Mahabaho Mano Durnigraham Calam,\nAbhyasena Tu Kaunteya Vairagyena Ca Grihyate.",
+                "englishMeaning": "Shri Krishna said: Without doubt, O mighty-armed Arjun, the mind is restless and very difficult to control. But it can be brought under control through practice and through detachment.",
+                "hinglishMeaning": "Shri Krishna ne kaha:\n\nHey Arjun! Isme koi shak nahi — mann sachchi mein chanchal hai aur isse kaaboo karna bahut mushkil hai. Lekin hey Arjun, abhyaas aur vairaagya — in dono se isse vash mein laya ja sakta hai.",
+                "simpleExplanation": "Shri Krishna Arjun ki baat se na to inkaar karte hain na usse kamzor kehte hain.\n\nWoh pehle maan lete hain — haan, mann bahut mushkil hai. Tum sahi keh rahe ho.\n\nLekin phir woh do cheezein bata dete hain jo isse theek karte hain.\n\nPehla — abhyaas. Roz koshish karo. Baar baar karo. Aaj thoda, kal thoda aur. Dheere-dheere.\n\nDoosra — vairaagya. Matlab duniya ki cheezon se zyaada lagav nahi rakhna. Cheezein aayengi jaayengi — par andar ki shanti nahi jaani chahiye.\n\nYeh do cheezein — abhyaas aur vairaagya — milkar mann ko saadhti hain. Dono zaroori hain — sirf ek se kaam nahi chalta.",
+                "lifeLesson": "Mann ko sadhne ke liye do cheezein chahiye — roz ki koshish aur duniya se thoda faasla. Ye dono saath hon toh koi bhi mann ko hamesha ke liye nahi bhaaga sakta."
             },
             {
                 "verseNumber": 36,
                 "sanskrit": "असंयतात्मना योगो दुष्प्राप इति मे मतिः ।\nवश्यात्मना तु यतता शक्योऽवाप्तुमुपायतः ॥",
-                "transliteration": "asaṃyatātmanā yogo duṣprāpa iti me matiḥ.\nvaśyātmanā tu yatatā śakyo.avāptumupāyataḥ",
-                "hinglishMeaning": "Asanyata mana ke purusha dvaaraa yoga praapta honaa kathina hai, parantu svaadheena mana vaale prayatnasheela purusha dvaaraa upaaya se yoga praapta honaa sanbhava hai, yaha meraa mata hai",
-                "simpleExplanation": "Saral bhav: Asanyata mana ke purusha dvaaraa yoga praapta honaa kathina hai, parantu svaadheena mana vaale prayatnasheela purusha dvaaraa upaaya se yoga praapta honaa sanbhava hai, yaha meraa mata hai. Iska sandarbh Adhyay 6 ke mool vishay se juda hai: man ko saadhkar dhyan, santulan aur atma-uddhar ka marg batata hai.",
-                "lifeLesson": "Apni asli pehchaan shareer se pare samajhne par bhay aur moh kam hote hain."
+                "transliteration": "Asanyata Atmana Yogo Dushprapa Iti Me Matih,\nVashya Atmana Tu Yatata Shakyo Avaptum Upayatah.",
+                "englishMeaning": "For one whose mind is uncontrolled, yoga is very difficult to attain — this is my firm belief. But for one who has mastered the mind and makes effort through the right means, it is certainly possible to achieve.",
+                "hinglishMeaning": "Jiska mann kaaboo mein nahi hai, uske liye yoga pana bahut mushkil hai — yeh mera pakka manana hai.\n\nLekin jo apne mann ko saadhta hai aur sahi tarike se mehnat karta hai — uske liye yoga paana poori tarah mumkin hai.",
+                "simpleExplanation": "Shri Krishna pichle shlok ka nicharod dete hain — ek sakht lekin sachchi baat.\n\nJo apne mann ko kaaboo nahi karta — jiske liye koi abhyaas nahi, koi vairaagya nahi, bas zindagi waise hi chalti rehti hai — uske liye yoga paana bahut mushkil hai. Yeh saaf baat hai.\n\nLekin jo koshish karta hai — jo roz uthata hai, roz thodi mehnat karta hai, sahi raaste se chalta hai — uske liye yeh mumkin hai.\n\nFarq sirf ek hai — koshish karna ya nahi karna. Aur yeh faisla sirf tumhara hai.",
+                "lifeLesson": "Yoga kisi ke liye door nahi — sirf un logon ke liye dur hai jo koshish nahi karte. Jo uthta hai aur chalata rehta hai, woh zaroor pahunchta hai."
             },
             {
                 "verseNumber": 37,
                 "sanskrit": "अर्जुन उवाच ।\nअयतिः श्रद्धयोपेतो योगाच्चलितमानसः ।\nअप्राप्य योगसंसिद्धिं कां गतिं कृष्ण गच्छति ॥",
-                "transliteration": "arjuna uvāca.\nayatiḥ śraddhayopeto yogāccalitamānasaḥ.\naprāpya yogasaṃsiddhiṃ kāṃ gatiṃ kṛṣṇa gacchati",
-                "hinglishMeaning": "Arjun ne kahaa -- hey Krishna ! jisakaa mana yoga se chalaayamaana ho gayaa hai, aisaa apoorna prayatna vaalaa (ayati) shraddhaayukta purusha yoga kee siddhi ko na praapta hokara kisa gati ko praapta hotaa hai?",
-                "simpleExplanation": "Saral bhav: Arjun ne kahaa -- hey Krishna ! jisakaa mana yoga se chalaayamaana ho gayaa hai, aisaa apoorna prayatna vaalaa (ayati) shraddhaayukta purusha yoga kee siddhi ko na praapta hokara kisa gati ko praapta hotaa hai?. Iska sandarbh Adhyay 6 ke mool vishay se juda hai: man ko saadhkar dhyan, santulan aur atma-uddhar ka marg batata hai.",
-                "lifeLesson": "Apni asli pehchaan shareer se pare samajhne par bhay aur moh kam hote hain."
+                "transliteration": "Arjuna Uvacha:\nAyatih Shraddhaya Upeto Yogac Calita Manasah,\nAprapya Yoga Samshiddhim Kam Gatim Krishna Gacchati.",
+                "englishMeaning": "Arjun said: O Krishna, what happens to the one who has faith but lacks complete effort, whose mind slips away from yoga — and who therefore does not attain the full perfection of yoga? What destination do they reach?",
+                "hinglishMeaning": "Arjun ne kaha:\n\nHey Krishna! Jo insaan shraddha toh rakhta hai lekin poori koshish nahi kar paata, jisakaa mann yoga ke raaste se bhatak jaata hai aur jo yoga ki poori siddhi nahi pa sakata — woh insaan kahan jaata hai?",
+                "simpleExplanation": "Arjun ek bahut zaroori aur insaani sawaal poochhhte hain — jo aaj bhi kitne logon ke dil mein hoga.\n\nKya hoga agar kisi ne koshish ki, shraddha bhi rakhi, lekin poori tarah nahi pahunch paya? Kya woh barbad ho jaayega? Kya uski sari mehnat bekaar jaayegi?\n\nYeh darr bahut natural hai. Kai log isliye shuru hi nahi karte — ki agar poori nahi pahunchi manzil, toh kya fayda?\n\nArjun ne yeh sawaal poochhhkar un sab ke liye raasta khola jo darr ke wajah se shuruwaat nahi karte.",
+                "lifeLesson": "Koshish kabhi zyaada nahi hoti — chahe manzil poori na mile, raaste par chalna bhi ek badi kamiyaabi hai. Darr ke shuru na karna sabse badi galti hai."
             },
             {
                 "verseNumber": 38,
                 "sanskrit": "कच्चिन्नोभयविभ्रष्टश्छिन्नाभ्रमिव नश्यति ।\nअप्रतिष्ठो महाबाहो विमूढो ब्रह्मणः पथि ॥",
-                "transliteration": "kaccinnobhayavibhraṣṭaśchinnābhramiva naśyati.\napratiṣṭho mahābāho vimūḍho brahmaṇaḥ pathi",
-                "hinglishMeaning": "Hey mahabaaho ! kyaa vaha brahma ke maarga men mohita tathaa aashrayarahita purusha chhinna-bhinna megha ke samaana donon ora se bhrashta huaa nashta to naheen ho jaataa hai?",
-                "simpleExplanation": "Saral bhav: Hey mahabaaho ! kyaa vaha brahma ke maarga men mohita tathaa aashrayarahita purusha chhinna-bhinna megha ke samaana donon ora se bhrashta huaa nashta to naheen ho jaataa hai?. Iska sandarbh Adhyay 6 ke mool vishay se juda hai: man ko saadhkar dhyan, santulan aur atma-uddhar ka marg batata hai.",
-                "lifeLesson": "Man ko saadhne se jeevan mein santulan, dhairya aur spashtata aati hai."
+                "transliteration": "Kaccin Na Ubhaya Vibhrashtash Chinna Abhram Iva Nashyati,\nApratishtho Mahabaho Vimudho Brahmanah Pathi.",
+                "englishMeaning": "Does such a person not perish like a torn cloud — fallen from both paths, with no firm ground anywhere, O mighty-armed Krishna, confused and lost on the path to Brahman?",
+                "hinglishMeaning": "Hey Krishna! Kya aisa insaan — jo na duniya ka raha, na poori tarah Brahman ke raaste par pahuncha — woh toote hue baadal ki tarah khatam to nahi ho jaata?\n\nJo na idhar ka raha, na udhar ka — koi sahara nahi, Brahman ke raaste par bhatka hua?",
+                "simpleExplanation": "Arjun ka darr aur gehra ho gaya hai — aur woh ek bahut sundar misaal dete hain.\n\nToota hua baadal — na poora baadal, na poori baarish. Beech mein toot gaya. Na idhar, na udhar. Sirf bikhra hua.\n\nArjun poochhhte hain — kya aisa insaan bhi aise hi ho jaata hai? Na poori duniya mein raha, na poori Bhakti mein pahuncha. Beech mein reh gaya — toh kya dooba?\n\nYeh sawaal bahut logon ka hai — jo raah mein hain, manzil door hai, aur darr lagta hai ki kahin beech mein hi reh na jaayein.\n\nAur ab Krishna ka jawab aane waala hai — jo is darr ko hamesha ke liye khatam kar dega.",
+                "lifeLesson": "Beech raaste ka darr bahut hota hai — lekin sachchi koshish kabhi zyaada nahi jaati. Ek kadam bhi sahi disha mein uthaya gaya toh woh sirf aage le jaata hai, neeche nahi."
             },
             {
                 "verseNumber": 39,
                 "sanskrit": "एतन्मे संशयं कृष्ण छेत्तुमर्हस्यशेषतः ।\nत्वदन्यः संशयस्यास्य छेत्ता न ह्युपपद्यते ॥",
-                "transliteration": "etanme saṃśayaṃ kṛṣṇa chettumarhasyaśeṣataḥ.\ntvadanyaḥ saṃśayasyāsya chettā na hyupapadyate",
-                "hinglishMeaning": "Hey Krishna ! mere isa sanshaya ko ni:shesha roopa se chhedana (niraakarana) karane ke lie aapa hee yogya hai; kyonki aapake atirikta anya koee isa sanshaya kaa chhedana karana vaalaa (chhettaa) milanaa sanbhava naheen hai",
-                "simpleExplanation": "Saral bhav: Hey Krishna ! mere isa sanshaya ko ni:shesha roopa se chhedana (niraakarana) karane ke lie aapa hee yogya hai; kyonki aapake atirikta anya koee isa sanshaya kaa chhedana karana vaalaa (chhettaa) milanaa sanbhava naheen hai. Iska sandarbh Adhyay 6 ke mool vishay se juda hai: man ko saadhkar dhyan, santulan aur atma-uddhar ka marg batata hai.",
-                "lifeLesson": "Man ko saadhne se jeevan mein santulan, dhairya aur spashtata aati hai."
+                "transliteration": "Etan Me Samshayam Krishna Chettum Arhasy Asheshatah,\nTvad Anyah Samshayasya Asya Chetta Na Hi Upapadyate.",
+                "englishMeaning": "O Krishna, please dispel this doubt of mine completely and without remainder — for there is no one other than you who is capable of truly resolving this doubt.",
+                "hinglishMeaning": "Arjun ne kaha:\n\nHey Krishna! Yeh jo mera andar ka sanshaya hai — isse poori tarah, bilkul jadd se khatam karne ki taaqat sirf aap mein hai. Aap ke alaawa is duniya mein koi nahi jo mera yeh shak sachchi tarah door kar sake.",
+                "simpleExplanation": "Arjun ne pichle do shlokkon mein apna sara darr poochh diya — ki jo yoga ke raaste beech mein reh jaaye, kya woh barbad ho jaata hai?\n\nAb woh ek bahut seedhi aur sachchi baat keh rahe hain — Hey Krishna, yeh sawaal sirf aap se poochhhna chahta hoon. Kyunki sachcha jawab sirf unhi ke paas hota hai jo sachchi haqeeqat jaante hain.\n\nYeh sirf pooja nahi — yeh ek sachche shishya ka apne guru par poora aur unkucca bharosa hai. Arjun jaante hain ki andar ka sanshaya tab hi khatam hota hai jab jawab sirf gyaan se nahi, sachchi shakti se aaye.\n\nAur jab koi is tarah — poore dil se, poori nata se — poochhhta hai, tab jawab milta zaroor hai.",
+                "lifeLesson": "Jab andar koi gehri shanka ho — toh use dabao mat, chhupaao mat. Sachche man se us tak pahuncho jis par poora bharosa ho. Sachcha sawaal poochhna hi pehla aur sabse zaroori qadam hai sachche jawab ki taraf."
             },
             {
                 "verseNumber": 40,
                 "sanskrit": "श्रीभगवानुवाच ।\nपार्थ नैवेह नामुत्र विनाशस्तस्य विद्यते ।\nन हि कल्याणकृत्कश्चिद् दुर्गतिं तात गच्छति ॥",
-                "transliteration": "śrībhagavānuvāca.\npārtha naiveha nāmutra vināśastasya vidyate.\nna hi kalyāṇakṛtkaścid durgatiṃ tāta gacchati",
-                "hinglishMeaning": "Shreebhagavaan ne kahaa -- hey paartha ! usa purusha kaa, na to isa loka men aura na hee paraloka men hee naasha hotaa hai; hey taata ! koee bhee shubha karma karane vaalaa durgati ko naheen praapta hotaa hai",
-                "simpleExplanation": "Saral bhav: Shreebhagavaan ne kahaa -- hey paartha ! usa purusha kaa, na to isa loka men aura na hee paraloka men hee naasha hotaa hai; hey taata ! koee bhee shubha karma karane vaalaa durgati ko naheen praapta hotaa hai. Iska sandarbh Adhyay 6 ke mool vishay se juda hai: man ko saadhkar dhyan, santulan aur atma-uddhar ka marg batata hai.",
-                "lifeLesson": "Apna kartavya imaandari se karo, par phal ki chinta mein apni shanti mat khona."
+                "transliteration": "Shri Bhagavan Uvacha:\nPartha Na Eva Iha Na Amutra Vinashas Tasya Vidyate,\nNa Hi Kalyana Krit Kashchid Durgatim Tata Gacchati.",
+                "englishMeaning": "Shri Krishna said: O Partha, there is no destruction for such a person — neither in this world nor in the next. No one who walks the path of goodness, my dear, ever comes to grief.",
+                "hinglishMeaning": "Shri Krishna ne kaha:\n\nHey Partha! Aisa insaan — jo achha karne ki koshish karta hai — woh na is duniya mein toot-ta hai, na agle janam mein. Hey mere pyaare! Jo bhi sachchi nekki ke raaste chalta hai, woh kabhi bura anjaam nahi paata — kabhi nahi.",
+                "simpleExplanation": "Yeh Gita ka ek sabse bada aur sabse gehri reassurance dene wala wada hai.\n\nArjun ne poochha tha — agar main beech raaste reh gaya toh? Kya sab barbad ho jaayega?\n\nKrishna ne jawab diya — nahi. Koi achha kaam kabhi bekar nahi jaata. Na is janam mein, na agle mein.\n\nSochiye — ek beej jo zameen mein dab jaata hai — woh ankhon ko nahi dikhta. Lekin woh khatam nahi hota. Woh andar se kaam karta rehta hai, jad faila ta rehta hai, aur ek din poora ped ban jaata hai.\n\nUsi tarah — jo bhi acha kiya, jo bhi sachchi koshish ki — woh kabhi bhi zyaada nahi hoti. Woh sab agle qadam mein kaam aata hai.\n\nKrishna keh rahe hain — darr mat, Partha. Jo seedha chalta hai, woh kabhi ghuma nahi jaata.",
+                "lifeLesson": "Jo sachchi achhai ki raah chalta hai — woh kabhi toota nahi. Chahe is janam mein manzil na mile — par woh koshish kabhi zyaada nahi hoti. Ek bhi naek kadam poori tarah mahafooz rehta hai — aaj nahi toh kal, is janam mein nahi toh agle mein."
             },
             {
                 "verseNumber": 41,
                 "sanskrit": "प्राप्य पुण्यकृतां लोकानुषित्वा शाश्वतीः समाः ।\nशुचीनां श्रीमतां गेहे योगभ्रष्टोऽभिजायते ॥",
-                "transliteration": "prāpya puṇyakṛtāṃ lokānuṣitvā śāśvatīḥ samāḥ.\nśucīnāṃ śrīmatāṃ gehe yogabhraṣṭo.abhijāyate",
-                "hinglishMeaning": "Yogabhrashta purusha punyavaanon ke lokon ko praapta hokara vahaan deerghakaala taka vaasa karake shuddha aacharana vaale shreemanta (dhanavaana) purushon ke ghara men janma letaa hai",
-                "simpleExplanation": "Saral bhav: Yogabhrashta purusha punyavaanon ke lokon ko praapta hokara vahaan deerghakaala taka vaasa karake shuddha aacharana vaale shreemanta (dhanavaana) purushon ke ghara men janma letaa hai. Iska sandarbh Adhyay 6 ke mool vishay se juda hai: man ko saadhkar dhyan, santulan aur atma-uddhar ka marg batata hai.",
-                "lifeLesson": "Man ko saadhne se jeevan mein santulan, dhairya aur spashtata aati hai."
+                "transliteration": "Prapya Punya Kritam Lokan Ushitva Shashvatih Samah,\nShuchinam Shrimatam Gehe Yoga Bhrashtah Abhijayate.",
+                "englishMeaning": "Having attained the worlds of the meritorious and dwelling there for vast and countless years, the one who has fallen from yoga is then reborn into the home of the pure and the prosperous.",
+                "hinglishMeaning": "Jo yoga ki raah se bhatak gaya — woh pehle punya karne waale logon ke jagat mein pahunchta hai aur wahaan bahut lambe samay tak rehta hai. Phir woh wapas aata hai — is baar ek paak, sabhya aur samridh ghar mein janam lekar.",
+                "simpleExplanation": "Krishna Arjun ke sawaal ka jawab dena jaari rakhte hain — aur yeh jawab bahut tasalli dene wala hai.\n\nJo yoga ki raah par tha, lekin poori tarah nahi pahunch paya — woh bura anjaam nahi paata. Pehle woh un logon ke jagat mein jaata hai jinhone achhe kaam kiye hain — ek tarah ki rest aur inaam — bahut lambe samay ke liye.\n\nPhir woh wapas aata hai — lekin kisi mushkil ya takleef-deh jagah mein nahi. Woh ek shuddh, sabhya aur samridh parivar mein janam leta hai.\n\nKyun? Taaki agli baar ki aatmik yatra aur behtar jagah se shuru ho sake. Achha mahaul, achhe log, achhe sanskaar — yeh sab agle safar ki nींv hain.\n\nKrishna ek gehri baat keh rahe hain — Ishwar ka nizam bahut fair hai. Koshish kabhi zyaada nahi hoti.",
+                "lifeLesson": "Achhi koshish kabhi poori tarah zyaada nahi hoti — chahe is janam mein poori manzil na mile, agle baar behtar jagah se shuruwaat milti hai. Jo deta hai, woh milta zaroor hai — yeh duniya ka sabse sachcha hisaab hai."
             },
             {
                 "verseNumber": 42,
                 "sanskrit": "अथवा योगिनामेव कुले भवति धीमताम् ।\nएतद्धि दुर्लभतरं लोके जन्म यदीदृशम् ॥",
-                "transliteration": "athavā yogināmeva kule bhavati dhīmatām.\netaddhi durlabhataraṃ loke janma yadīdṛśam",
-                "hinglishMeaning": "Athavaa, (saadhaka) jnyaanavaan yogiyon ke hee kula men janma letaa hai, parantu isa prakaara kaa janma isa loka men ni:sandeha ati durlabha hai",
-                "simpleExplanation": "Saral bhav: Athavaa, (saadhaka) jnyaanavaan yogiyon ke hee kula men janma letaa hai, parantu isa prakaara kaa janma isa loka men ni:sandeha ati durlabha hai. Iska sandarbh Adhyay 6 ke mool vishay se juda hai: man ko saadhkar dhyan, santulan aur atma-uddhar ka marg batata hai.",
-                "lifeLesson": "Sahi gyaan ahankar ko kam karta hai aur drishti ko saaf banata hai."
+                "transliteration": "Athava Yoginam Eva Kule Bhavati Dhimatam,\nEtad Hi Durlabhataram Loke Janma Yad Idrisham.",
+                "englishMeaning": "Or they may be born directly into the family of wise and enlightened yogis. Such a birth as this is truly even more rare and precious in this world.",
+                "hinglishMeaning": "Ya phir — woh seedha kisi gyaani aur prakashit yogi ke parivar mein janam leta hai. Aur aisa janam — yeh is poori duniya mein bahut hi durlabh aur bahut keemat-wala hota hai.",
+                "simpleExplanation": "Pichle shlok mein Krishna ne kaha — woh ek amir aur paak ghar mein janam lega.\n\nLekin is shlok mein woh ek aur baat kehte hain — jo aur bhi oonchi hai.\n\nKabhi kabhi yogi seedha ek yogi ya gyaani ke ghar mein janam leta hai. Jahaan se bachpan se hi woh raah milti hai jo pichle janam mein adhoori rahi thi. Dusri baar mauka milta hai — aur is baar sahi mahaul mein.\n\nAur Krishna keh rahe hain — yeh janam bahut hi durlabh hai. Duniya mein karod logon mein kisi ek ko milta hai.\n\nYeh ek bahut pyaari baat hai — ki jo log sachchi koshish karte hain, Ishwar khud unke liye aisa ghar deta hai jahan se woh aage ki yatra aur ache se kar sakein.",
+                "lifeLesson": "Jo koshish sachchi ho — woh hamesha aage le jaati hai. Ishwar khud aise logon ke liye raasta banaata hai — agar is janam mein nahi, toh agle janam mein aur behtar jagah se. Koi sachchi mehnat kabhi zyaada nahi hoti."
             },
             {
                 "verseNumber": 43,
                 "sanskrit": "तत्र तं बुद्धिसंयोगं लभते पौर्वदेहिकम् ।\nयतते च ततो भूयः संसिद्धौ कुरुनन्दन ॥",
-                "transliteration": "tatra taṃ buddhisaṃyogaṃ labhate paurvadehikam.\nyatate ca tato bhūyaḥ saṃsiddhau kurunandana",
-                "hinglishMeaning": "Hey kurunandana ! vaha purusha vahaan poorva deha men praapta kiye gaye jnyaana se sampanna hokara yogasansiddhi ke lie usase bhee adhika prayatna karataa hai",
-                "simpleExplanation": "Saral bhav: Hey kurunandana ! vaha purusha vahaan poorva deha men praapta kiye gaye jnyaana se sampanna hokara yogasansiddhi ke lie usase bhee adhika prayatna karataa hai. Iska sandarbh Adhyay 6 ke mool vishay se juda hai: man ko saadhkar dhyan, santulan aur atma-uddhar ka marg batata hai.",
-                "lifeLesson": "Sahi gyaan ahankar ko kam karta hai aur drishti ko saaf banata hai."
+                "transliteration": "Tatra Tam Buddhi Samyogam Labhate Paurva Dehikam,\nYatate Ca Tatah Bhuyah Samsiddhau Kurunandana.",
+                "englishMeaning": "There, O son of Kuru, they naturally regain the wisdom and inner understanding accumulated in their previous life — and then strive even harder than before toward complete spiritual perfection.",
+                "hinglishMeaning": "Hey Kuru ke bete! Woh naye janam mein woh sab buddhi aur gyaan wapas khud hi haasil kar leta hai jo pichle janam mein kamaai thi. Aur phir woh pehle se bhi zyaada lagan aur mehnat se poori siddhi paane ki koshish karta hai.",
+                "simpleExplanation": "Yeh shlok ek bahut dilchasp aur gehri sachcaai batata hai.\n\nJo yogi beech raaste reh gaya aur naye janam mein wapas aaya — woh khali haath nahi aata. Uska pichle janam ka gyaan, uski samajh, uska abhyaas — woh sab andar hi andar leke aata hai. Koi lecture nahi, koi kitaab nahi — andar se hi woh samajh jagti hai.\n\nJaise ek student jo ek baar fail ho jaata hai, lekin phir wahi padhai karta hai — is baar woh pehle se behtar samjhta hai, kyunki ek baar andar tak uttara hua hai.\n\nUsi tarah yogi wapas aata hai — aur pehle se zyaada tayyar, pehle se zyaada mehnat ke saath.\n\nKoi bhi koshish kabhi zero se shuru nahi hoti agar pehle bhi sachchi koshish ki ho.",
+                "lifeLesson": "Jo kuch bhi sachche dil se seekha, jo bhi samjha — woh kabhi poori tarah zyaada nahi jaata. Ek baar ki sachchi mehnat ruh mein utar jaati hai. Aur jab doosra mauka aata hai, woh seekh apne aap kaam aane lagti hai — bina poochhe, bina yaad kiye."
             },
             {
                 "verseNumber": 44,
                 "sanskrit": "पूर्वाभ्यासेन तेनैव ह्रियते ह्यवशोऽपि सः ।\nजिज्ञासुरपि योगस्य शब्दब्रह्मातिवर्तते ॥",
-                "transliteration": "pūrvābhyāsena tenaiva hriyate hyavaśo.api saḥ.\njijñāsurapi yogasya śabdabrahmātivartate",
-                "hinglishMeaning": "Usee poorvaabhyaasa ke kaarana vaha avasha huaa yoga kee ora aakarshita hotaa hai. yoga kaa jo kevala jijnyaasu hai vaha shabdabrahma kaa atikramana karataa hai",
-                "simpleExplanation": "Saral bhav: Usee poorvaabhyaasa ke kaarana vaha avasha huaa yoga kee ora aakarshita hotaa hai. yoga kaa jo kevala jijnyaasu hai vaha shabdabrahma kaa atikramana karataa hai. Iska sandarbh Adhyay 6 ke mool vishay se juda hai: man ko saadhkar dhyan, santulan aur atma-uddhar ka marg batata hai.",
-                "lifeLesson": "Apni asli pehchaan shareer se pare samajhne par bhay aur moh kam hote hain."
+                "transliteration": "Purva Abhyasena Tena Eva Hriyate Hi Avasho Api Sah,\nJijnasur Api Yogasya Shabda Brahma Ativartate.",
+                "englishMeaning": "By the very force of that previous practice, they are naturally drawn toward yoga even without consciously willing it. Even the one who merely inquires sincerely about yoga goes beyond the fruits prescribed in the Vedic scriptures.",
+                "hinglishMeaning": "Pichle janam ki koshish itni gehra asar karti hai ki woh apne aap yoga ki taraf khincha chala aata hai — chahe woh jaanta bhi na ho kyun.\n\nAur jo sirf yoga ke baare mein sachche mann se jaanna chahta hai — woh bhi un logon se kahin aage nikal jaata hai jo sirf Vedic rituals aur vidhi-vidhaan karte rehte hain.",
+                "simpleExplanation": "Yeh shlok bahut shaktishaali hai — aur do alag lekin gehra baatein keh raha hai.\n\nPehli baat — ek baar ki sachchi koshish itni gehra utar jaati hai ki woh agle janam mein bhi kaam karti hai. Koi force nahi, koi reminder nahi — andar se hi khichav hoti hai. Jaise kisi bachche ko bachpan se hi sangeet ki taraf ajeeb sa lagav ho — woh pichle janam ka abhyaas hota hai.\n\nDoosri baat — sirf yoga ko jaanna chahna, sirf sachchi jigyaasa rakhna — yeh bhi Vedic rituals se badi cheez hai. Kyunki rituals bahar se ki jaati hain. Lekin jigyaasa andar se aati hai, andar se badlav laati hai.\n\nBahari karmkaand andar nahi badalta — sachchi andar ki talab se insaan badalta hai.",
+                "lifeLesson": "Ek baar bhi sachcha raasta pakda ho — toh woh raasta hamesha ke liye andar reh jaata hai. Aur sachchi jigyaasa — sirf poochhna chahna, sirf jaanna chahna — woh bhi ek bahut bada qadam hai. Andar ki aawaz suno — woh kabhi galat raasta nahi dikhati."
             },
             {
                 "verseNumber": 45,
                 "sanskrit": "प्रयत्नाद्यतमानस्तु योगी संशुद्धकिल्बिषः ।\nअनेकजन्मसंसिद्धस्ततो याति परां गतिम् ॥",
-                "transliteration": "prayatnādyatamānastu yogī saṃśuddhakilbiṣaḥ.\nanekajanmasaṃsiddhastato yāti parāṃ gatim",
-                "hinglishMeaning": "Parantu prayatnapoorvaka abhyaasa karane vaalaa yogee sampoorna paapon se shuddha hokara aneka janmon se (shanai: shanai:) siddha hotaa huaa, taba parama gati ko praapta hotaa hai",
-                "simpleExplanation": "Saral bhav: Parantu prayatnapoorvaka abhyaasa karane vaalaa yogee sampoorna paapon se shuddha hokara aneka janmon se (shanai: shanai:) siddha hotaa huaa, taba parama gati ko praapta hotaa hai. Iska sandarbh Adhyay 6 ke mool vishay se juda hai: man ko saadhkar dhyan, santulan aur atma-uddhar ka marg batata hai.",
-                "lifeLesson": "Man ko saadhne se jeevan mein santulan, dhairya aur spashtata aati hai."
+                "transliteration": "Prayatnad Yatamanah Tu Yogi Samshuddha Kilbishah,\nAneka Janma Samshiddhah Tatah Yati Param Gatim.",
+                "englishMeaning": "But the yogi who strives with sincere and sustained effort, who becomes completely purified of all inner impurities, and who is perfected gradually across many lifetimes — that person then attains the supreme and final destination.",
+                "hinglishMeaning": "Lekin jo yogi sachchi lagan aur mehnat se koshish karta rehta hai — jo andar se dheere dheere shuddh hota jaata hai, aur jo kai janammon ki tapasya ke baad andar se poori tarah siddh ho jaata hai — woh phir us manzil ko paata hai jo is sab se oonchi aur aakhri hai.",
+                "simpleExplanation": "Yeh shlok bahut gehri tasalli deta hai — aur saath hi ek sachcha raasta bhi dikhata hai.\n\nArjun ne poochha tha — jo beech mein reh jaaye, kya hoga?\n\nKrishna ka jawab yahan poora hota hai — kuch nahi hoga. Koi ek janam mein poori tarah nahi badal jaata. Yeh ek lambi, gehri, kai janammon ki yatra hai.\n\nLekin jo har janam mein sachchi koshish karta hai — woh andar se saaf hota jaata hai. Paap, ahankar, lobh, darr — yeh sab dheere dheere haTte jaate hain.\n\nAur ek din — kai janmon ki mehnat ke baad — woh us manzil tak pahunch jaata hai jo sab se oonchi hai. Jahan se lautna nahi hota.\n\nHar ek kadam count karta hai. Koi koshish zyaada nahi hoti — sab jod-jodkar ek din paar utar dete hain.",
+                "lifeLesson": "Poori duniya ek din mein nahi badalti — aur insaan ka andar bhi nahi badalta. Lekin jo roz thodi sachchi koshish karta rehta hai — woh bhi ek na ek din us jagah pahunch jaata hai jahan sachchi aur hamesha wali shanti hai. Dheere badho — par rukna mat."
             },
             {
                 "verseNumber": 46,
                 "sanskrit": "तपस्विभ्योऽधिको योगी ज्ञानिभ्योऽपि मतोऽधिकः ।\nकर्मिभ्यश्चाधिको योगी तस्माद्योगी भवार्जुन ॥",
-                "transliteration": "tapasvibhyo.adhiko yogī jñānibhyo.api mato.adhikaḥ.\nkarmibhyaścādhiko yogī tasmādyogī bhavārjuna",
-                "hinglishMeaning": "Kyonki yogee tapasviyon se shreshtha hai aura (kevala shaastra ke) jnyaana vaalon se bhee shreshtha maanaa gayaa hai tathaa karma karane vaalon se bhee yogee shreshtha hai, isalie hey Arjun tuma yogee bano",
-                "simpleExplanation": "Saral bhav: Kyonki yogee tapasviyon se shreshtha hai aura (kevala shaastra ke) jnyaana vaalon se bhee shreshtha maanaa gayaa hai tathaa karma karane vaalon se bhee yogee shreshtha hai, isalie hey Arjun tuma yogee bano. Iska sandarbh Adhyay 6 ke mool vishay se juda hai: man ko saadhkar dhyan, santulan aur atma-uddhar ka marg batata hai.",
-                "lifeLesson": "Apna kartavya imaandari se karo, par phal ki chinta mein apni shanti mat khona."
+                "transliteration": "Tapasvibhyo Adhikah Yogi Jnanibhyo Api Matah Adhikah,\nKarmibhyash Ca Adhikah Yogi Tasmad Yogi Bhava Arjuna.",
+                "englishMeaning": "The yogi is greater than the ascetics, greater even than the scholars of knowledge, and greater than those who perform only rituals and outer actions. Therefore, O Arjun, be a yogi — in every sense of the word.",
+                "hinglishMeaning": "Yogi tapasviyon se bada hai — jo sirf khud ko takleef dekar kuch paana chahte hain. Woh gyaaniyon se bhi bada hai — jo sirf kitaabein padh ke gyaan ikattha karte hain. Woh karmkaandiyon se bhi bada hai — jo sirf baahi rituals aur vidhi-vidhaan karte rehte hain.\n\nIslie — hey Arjun! — tu yogi ban.",
+                "simpleExplanation": "Yeh ek bahut bada aur bahut saaf statement hai — aur Krishna ne ise puri taaqat ke saath kaha.\n\nTapasvi — jo khud ko takleef dekar, badan ko kaskar Ishwar ko paana chahta hai. Gyaani — jo sirf padh-padh ke, sunke jaanna chahta hai. Karmi — jo sirf baahi kriya aur niyam karta rehta hai.\n\nLekin yogi — woh andar se badal jaata hai. Woh sirf jaanta nahi, sirf karta nahi, sirf takleef nahi uthata — woh poori tarah jeeta hai jo wo samjhta hai. Uski soch, uski nazar, uska zindagi jeene ka tarika — sab kuch badal jaata hai.\n\nJab jaanna aur jeena ek ho jaayein — tab woh yogi hota hai. Aur tab woh tapasvi se, gyaani se, karmkaandi se bhi ooncha hota hai.\n\nAur Krishna ne Arjun se seedha kaha — tu yogi ban. Sirf samajhna kaafi nahi — poori tarah jeena seekh.",
+                "lifeLesson": "Sirf padh lena, sirf jaana lena, sirf kuch kar lena — yeh kaafi nahi. Jo sachcha badlav andar se aata hai, jo zindagi mein bahar dikhta hai — wahi sachchi uplabdhi hai. Gyaan ko sirf dimagh mein mat rakhna — use jeene ki koshish karo."
             },
             {
                 "verseNumber": 47,
                 "sanskrit": "योगिनामपि सर्वेषां मद्गतेनान्तरात्मना ।\nश्रद्धावान्भजते यो मां स मे युक्ततमो मतः ॥",
-                "transliteration": "yogināmapi sarveṣāṃ madgatenāntarātmanā.\nśraddhāvānbhajate yo māṃ sa me yuktatamo mataḥ",
-                "hinglishMeaning": "Samasta yogiyon men jo bhee shraddhaavaan yogee mujha men yukta huye antaratma se (arthaat ekatva bhaava se mujhey bhajataa hai, vaha mujhey yuktatama (sarvashreshtha) maanya hai",
-                "simpleExplanation": "Saral bhav: Samasta yogiyon men jo bhee shraddhaavaan yogee mujha men yukta huye antaratma se (arthaat ekatva bhaava se mujhey bhajataa hai, vaha mujhey yuktatama (sarvashreshtha) maanya hai. Iska sandarbh Adhyay 6 ke mool vishay se juda hai: man ko saadhkar dhyan, santulan aur atma-uddhar ka marg batata hai.",
-                "lifeLesson": "Apni asli pehchaan shareer se pare samajhne par bhay aur moh kam hote hain."
+                "transliteration": "Yoginam Api Sarvesham Mad Gatena Antaratmana,\nShraddhavan Bhajate Yo Mam Sa Me Yuktatamo Matah.",
+                "englishMeaning": "Among all yogis, the one whose inner self is completely absorbed in me and who worships me with deep, unwavering faith and love — that yogi is considered by me to be the most intimately united with me, the highest of all.",
+                "hinglishMeaning": "Sab yogiyon mein — jo apne andar se, poori tarah mujh mein sama kar, sachchi shraddha aur prem se meri bhakti karta hai — woh mujhe sab se zyaada apna lagta hai. Meri nazar mein wahi sabse bada yogi hai.",
+                "simpleExplanation": "Yeh Chapter 6 ka aakhiri aur sabse keemat-wala shlok hai — aur yeh poore chapter ka nicharod hai.\n\nKrishna ne poora adhyay bataya — dhyan karo, abhyaas karo, mann ko saadhna, shaant rehna, sab kuch.\n\nAur aakhir mein woh ek cheez keh dete hain — jo sab se oonche hain woh kaun hai?\n\nWoh jo andar se — dil ki gehraai se — mere paas aata hai. Poori shraddha ke saath, poore prem ke saath. Jo apni aatma ko mujhme sama kar leta hai.\n\nYeh koi technique nahi. Yeh koi step nahi. Yeh koi vidhi nahi.\n\nYeh ek rishta hai — Ishwar aur insaan ka sabse kareeb ka, sabse saccha rishta.\n\nAur Krishna keh rahe hain — aisa insaan mujhe sabse zyaada apna lagta hai.\n\nPoora chapter isi ek baat par aa ke khatam hota hai — technique nahi, prem chahiye.",
+                "lifeLesson": "Saari sadhna, saari koshish, sab technique ka ek hi sachcha nicharod hai — andar se Ishwar ke paas aa jao. Poori shraddha se, poore dil se, bina kisi dikhaawe ke. Jab yeh hota hai — koi door nahi rehta, koi faasla nahi bachta."
             }
         ]
     },
