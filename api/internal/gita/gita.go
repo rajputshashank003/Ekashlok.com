@@ -28,11 +28,12 @@ type Verse struct {
 	ChapterNameHindi string `json:"chapterNameHindi"` // populated after load
 	VerseNumber      int    `json:"verseNumber"`
 	Sanskrit         string `json:"sanskrit"`
-	Transliteration  string `json:"transliteration"`
-	HinglishMeaning  string `json:"hinglishMeaning"`
+	Transliteration   string `json:"transliteration"`
+	EnglishMeaning    string `json:"englishMeaning,omitempty"`
+	HinglishMeaning   string `json:"hinglishMeaning"`
 	SimpleExplanation string `json:"simpleExplanation"`
-	LifeLesson       string `json:"lifeLesson"`
-	GlobalCount      int    `json:"global_count"` // 1–700
+	LifeLesson        string `json:"lifeLesson"`
+	GlobalCount       int    `json:"global_count"` // 1–700
 }
 
 // ChapterSummary is a lightweight chapter descriptor for the browse page.
