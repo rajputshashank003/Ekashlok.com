@@ -3642,443 +3642,498 @@
         "verses": [
             {
                 "verseNumber": 1,
-                "sanskrit": "अर्जुन उवाच ।\nमदनुग्रहाय परमं गुह्यमध्यात्मसंज्ञितम् ।\nयत्त्वयोक्तं वचस्तेन मोहोऽयं विगतो मम ॥",
-                "transliteration": "arjuna uvāca.\nmadanugrahāya paramaṃ guhyamadhyātmasaṃjñitam.\nyattvayoktaṃ vacastena moho.ayaṃ vigato mama",
-                "hinglishMeaning": "Arjun ne kahaa -- mujha para anugraha karane ke lie jo parama gopaneeya, adhyaatmavishayaka vachana (upadesha) aapake dvaaraa kahaa gayaa, usase meraa moha doora ho gayaa hai",
-                "simpleExplanation": "Saral bhav: Arjun ne kahaa -- mujha para anugraha karane ke lie jo parama gopaneeya, adhyaatmavishayaka vachana (upadesha) aapake dvaaraa kahaa gayaa, usase meraa moha doora ho gayaa hai. Iska sandarbh Adhyay 11 ke mool vishay se juda hai: vishvaroop ke darshan se Ishwar ki anant shakti aur kaal-tattva samajh aata hai.",
-                "lifeLesson": "Apni asli pehchaan shareer se pare samajhne par bhay aur moh kam hote hain."
+                "sanskrit": "अर्जुन उवाच ।\nमदनुग्रहाय परमं गुह्यमध्यात्मसंज्ञितम् ।\nयत्त्वयोक्तं वचस्तेन मोहोऽयं विगतो मम ॥ १॥",
+                "transliteration": "Arjuna Uvacha:\nMad Anugrahaya Paramam Guhyam Adhyatma Samjnitam,\nYat Tvayoktam Vachas Tena Moho Yam Vigato Mama.",
+                "englishMeaning": "Arjuna said: Out of supreme compassion for me, You have revealed this most confidential spiritual wisdom regarding the Self. By hearing Your words, my delusion and confusion have now been dispelled.",
+                "hinglishMeaning": "Arjun ne kaha: Mujh par kripa karke aapne aatma aur parmatma ke baare mein jo param gupt aadhyaatmik gyaan diya hai, use sunkar mera saara moh aur bhram ab door ho gaya hai.",
+                "simpleExplanation": "Arjun Shri Krishna se kehte hain ki pichhle adhyayon mein aapne jo aatma, karm aur Ishwar ka gyaan diya, usne meri aankhon par pada moh ka parda hata diya hai.\n\nPehle Arjun apno ke moh mein phas kar kartavya se bhag raha tha. Lekin sachcha aadhyaatmik gyaan andhere mein diye ki tarah kaam karta hai aur insaan ko uske mool kartavya ki sachchaai dikhata hai.",
+                "lifeLesson": "Jab jeevan mein moh aur dvidha gher le, tab sahi margdarshan aur aatm-gyaan hi humein darr aur bhram se aazad kar sakta hai."
             },
             {
                 "verseNumber": 2,
-                "sanskrit": "भवाप्ययौ हि भूतानां श्रुतौ विस्तरशो मया ।\nत्वत्तः कमलपत्राक्ष माहात्म्यमपि चाव्ययम् ॥",
-                "transliteration": "bhavāpyayau hi bhūtānāṃ śrutau vistaraśo mayā.\ntvattaḥ kamalapatrākṣa māhātmyamapi cāvyayam",
-                "hinglishMeaning": "Hey kamalanayana ! mainne bhooton kee utpatti aura pralaya aapase vistaarapoorvaka sune hain tathaa aapakaa avyaya maahaatmya (prabhaava) bhee sunaa hai",
-                "simpleExplanation": "Saral bhav: Hey kamalanayana ! mainne bhooton kee utpatti aura pralaya aapase vistaarapoorvaka sune hain tathaa aapakaa avyaya maahaatmya (prabhaava) bhee sunaa hai. Iska sandarbh Adhyay 11 ke mool vishay se juda hai: vishvaroop ke darshan se Ishwar ki anant shakti aur kaal-tattva samajh aata hai.",
-                "lifeLesson": "Shraddha aur prem se ki gayi chhoti kriya bhi Bhagavan tak pahunchti hai."
+                "sanskrit": "भवाप्ययौ हि भूतानां श्रुतौ विस्तरशो मया ।\nत्वत्तः कमलपत्राक्ष माहात्म्यमपि चाव्ययम् ॥ २॥",
+                "transliteration": "Bhavapyayau Hi Bhutanam Shrutau Vistarasho Maya,\nTvattah Kamala Patraksha Mahatmyam Api Cavyayam.",
+                "englishMeaning": "O lotus-eyed Lord, I have heard from You in detail about the origin and dissolution of all living beings, as well as Your inexhaustible, eternal majesty.",
+                "hinglishMeaning": "Hey kamal ke saman netron wale Shri Krishna! Maine aapse sabhi jeevon ki utpatti aur unke pralaya (ant) ke baare mein vistar se suna hai, aur aapki anant, avinashi mahima ko bhi achhi tarah samjha hai.",
+                "simpleExplanation": "Arjun Bhagavan Krishna ko Kamal-patraksha (kamal ki pankhudi jaise sundar aur komal aankhon wale) kehkar sambodhit karte hain.\n\nWoh kehte hain ki maine sun liya ki kaise saara brahmand aapse nikalta hai aur wapas aap hi mein sama jaata hai. Yeh jaankar Arjun ke mann mein Krishna ke prati aadar aur shradha aur bhi gehri ho gayi hai.",
+                "lifeLesson": "Srishti ke banne aur mitne ke niyam ko samajh lene se insaan ke andar se mrityu ka darr khatam ho jaata hai aur jeevan mein vinamrata aati hai."
             },
             {
                 "verseNumber": 3,
-                "sanskrit": "एवमेतद्यथात्थ त्वमात्मानं परमेश्वर ।\nद्रष्टुमिच्छामि ते रूपमैश्वरं पुरुषोत्तम ॥",
-                "transliteration": "evametadyathāttha tvamātmānaṃ parameśvara.\ndraṣṭumicchāmi te rūpamaiśvaraṃ puruṣottama",
-                "hinglishMeaning": "Hey parameshvara ! aapa apane ko jaisaa kahate ho, yaha theeka aisaa hee hai. (parantu) hey purushottama ! main aapake eeshvareeya roopa ko pratyaksha dekhanaa chaahataa hoon",
-                "simpleExplanation": "Saral bhav: Hey parameshvara ! aapa apane ko jaisaa kahate ho, yaha theeka aisaa hee hai. (parantu) hey purushottama ! main aapake eeshvareeya roopa ko pratyaksha dekhanaa chaahataa hoon. Iska sandarbh Adhyay 11 ke mool vishay se juda hai: vishvaroop ke darshan se Ishwar ki anant shakti aur kaal-tattva samajh aata hai.",
-                "lifeLesson": "Apni asli pehchaan shareer se pare samajhne par bhay aur moh kam hote hain."
+                "sanskrit": "एवमेतद्यथात्थ त्वमात्मानं परमेश्वर ।\nद्रष्टुमिच्छामि ते रूपमैश्वरं पुरुषोत्तम ॥ ३॥",
+                "transliteration": "Evam Etad Yathattha Tvam Atmanam Parameshvara,\nDrashtum Icchami Te Rupam Aishvaram Purushottama.",
+                "englishMeaning": "O Supreme Lord, You are precisely as You describe Yourself to be. Yet, O Supreme Person, I yearn to behold Your divine, sovereign cosmic form with my own eyes!",
+                "hinglishMeaning": "Hey Parameshwar! Aap apne baare mein jaisa keh rahe hain, woh bilkul sach hai. Parantu hey Purushottam! Main aapke us divya aishvarya-may vishwaroop ko apni aankhon se dekhna chahta hoon.",
+                "simpleExplanation": "Arjun ko Krishna ki baaton par poora vishwas hai, koi shaq nahi hai. Lekin prem aur bhakti mein ek aisi pyas hoti hai jahan sunne ke baad saakshaatkar karne ki chahat jagti hai.\n\nArjun Krishna ke us roop ko dekhna chahte hain jisme poora brahmand, grah-nakshatra aur anant srishti samayi hui hai.",
+                "lifeLesson": "Sachche gyaan ke baad anubhav ki pyas jagti hai. Sirf padhna ya sunna kaafi nahi hota, satya ka saakshaatkar karna hi jeevan ki poornata hai."
             },
             {
                 "verseNumber": 4,
-                "sanskrit": "मन्यसे यदि तच्छक्यं मया द्रष्टुमिति प्रभो ।\nयोगेश्वर ततो मे त्वं दर्शयात्मानमव्ययम् ॥",
-                "transliteration": "manyase yadi tacchakyaṃ mayā draṣṭumiti prabho.\nyogeśvara tato me tvaṃ darśayātmānamavyayam",
-                "hinglishMeaning": "Hey prabho ! yadi aapa maanate hain ki mere dvaaraa vaha aapakaa roopa dekhaa jaanaa sanbhava hai, to hey yogeshvara ! aapa apane avyaya roopa kaa darshana karaaiye",
-                "simpleExplanation": "Saral bhav: Hey prabho ! yadi aapa maanate hain ki mere dvaaraa vaha aapakaa roopa dekhaa jaanaa sanbhava hai, to hey yogeshvara ! aapa apane avyaya roopa kaa darshana karaaiye. Iska sandarbh Adhyay 11 ke mool vishay se juda hai: vishvaroop ke darshan se Ishwar ki anant shakti aur kaal-tattva samajh aata hai.",
-                "lifeLesson": "Apni asli pehchaan shareer se pare samajhne par bhay aur moh kam hote hain."
+                "sanskrit": "मन्यसे यदि तच्छक्यं मया द्रष्टुमिति प्रभो ।\nयोगेश्वर ततो मे त्वं दर्शयात्मानमव्ययम् ॥ ४॥",
+                "transliteration": "Manyase Yadi Tac Chakyam Maya Drashtum Iti Prabho,\nYogeshvara Tato Me Tvam Darshayatmanam Avyayam.",
+                "englishMeaning": "If You consider that it is possible for me to behold it, O Lord of Yoga, then please graciously reveal Your imperishable, eternal cosmic Self to me!",
+                "hinglishMeaning": "Hey Prabhu! Agar aapko lagta hai ki main aapke us roop ko dekhne ke kabil hoon, toh hey Yogeshwar! Kripa karke mujhe apne us avinashi swaroop ke darshan karaiye.",
+                "simpleExplanation": "Yahan Arjun ki apar vinamrata dikhti hai. Woh koi zid ya daawa nahi karte ki 'main aapka sacha mitra hoon toh mujhe dikhao hi dikhao'.\n\nWoh kehte hain: 'Agar aapko lagta hai ki meri aisi yogyata aur shakti hai, tabhi dikhaiye.' Ishwar se kripa maangte samay hamesha vinamra patrata honi chahiye.",
+                "lifeLesson": "Prarthana mein ahankar ya adhikar nahi, balki vinamrata honi chahiye. Guru aur Ishwar ke aage patra bankar khade hone par hi anugrah praapt hota hai."
             },
             {
                 "verseNumber": 5,
-                "sanskrit": "श्रीभगवानुवाच ।\nपश्य मे पार्थ रूपाणि शतशोऽथ सहस्रशः ।\nनानाविधानि दिव्यानि नानावर्णाकृतीनि च ॥",
-                "transliteration": "śrībhagavānuvāca.\npaśya me pārtha rūpāṇi śataśo.atha sahasraśaḥ.\nnānāvidhāni divyāni nānāvarṇākṛtīni ca",
-                "hinglishMeaning": "Shreebhagavaan ne kahaa -- hey paartha ! mere saikadon tathaa sahasron naanaa prakaara ke aura naanaa varna tathaa aakriti vaale divya roopon ko dekho",
-                "simpleExplanation": "Saral bhav: Shreebhagavaan ne kahaa -- hey paartha ! mere saikadon tathaa sahasron naanaa prakaara ke aura naanaa varna tathaa aakriti vaale divya roopon ko dekho. Iska sandarbh Adhyay 11 ke mool vishay se juda hai: vishvaroop ke darshan se Ishwar ki anant shakti aur kaal-tattva samajh aata hai.",
-                "lifeLesson": "Shraddha aur prem se ki gayi chhoti kriya bhi Bhagavan tak pahunchti hai."
+                "sanskrit": "श्रीभगवानुवाच ।\nपश्य मे पार्थ रूपाणि शतशोऽथ सहस्रशः ।\nनानाविधानि दिव्यानि नानावर्णाकृतीनि च ॥ ५॥",
+                "transliteration": "Shri Bhagavan Uvacha:\nPashya Me Partha Rupani Shatasho Tha Sahasrashah,\nNanavidhani Divyani Nana Varnakritini Ca.",
+                "englishMeaning": "The Blessed Lord said: Behold, O Partha, My divine forms by the hundreds and thousands, in infinite varieties, celestial, and of countless colors and shapes!",
+                "hinglishMeaning": "Shri Bhagavan ne kaha: Hey Partha! Mere saikadon aur hazaron divya roopon ko dekho, jo alag-alag tarah ke hain, anek rangon ke hain aur tarah-tarah ke aakaron wale hain.",
+                "simpleExplanation": "Bhagavan Krishna ne Arjun ki vinamra prarthana sunte hi swikar kar li.\n\nUnhone kaha: 'Dekho Arjun, mera koi ek chehra ya ek aakar nahi hai. Mere hazaron divya roop hain — har rang, har prakar aur har aakar mein.' Ishwar ko kisi ek seema ya deewar mein nahi baandha ja sakta.",
+                "lifeLesson": "Ishwar ki srishti anant vividhta se bhari hai. Jab insaan sankuchit soch chhodkar vishal drishti apnata hai, tab use har kan mein divyata dikhti hai."
             },
             {
                 "verseNumber": 6,
-                "sanskrit": "पश्यादित्यान्वसून्रुद्रानश्विनौ मरुतस्तथा ।\nबहून्यदृष्टपूर्वाणि पश्याश्चर्याणि भारत ॥",
-                "transliteration": "paśyādityānvasūnrudrānaśvinau marutastathā.\nbahūnyadṛṣṭapūrvāṇi paśyāścaryāṇi bhārata",
-                "hinglishMeaning": "Hey bhaarata ! (mujhamen) aadityon, vasuon, rudron tathaa ashvineekumaaron aura marudganon ko dekho, tathaa aura bhee aneka isake poorva kabhee na dekhey hue aashcharyon ko dekho",
-                "simpleExplanation": "Saral bhav: Hey bhaarata ! (mujhamen) aadityon, vasuon, rudron tathaa ashvineekumaaron aura marudganon ko dekho, tathaa aura bhee aneka isake poorva kabhee na dekhey hue aashcharyon ko dekho. Iska sandarbh Adhyay 11 ke mool vishay se juda hai: vishvaroop ke darshan se Ishwar ki anant shakti aur kaal-tattva samajh aata hai.",
-                "lifeLesson": "Shraddha aur prem se ki gayi chhoti kriya bhi Bhagavan tak pahunchti hai."
+                "sanskrit": "पश्यादित्यान्वसून्रुद्रानश्विनौ मरुतस्तथा ।\nबहून्यदृष्टपूर्वाणि पश्याश्चर्याणि भारत ॥ ६॥",
+                "transliteration": "Pashyadityan Vasun Rudran Ashvinau Marutas Tatha,\nBahuny Adrishta Purvani Pashyashcaryani Bharata.",
+                "englishMeaning": "Behold the Adityas, the Vasus, the Rudras, the two Ashvins, and the Maruts, O Bharata! Behold countless extraordinary wonders never before seen by anyone!",
+                "hinglishMeaning": "Hey Bharatvanshi Arjun! Mujhme barah Adityon ko, aath Vasuon ko, gyarah Rudron ko, dono Ashwini-kumaron ko aur unachas Maruton ko dekho; aur anek aise adbhut chamatkar dekho jo pehle kabhi kisi ne nahi dekhe!",
+                "simpleExplanation": "Krishna Arjun se kehte hain ki tum mere andar srishti ki saari mool shaktiyon ko dekho — prakash ke devta Aditya, vasundhara ko sambhalne wale Vasu, shakti ke prateek Rudra aur pavan devta Marut.\n\nSaath hi aisi anant cheezein dekho jo aaj tak kisi manushya ne kabhi sapne mein bhi nahi dekhi thi.",
+                "lifeLesson": "Brahmand humari kalpana se kahin zyaada vishal aur rahasyamayi hai. Apne gyaan par ghamand mat karo; anant srishti ke aage hamesha jigyasu bane raho."
             },
             {
                 "verseNumber": 7,
-                "sanskrit": "इहैकस्थं जगत्कृत्स्नं पश्याद्य सचराचरम् ।\nमम देहे गुडाकेश यच्चान्यद् द्रष्टुमिच्छसि ॥",
-                "transliteration": "ihaikasthaṃ jagatkṛtsnaṃ paśyādya sacarācaram.\nmama dehe guḍākeśa yaccānyad draṣṭumicchasi",
-                "hinglishMeaning": "Hey gudaakesha ! aaja (aba) isa mere shareera men eka sthaana para sthita hue charaachara sahita sampoorna jagat ko dekho tathaa aura bhee jo kuchha tuma dekhanaa chaahate ho, use bhee dekho",
-                "simpleExplanation": "Saral bhav: Hey gudaakesha ! aaja (aba) isa mere shareera men eka sthaana para sthita hue charaachara sahita sampoorna jagat ko dekho tathaa aura bhee jo kuchha tuma dekhanaa chaahate ho, use bhee dekho. Iska sandarbh Adhyay 11 ke mool vishay se juda hai: vishvaroop ke darshan se Ishwar ki anant shakti aur kaal-tattva samajh aata hai.",
-                "lifeLesson": "Shraddha aur prem se ki gayi chhoti kriya bhi Bhagavan tak pahunchti hai."
+                "sanskrit": "इहैकस्थं जगत्कृत्स्नं पश्याद्य सचराचरम् ।\nमम देहे गुडाकेश यच्चान्यद् द्रष्टुमिच्छसि ॥ ७॥",
+                "transliteration": "Ihaikastham Jagat Kritsnam Pashyadya Sacaracaram,\nMama Dehe Gudakesha Yac Canyad Drashtum Icchasi.",
+                "englishMeaning": "Behold here today, O Gudakesha, the entire universe with all its moving and unmoving beings, centered all at once within My body, and whatever else you desire to see!",
+                "hinglishMeaning": "Hey Gudakesha (Arjun)! Aaj is mere ek hi shareer mein char aur achar samet poore vishva ko ek saath sthit dekho, aur jo kuch bhi tum dekhna chahte ho, use bhi yahan dekh lo.",
+                "simpleExplanation": "Krishna kehte hain: 'Arjun, tumhe kahin bhatakne ki zaroorat nahi hai. Poora brahmand — sabhi grah, sitare, ped-paudhe, pashu-pakshi, manushya, bhoot, vartaman aur bhavishya — sab kuch mere is ek shareer ke andar sthit hai.'\n\nJo kuch bhi dekhne ki tumhari ichha ho, woh sab yahan dikhega.",
+                "lifeLesson": "Har cheez aur har praani aapas mein jude hue hain kyunki sabka aadhar ek hi param shakti hai. Sabhi mein us ek chetna ka aadar karo."
             },
             {
                 "verseNumber": 8,
-                "sanskrit": "न तु मां शक्यसे द्रष्टुमनेनैव स्वचक्षुषा ।\nदिव्यं ददामि ते चक्षुः पश्य मे योगमैश्वरम् ॥",
-                "transliteration": "na tu māṃ śakyase draṣṭumanenaiva svacakṣuṣā.\ndivyaṃ dadāmi te cakṣuḥ paśya me yogamaiśvaram",
-                "hinglishMeaning": "Parantu tuma apane inheen (praakrita) netron ke dvaaraa mujhey dekhane men samartha naheen ho; (isalie) main tumhen divyachakshu detaa hoon, jisase tuma mere eeshvareeya 'yoga' ko dekho",
-                "simpleExplanation": "Saral bhav: Parantu tuma apane inheen (praakrita) netron ke dvaaraa mujhey dekhane men samartha naheen ho; (isalie) main tumhen divyachakshu detaa hoon, jisase tuma mere eeshvareeya 'yoga' ko dekho. Iska sandarbh Adhyay 11 ke mool vishay se juda hai: vishvaroop ke darshan se Ishwar ki anant shakti aur kaal-tattva samajh aata hai.",
-                "lifeLesson": "Man ko saadhne se jeevan mein santulan, dhairya aur spashtata aati hai."
+                "sanskrit": "न तु मां शक्यसे द्रष्टुमनेनैव स्वचक्षुषा ।\nदिव्यं ददामि ते चक्षुः पश्य मे योगमैश्वरम् ॥ ८॥",
+                "transliteration": "Na Tu Mam Shakyase Drashtum Anenaiva Sva Cakshusha,\nDivyam Dadami Te Cakshuh Pashya Me Yogam Aishvaram.",
+                "englishMeaning": "However, you cannot see Me with these physical eyes of yours. Therefore, I grant you divine vision! Behold now My sovereign, majestic yogic power!",
+                "hinglishMeaning": "Lekin tum apni in chamde ki aam aankhon se mujhe dekhne mein samarth nahi ho. Isliye main tumhe divya drishti (divya chakshu) deta hoon. Ab mere param aishvaryapoorna yog-shakti ko dekho!",
+                "simpleExplanation": "Humari aam aankhein sirf physical roop aur rang dekh sakti hain. Suraj ki tezz dhoop ko bhi hum sidha nahi dekh sakte, toh anant brahmand ke srot ko kaise dekhenge?\n\nKrishna samjhate hain ki anant ko dekhne ke liye divya drishti (aatmik bodh) ki zaroorat hoti hai. Isliye Krishna ne kripa karke Arjun ko divya drishti pradan ki.",
+                "lifeLesson": "Gehre aatmik satya ko bahari aankhon ya saste tarka se nahi dekha ja sakta; uske liye shuddh buddhi aur divya drishti ki aavashyakta hoti hai."
             },
             {
                 "verseNumber": 9,
-                "sanskrit": "सञ्जय उवाच ।\nएवमुक्त्वा ततो राजन्महायोगेश्वरो हरिः ।\nदर्शयामास पार्थाय परमं रूपमैश्वरम् ॥",
-                "transliteration": "sañjaya uvāca.\nevamuktvā tato rājanmahāyogeśvaro hariḥ.\ndarśayāmāsa pārthāya paramaṃ rūpamaiśvaram",
-                "hinglishMeaning": "Sanjaya ne kahaa -- hey raajan ! mahaayogeshvara hari ne isa prakaara kahakara phira Arjun ke lie parama aishvaryayukta roopa ko darshaayaa",
-                "simpleExplanation": "Saral bhav: Sanjaya ne kahaa -- hey raajan ! mahaayogeshvara hari ne isa prakaara kahakara phira Arjun ke lie parama aishvaryayukta roopa ko darshaayaa. Iska sandarbh Adhyay 11 ke mool vishay se juda hai: vishvaroop ke darshan se Ishwar ki anant shakti aur kaal-tattva samajh aata hai.",
-                "lifeLesson": "Shraddha aur prem se ki gayi chhoti kriya bhi Bhagavan tak pahunchti hai."
+                "sanskrit": "सञ्जय उवाच ।\nएवमुक्त्वा ततो राजन्महायोगेश्वरो हरिः ।\nदर्शयामास पार्थाय परमं रूपमैश्वरम् ॥ ९॥",
+                "transliteration": "Sanjaya Uvacha:\nEvam Uktva Tato Rajan Maha Yogeshvaro Harih,\nDarshayam Asa Parthaya Paramam Rupam Aishvaram.",
+                "englishMeaning": "Sanjaya said: O King, having spoken thus, the Supreme Lord of Yoga, Hari, revealed unto Partha His supreme, majestic cosmic form!",
+                "hinglishMeaning": "Sanjay ne kaha: Hey Rajan Dhritarashtra! Aisa kehkar param yogeshwar Bhagavan Shri Krishna ne Arjun ko apna param divya aur aishvarya-may vishwaroop dikhaya.",
+                "simpleExplanation": "Yahan se Sanjay Raja Dhritarashtra ko Kurukshetra ke maidan ka woh drishya bata rahe hain jise dekh kar dhartein kaanp jayein.\n\nBhagavan Krishna ne jo kaha, use sach kar dikhaya aur Arjun ke samne apna anant vishwaroop prakat kar diya.",
+                "lifeLesson": "Ishwar jo sankalp karte hain, woh poora hota hai. Jab satya prakat hota hai, tab saari kalpanayein peeche chhut jaati hain."
             },
             {
                 "verseNumber": 10,
-                "sanskrit": "अनेकवक्त्रनयनमनेकाद्भुतदर्शनम् ।\nअनेकदिव्याभरणं दिव्यानेकोद्यतायुधम् ॥",
-                "transliteration": "anekavaktranayanamanekādbhutadarśanam.\nanekadivyābharaṇaṃ divyānekodyatāyudham",
-                "hinglishMeaning": "Usa aneka mukha aura netron se yukta tathaa aneka adbhuta darshanon vaale evan bahuta se divya bhooshanon se yukta aura bahuta se divya shastron ko haathon men uthaaye huye",
-                "simpleExplanation": "Saral bhav: Usa aneka mukha aura netron se yukta tathaa aneka adbhuta darshanon vaale evan bahuta se divya bhooshanon se yukta aura bahuta se divya shastron ko haathon men uthaaye huye. Iska sandarbh Adhyay 11 ke mool vishay se juda hai: vishvaroop ke darshan se Ishwar ki anant shakti aur kaal-tattva samajh aata hai.",
-                "lifeLesson": "Man ko saadhne se jeevan mein santulan, dhairya aur spashtata aati hai."
+                "sanskrit": "अनेकवक्त्रनयनमनेकाद्भुतदर्शनम् ।\nअनेकदिव्याभरणं दिव्यानेकोद्यतायुधम् ॥ १०॥",
+                "transliteration": "Aneka Vaktra Nayanam Anekadbhuta Darshanam,\nAneka Divyabharanam Divyanekodyatayudham.",
+                "englishMeaning": "Having countless mouths and eyes, presenting manifold wondrous sights, adorned with numerous divine ornaments, and brandishing countless celestial weapons raised on high,",
+                "hinglishMeaning": "Us vishwaroop mein anekon mukh aur netra the, anek hairat-angez aur adbhut drishya the, bahut se divya aabhushan the aur haathon mein uthaye hue anekon divya hathiyar the.",
+                "simpleExplanation": "Arjun ne dekha ki us roop ke hazaron mukh the, hazaron aankhein theen jo har taraf dekh rahi theen.\n\nHar taraf anokhe roop, divya gehne aur haathon mein dharme ki raksha karne wale divya shastra the. Yeh drishya ek hi samay mein atyant sundar aur be-hadd shaktishaali tha.",
+                "lifeLesson": "Parmatma sirf shanti ke roop nahi hain; woh srishti ke anushashan, suraksha aur adharma ke naash ki sarvochha shakti bhi hain."
             },
             {
                 "verseNumber": 11,
-                "sanskrit": "दिव्यमाल्याम्बरधरं दिव्यगन्धानुलेपनम् ।\nसर्वाश्चर्यमयं देवमनन्तं विश्वतोमुखम् ॥",
-                "transliteration": "divyamālyāmbaradharaṃ divyagandhānulepanam.\nsarvāścaryamayaṃ devamanantaṃ viśvatomukham",
-                "hinglishMeaning": "Divya maalaa aura vastron ko dhaarana kiye huye aura divya gandha kaa lepana kiye huye evan samasta prakaara ke aashcharyon se yukta ananta, vishvatomukha (viraat svaroopa) parama deva (ko Arjun ne dekhaa)",
-                "simpleExplanation": "Saral bhav: Divya maalaa aura vastron ko dhaarana kiye huye aura divya gandha kaa lepana kiye huye evan samasta prakaara ke aashcharyon se yukta ananta, vishvatomukha (viraat svaroopa) parama deva (ko Arjun ne dekhaa). Iska sandarbh Adhyay 11 ke mool vishay se juda hai: vishvaroop ke darshan se Ishwar ki anant shakti aur kaal-tattva samajh aata hai.",
-                "lifeLesson": "Man ko saadhne se jeevan mein santulan, dhairya aur spashtata aati hai."
+                "sanskrit": "दिव्यमाल्याम्बरधरं दिव्यगन्धानुलेपनम् ।\nसर्वाश्चर्यमयं देवमनन्तं विश्वतोमुखम् ॥ ११॥",
+                "transliteration": "Divya Malyambara Dharam Divya Gandhanulepanam,\nSarvashcaryamayam Devam Anantam Vishvatomukham.",
+                "englishMeaning": "Wearing celestial garlands and robes, anointed with heavenly fragrances, all-wonderful, resplendent, boundless, and facing all directions at once,",
+                "hinglishMeaning": "Unhone divya phoolon ki maalaayein aur divya vastra dharan kiye hue the, divya sugandhit dravyon ka lep laga hua tha; woh samast aashcharyon se yukt, anant aur sabhi dishaon mein mukh wale the.",
+                "simpleExplanation": "Us roop mein aisi divya sugandh aur shobha thi jo sansaar mein kahin sambhav nahi hai.\n\nHar disha mein unka chehra tha — aage, peeche, upar, neeche. Yeh darshata hai ki Ishwar se kuch bhi chhipa nahi hai, unki drishti aur upasthiti har sthan par vidyamaan hai.",
+                "lifeLesson": "Ishwar har jagah maujood hain aur sab kuch dekh rahe hain. Jab insaan is sach ko mehsoos karta hai, toh woh akele mein bhi galat kaam karne se darta hai."
             },
             {
                 "verseNumber": 12,
-                "sanskrit": "दिवि सूर्यसहस्रस्य भवेद्युगपदुत्थिता ।\nयदि भाः सदृशी सा स्याद्भासस्तस्य महात्मनः ॥",
-                "transliteration": "divi sūryasahasrasya bhavedyugapadutthitā.\nyadi bhāḥ sadṛśī sā syādbhāsastasya mahātmanaḥ",
-                "hinglishMeaning": "Aakaasha men sahasra sooryon ke eka saatha udaya hone se utpanna jo prakaasha hogaa, vaha usa (vishvaroopa) paramatma ke prakaasha ke sadrisha hogaa",
-                "simpleExplanation": "Saral bhav: Aakaasha men sahasra sooryon ke eka saatha udaya hone se utpanna jo prakaasha hogaa, vaha usa (vishvaroopa) paramatma ke prakaasha ke sadrisha hogaa. Iska sandarbh Adhyay 11 ke mool vishay se juda hai: vishvaroop ke darshan se Ishwar ki anant shakti aur kaal-tattva samajh aata hai.",
-                "lifeLesson": "Man ko saadhne se jeevan mein santulan, dhairya aur spashtata aati hai."
+                "sanskrit": "दिवि सूर्यसहस्रस्य भवेद्युगपदुत्थिता ।\nयदि भाः सदृशी सा स्याद्भासस्तस्य महात्मनः ॥ १२॥",
+                "transliteration": "Divi Surya Sahasrasya Bhaved Yugapad Utthita,\nYadi Bhah Sadrishi Sa Syad Bhasas Tasya Mahatmanah.",
+                "englishMeaning": "If a thousand suns were to blaze forth simultaneously in the sky, their collective brilliance might resemble the radiance of that Supreme Soul!",
+                "hinglishMeaning": "Aakash mein yadi hazaron suraj ek saath uday ho jayein, toh unka jo tej aur prakaash hoga, shayad woh bhi us param vishwaroop ke prakaash ke barabar ho sake!",
+                "simpleExplanation": "Yeh Gita ka sabse prasiddh aur tejasvi shlok hai!\n\nSanjay kehte hain: 'Kalpana karo ki aakash mein ek suraj nahi, balki ek hazaar suraj ek hi pal mein chamak uthein — unka tezz kitna prachand hoga? Us vishwaroop ka prakaash usse bhi kahin adhik divya aur aparampaar tha!'\n(Yahi woh shlok hai jo atomic bomb ke parikshan ke samay Oppenheimer ne yaad kiya tha).",
+                "lifeLesson": "Satya aur aatmik shakti ka tej itna vishal hota hai ki uske aage andhere aur jhooth ka koi astitva nahi rehta."
             },
             {
                 "verseNumber": 13,
-                "sanskrit": "तत्रैकस्थं जगत्कृत्स्नं प्रविभक्तमनेकधा ।\nअपश्यद्देवदेवस्य शरीरे पाण्डवस्तदा ॥",
-                "transliteration": "tatraikasthaṃ jagatkṛtsnaṃ pravibhaktamanekadhā.\napaśyaddevadevasya śarīre pāṇḍavastadā",
-                "hinglishMeaning": "Paanduputra Arjun ne usa samaya aneka prakaara se vibhakta hue sampoorna jagat ko devon ke deva shreeKrishna ke shareera men eka sthaana para sthita dekhaa",
-                "simpleExplanation": "Saral bhav: Paanduputra Arjun ne usa samaya aneka prakaara se vibhakta hue sampoorna jagat ko devon ke deva shreeKrishna ke shareera men eka sthaana para sthita dekhaa. Iska sandarbh Adhyay 11 ke mool vishay se juda hai: vishvaroop ke darshan se Ishwar ki anant shakti aur kaal-tattva samajh aata hai.",
-                "lifeLesson": "Shraddha aur prem se ki gayi chhoti kriya bhi Bhagavan tak pahunchti hai."
+                "sanskrit": "तत्रैकस्थं जगत्कृत्स्नं प्रविभक्तमनेकधा ।\nअपश्यद्देवदेवस्य शरीरे पाण्डवस्तदा ॥ १३॥",
+                "transliteration": "Tatraikastham Jagat Kritsnam Pravibhaktam Anekadha,\nApashyad Deva Devasya Sharire Pandavas Tada.",
+                "englishMeaning": "There, situated in one single place within the body of the God of gods, the Pandava (Arjuna) then beheld the entire cosmos in its manifold divisions!",
+                "hinglishMeaning": "Usi samay Pandu-putra Arjun ne devon ke dev Shri Krishna ke us divya shareer mein ek hi sthan par anekon hisson mein bante hue poore brahmand ko dekha.",
+                "simpleExplanation": "Arjun ne dekha ki anant aakashgangayein, taramandal, samudra, pahaad aur vibhinn lok — jo door-door bikhre lagte hain — woh sab Krishna ke ek hi shareer ke andar poori tarah vyavasthit roop se sthit hain.\n\nSansaar ki alag-alag dikhne wali cheezein vastav mein ek hi dor mein bandhi hui hain.",
+                "lifeLesson": "Vividhta ke peeche chhipi ekta ko pehchano. Bahar se sab alag dikhte hain, par bheetar se sab us ek parmatma ke ansh hain."
             },
             {
                 "verseNumber": 14,
-                "sanskrit": "ततः स विस्मयाविष्टो हृष्टरोमा धनञ्जयः ।\nप्रणम्य शिरसा देवं कृताञ्जलिरभाषत ॥",
-                "transliteration": "tataḥ sa vismayāviṣṭo hṛṣṭaromā dhanañjayaḥ.\npraṇamya śirasā devaṃ kṛtāñjalirabhāṣata",
-                "hinglishMeaning": "Usake uparaanta vaha aashcharyachakita huaa harshita romon vaalaa (jise romaancha kaa anubhava ho rahaa ho) dhananjaya Arjun vishvaroopa deva ko (shraddhaa bhakti sahita) shira se pranaama karake haatha jodakara bolaa",
-                "simpleExplanation": "Saral bhav: Usake uparaanta vaha aashcharyachakita huaa harshita romon vaalaa (jise romaancha kaa anubhava ho rahaa ho) dhananjaya Arjun vishvaroopa deva ko (shraddhaa bhakti sahita) shira se pranaama karake haatha jodakara bolaa. Iska sandarbh Adhyay 11 ke mool vishay se juda hai: vishvaroop ke darshan se Ishwar ki anant shakti aur kaal-tattva samajh aata hai.",
-                "lifeLesson": "Shraddha aur prem se ki gayi chhoti kriya bhi Bhagavan tak pahunchti hai."
+                "sanskrit": "ततः स विस्मयाविष्टो हृष्टरोमा धनञ्जयः ।\nप्रणम्य शिरसा देवं कृताञ्जलिरभाषत ॥ १४॥",
+                "transliteration": "Tatah Sa Vismayavishto Hrishtaroma Dhananjayah,\nPranamya Shirasa Devam Kritanjalir Abhashata.",
+                "englishMeaning": "Then, overwhelmed with profound wonder, his hair standing on end, Dhananjaya (Arjuna) bowed his head in reverence to the Divine Lord and spoke with folded hands.",
+                "hinglishMeaning": "Uske baad aashcharya aur vismay se bhare hue, romanchit shareer wale Arjun ne sar jhuka kar us vishwaroop Bhagavan ko pranam kiya aur haath jodkar prarthana karne laga.",
+                "simpleExplanation": "Is anant drishya ko dekhkar Arjun ka rom-rom khada ho gaya (romanchit ho gaya). Unka dil vinamrata aur aashcharya se bhar gaya.\n\nUnhone apna sar jhukaya aur haath jodkar Krishna ke aage prarthana karna shuru kiya. Jab manushya anant satya ke samne khada hota hai, toh ahankar pighal jaata hai.",
+                "lifeLesson": "Sachcha aashcharya aur gyaan insaan ko ahankar nahi, balki sarvottam vinamrata deta hai. Shradha se sar jhukana hi shreshtha samvedna hai."
             },
             {
                 "verseNumber": 15,
-                "sanskrit": "अर्जुन उवाच ।\nपश्यामि देवांस्तव देव देहे\nसर्वांस्तथा भूतविशेषसङ्घान् ।\nब्रह्माणमीशं कमलासनस्थ-\nमृषींश्च सर्वानुरगांश्च दिव्यान् ॥",
-                "transliteration": "arjuna uvāca.\npaśyāmi devāṃstava deva dehe sarvāṃstathā bhūtaviśeṣasaṅghān.\nbrahmāṇamīśaṃ kamalāsanasthaṃ ṛṣīṃśca sarvānuragāṃśca divyān",
-                "hinglishMeaning": "Arjun ne kahaa -- hey deva! main aapake shareera men samasta devon ko tathaa aneka bhootavisheshon ke samudaayon ko aura kamalaasana para sthita srishti ke svaamee brahmaajee ko, rishiyon ko aura divya sarpon ko dekha rahaa hoon",
-                "simpleExplanation": "Saral bhav: Arjun ne kahaa -- hey deva! main aapake shareera men samasta devon ko tathaa aneka bhootavisheshon ke samudaayon ko aura kamalaasana para sthita srishti ke svaamee brahmaajee ko, rishiyon ko aura divya sarpon ko dekha rahaa hoon. Iska sandarbh Adhyay 11 ke mool vishay se juda hai: vishvaroop ke darshan se Ishwar ki anant shakti aur kaal-tattva samajh aata hai.",
-                "lifeLesson": "Shraddha aur prem se ki gayi chhoti kriya bhi Bhagavan tak pahunchti hai."
+                "sanskrit": "अर्जुन उवाच ।\nपश्यामि देवांस्तव देव देहे\nसर्वांस्तथा भूतविशेषसङ्घान् ।\nब्रह्माणमीशं कमलासनस्थ-\nमृषींश्च सर्वानुरगांश्च दिव्यान् ॥ १५॥",
+                "transliteration": "Arjuna Uvacha:\nPashyami Devams Tava Deva Dehe\nSarvams Tatha Bhuta Vishesha Sanghan,\nBrahmanam Isham Kamalasanastham\nRishimsh Ca Sarvan Uragamsh Ca Divyan.",
+                "englishMeaning": "Arjuna said: O Lord, within Your body I see all the gods and the multitudes of various living beings; I see Brahma, the creator, seated upon the lotus flower, Lord Shiva, all the great sages, and the celestial serpents!",
+                "hinglishMeaning": "Arjun ne kaha: Hey Prabhu! Main aapke shareer mein sabhi devtaon ko, samast praaniyon ke samoohon ko, kamal ke aasan par baithe Brahma ji ko, Mahadev Shiva ko, sabhi rishiyon ko aur divya sarpon ko dekh raha hoon.",
+                "simpleExplanation": "Arjun kahte hain ki main dekh raha hoon ki srishti ke rachyita Brahma ji, pralayankari Shiva ji, samast devta aur mahan rishi sab aapke hi bheetar virajmaan hain.\n\nYeh darshata hai ki koi bhi devta ya shakti Krishna se alag nahi hai; sab us ek param shakti ke hi vividh aayam hain.",
+                "lifeLesson": "Bhedbhav chhodkar yeh samjho ki srishti ki saari shaktiyan aur sadhu-sant ek hi param aadhar se jude hue hain."
             },
             {
                 "verseNumber": 16,
-                "sanskrit": "अनेकबाहूदरवक्त्रनेत्रं\nपश्यामि त्वां सर्वतोऽनन्तरूपम् ।\nनान्तं न मध्यं न पुनस्तवादिं\nपश्यामि विश्वेश्वर विश्वरूप ॥",
-                "transliteration": "anekabāhūdaravaktranetraṃ paśyāmi tvāṃ sarvato.anantarūpam.\nnāntaṃ na madhyaṃ na punastavādiṃ paśyāmi viśveśvara viśvarūpa",
-                "hinglishMeaning": "Hey vishveshvara! main aapakee aneka baahu, udara, mukha aura netron se yukta tathaa saba ora se ananta roopon vaalaa dekhataa hoon. hey vishvaroopa! main aapake na anta ko dekhataa hoon aura na madhya ko aura na aadi ko",
-                "simpleExplanation": "Saral bhav: Hey vishveshvara! main aapakee aneka baahu, udara, mukha aura netron se yukta tathaa saba ora se ananta roopon vaalaa dekhataa hoon. hey vishvaroopa! main aapake na anta ko dekhataa hoon aura na madhya ko aura na aadi ko. Iska sandarbh Adhyay 11 ke mool vishay se juda hai: vishvaroop ke darshan se Ishwar ki anant shakti aur kaal-tattva samajh aata hai.",
-                "lifeLesson": "Shraddha aur prem se ki gayi chhoti kriya bhi Bhagavan tak pahunchti hai."
+                "sanskrit": "अनेकबाहूदरवक्त्रनेत्रं\nपश्यामि त्वां सर्वतोऽनन्तरूपम् ।\nनान्तं न मध्यं न पुनस्तवादिं\nपश्यामि विश्वेश्वर विश्वरूप ॥ १६॥",
+                "transliteration": "Aneka Bahudara Vaktra Netram\nPashyami Tvam Sarvato Nanta Rupam,\nNantam Na Madhyam Na Punas Tavadim\nPashyami Vishveshvara Vishva Rupa.",
+                "englishMeaning": "I see You with countless arms, bellies, mouths, and eyes, extending boundlessly on all sides! O Lord of the universe, O Universal Form, I see neither Your end, nor Your middle, nor Your beginning!",
+                "hinglishMeaning": "Hey Vishweshwar! Hey Vishwaroop! Main aapko anekon bhujaon, peton, mukhon aur aankhon ke saath sabhi or anant roopon mein dekh raha hoon. Mujhe aapka na aadi dikhta hai, na madhya aur na hi ant!",
+                "simpleExplanation": "Arjun jahan bhi dekhte hain, unhe Krishna ka hi vistar dikhta hai. Na koi shuruwaat hai, na koi beech ka hissa aur na koi seema.\n\nInsaan ki buddhi har cheez ko shuru aur khatam hone ke hisaab se samajhti hai, par Ishwar anant hain — unka na koi aadi hai aur na ant.",
+                "lifeLesson": "Ishwar aur unke gyaan ki koi seema nahi hai. Apne sankuchit daayre se nikal kar anant ko swikar karna seekho."
             },
             {
                 "verseNumber": 17,
-                "sanskrit": "किरीटिनं गदिनं चक्रिणं च\nतेजोराशिं सर्वतो दीप्तिमन्तम् ।\nपश्यामि त्वां दुर्निरीक्ष्यं समन्ताद्\nदीप्तानलार्कद्युतिमप्रमेयम् ॥",
-                "transliteration": "kirīṭinaṃ gadinaṃ cakriṇaṃ ca tejorāśiṃ sarvato dīptimantam.\npaśyāmi tvāṃ durnirīkṣyaṃ samantād dīptānalārkadyutimaprameyam",
-                "hinglishMeaning": "Main aapakaa mukutayukta, gadaayukta aura chakradhaarana kiye huye tathaa saba ora se prakaashamaan teja kaa punja, deepta agni aura soorya ke samaana jyotirmaya, dekhane men ati kathina aura aprameyasvaroopa saba ora se dekhataa hoon",
-                "simpleExplanation": "Saral bhav: Main aapakaa mukutayukta, gadaayukta aura chakradhaarana kiye huye tathaa saba ora se prakaashamaan teja kaa punja, deepta agni aura soorya ke samaana jyotirmaya, dekhane men ati kathina aura aprameyasvaroopa saba ora se dekhataa hoon. Iska sandarbh Adhyay 11 ke mool vishay se juda hai: vishvaroop ke darshan se Ishwar ki anant shakti aur kaal-tattva samajh aata hai.",
-                "lifeLesson": "Man ko saadhne se jeevan mein santulan, dhairya aur spashtata aati hai."
+                "sanskrit": "किरीटिनं गदिनं चक्रिणं च\nतेजोराशिं सर्वतो दीप्तिमन्तम् ।\nपश्यामि त्वां दुर्निरीक्ष्यं समन्ताद्\nदीप्तानलार्कद्युतिमप्रमेयम् ॥ १७॥",
+                "transliteration": "Kiritinam Gadinam Cakrinam Ca\nTejo Rashim Sarvato Diptimantam,\nPashyami Tvam Durnirikshyam Samantad\nDiptanalarkadyutim Aprameyam.",
+                "englishMeaning": "I see You wearing a radiant crown, bearing a mace and a discus, a blazing mass of effulgence glowing everywhere, dazzling like blazing fire and the radiant sun, immeasurable and blinding to behold!",
+                "hinglishMeaning": "Main aapko mukut pehne, gada aur chakra dharan kiye, sabhi or prakaashit teja ki rashi ke roop mein dekh raha hoon. Dhak-dhak karti aag aur suraj ke saman tejasvi, jise aankhon se dekhna behad kathin hai aur jo aparampar hai.",
+                "simpleExplanation": "Arjun ko us vishwaroop mein Bhagavan Vishnu ke divya chinh dikh rahe hain — mukut, gada aur sudarshan chakra.\n\nLekin unka prakaash itna tezz hai, jaise dahakti hui jwala aur hazaron suraj ki roshni ek saath ho, jise dekh paana aam aankhon ke liye asambhav tha.",
+                "lifeLesson": "Satya ki roshni itni prachand hoti hai ki uske aage manushya ki aam drishti thithak jaati hai. Shuddh hriday se hi us tej ko samjha ja sakta hai."
             },
             {
                 "verseNumber": 18,
-                "sanskrit": "त्वमक्षरं परमं वेदितव्यं\nत्वमस्य विश्वस्य परं निधानम् ।\nत्वमव्ययः शाश्वतधर्मगोप्ता\nसनातनस्त्वं पुरुषो मतो मे ॥",
-                "transliteration": "tvamakṣaraṃ paramaṃ veditavyaṃ tvamasya viśvasya paraṃ nidhānam.\ntvamavyayaḥ śāśvatadharmagoptā sanātanastvaṃ puruṣo mato me",
-                "hinglishMeaning": "Aapa hee jaanane yogya (veditavyam) parama akshara hain; aapa hee isa vishva ke parama aashraya (nidhaana) hain ! aapa hee shaashvata dharma ke rakshaka hain aura aapa hee sanaatana purusha hain,aisaa meraa mata hai",
-                "simpleExplanation": "Saral bhav: Aapa hee jaanane yogya (veditavyam) parama akshara hain; aapa hee isa vishva ke parama aashraya (nidhaana) hain ! aapa hee shaashvata dharma ke rakshaka hain aura aapa hee sanaatana purusha hain,aisaa meraa mata hai. Iska sandarbh Adhyay 11 ke mool vishay se juda hai: vishvaroop ke darshan se Ishwar ki anant shakti aur kaal-tattva samajh aata hai.",
-                "lifeLesson": "Dharma ka sahara lekar kathin faisle bhi shuddh bhav se liye ja sakte hain."
+                "sanskrit": "त्वमक्षरं परमं वेदितव्यं\nत्वमस्य विश्वस्य परं निधानम् ।\nत्वमव्ययः शाश्वतधर्मगोप्ता\nसनातनस्त्वं पुरुषो मतो मे ॥ १८॥",
+                "transliteration": "Tvam Aksharam Paramam Veditavyam\nTvam Asya Vishvasya Param Nidhanam,\nTvam Avyayah Shashvata Dharma Gopta\nSanatanas Tvam Purusho Mato Me.",
+                "englishMeaning": "You are the supreme imperishable Truth to be known! You are the ultimate resting place of this entire universe! You are the inexhaustible guardian of eternal Dharma! In my understanding, You are the primal, eternal Person!",
+                "hinglishMeaning": "Aap hi janne yogya param avinashi satya hain! Aap hi is sampoorna brahmand ke param aashray hain! Aap hi avyaya aur shashwat dharma ke rakshak hain, aur aap hi sanatan param purush hain — yeh mera nishchit mat hai.",
+                "simpleExplanation": "Arjun kehte hain ki vishwaroop dekhne ke baad ab mujhe poora vishwas ho gaya hai ki shastron mein jis param satya ki baat kahi gayi hai, woh aap hi hain.\n\nAap hi is srishti ko sambhalne wale hain, dharma ki raksha karne wale hain aur shashwat purush hain.",
+                "lifeLesson": "Sansaar badalta rehta hai, par Ishwar aur unka satya-dharma shashwat aur achal hai. Usi sanatan satya ko apna aadhar banao."
             },
             {
                 "verseNumber": 19,
-                "sanskrit": "अनादिमध्यान्तमनन्तवीर्य-\nमनन्तबाहुं शशिसूर्यनेत्रम् ।\nपश्यामि त्वां दीप्तहुताशवक्त्रं\nस्वतेजसा विश्वमिदं तपन्तम् ॥",
-                "transliteration": "anādimadhyāntamanantavīryam anantabāhuṃ śaśisūryanetram.\npaśyāmi tvāṃ dīptahutāśavaktraṃ svatejasā viśvamidaṃ tapantam",
-                "hinglishMeaning": "Main aapako aadi, anta aura madhya se rahita tathaa ananta saarmathya se yukta aura ananta baahuon vaalaa tathaa chandrasooryaroopee netron vaalaa aura deepta agniroopee mukha vaalaa tathaa apane teja se isa vishva ko tapaate hue dekhataa hoon",
-                "simpleExplanation": "Saral bhav: Main aapako aadi, anta aura madhya se rahita tathaa ananta saarmathya se yukta aura ananta baahuon vaalaa tathaa chandrasooryaroopee netron vaalaa aura deepta agniroopee mukha vaalaa tathaa apane teja se isa vishva ko tapaate hue dekhataa hoon. Iska sandarbh Adhyay 11 ke mool vishay se juda hai: vishvaroop ke darshan se Ishwar ki anant shakti aur kaal-tattva samajh aata hai.",
-                "lifeLesson": "Man ko saadhne se jeevan mein santulan, dhairya aur spashtata aati hai."
+                "sanskrit": "अनादिमध्यान्तमनन्तवीर्य-\nमनन्तबाहुं शशिसूर्यनेत्रम् ।\nपश्यामि त्वां दीप्तहुताशवक्त्रं\nस्वतेजसा विश्वमिदं तपन्तम् ॥ १९॥",
+                "transliteration": "Anadi Madhyantam Ananta Viryam\nAnanta Bahum Shashi Surya Netram,\nPashyami Tvam Dipta Hutasha Vaktram\nSva Tejasa Vishvam Idam Tapantam.",
+                "englishMeaning": "I behold You without beginning, middle, or end, of infinite power, with boundless arms, with the sun and moon as Your eyes, with blazing fire issuing from Your mouths, scorching this entire universe with Your radiance!",
+                "hinglishMeaning": "Main aapko aadi, madhya aur ant se rahit, anant shakti se yukt, asankhya bhujaon wale, suraj aur chandrama roopi netron wale aur dahakti aag jaise mukhon wale dekh raha hoon, jo apne tej se is poore vishva ko tapt kar rahe hain.",
+                "simpleExplanation": "Krishna ke netra suraj aur chandrama hain — suraj jo tezz aur urja deta hai, aur chandrama jo shanti aur amrit barsata hai.\n\nUnke mukh se nikalne wali jwala srishti ke pralay aur parivartan ka sanket de rahi hai, jo sabhi asatya ko bhasma kar rahi hai.",
+                "lifeLesson": "Prakriti mein suraj ki garmi aur chandrama ki sheetalta dono zaroori hain. Ishwar shanti aur nyay-shakti dono ke swaroop hain."
             },
             {
                 "verseNumber": 20,
-                "sanskrit": "द्यावापृथिव्योरिदमन्तरं हि\nव्याप्तं त्वयैकेन दिशश्च सर्वाः ।\nदृष्ट्वाद्भुतं रूपमुग्रं तवेदं\nलोकत्रयं प्रव्यथितं महात्मन् ॥",
-                "transliteration": "dyāvāpṛthivyoridamantaraṃ hi vyāptaṃ tvayaikena diśaśca sarvāḥ.\ndṛṣṭvādbhutaṃ rūpamugraṃ tavedaṃ lokatrayaṃ pravyathitaṃ mahātman",
-                "hinglishMeaning": "Hey mahaatman ! svarga aura prithvee ke madhya kaa yaha aakaasha tathaa samasta dishaaen akele aapa se hee vyaapta hain; aapake isa adbhuta aura ugra roopa ko dekhakara teenon loka ativyathaa (bhaya) ko praapta ho rahey hain",
-                "simpleExplanation": "Saral bhav: Hey mahaatman ! svarga aura prithvee ke madhya kaa yaha aakaasha tathaa samasta dishaaen akele aapa se hee vyaapta hain; aapake isa adbhuta aura ugra roopa ko dekhakara teenon loka ativyathaa (bhaya) ko praapta ho rahey hain. Iska sandarbh Adhyay 11 ke mool vishay se juda hai: vishvaroop ke darshan se Ishwar ki anant shakti aur kaal-tattva samajh aata hai.",
-                "lifeLesson": "Man ko saadhne se jeevan mein santulan, dhairya aur spashtata aati hai."
+                "sanskrit": "द्यावापृथिव्योरिदमन्तरं हि\nव्याप्तं त्वयैकेन दिशश्च सर्वाः ।\nदृष्ट्वाद्भुतं रूपमुग्रं तवेदं\nलोकत्रयं प्रव्यथितं महात्मन् ॥ २०॥",
+                "transliteration": "Dyavaprithivyor Idam Antaram Hi\nVyaptam Tvayaikena Dishash Ca Sarvah,\nDrishtvadbhutam Rupam Ugram Tavedam\nLokatrayam Pravyathitam Mahatman.",
+                "englishMeaning": "The entire space between heaven and earth and all directions are pervaded by You alone! Beholding this wondrous yet terrifying form of Yours, all three worlds are trembling in awe and fear, O Great Soul!",
+                "hinglishMeaning": "Hey Mahatman! Dharti aur aakash ke beech ka saara antariksh aur sabhi dishaayein akele aapse hi vyapt hain. Aapke is adbhut aur ugra roop ko dekhkar teeno lok vyathit aur bhaybheet ho rahe hain.",
+                "simpleExplanation": "Arjun kehte hain ki aakash aur dharti ke beech jo khali jagah dikhti hai, wahan koi shunya nahi hai — wahan aap hi vyapt hain.\n\nLekin aapka yeh ugra aur vishal roop itna prachand hai ki teeno lok is adbhut drishya ko dekhkar thar-thar kaanp rahe hain.",
+                "lifeLesson": "Kudrat aur Ishwar ke niyam behad shaktishaali hain. Unki vishalta ke samne insaan ka ghamand ek tinke ke barabar bhi nahi tikta."
             },
             {
                 "verseNumber": 21,
-                "sanskrit": "अमी हि त्वां सुरसङ्घा विशन्ति\nकेचिद्भीताः प्राञ्जलयो गृणन्ति ।\nस्वस्तीत्युक्त्वा महर्षिसिद्धसङ्घाः\nस्तुवन्ति त्वां स्तुतिभिः पुष्कलाभिः ॥",
-                "transliteration": "amī hi tvāṃ surasaṅghā viśanti kecidbhītāḥ prāñjalayo gṛṇanti.\nsvastītyuktvā maharṣisiddhasaṅghāḥ stuvanti tvāṃ stutibhiḥ puṣkalābhiḥ",
-                "hinglishMeaning": "Ye samasta devataaon ke samooha aapa men hee pravesha kara rahey hain aura kaee eka bhayabheeta hokara haatha jode hue aapa kee stuti karate hain; maharshi aura siddhon ke samudaaya 'kalyaana hove' (svastivaachana karate hue) aisaa kahakara, uttama (yaa sampoorna) sroton dvaaraa aapakee stuti karate hain",
-                "simpleExplanation": "Saral bhav: Ye samasta devataaon ke samooha aapa men hee pravesha kara rahey hain aura kaee eka bhayabheeta hokara haatha jode hue aapa kee stuti karate hain; maharshi aura siddhon ke samudaaya 'kalyaana hove' (svastivaachana karate hue) aisaa kahakara, uttama (yaa sampoorna) sroton dvaaraa aapakee stuti karate hain. Iska sandarbh Adhyay 11 ke mool vishay se juda hai: vishvaroop ke darshan se Ishwar ki anant shakti aur kaal-tattva samajh aata hai.",
-                "lifeLesson": "Shraddha aur prem se ki gayi chhoti kriya bhi Bhagavan tak pahunchti hai."
+                "sanskrit": "अमी हि त्वां सुरसङ्घा विशन्ति\nकेचिद्भीताः प्राञ्जलयो गृणन्ति ।\nस्वस्तीत्युक्त्वा महर्षिसिद्धसङ्घाः\nस्तुवन्ति त्वां स्तुतिभिः पुष्कलाभिः ॥ २१॥",
+                "transliteration": "Ami Hi Tvam Sura Sangha Vishanti\nKecid Bhitah Pranjalayo Grinanti,\nSvastity Uktva Maharshi Siddha Sanghah\nStuvanti Tvam Stutibhih Pushkalabhih.",
+                "englishMeaning": "These hosts of celestial gods are entering into You; some, awe-struck and fearful, praise You with folded hands. Multitudes of great sages and enlightened masters cry, \"May there be peace and wellbeing unto the universe!\" and glorify You with magnificent hymns.",
+                "hinglishMeaning": "Devtaon ke samooh aap hi mein pravesh kar rahe hain; kuch bhaybheet hokar haath jodkar aapki prarthana kar rahe hain. Maharshi aur siddha purush \"Sanskrit: Svasti! (sabka mangal ho)\" kehkar pavitra stutiyon dwara aapka gun-gaan kar rahe hain.",
+                "simpleExplanation": "Arjun dekhte hain ki bade-bade devta bhi is anant tej ke aage sar jhuka rahe hain.\n\nSiddha aur rishi 'Sarve Bhavantu Sukhinah' (sabka kalyan ho) ki bhavna se prarthana kar rahe hain taaki srishti mein shanti bani rahe. Ishwar ki vishalta ke samne shreshtha se shreshtha gyaani bhi prarthana mein leen ho jaata hai.",
+                "lifeLesson": "Badi shakti aur sankat ke samne khade hokar swarth nahi, balki samast srishti ke kalyan aur shanti ki prarthana karni chahiye."
             },
             {
                 "verseNumber": 22,
-                "sanskrit": "रुद्रादित्या वसवो ये च साध्या\nविश्वेऽश्विनौ मरुतश्चोष्मपाश्च ।\nगन्धर्वयक्षासुरसिद्धसङ्घा\nवीक्षन्ते त्वां विस्मिताश्चैव सर्वे ॥",
-                "transliteration": "rudrādityā vasavo ye ca sādhyā viśve.aśvinau marutaścoṣmapāśca.\ngandharvayakṣāsurasiddhasaṅghā vīkṣante tvāṃ vismitāścaiva sarve",
-                "hinglishMeaning": "Rudragana, aaditya, vasu aura saadhyagana, vishvedeva tathaa do ashvineekumaara, marudgana aura ushmapaa, gandharva, yaksha, asura aura siddhaganon ke samudaaya- ye saba hee vismita hote hue aapako dekhate hain",
-                "simpleExplanation": "Saral bhav: Rudragana, aaditya, vasu aura saadhyagana, vishvedeva tathaa do ashvineekumaara, marudgana aura ushmapaa, gandharva, yaksha, asura aura siddhaganon ke samudaaya- ye saba hee vismita hote hue aapako dekhate hain. Iska sandarbh Adhyay 11 ke mool vishay se juda hai: vishvaroop ke darshan se Ishwar ki anant shakti aur kaal-tattva samajh aata hai.",
-                "lifeLesson": "Shraddha aur prem se ki gayi chhoti kriya bhi Bhagavan tak pahunchti hai."
+                "sanskrit": "रुद्रादित्या वसवो ये च साध्या\nविश्वेऽश्विनौ मरुतश्चोष्मपाश्च ।\nगन्धर्वयक्षासुरसिद्धसङ्घा\nवीक्षन्ते त्वां विस्मिताश्चैव सर्वे ॥ २२॥",
+                "transliteration": "Rudraditya Vasavo Ye Ca Sadhya\nVishve Shvinau Marutash Coshmapash Ca,\nGandharva Yakshasura Siddha Sangha\nVikshante Tvam Vismitash Caiva Sarve.",
+                "englishMeaning": "The Rudras, the Adityas, the Vasus, the Sadhyas, the Vishvedevas, the two Ashvins, the Maruts, the ancestors, along with hosts of Gandharvas, Yakshas, Asuras, and Siddhas — all are beholding You in sheer wonder and astonishment!",
+                "hinglishMeaning": "Gyarah Rudra, barah Aditya, aath Vasu, Sadhya-gana, Vishvedeva, dono Ashwini-kumar, Marut-gana, pitar, tatha Gandharva, Yaksha, Asura aur Siddhon ke samooh — yeh sabhi hairat aur vismay se aapko dekh rahe hain.",
+                "simpleExplanation": "Srishti ki jitni bhi shaktiyan hain — chahe woh devta hon, pitra hon, gandharva hon ya daitya — sabhi us vishwaroop ko dekhkar aashcharyachakita hain.\n\nSabko yeh ehsaas ho raha hai ki unki apni shakti us ek param shakti ke aage kitni chhoti aur seemit hai.",
+                "lifeLesson": "Sansaar ke bade se bade shaktishaali log bhi Ishwar ke samne nacheez hain. Apni taaqat par kabhi ahankar mat karo."
             },
             {
                 "verseNumber": 23,
-                "sanskrit": "रूपं महत्ते बहुवक्त्रनेत्रं\nमहाबाहो बहुबाहूरुपादम् ।\nबहूदरं बहुदंष्ट्राकरालं\nदृष्ट्वा लोकाः प्रव्यथितास्तथाहम् ॥",
-                "transliteration": "rūpaṃ mahatte bahuvaktranetraṃ mahābāho bahubāhūrupādam.\nbahūdaraṃ bahudaṃṣṭrākarālaṃ dṛṣṭvā lokāḥ pravyathitāstathāham",
-                "hinglishMeaning": "Hey mahaabaaho! aapake bahuta mukha tathaa netra vaale, bahuta baahu, uru (janghaa) tathaa pairon vaale, bahuta-nnsee udaron vaale tathaa bahutasee vikaraala daadhon vaale mahaan roopa ko dekhakara saba loga vyathita ho rahey hain aura usee prakaara main bhee (vyaakula ho rahaa hoon)",
-                "simpleExplanation": "Saral bhav: Hey mahaabaaho! aapake bahuta mukha tathaa netra vaale, bahuta baahu, uru (janghaa) tathaa pairon vaale, bahuta-nnsee udaron vaale tathaa bahutasee vikaraala daadhon vaale mahaan roopa ko dekhakara saba loga vyathita ho rahey hain aura usee prakaara main bhee (vyaakula ho rahaa hoon). Iska sandarbh Adhyay 11 ke mool vishay se juda hai: vishvaroop ke darshan se Ishwar ki anant shakti aur kaal-tattva samajh aata hai.",
-                "lifeLesson": "Shraddha aur prem se ki gayi chhoti kriya bhi Bhagavan tak pahunchti hai."
+                "sanskrit": "रूपं महत्ते बहुवक्त्रनेत्रं\nमहाबाहो बहुबाहूरुपादम् ।\nबहूदरं बहुदंष्ट्राकरालं\nदृष्ट्वा लोकाः प्रव्यथितास्तथाहम् ॥ २३॥",
+                "transliteration": "Rupam Mahat Te Bahu Vaktra Netram\nMaha Baho Bahu Bahuru Padam,\nBahudaram Bahu Damshtra Karalam\nDrishtva Lokah Pravyathitas Tathaham.",
+                "englishMeaning": "Beholding Your colossal form with its countless mouths, eyes, arms, thighs, feet, bellies, and fearful tusks, O mighty-armed Lord, all the worlds are terrified, and so am I!",
+                "hinglishMeaning": "Hey Mahabaho! Aapke is vishal roop ko jisme anekon mukh, aankhein, bhujaayein, jaanghein, charan, pet aur bhayanak daant hain — use dekhkar sabhi lok vyathit aur bhaybheet hain, aur main bhi thar-thar kaanp raha hoon.",
+                "simpleExplanation": "Ab drishya aur bhi gambhir aur ugra ho jaata hai.\n\nArjun dekhte hain ki is roop mein sirf srishti ka nirmaan hi nahi, balki srishti ka pralay aur Kaal (Samay) ka bhayanak roop bhi hai. Yeh dekhkar Arjun ke bheetar darr aur kampan paida ho jaata hai.",
+                "lifeLesson": "Kudrat mein sirf phool aur sheetal pavan nahi, tufaan aur pralay bhi hote hain. Jeevan ke kathor sach ko swikar karna hi aatmik paripakvata hai."
             },
             {
                 "verseNumber": 24,
-                "sanskrit": "नभःस्पृशं दीप्तमनेकवर्णं\nव्यात्ताननं दीप्तविशालनेत्रम् ।\nदृष्ट्वा हि त्वां प्रव्यथितान्तरात्मा\nधृतिं न विन्दामि शमं च विष्णो ॥",
-                "transliteration": "nabhaḥspṛśaṃ dīptamanekavarṇaṃ vyāttānanaṃ dīptaviśālanetram.\ndṛṣṭvā hi tvāṃ pravyathitāntarātmā dhṛtiṃ na vindāmi śamaṃ ca viṣṇo",
-                "hinglishMeaning": "Hey vishno! aakaasha ke saatha sparsha kiye hue dedeepyamaana aneka roopon se yukta tathaa vistarita mukha aura prakaashamaana vishaala netron se yukta aapako dekhakara bhayabheeta huaa main dhairya aura shaanti ko naheen praapta ho rahaa hoon",
-                "simpleExplanation": "Saral bhav: Hey vishno! aakaasha ke saatha sparsha kiye hue dedeepyamaana aneka roopon se yukta tathaa vistarita mukha aura prakaashamaana vishaala netron se yukta aapako dekhakara bhayabheeta huaa main dhairya aura shaanti ko naheen praapta ho rahaa hoon. Iska sandarbh Adhyay 11 ke mool vishay se juda hai: vishvaroop ke darshan se Ishwar ki anant shakti aur kaal-tattva samajh aata hai.",
-                "lifeLesson": "Man ko saadhne se jeevan mein santulan, dhairya aur spashtata aati hai."
+                "sanskrit": "नभःस्पृशं दीप्तमनेकवर्णं\nव्यात्ताननं दीप्तविशालनेत्रम् ।\nदृष्ट्वा हि त्वां प्रव्यथितान्तरात्मा\nधृतिं न विन्दामि शमं च विष्णो ॥ २४॥",
+                "transliteration": "Nabhah Sprisham Diptam Aneka Varnam\nVyattananam Dipta Vishala Netram,\nDrishtva Hi Tvam Pravyathitantaratma\nDhritim Na Vindami Shamam Ca Vishno.",
+                "englishMeaning": "Touching the heavens, blazing with radiant colors, mouths gaping wide, and huge glowing eyes — seeing You thus, my innermost soul trembles, O Vishnu, and I find neither composure nor peace!",
+                "hinglishMeaning": "Hey Vishnu! Aakash ko chhoote hue, anekon rangon se chamakte hue, khule hue mukhon aur dahakti hui vishal aankhon wale aapko dekhkar mera antaratma darr se kaanp raha hai; mujhe na dhairya mil raha hai aur na shanti!",
+                "simpleExplanation": "Arjun yahan Krishna ko pehli baar sidha 'Vishnu' kehkar pukarte hain.\n\nWoh kehte hain: 'Aapka roop aakash se bhi ooncha hai, aankhein agni ki tarah dahak rahi hain. Is prachand drishya ke aage mera dil ghabra raha hai aur mere andar ka dhairya doobta ja raha hai.'",
+                "lifeLesson": "Jab manushya param shakti ki anant vishalta ke aage khada hota hai, toh uski saari chaturai aur dambh kho jaate hain. Shanti sirf poorn samarpana se aati hai."
             },
             {
                 "verseNumber": 25,
-                "sanskrit": "दंष्ट्राकरालानि च ते मुखानि\nदृष्ट्वैव कालानलसन्निभानि ।\nदिशो न जाने न लभे च शर्म\nप्रसीद देवेश जगन्निवास ॥",
-                "transliteration": "daṃṣṭrākarālāni ca te mukhāni dṛṣṭvaiva kālānalasannibhāni.\ndiśo na jāne na labhe ca śarma prasīda deveśa jagannivāsa",
-                "hinglishMeaning": "Aapake vikaraala daadhon vaale aura pralayaagni ke samaana prajvalita mukhon ko dekhakara, main na dishaaon ko jaana paa rahaa hoon aura na shaanti ko praapta ho rahaa hoon; isalie hey devesha! hey jagannivaasa! aapa prasanna ho jaaie",
-                "simpleExplanation": "Saral bhav: Aapake vikaraala daadhon vaale aura pralayaagni ke samaana prajvalita mukhon ko dekhakara, main na dishaaon ko jaana paa rahaa hoon aura na shaanti ko praapta ho rahaa hoon; isalie hey devesha! hey jagannivaasa! aapa prasanna ho jaaie. Iska sandarbh Adhyay 11 ke mool vishay se juda hai: vishvaroop ke darshan se Ishwar ki anant shakti aur kaal-tattva samajh aata hai.",
-                "lifeLesson": "Shraddha aur prem se ki gayi chhoti kriya bhi Bhagavan tak pahunchti hai."
+                "sanskrit": "दंष्ट्राकरालानि च ते मुखानि\nदृष्ट्वैव कालानलसन्निभानि ।\nदिशो न जाने न लभे च शर्म\nप्रसीद देवेश जगन्निवास ॥ २५॥",
+                "transliteration": "Damshtra Karalani Ca Te Mukhani\nDrishtvaiva Kalanala Sannibhani,\nDishon Na Jane Na Labhe Ca Sharma\nPrasida Devesha Jagannivasa.",
+                "englishMeaning": "Beholding Your terrible jaws with fierce tusks resembling the blazing fires of cosmic dissolution, I lose all sense of direction and find no peace! Be gracious, O Lord of gods, O Refuge of the universe!",
+                "hinglishMeaning": "Pralay-kaal ki aag ke saman dahakne wale aur bhayanak daanton wale aapke mukhon ko dekhkar mujhe dishaon ka gyaan nahi reh gaya hai aur na hi koi shanti mil rahi hai. Hey Devesh! Hey Jagannivas! Mujh par prasanna hoiye aur kripa kijiye.",
+                "simpleExplanation": "Pralay ke samay jo agni sab kuch bhasma kar deti hai, wahi agni Krishna ke mukhon se nikal rahi hai.\n\nArjun itne ghabra gaye hain ki unhe purva, pashchim, uttar, dakshin ka koi hosh nahi raha. Isliye woh hath jodkar daya ki bheekh maangte hain: 'Hey Prabhuji, daya kijiye!'",
+                "lifeLesson": "Badi bipatti aur darr ke samay Ishwar ki kripa aur sharan hi insaan ka antim aashray hoti hai. Daya ki prarthana dil ko sahas deti hai."
             },
             {
                 "verseNumber": 26,
-                "sanskrit": "अमी च त्वां धृतराष्ट्रस्य पुत्राः\nसर्वे सहैवावनिपालसङ्घैः ।\nभीष्मो द्रोणः सूतपुत्रस्तथासौ\nसहास्मदीयैरपि योधमुख्यैः ॥",
-                "transliteration": "amī ca tvāṃ dhṛtarāṣṭrasya putrāḥ sarve sahaivāvanipālasaṅghaiḥ.\nbhīṣmo droṇaḥ sūtaputrastathāsau sahāsmadīyairapi yodhamukhyaiḥ",
-                "hinglishMeaning": "Aura ye samasta dhritaraashtra ke putra raajaaon ke samudaaya sahita aapa men pravesha karate hain. bheeshma, drona tathaa karna aura hamaare paksha ke bhee pradhaana yoddhaaon ke sahita",
-                "simpleExplanation": "Saral bhav: Aura ye samasta dhritaraashtra ke putra raajaaon ke samudaaya sahita aapa men pravesha karate hain. bheeshma, drona tathaa karna aura hamaare paksha ke bhee pradhaana yoddhaaon ke sahita. Iska sandarbh Adhyay 11 ke mool vishay se juda hai: vishvaroop ke darshan se Ishwar ki anant shakti aur kaal-tattva samajh aata hai.",
-                "lifeLesson": "Shraddha aur prem se ki gayi chhoti kriya bhi Bhagavan tak pahunchti hai."
+                "sanskrit": "अमी च त्वां धृतराष्ट्रस्य पुत्राः\nसर्वे सहैवावनिपालसङ्घैः ।\nभीष्मो द्रोणः सूतपुत्रस्तथासौ\nसहास्मदीयैरपि योधमुख्यैः ॥ २६॥",
+                "transliteration": "Ami Ca Tvam Dhritarashtrasya Putrah\nSarve Sahaivavanipala Sanghaih,\nBhishmo Dronah Suta Putras Tathasau\nSahasmadiyair Api Yodha Mukhyaih.",
+                "englishMeaning": "All the sons of Dhritarashtra, along with the multitudes of allied kings, Bhishma, Drona, and that charioteer's son (Karna), together with the prominent warriors from our own army as well —",
+                "hinglishMeaning": "Yeh sabhi Dhritarashtra ke putra (Duryodhan aadi), unke saath samast rajaon ke samooh, Bhishma Pitamah, Dronacharya, aur woh Sutputra Karna — aur humari sena ke bhi pramukh yoddha —",
+                "simpleExplanation": "Arjun ab Kurukshetra ke yuddh ka bhavishya dekh rahe hain!\n\nDuryodhan aur uske 100 bhai, unke saathi raja, aur yahan tak ki sabse mahan yoddha jaise Bhishma, Drona, Karna aur Pandav sena ke veer — sab us vishwaroop ki taraf kheenchte chale ja rahe hain.",
+                "lifeLesson": "Kaal (Samay) ke samne na koi raja bachta hai na koi shaktishaali senapati. Samay sabko barabar hisaab se apne andar samet leta hai."
             },
             {
                 "verseNumber": 27,
-                "sanskrit": "वक्त्राणि ते त्वरमाणा विशन्ति\nदंष्ट्राकरालानि भयानकानि ।\nकेचिद्विलग्ना दशनान्तरेषु\nसन्दृश्यन्ते चूर्णितैरुत्तमाङ्गैः ॥",
-                "transliteration": "vaktrāṇi te tvaramāṇā viśanti daṃṣṭrākarālāni bhayānakāni.\nkecidvilagnā daśanāntareṣu sandṛśyante cūrṇitairuttamāṅgaiḥ",
-                "hinglishMeaning": "Teevra vega se aapake vikaraala daadhon vaale bhayaanaka mukhon men pravesha karate hain aura kaee eka choornita shiron sahita aapake daanton ke beecha men phanse hue dikha rahey hain",
-                "simpleExplanation": "Saral bhav: Teevra vega se aapake vikaraala daadhon vaale bhayaanaka mukhon men pravesha karate hain aura kaee eka choornita shiron sahita aapake daanton ke beecha men phanse hue dikha rahey hain. Iska sandarbh Adhyay 11 ke mool vishay se juda hai: vishvaroop ke darshan se Ishwar ki anant shakti aur kaal-tattva samajh aata hai.",
-                "lifeLesson": "Shraddha aur prem se ki gayi chhoti kriya bhi Bhagavan tak pahunchti hai."
+                "sanskrit": "वक्त्राणि ते त्वरमाणा विशन्ति\nदंष्ट्राकरालानि भयानकानि ।\nकेचिद्विलग्ना दशनान्तरेषु\nसन्दृश्यन्ते चूर्णितैरुत्तमाङ्गैः ॥ २७॥",
+                "transliteration": "Vaktrani Te Tvaramana Vishanti\nDamshtra Karalani Bhayanakani,\nKecid Vilagna Dashanantareshu\nSandrishyante Curnitair Uttamangaih.",
+                "englishMeaning": "Are rushing headlong into Your fearful, gaping mouths with terrible tusks! Some are seen caught between Your teeth with their heads crushed to dust!",
+                "hinglishMeaning": "Badi tezi se daudte hue aapke bhayanak aur daravne mukhon mein pravesh kar rahe hain! Kuch ke sar aapke daanton ke beech phanse hue chur-chur hote dikh rahe hain.",
+                "simpleExplanation": "Yeh daravna drishya dikhata hai ki yuddh mein jo mahasangram hona hai, uska parinaam pehle se tay ho chuka hai.\n\nVeer yoddha jinpar sabko garv tha, woh sab Kaal ke daanton ke beech tinke ki tarah pis rahe hain. Yeh srishti ke Kaal-chakra ka kathor satya hai.",
+                "lifeLesson": "Shareer, sundarta aur balidaan ka ahankar mat karo; yeh sabhi Kaal ke samne pal bhar mein mit jaate hain. Shuddh karm hi shashwat rehte hain."
             },
             {
                 "verseNumber": 28,
-                "sanskrit": "यथा नदीनां बहवोऽम्बुवेगाः\nसमुद्रमेवाभिमुखा द्रवन्ति ।\nतथा तवामी नरलोकवीरा\nविशन्ति वक्त्राण्यभिविज्वलन्ति ॥",
-                "transliteration": "yathā nadīnāṃ bahavo.ambuvegāḥ samudramevābhimukhā dravanti.\ntathā tavāmī naralokavīrā viśanti vaktrāṇyabhivijvalanti",
-                "hinglishMeaning": "Jaise nadiyon ke bahuta se jalapravaaha samudra kee ora vega se bahate hain, vaise hee manushyaloka ke ye veera yoddhaagana aapake prajvalita mukhon men pravesha karate hain",
-                "simpleExplanation": "Saral bhav: Jaise nadiyon ke bahuta se jalapravaaha samudra kee ora vega se bahate hain, vaise hee manushyaloka ke ye veera yoddhaagana aapake prajvalita mukhon men pravesha karate hain. Iska sandarbh Adhyay 11 ke mool vishay se juda hai: vishvaroop ke darshan se Ishwar ki anant shakti aur kaal-tattva samajh aata hai.",
-                "lifeLesson": "Man ko saadhne se jeevan mein santulan, dhairya aur spashtata aati hai."
+                "sanskrit": "यथा नदीनां बहवोऽम्बुवेगाः\nसमुद्रमेवाभिमुखा द्रवन्ति ।\nतथा तवामी नरलोकवीरा\nविशन्ति वक्त्राण्यभिविज्वलन्ति ॥ २८॥",
+                "transliteration": "Yatha Nadinam Bahavo Mbu Vegah\nSamudram Evabhimukha Dravanti,\nTatha Tavam Naraloka Vira\nVishanti Vaktrany Abhivijvalanti.",
+                "englishMeaning": "Just as the numerous torrential currents of rivers rush swiftly toward the ocean, so too do these great heroes of the mortal world rush into Your blazing mouths!",
+                "hinglishMeaning": "Jaise nadiyon ki anant jal-dharayein tezi se behti hui samudra ki taraf daudti hain, waise hi is manushya-lok ke saare veer yoddha aapke dahakte hue mukhon mein pravesh kar rahe hain.",
+                "simpleExplanation": "Gita ka yeh sundar udaharan hai: Jaise pahadon se nikli hui nadi chahe jitni bhi tez daude, aakhiri mein samudra mein hi sama jaati hai.\n\nUsi tarah sansaar ke saare yoddha aur manushya, chahe jitna bhi ghamand kar lein, aakhiri mein usi param Kaal-srot mein vileen ho jaate hain.",
+                "lifeLesson": "Jaise nadi ki antim manzil samudra hai, waise hi har jeev ki antim yatra Ishwar ki taraf hai. Is satya ko pehchankar jeevan ko shuddh aur pavitra banao."
             },
             {
                 "verseNumber": 29,
-                "sanskrit": "यथा प्रदीप्तं ज्वलनं पतङ्गा\nविशन्ति नाशाय समृद्धवेगाः ।\nतथैव नाशाय विशन्ति लोकास्-\nतवापि वक्त्राणि समृद्धवेगाः ॥",
-                "transliteration": "yathā pradīptaṃ jvalanaṃ pataṅgā viśanti nāśāya samṛddhavegāḥ.\ntathaiva nāśāya viśanti lokāsa- tavāpi vaktrāṇi samṛddhavegāḥ",
-                "hinglishMeaning": "Jaise patange apane naasha ke lie prajvalita agni men ativega se pravesha karate hain, vaise hee ye loga bhee apane naasha ke lie aapake mukhon men ativega se pravesha karate hain",
-                "simpleExplanation": "Saral bhav: Jaise patange apane naasha ke lie prajvalita agni men ativega se pravesha karate hain, vaise hee ye loga bhee apane naasha ke lie aapake mukhon men ativega se pravesha karate hain. Iska sandarbh Adhyay 11 ke mool vishay se juda hai: vishvaroop ke darshan se Ishwar ki anant shakti aur kaal-tattva samajh aata hai.",
-                "lifeLesson": "Shraddha aur prem se ki gayi chhoti kriya bhi Bhagavan tak pahunchti hai."
+                "sanskrit": "यथा प्रदीप्तं ज्वलनं पतङ्गा\nविशन्ति नाशाय समृद्धवेगाः ।\nतथैव नाशाय विशन्ति लोकास्-\nतवापि वक्त्राणि समृद्धवेगाः ॥ २९॥",
+                "transliteration": "Yatha Pradiptam Jvalanam Patanga\nVishanti Nashaya Samriddha Vegah,\nTathaiva Nashaya Vishanti Lokas\nTavapi Vaktrani Samriddha Vegah.",
+                "englishMeaning": "Just as moths rush with headlong velocity into a blazing fire only to perish, even so do these worlds rush with swift speed into Your fiery mouths toward their own destruction!",
+                "hinglishMeaning": "Jaise patange (keede-patange) apne naash ke liye tezi se daudkar jalti hui aag mein kood padte hain, waise hi yeh sabhi log apne vinaash ke liye poori tezi se aapke mukhon mein ghuste chale ja rahe hain.",
+                "simpleExplanation": "Diye ki lau dekhkar patanga mohit ho jaata hai aur sochte hue ki yeh koi sundar cheez hai, aag mein koodkar jal jaata hai.\n\nUsi tarah ahankari log apne lobh, ghamand aur lalach mein andhe hokar vinaash ke raste par bina soche daud rahe hain. Duryodhan aur uski sena ka yahi haal tha.",
+                "lifeLesson": "Lobh aur ahankar patange ki tarah manushya ko vinaash ki taraf kheench le jaate hain. Hosh mein aao aur vinaashkari aakarshan se bacho."
             },
             {
                 "verseNumber": 30,
-                "sanskrit": "लेलिह्यसे ग्रसमानः समन्ताल्-\nलोकान्समग्रान्वदनैर्ज्वलद्भिः ।\nतेजोभिरापूर्य जगत्समग्रं\nभासस्तवोग्राः प्रतपन्ति विष्णो ॥",
-                "transliteration": "lelihyase grasamānaḥ samantāl- lokānsamagrānvadanairjvaladbhiḥ.\ntejobhirāpūrya jagatsamagraṃ bhāsastavogrāḥ pratapanti viṣṇo",
-                "hinglishMeaning": "Hey vishno! aapa prajvalita mukhon ke dvaaraa ina samasta lokon kaa grasana karate hue aasvaada le rahey hain, aapakaa ugra prakaasha sampoorna jagat ko teja ke dvaaraa paripoorna karake tapaa rahaa hai",
-                "simpleExplanation": "Saral bhav: Hey vishno! aapa prajvalita mukhon ke dvaaraa ina samasta lokon kaa grasana karate hue aasvaada le rahey hain, aapakaa ugra prakaasha sampoorna jagat ko teja ke dvaaraa paripoorna karake tapaa rahaa hai. Iska sandarbh Adhyay 11 ke mool vishay se juda hai: vishvaroop ke darshan se Ishwar ki anant shakti aur kaal-tattva samajh aata hai.",
-                "lifeLesson": "Man ko saadhne se jeevan mein santulan, dhairya aur spashtata aati hai."
+                "sanskrit": "लेलिह्यसे ग्रसमानः समन्ताल्-\nलोकान्समग्रान्वदनैर्ज्वलद्भिः ।\nतेजोभिरापूर्य जगत्समग्रं\nभासस्तवोग्राः प्रतपन्ति विष्णो ॥ ३०॥",
+                "transliteration": "Lelihyase Grasamanah Samantal\nLokan Samagran Vadanair Jvaladbhih,\nTejobhir Apurya Jagat Samagram\nBhasas Tavograh Pratapanti Vishno.",
+                "englishMeaning": "Devouring all the worlds from every side with Your flaming mouths, You lick them up greedily! Filling the entire cosmos with blinding radiance, Your terrifying rays are scorching the universe, O Vishnu!",
+                "hinglishMeaning": "Aap apne dahakte hue mukhon se chaaron taraf se samast lokon ko nigalte hue unhe chaat rahe hain! Hey Vishnu! Aapka ugra aur prachand prakaash poore vishva ko tej se bhar kar jala raha hai.",
+                "simpleExplanation": "Yeh Kaal (Maha-Kaal) ka woh swaroop hai jahan srishti ka har dosh aur adharma bhasma kiya ja raha hai.\n\nKrishna ka ugra prakaash sabhi dishaon mein phailkar unhe tapt kar raha hai. Arjun is prachand shakti ko dekhkar stambh reh jaate hain.",
+                "lifeLesson": "Parmatma ka ek roop param prem hai, toh doosra roop param shuddhi aur adharma ka naash hai. Dharmik bane raho taaki Kaal ka bhay na sataye."
             },
             {
                 "verseNumber": 31,
-                "sanskrit": "आख्याहि मे को भवानुग्ररूपो\nनमोऽस्तु ते देववर प्रसीद ।\nविज्ञातुमिच्छामि भवन्तमाद्यं\nन हि प्रजानामि तव प्रवृत्तिम् ॥",
-                "transliteration": "ākhyāhi me ko bhavānugrarūpo namo.astu te devavara prasīda.\nvijñātumicchāmi bhavantamādyaṃ na hi prajānāmi tava pravṛttim",
-                "hinglishMeaning": "(kripayaa) mere prati kahiye, ki ugraroopa vaale aapa kauna hain? hey devon men shreshtha! aapako namaskaara hai, aapa prasanna hoiye. aadi svaroopa aapako main (tattva se) jaananaa chaahataa hoon, kyonki aapakee pravritti (arthaat prayojana ko) ko main naheen samajha paa rahaa hoon",
-                "simpleExplanation": "Saral bhav: (kripayaa) mere prati kahiye, ki ugraroopa vaale aapa kauna hain? hey devon men shreshtha! aapako namaskaara hai, aapa prasanna hoiye. aadi svaroopa aapako main (tattva se) jaananaa chaahataa hoon, kyonki aapakee pravritti (arthaat prayojana ko) ko main naheen samajha paa rahaa hoon. Iska sandarbh Adhyay 11 ke mool vishay se juda hai: vishvaroop ke darshan se Ishwar ki anant shakti aur kaal-tattva samajh aata hai.",
-                "lifeLesson": "Shraddha aur prem se ki gayi chhoti kriya bhi Bhagavan tak pahunchti hai."
+                "sanskrit": "आख्याहि मे को भवानुग्ररूपो\nनमोऽस्तु ते देववर प्रसीद ।\nविज्ञातुमिच्छामि भवन्तमाद्यं\nन हि प्रजानामि तव प्रवृत्तिम् ॥ ३१॥",
+                "transliteration": "Akhyahi Me Ko Bhavan Ugra Rupo\nNamo Stu Te Deva Vara Prasida,\nVijnatum Icchami Bhavantam Adyam\nNa Hi Prajanami Tava Pravrittim.",
+                "englishMeaning": "Tell me, who are You in this terrifying form? Salutations unto You, O supreme God! Be gracious! I yearn to know You, the Primal Being, for I do not comprehend Your action and purpose!",
+                "hinglishMeaning": "Kripa karke mujhe batayein ki is ugra aur bhayanak roop mein aap kaun hain? Hey Deveshvar! Aapko mera pranam hai, kripa karke prasanna hoiye. Main aap aadi-swaroop ko jaanna chahta hoon, kyunki main aapke is karya aur uddeshya ko samajh nahi paa raha hoon.",
+                "simpleExplanation": "Arjun Krishna ko bachpan se ek prem karne wale saathi aur sakha ke roop mein jaante the.\n\nAb achanak itna prachand aur ugra roop dekhkar Arjun poonchte hain: 'Prabhu, aap vastav mein kaun hain? Aur is bhayankar roop ke peeche aapka maksad kya hai?'",
+                "lifeLesson": "Mushkil paristhitiyon mein jab jeevan ka roop bhayanak lage, tab ghabrane ke bajaye vinamrata se uske peeche chhipe uddeshya aur sandesh ko samajhne ki koshish karo."
             },
             {
                 "verseNumber": 32,
-                "sanskrit": "श्रीभगवानुवाच ।\nकालोऽस्मि लोकक्षयकृत्प्रवृद्धो\nलोकान्समाहर्तुमिह प्रवृत्तः ।\nऋतेऽपि त्वां न भविष्यन्ति सर्वे\nयेऽवस्थिताः प्रत्यनीकेषु योधाः ॥",
-                "transliteration": "śrībhagavānuvāca.\nkālo.asmi lokakṣayakṛtpravṛddho lokānsamāhartumiha pravṛttaḥ.\nṛte.api tvāṃ na bhaviṣyanti sarve ye.avasthitāḥ pratyanīkeṣu yodhāḥ",
-                "hinglishMeaning": "Shreebhagavaan ne kahaa -- main lokon kaa naasha karane vaalaa pravriddha kaala hoon. isa samaya, main ina lokon kaa sanhaara karane men pravritta hoon. jo pratipakshiyon kee senaa men sthita yoddhaa hain, ve saba tumhaare binaa bhee naheen rahenge",
-                "simpleExplanation": "Saral bhav: Shreebhagavaan ne kahaa -- main lokon kaa naasha karane vaalaa pravriddha kaala hoon. isa samaya, main ina lokon kaa sanhaara karane men pravritta hoon. jo pratipakshiyon kee senaa men sthita yoddhaa hain, ve saba tumhaare binaa bhee naheen rahenge. Iska sandarbh Adhyay 11 ke mool vishay se juda hai: vishvaroop ke darshan se Ishwar ki anant shakti aur kaal-tattva samajh aata hai.",
-                "lifeLesson": "Apni asli pehchaan shareer se pare samajhne par bhay aur moh kam hote hain."
+                "sanskrit": "श्रीभगवानुवाच ।\nकालोऽस्मि लोकक्षयकृत्प्रवृद्धो\nलोकान्समाहर्तुमिह प्रवृत्तः ।\nऋतेऽपि त्वां न भविष्यन्ति सर्वे\nयेऽवस्थिताः प्रत्यनीकेषु योधाः ॥ ३२॥",
+                "transliteration": "Shri Bhagavan Uvacha:\nKalo Smi Loka Kshaya Krit Pravriddho\nLokan Samahartum Iha Pravrittah,\nRite Pi Tvam Na Bhavishyanti Sarve\nYe Vasthitah Pratyanikeshu Yodhah.",
+                "englishMeaning": "The Blessed Lord said: I am mighty Time (Kala), the great destroyer of worlds, arisen here to annihilate these peoples. Even without your participation, none of the warriors assembled in the opposing armies shall survive!",
+                "hinglishMeaning": "Shri Bhagavan ne kaha: Main lokon ka naash karne wala mahaan Kaal (Samay) hoon, jo is samay in sabhi logon ka sanghar karne ke liye prakat hua hoon. Tumhare yuddh kiye bina bhi, vipakshi sena mein khade yeh sabhi yoddha zinda nahi bachenge!",
+                "simpleExplanation": "Yeh Gita ka sabse aitihasik aur powerful shlok hai: 'Kalo Asmi' — Main Kaal hoon!\n\nKrishna Arjun ko batate hain: 'Arjun, tum sochte ho ki tum inko maaroge ya bachaoge? Yeh tumhari galatfehmi hai. In sabhi adharmiyon ka samay poora ho chuka hai. Agar tum talwar na bhi uthao, tab bhi inka ant tay hai kyunki Kaal ne apna faisla suna diya hai.'",
+                "lifeLesson": "Samay (Kaal) sabse badi shakti hai. Insaan ko yeh ghamand nahi karna chahiye ki 'sab kuch main chala raha hoon'. Samay ke niyam ko pehchano aur apna kartavya nibhao."
             },
             {
                 "verseNumber": 33,
-                "sanskrit": "तस्मात्त्वमुत्तिष्ठ यशो लभस्व\nजित्वा शत्रून् भुङ्क्ष्व राज्यं समृद्धम् ।\nमयैवैते निहताः पूर्वमेव\nनिमित्तमात्रं भव सव्यसाचिन् ॥",
-                "transliteration": "tasmāttvamuttiṣṭha yaśo labhasva jitvā śatrūn bhuṅkṣva rājyaṃ samṛddham.\nmayaivaite nihatāḥ pūrvameva nimittamātraṃ bhava savyasācin",
-                "hinglishMeaning": "Isalie tuma utha khade ho jaao aura yasha ko praapta karo; shatruon ko jeetakara samriddha raajya ko bhogo. ye saba pahale se hee mere dvaaraa maare jaa chuke hain. hey savyasaachin! tuma kevala nimitta hee bano",
-                "simpleExplanation": "Saral bhav: Isalie tuma utha khade ho jaao aura yasha ko praapta karo; shatruon ko jeetakara samriddha raajya ko bhogo. ye saba pahale se hee mere dvaaraa maare jaa chuke hain. hey savyasaachin! tuma kevala nimitta hee bano. Iska sandarbh Adhyay 11 ke mool vishay se juda hai: vishvaroop ke darshan se Ishwar ki anant shakti aur kaal-tattva samajh aata hai.",
-                "lifeLesson": "Shraddha aur prem se ki gayi chhoti kriya bhi Bhagavan tak pahunchti hai."
+                "sanskrit": "तस्मात्त्वमुत्तिष्ठ यशो लभस्व\nजित्वा शत्रून् भुङ्क्ष्व राज्यं समृद्धम् ।\nमयैवैते निहताः पूर्वमेव\nनिमित्तमात्रं भव सव्यसाचिन् ॥ ३३॥",
+                "transliteration": "Tasmat Tvam Uttishtha Yasho Labhasva\nJitva Shatrun Bhunkshva Rajyam Samriddham,\nMayaivaite Nihatah Purvam Eva\nNimitta Matram Bhava Savyasacin.",
+                "englishMeaning": "Therefore, arise and attain glory! Conquer your enemies and enjoy an opulent kingdom! By Me alone have they already been slain; be merely an instrument (nimitta-matram), O ambidextrous archer!",
+                "hinglishMeaning": "Isliye tum utho aur yash praapt karo! Shatruon ko jeet kar samriddha rajya ka upbhog karo! Yeh sabhi pehle se hi mere dwara maare ja chuke hain. Hey Savyasachin (dono haathon se teer chalane wale Arjun)! Tum bas ek nimit (madhyam) ban jao!",
+                "simpleExplanation": "Yeh Gita ka mool sandesh hai: 'Nimitta-matram bhava' — Sirf ek madhyam bano!\n\nKrishna kehte hain: 'Adharma ka ant main pehle hi nishchit kar chuka hoon. Lekin tum dharma ke yoddha ho, isliye utho, ladho aur sansaar mein yash kamao. Karya Parmatma ka hai, tum bas unke haath ka ek aala (instrument) ban kar apna dharm nibhao.'",
+                "lifeLesson": "Ahankar mat karo ki 'yeh maine kiya'. Hum sab Ishwar ki shakti ke aage sirf ek madhyam hain. Apne kaam ko nishkam bhav aur poori mehnat se karo, baaki parinaam Parmatma par chhod do."
             },
             {
                 "verseNumber": 34,
-                "sanskrit": "द्रोणं च भीष्मं च जयद्रथं च\nकर्णं तथान्यानपि योधवीरान् ।\nमया हतांस्त्वं जहि मा व्यथिष्ठा\nयुध्यस्व जेतासि रणे सपत्नान् ॥",
-                "transliteration": "droṇaṃ ca bhīṣmaṃ ca jayadrathaṃ ca karṇaṃ tathānyānapi yodhavīrān.\nmayā hatāṃstvaṃ jahi mavyathiṣṭhā yudhyasva jetāsi raṇe sapatnān",
-                "hinglishMeaning": "Drona, bheeshma, jayadratha, karna tathaa aura bhee bahuta se mere dvaaraa maare gaye veera yoddhaaon ko tuma maaro; bhaya mata karo; yuddha karo; tuma yuddha men shatruon ko jeetoge",
-                "simpleExplanation": "Saral bhav: Drona, bheeshma, jayadratha, karna tathaa aura bhee bahuta se mere dvaaraa maare gaye veera yoddhaaon ko tuma maaro; bhaya mata karo; yuddha karo; tuma yuddha men shatruon ko jeetoge. Iska sandarbh Adhyay 11 ke mool vishay se juda hai: vishvaroop ke darshan se Ishwar ki anant shakti aur kaal-tattva samajh aata hai.",
-                "lifeLesson": "Shraddha aur prem se ki gayi chhoti kriya bhi Bhagavan tak pahunchti hai."
+                "sanskrit": "द्रोणं च भीष्मं च जयद्रथं च\nकर्णं तथान्यानपि योधवीरान् ।\nमया हतांस्त्वं जहि मा व्यथिष्ठा\nयुध्यस्व जेतासि रणे सपत्नान् ॥ ३४॥",
+                "transliteration": "Dronam Ca Bhishmam Ca Jayadratham Ca\nKarnam Tathanyan Api Yodha Viran,\nMaya Hatams Tvam Jahi Ma Vyathishtha\nYudhyasva Jetasi Rane Sapatnan.",
+                "englishMeaning": "Drona, Bhishma, Jayadratha, Karna, and the other mighty warriors have already been slain by Me. Do not grieve, slay them! Fight, and you shall surely conquer your enemies in battle!",
+                "hinglishMeaning": "Dronacharya, Bhishma Pitamah, Jayadratha, Karna tatha anya sabhi veer yoddha mere dwara pehle hi maare ja chuke hain. Tum chinta mat karo, unhe maaro! Yuddh karo, rannbhoomi mein shatruon par tumhari hi jeet hogi!",
+                "simpleExplanation": "Arjun jin mahan logon ko maarne se darr rahe the — guru Drona, pitaamah Bhishma aur shaktishaali Karna — Krishna unhe spasht kehte hain:\n\n'Inka aadhyaatmik ant inke dushkarmo aur adharma ke saath khade hone ki wajah se pehle hi ho chuka hai. Tum bas unke physical shareer ko girane ka kartavya poora karo. Darr chhod kar khade ho jao, jeet tumhari hi hai.'",
+                "lifeLesson": "Jab nyay aur satya ke liye ladna ho, toh vyakti-vishesh ke moh mein mat phaso. Satya ke paksh mein khade rehne wale ki hamesha jeet hoti hai."
             },
             {
                 "verseNumber": 35,
-                "sanskrit": "सञ्जय उवाच ।\nएतच्छ्रुत्वा वचनं केशवस्य\nकृताञ्जलिर्वेपमानः किरीटी ।\nनमस्कृत्वा भूय एवाह कृष्णं\nसगद्गदं भीतभीतः प्रणम्य ॥",
-                "transliteration": "sañjaya uvāca.\netacchrutvā vacanaṃ keśavasya kṛtāñjalirvepamānaḥ kirīṭī.\nnamaskṛtvā bhūya evāha kṛṣṇaṃ sagadgadaṃ bhītabhītaḥ praṇamya",
-                "hinglishMeaning": "Sanjaya ne kahaa -- keshava bhagavaan ke isa vachana ko sunakara mukutadhaaree Arjun haatha jode hue, kaanpataa huaa namaskaara karake puna: bhayabheeta huaa shreeKrishna ke prati gadgad vaanee se bolaa",
-                "simpleExplanation": "Saral bhav: Sanjaya ne kahaa -- keshava bhagavaan ke isa vachana ko sunakara mukutadhaaree Arjun haatha jode hue, kaanpataa huaa namaskaara karake puna: bhayabheeta huaa shreeKrishna ke prati gadgad vaanee se bolaa. Iska sandarbh Adhyay 11 ke mool vishay se juda hai: vishvaroop ke darshan se Ishwar ki anant shakti aur kaal-tattva samajh aata hai.",
-                "lifeLesson": "Apni asli pehchaan shareer se pare samajhne par bhay aur moh kam hote hain."
+                "sanskrit": "सञ्जय उवाच ।\nएतच्छ्रुत्वा वचनं केशवस्य\nकृताञ्जलिर्वेपमानः किरीटी ।\nनमस्कृत्वा भूय एवाह कृष्णं\nसगद्गदं भीतभीतः प्रणम्य ॥ ३५॥",
+                "transliteration": "Sanjaya Uvacha:\nEtac Chrutva Vachanam Keshavasya\nKritanjalir Vepamanah Kiriti,\nNamaskritva Bhuya Evaha Krishnam\nSagadgadam Bhita Bhitah Pranamya.",
+                "englishMeaning": "Sanjaya said: Having heard these words of Keshava, the crowned one (Arjuna), trembling and with folded hands, prostrated himself repeatedly and spoke to Krishna in a voice choked with awe and fear.",
+                "hinglishMeaning": "Sanjay ne kaha: Bhagavan Keshava ke in vachanon ko sunkar, mukut-dhari Arjun haath jodkar thar-thar kaanpte hue baar-baar pranam karne laga, aur darr se bhare hue swar mein gadgad hokar Shri Krishna se bola.",
+                "simpleExplanation": "Krishna ke shabdon ko sunkar Arjun ki aatma hil gayi. Unka shareer kaanp raha tha, aankhon mein aansu the aur gale se aawaz gadgad hokar nikal rahi thi.\n\nWoh samajh gaye ki jise woh apna dost maante the, woh saakshaat poore brahmand ke Vidhata aur Kaal-swaroop hain. Arjun ka hriday apar shradha aur vinamrata se bhar gaya.",
+                "lifeLesson": "Satya ki vishalta ka anubhav insaan ke bheetar ek gahan shradha aur vinamrata jaga deta hai. Sachche bhakt ka hriday ghamand se nahi, shradha ke aansuon se bharta hai."
             },
             {
                 "verseNumber": 36,
-                "sanskrit": "अर्जुन उवाच ।\nस्थाने हृषीकेश तव प्रकीर्त्या\nजगत्प्रहृष्यत्यनुरज्यते च ।\nरक्षांसि भीतानि दिशो द्रवन्ति\nसर्वे नमस्यन्ति च सिद्धसङ्घाः ॥",
-                "transliteration": "arjuna uvāca.\nsthāne hṛṣīkeśa tava prakīrtyā jagatprahṛṣyatyanurajyate ca.\nrakṣāṃsi bhītāni diśo dravanti sarve namasyanti ca siddhasaṅghāḥ",
-                "hinglishMeaning": "Arjun ne kahaa -- yaha yogya hee hai ki aapake keertana se jagat ati harshita hotaa hai aura anuraaga ko bhee praapta hotaa hai. bhayabheeta raakshasa loga samasta dishaaon men bhaagate hain aura samasta siddhaganon ke samudaaya aapako namaskaara karate hain",
-                "simpleExplanation": "Saral bhav: Arjun ne kahaa -- yaha yogya hee hai ki aapake keertana se jagat ati harshita hotaa hai aura anuraaga ko bhee praapta hotaa hai. bhayabheeta raakshasa loga samasta dishaaon men bhaagate hain aura samasta siddhaganon ke samudaaya aapako namaskaara karate hain. Iska sandarbh Adhyay 11 ke mool vishay se juda hai: vishvaroop ke darshan se Ishwar ki anant shakti aur kaal-tattva samajh aata hai.",
-                "lifeLesson": "Shraddha aur prem se ki gayi chhoti kriya bhi Bhagavan tak pahunchti hai."
+                "sanskrit": "अर्जुन उवाच ।\nस्थाने हृषीकेश तव प्रकीर्त्या\nजगत्प्रहृष्यत्यनुरज्यते च ।\nरक्षांसि भीतानि दिशो द्रवन्ति\nसर्वे नमस्यन्ति च सिद्धसङ्घाः ॥ ३६॥",
+                "transliteration": "Arjuna Uvacha:\nSthane Hrishikesha Tava Prakirtya\nJagat Prahirishyaty Anurajyate Ca,\nRakshamsi Bhitani Disho Dravanti\nSarve Namasyanti Ca Siddha Sanghah.",
+                "englishMeaning": "Arjuna said: It is altogether right and proper, O Hrishikesha, that the entire universe rejoices and is filled with love by Your glory! The demons flee in terror in all directions, while all the hosts of perfected saints bow down in adoration!",
+                "hinglishMeaning": "Arjun ne kaha: Hey Hrishikesha! Yeh bilkul uchit hi hai ki aapke naam aur mahima ke kirtan se poora jagat harshit ho raha hai aur prem mein leen ho raha hai; darr ke maare rakshas sabhi dishaon mein bhaag rahe hain aur samast siddha purush aapko pranam kar rahe hain.",
+                "simpleExplanation": "Arjun kehte hain ki Prabhu, aapki mahima sunkar dharmatma log khush hote hain aur unka mann bhakti se bhar jaata hai.\n\nLekin jin logo ke mann mein paap aur burai (asuri vritti) hai, woh aapke naam se darte hain aur bhaagte hain. Yeh srishti ka sahaj niyam hai — satya bhakton ko sukoon deta hai aur dushkarm karne walon ko bhay.",
+                "lifeLesson": "Pavitra aatmaayein satya aur Ishwar ke naam se anand paati hain, jabki burai karne wale hamesha bhaybheet rehte hain. Shuddh man se jiyo taaki bheetar anand bana rahe."
             },
             {
                 "verseNumber": 37,
-                "sanskrit": "कस्माच्च ते न नमेरन्महात्मन्\nगरीयसे ब्रह्मणोऽप्यादिकर्त्रे ।\nअनन्त देवेश जगन्निवास\nत्वमक्षरं सदसत्तत्परं यत् ॥",
-                "transliteration": "kasmācca te na nameranmahātman garīyase brahmaṇo.apyādikartre.\nananta deveśa jagannivāsa tvamakṣaraṃ sadasattatparaṃ yat",
-                "hinglishMeaning": "Hey mahaatman ! brahmaa ke bhee aadi kartaa aura sabase shreshtha aapake lie ve kaise namaskaara naheen karen? (kyonki) hey ananta! hey devesha! hey jagannivaasa! jo sat asat aura ina donon se pare aksharatattva hai, vaha aapa hee hain",
-                "simpleExplanation": "Saral bhav: Hey mahaatman ! brahmaa ke bhee aadi kartaa aura sabase shreshtha aapake lie ve kaise namaskaara naheen karen? (kyonki) hey ananta! hey devesha! hey jagannivaasa! jo sat asat aura ina donon se pare aksharatattva hai, vaha aapa hee hain. Iska sandarbh Adhyay 11 ke mool vishay se juda hai: vishvaroop ke darshan se Ishwar ki anant shakti aur kaal-tattva samajh aata hai.",
-                "lifeLesson": "Apni asli pehchaan shareer se pare samajhne par bhay aur moh kam hote hain."
+                "sanskrit": "कस्माच्च ते न नमेरन्महात्मन्\nगरीयसे ब्रह्मणोऽप्यादिकर्त्रे ।\nअनन्त देवेश जगन्निवास\nत्वमक्षरं सदसत्तत्परं यत् ॥ ३७॥",
+                "transliteration": "Kasmad Ca Te Na Nameran Mahatman\nGariyase Brahmano Py Adi Kartre,\nAnanta Devesha Jagannivasa\nTvam Aksharam Sad Asat Tat Param Yat.",
+                "englishMeaning": "And why should they not bow down to You, O Great Soul, who are greater even than Brahma, being the original Creator? O Infinite One, God of gods, Refuge of the cosmos! You are the imperishable Reality, being (Sat), non-being (Asat), and that which transcends both!",
+                "hinglishMeaning": "Hey Mahatman! Brahma ji ke bhi aadi-rachayita aur sabse mahan hone ke naate, woh aapko pranam kyun na karein? Hey Ananta! Hey Devesh! Hey Jagannivas! Aap hi avinashi satya hain, aap hi Sat (sakar) aur Asat (nirakar) hain, aur jo in dono se pare param satya hai, woh bhi aap hi hain!",
+                "simpleExplanation": "Arjun kehte hain ki srishti ke rachayita Brahma ji hain, par Brahma ji ko banane wale bhi aap hi hain.\n\nSansaar mein jo kuch dikhta hai (Sat) aur jo nahi dikhta (Asat), aur jo in dono ke pare shashwat param satya hai — woh sab kuch keval aur keval aap hi hain.",
+                "lifeLesson": "Jeevan ki saari shaktiyon ke mool srot ko pehchano. Us ek param aadhar ko pranam karo jo srishti ke har roop aur aakaar se pare hai."
             },
             {
                 "verseNumber": 38,
-                "sanskrit": "त्वमादिदेवः पुरुषः पुराणस्-\nत्वमस्य विश्वस्य परं निधानम् ।\nवेत्तासि वेद्यं च परं च धाम\nत्वया ततं विश्वमनन्तरूप ॥",
-                "transliteration": "tvamādidevaḥ puruṣaḥ purāṇasa- tvamasya viśvasya paraṃ nidhānam.\nvettāsi vedyaṃ ca paraṃ ca dhāma tvayā tataṃ viśvamanantarūpa",
-                "hinglishMeaning": "Aapa aadideva aura puraana (sanaatana) purusha hain. aapa isa jagat ke parama aashraya, jnyaataa, jnyeya, (jaanane yogya) aura parama dhaama hain. hey anantaroopa aapase hee yaha vishva vyaapta hai",
-                "simpleExplanation": "Saral bhav: Aapa aadideva aura puraana (sanaatana) purusha hain. aapa isa jagat ke parama aashraya, jnyaataa, jnyeya, (jaanane yogya) aura parama dhaama hain. hey anantaroopa aapase hee yaha vishva vyaapta hai. Iska sandarbh Adhyay 11 ke mool vishay se juda hai: vishvaroop ke darshan se Ishwar ki anant shakti aur kaal-tattva samajh aata hai.",
-                "lifeLesson": "Man ko saadhne se jeevan mein santulan, dhairya aur spashtata aati hai."
+                "sanskrit": "त्वमादिदेवः पुरुषः पुराणस्-\nत्वमस्य विश्वस्य परं निधानम् ।\nवेत्तासि वेद्यं च परं च धाम\nत्वया ततं विश्वमनन्तरूप ॥ ३८॥",
+                "transliteration": "Tvam Adi Devah Purushah Puranas\nTvam Asya Vishvasya Param Nidhanam,\nVettasi Vedyam Ca Param Ca Dhama\nTvaya Tatam Vishvam Ananta Rupa.",
+                "englishMeaning": "You are the Primal Godhead, the ancient Person! You are the supreme sanctuary of this universe! You are the knower, the object to be known, and the supreme abode! By You alone is this entire universe pervaded, O One of infinite forms!",
+                "hinglishMeaning": "Aap hi aadi devata aur sanatan param purush hain! Aap hi is sampoorna srishti ke param aashray hain! Aap hi sab kuch janne wale (gyata), janne yogya param tatva (gyeya) aur param dhaam hain! Hey Anant-roop! Aapse hi yeh poora brahmand vyapt hai!",
+                "simpleExplanation": "Arjun Krishna ki stuti mein kehte hain:\n1. Aap janne wale hain (knower).\n2. Aap hi woh gyaan hain jise jaanna chahiye (known).\n3. Aur aakhiri manzil jahan aatma vishram paati hai, woh param dhaam bhi aap hi hain.\nPoora vishva aapke hi aanchal mein khila hua hai.",
+                "lifeLesson": "Gyaan, dhyan aur lakshya — sabka antim kendra Parmatma hi hain. Jab jeevan ka uddeshya unhe jaan lena ban jaata hai, tab saari bhatkan khatam ho jaati hai."
             },
             {
                 "verseNumber": 39,
-                "sanskrit": "वायुर्यमोऽग्निर्वरुणः शशाङ्कः\nप्रजापतिस्त्वं प्रपितामहश्च ।\nनमो नमस्तेऽस्तु सहस्रकृत्वः\nपुनश्च भूयोऽपि नमो नमस्ते ॥",
-                "transliteration": "vāyuryamo.agnirvaruṇaḥ śaśāṅkaḥ prajāpatistvaṃ prapitāmahaśca.\nnamo namaste.astu sahasrakṛtvaḥ punaśca bhūyo.api namo namaste",
-                "hinglishMeaning": "Aapa vaayu, yama, agni, varuna, chandramaa, prajaapati (brahmaa) aura prapitaamaha (brahmaa ke bhee kaarana) hain; aapake lie sahasra baara namaskaara, namaskaara hai, puna: aapako baarambaara namaskaara, namaskaara hai",
-                "simpleExplanation": "Saral bhav: Aapa vaayu, yama, agni, varuna, chandramaa, prajaapati (brahmaa) aura prapitaamaha (brahmaa ke bhee kaarana) hain; aapake lie sahasra baara namaskaara, namaskaara hai, puna: aapako baarambaara namaskaara, namaskaara hai. Iska sandarbh Adhyay 11 ke mool vishay se juda hai: vishvaroop ke darshan se Ishwar ki anant shakti aur kaal-tattva samajh aata hai.",
-                "lifeLesson": "Shraddha aur prem se ki gayi chhoti kriya bhi Bhagavan tak pahunchti hai."
+                "sanskrit": "वायुर्यमोऽग्निर्वरुणः शशाङ्कः\nप्रजापतिस्त्वं प्रपितामहश्च ।\nनमो नमस्तेऽस्तु सहस्रकृत्वः\nपुनश्च भूयोऽपि नमो नमस्ते ॥ ३९॥",
+                "transliteration": "Vayur Yamo Gnir Varunah Shashankah\nPrajapatis Tvam Prapitamahash Ca,\nNamo Namas Te Stu Sahasra Kritvah\nPunash Ca Bhuyo Pi Namo Namas Te.",
+                "englishMeaning": "You are Vayu (the wind), Yama (death and justice), Agni (fire), Varuna (the waters), the moon, Prajapati (Brahma the creator), and the Great-Grandfather! Salutations, salutations unto You a thousand times, and again and yet again, salutations, salutations to You!",
+                "hinglishMeaning": "Aap hi Vayu, Yamaraj, Agni, Varuna, Chandrama, Prajapati Brahma aur Brahma ji ke bhi pita (Prapitamah) hain! Aapko hazaron baar mera pranam, pranam ho! Puna: aur baarambaar aapko mera koti-koti pranam!",
+                "simpleExplanation": "Yeh stuti bhakti ras se labrez hai!\n\nArjun ko shabdon ki kami pad rahi hai. Woh kehte hain hawa aap hain, aag aap hain, nyay aap hain, suraj-chaand aap hain. 'Namo Namaste Astu Sahasra-kritvah' — main aapko ek baar nahi, hazaar baar pranam karta hoon, aur baar-baar sar jhukata hoon!",
+                "lifeLesson": "Jab dil mein sachchi shradha umadti hai, toh shabdon ki seemayein toot jaati hain aur keval vinamra samarpana aur pranam hi bachta hai."
             },
             {
                 "verseNumber": 40,
-                "sanskrit": "नमः पुरस्तादथ पृष्ठतस्ते\nनमोऽस्तु ते सर्वत एव सर्व ।\nअनन्तवीर्यामितविक्रमस्त्वं\nसर्वं समाप्नोषि ततोऽसि सर्वः ॥",
-                "transliteration": "namaḥ purastādatha pṛṣṭhataste namo.astu te sarvata eva sarva.\nanantavīryāmitavikramastvaṃ sarvaṃ samāpnoṣi tato.asi sarvaḥ",
-                "hinglishMeaning": "Hey anantasaarmathya vaale bhagavan! aapake lie agrata: aura prishthata: namaskaara hai, hey sarvaatman! aapako saba ora se namaskaara hai. aapa amita vikramashaalee hain aura aapa sabako vyaapta kiye hue hain, isase aapa sarvaroopa hain",
-                "simpleExplanation": "Saral bhav: Hey anantasaarmathya vaale bhagavan! aapake lie agrata: aura prishthata: namaskaara hai, hey sarvaatman! aapako saba ora se namaskaara hai. aapa amita vikramashaalee hain aura aapa sabako vyaapta kiye hue hain, isase aapa sarvaroopa hain. Iska sandarbh Adhyay 11 ke mool vishay se juda hai: vishvaroop ke darshan se Ishwar ki anant shakti aur kaal-tattva samajh aata hai.",
-                "lifeLesson": "Man ko saadhne se jeevan mein santulan, dhairya aur spashtata aati hai."
+                "sanskrit": "नमः पुरस्तादथ पृष्ठतस्ते\nनमोऽस्तु ते सर्वत एव सर्व ।\nअनन्तवीर्यामितविक्रमस्त्वं\nसर्वं समाप्नोषि ततोऽसि सर्वः ॥ ४०॥",
+                "transliteration": "Namah Purastad Atha Prishthatas Te\nNamo Stu Te Sarvata Eva Sarva,\nAnanta Viryamita Vikramas Tvam\nSarvam Samapnoshi Tato Si Sarvah.",
+                "englishMeaning": "Salutations unto You from the front, from behind, and from every side, O All! Possessing infinite prowess and limitless might, You pervade everything, and therefore You are everything!",
+                "hinglishMeaning": "Hey Sarva-swaroop! Aapko aage se pranam, peeche se pranam aur chaaron taraf se pranam ho! Hey anant shaktishaali aur aseem parakrami Prabhu! Aapne sab kuch apne bheetar samaya hua hai, isliye aap hi sab kuch hain!",
+                "simpleExplanation": "Arjun kehte hain ki Prabhu, main kis taraf sar jhukaoon? Aap aage bhi hain, peeche bhi hain, daayein bhi hain, baayein bhi hain.\n\nIsliye main aapko har taraf se pranam karta hoon. Chunki aap har kan mein samaye hue hain, isliye srishti mein jo kuch bhi hai, woh sab aap hi ka roop hai.",
+                "lifeLesson": "Parmatma ko kisi ek kone ya disha mein mat dhoondo. Woh har taraf, har insaan aur har jeev mein virajmaan hain. Sabka samman karo."
             },
             {
                 "verseNumber": 41,
-                "sanskrit": "सखेति मत्वा प्रसभं यदुक्तं\nहे कृष्ण हे यादव हे सखेति ।\nअजानता महिमानं तवेदं\nमया प्रमादात्प्रणयेन वापि ॥",
-                "transliteration": "sakheti matvā prasabhaṃ yaduktaṃ he kṛṣṇa he yādava he sakheti.\najānatā mahimānaṃ tavedaṃ mayā pramādātpraṇayena vāpi",
-                "hinglishMeaning": "Hey bhagavan! aapako sakhaa maanakara aapakee isa mahimaa ko na jaanate hue mere dvaaraa pramaada se athavaa prema se bhee \"hey Krishna he! yaadava hey sakhe!\" isa prakaara jo kuchha balaat kahaa gayaa hai",
-                "simpleExplanation": "Saral bhav: Hey bhagavan! aapako sakhaa maanakara aapakee isa mahimaa ko na jaanate hue mere dvaaraa pramaada se athavaa prema se bhee \"hey Krishna he! yaadava hey sakhe!\" isa prakaara jo kuchha balaat kahaa gayaa hai. Iska sandarbh Adhyay 11 ke mool vishay se juda hai: vishvaroop ke darshan se Ishwar ki anant shakti aur kaal-tattva samajh aata hai.",
-                "lifeLesson": "Shraddha aur prem se ki gayi chhoti kriya bhi Bhagavan tak pahunchti hai."
+                "sanskrit": "सखेति मत्वा प्रसभं यदुक्तं\nहे कृष्ण हे यादव हे सखेति ।\nअजानता महिमानं तवेदं\nमया प्रमादात्प्रणयेन वापि ॥ ४१॥",
+                "transliteration": "Sakheti Matva Prasabham Yad Uktam\nHe Krishna He Yadava He Sakheti,\nAjanata Mahimanam Tavedam\nMaya Pramadat Pranayena Vapi.",
+                "englishMeaning": "Regarding You merely as a friend, unaware of this divine greatness of Yours, whatever I rashly said out of negligence or deep affection, calling You \"O Krishna! O Yadava! O friend!\",",
+                "hinglishMeaning": "Aapko keval apna mitra samajhkar, aapki is asim mahima ko na jaante hue, maine galti se ya prem-vash bina soche-samjhe jo kuch bhi keh diya — jaise \"Hey Krishna! Hey Yadava! Hey sakha!\" —",
+                "simpleExplanation": "Arjun ko yaad aata hai ki unhone Krishna ko sadharan insaan samajhkar kitni baar dostana hak jataya tha.\n\nKabhi 'Hey Krishna', kabhi 'Hey Yadav', kabhi hansi-mazaak mein dost ki tarah baat ki thi. Arjun ko ab ehsaas hua ki woh jise dost samajh rahe the, woh toh saakshaat poore brahmand ke Parameshwar hain.",
+                "lifeLesson": "Jab kisi mahan vyakti ya Ishwar ki kripa humare kareeb hoti hai, toh hum use aam samajhne ki bhool kar baithte hain. Rishto mein aadar aur vinamrata ka bhav hamesha bana rehna chahiye."
             },
             {
                 "verseNumber": 42,
-                "sanskrit": "यच्चावहासार्थमसत्कृतोऽसि\nविहारशय्यासनभोजनेषु ।\nएकोऽथवाप्यच्युत तत्समक्षं\nतत्क्षामये त्वामहमप्रमेयम् ॥",
-                "transliteration": "yaccāvahāsārthamasatkṛto.asi vihāraśayyāsanabhojaneṣu.\neko.athavāpyacyuta tatsamakṣaṃ tatkṣāmaye tvāmahamaprameyam",
-                "hinglishMeaning": "Aura, hey achyuta! jo aapa mere dvaaraa hansee ke liye bihaara, shayyaa, aasana aura bhojana ke samaya akele men athavaa anyon ke samaksha bhee apamaanita kiye gaye hain, una saba ke lie aprameya svaroopa aapa se main kshamaayaachanaa karataa hoon",
-                "simpleExplanation": "Saral bhav: Aura, hey achyuta! jo aapa mere dvaaraa hansee ke liye bihaara, shayyaa, aasana aura bhojana ke samaya akele men athavaa anyon ke samaksha bhee apamaanita kiye gaye hain, una saba ke lie aprameya svaroopa aapa se main kshamaayaachanaa karataa hoon. Iska sandarbh Adhyay 11 ke mool vishay se juda hai: vishvaroop ke darshan se Ishwar ki anant shakti aur kaal-tattva samajh aata hai.",
-                "lifeLesson": "Shraddha aur prem se ki gayi chhoti kriya bhi Bhagavan tak pahunchti hai."
+                "sanskrit": "यच्चावहासार्थमसत्कृतोऽसि\nविहारशय्यासनभोजनेषु ।\nएकोऽथवाप्यच्युत तत्समक्षं\nतत्क्षामये त्वामहमप्रमेयम् ॥ ४२॥",
+                "transliteration": "Yac Cavahasartham Asatkritosi\nVihara Shayyasana Bhojaneshu,\nEko Thavapy Acyuta Tat Samaksham\nTat Kshamaye Tvam Aham Aprameyam.",
+                "englishMeaning": "And whatever disrespect I may have shown You in jest, while resting, sitting, walking, or dining, whether alone or in the presence of companions — for all that, O infallible Lord, I earnestly beg forgiveness of You, the immeasurable!",
+                "hinglishMeaning": "Aur hansi-mazaak mein khelte, sote, baithte ya bhojan karte samay, akele mein ya doosron ke samne maine anjaane mein jo bhi aapka anaadar kiya ho — us sabhi ke liye hey Achyuta (avinashi Prabhu)! Main aapse kshama maangta hoon.",
+                "simpleExplanation": "Arjun dil se maafi maangte hain ki hansi-khel mein, saath khana khate samay ya baithte waqt maine dosti mein aapse jo bhi bina aadar wali baatein ki hon, kripa karke use maaf kar dein.\n\nSachchi bhakti mein dil saaf hota hai aur insaan apni galti ko khule dil se maanta hai.",
+                "lifeLesson": "Apni bhool ko swikar karke kshama maangna kamzori nahi, balki hriday ki pavitrata aur shreshtha sanskaar hai."
             },
             {
                 "verseNumber": 43,
-                "sanskrit": "पितासि लोकस्य चराचरस्य\nत्वमस्य पूज्यश्च गुरुर्गरीयान् ।\nन त्वत्समोऽस्त्यभ्यधिकः कुतोऽन्यो\nलोकत्रयेऽप्यप्रतिमप्रभाव ॥",
-                "transliteration": "pitāsi lokasya carācarasya tvamasya pūjyaśca gururgarīyān.\nna tvatsamo.astyabhyadhikaḥ kuto.anyo lokatraye.apyapratimaprabhāva",
-                "hinglishMeaning": "Aapa isa charaachara jagat ke pitaa, poojaneeya aura sarvashreshtha guru hain. hey apritama prabhaava vaale bhagavan! teenon lokon men aapake samaana bhee koee naheen hain, to phira aapase adhika shreshtha kaise hogaa?",
-                "simpleExplanation": "Saral bhav: Aapa isa charaachara jagat ke pitaa, poojaneeya aura sarvashreshtha guru hain. hey apritama prabhaava vaale bhagavan! teenon lokon men aapake samaana bhee koee naheen hain, to phira aapase adhika shreshtha kaise hogaa?. Iska sandarbh Adhyay 11 ke mool vishay se juda hai: vishvaroop ke darshan se Ishwar ki anant shakti aur kaal-tattva samajh aata hai.",
-                "lifeLesson": "Shraddha aur prem se ki gayi chhoti kriya bhi Bhagavan tak pahunchti hai."
+                "sanskrit": "पितासि लोकस्य चराचरस्य\nत्वमस्य पूज्यश्च गुरुर्गरीयान् ।\nन त्वत्समोऽस्त्यभ्यधिकः कुतोऽन्यो\nलोकत्रयेऽप्यप्रतिमप्रभाव ॥ ४३॥",
+                "transliteration": "Pitasi Lokasya Caracarasya\nTvam Asya Pujyash Ca Gurur Gariyan,\nNa Tvat Samo Sty Abhyadhikah Kuto Nyo\nLokatraye Py Apratima Prabhava.",
+                "englishMeaning": "You are the Father of this world, of all moving and unmoving beings! You are its most venerable and supreme Guru! There is none equal to You; how then could anyone be greater in all the three worlds, O Being of peerless glory?",
+                "hinglishMeaning": "Aap is char aur achar jagat ke pita hain, aap hi iske param poojneeya aur sabse mahan guru hain! Teeno lokon mein aapke barabar bhi koi nahi hai, toh bhala aapse bada koi doosra kaise ho sakta hai, hey bemisaal prabhav wale Prabhu!",
+                "simpleExplanation": "Arjun kehte hain ki aap poori srishti ke janm-data pita hain aur aatmik gyaan dene wale sabse mahan guru hain.\n\nJab teeno lokon mein aapke barabar hi koi shakti nahi hai, toh aapse bada toh koi ho hi nahi sakta.",
+                "lifeLesson": "Guru aur Parmatma hi jeevan ke mool aadhar hain. Unke prati shraddhavan rehne se insaan ko jeevan ki sahi disha aur shanti milti hai."
             },
             {
                 "verseNumber": 44,
-                "sanskrit": "तस्मात्प्रणम्य प्रणिधाय कायं\nप्रसादये त्वामहमीशमीड्यम् ।\nपितेव पुत्रस्य सखेव सख्युः\nप्रियः प्रियायार्हसि देव सोढुम् ॥",
-                "transliteration": "tasmātpraṇamya praṇidhāya kāyaṃ prasādaye tvāmahamīśamīḍyam.\npiteva putrasya sakheva sakhyuḥ priyaḥ priyāyārhasi deva soḍhum",
-                "hinglishMeaning": "Isaliye hey bhagavan! main shareera ke dvaaraa saashtaanga pranipaata karake stuti ke yogya aapa eeshvara ko prasanna hone ke liye praarthanaa karataa hoon. hey deva! jaise pitaa putra ke, mitra apane mitra ke aura priya apanee priyaa ke(aparaadha ko kshamaa karataa hai), vaise hee aapa bhee mere aparaadhon ko kshamaa keejiye",
-                "simpleExplanation": "Saral bhav: Isaliye hey bhagavan! main shareera ke dvaaraa saashtaanga pranipaata karake stuti ke yogya aapa eeshvara ko prasanna hone ke liye praarthanaa karataa hoon. hey deva! jaise pitaa putra ke, mitra apane mitra ke aura priya apanee priyaa ke(aparaadha ko kshamaa karataa hai), vaise hee aapa bhee mere aparaadhon ko kshamaa keejiye. Iska sandarbh Adhyay 11 ke mool vishay se juda hai: vishvaroop ke darshan se Ishwar ki anant shakti aur kaal-tattva samajh aata hai.",
-                "lifeLesson": "Shraddha aur prem se ki gayi chhoti kriya bhi Bhagavan tak pahunchti hai."
+                "sanskrit": "तस्मात्प्रणम्य प्रणिधाय कायं\nप्रसादये त्वामहमीशमीड्यम् ।\nपितेव पुत्रस्य सखेव सख्युः\nप्रियः प्रियायार्हसि देव सोढुम् ॥ ४४॥",
+                "transliteration": "Tasmat Pranamya Pranidhaya Kayam\nPrasadaye Tvam Aham Isham Idyam,\nPiteva Putrasya Sakheva Sakhyuh\nPriyah Priyayarhasi Deva Sodhum.",
+                "englishMeaning": "Therefore, bowing down and prostrating my whole body, I beseech Your grace, O adorable, sovereign Lord! As a father bears with his son, a friend with his friend, and a lover with his beloved, so may You, O God, bear with and forgive me!",
+                "hinglishMeaning": "Isliye main poore shareer se saashtaang pranam karke, stuti ke yogya aap Parameshwar ko prasanna karne ki prarthana karta hoon. Hey Prabhu! Jaise pita apne putra ki, sakha apne sakha ki aur premi apni premika ki galtiyon ko maaf karta hai, waise hi aap bhi meri bhool ko kshama kijiye.",
+                "simpleExplanation": "Yeh shlok Geeta ke sabse madhur aur prem-bhare shloko mein se ek hai.\n\nArjun zameen par gir kar saashtaang pranam karte hain aur kehte hain: 'Prabhu, jaise ek pita apne bache ki galti maaf karta hai, jaise ek dost apne dost ki bhool bhula deta hai, aur jaise do premi ek doosre ko maaf karte hain — usi tarah aap bhi mere apraadh ko kshama kar dijiye.'",
+                "lifeLesson": "Ishwar se humara rishta keval darr ya niyam ka nahi, balki pita, dost aur premi jaisa gehra prem ka rishta hai. Sache dil se maafi maangne par kripa zaroor milti hai."
             },
             {
                 "verseNumber": 45,
-                "sanskrit": "अदृष्टपूर्वं हृषितोऽस्मि दृष्ट्वा\nभयेन च प्रव्यथितं मनो मे ।\nतदेव मे दर्शय देव रूपं\nप्रसीद देवेश जगन्निवास ॥",
-                "transliteration": "adṛṣṭapūrvaṃ hṛṣito.asmi dṛṣṭvā bhayena ca pravyathitaṃ mano me.\ntadeva me darśaya deva rūpaṃ prasīda deveśa jagannivāsa",
-                "hinglishMeaning": "Main aapake isa adrishtapoorva roopa ko dekhakara harshita ho rahaa hoon aura meraa mana bhaya se ativyaakula bhee ho rahaa hain. isalie hey deva! aapa usa poorvakaala ko hee mujhey dikhaaiye. hey devesha! hey jagannivaasa! aapa prasanna hoiye",
-                "simpleExplanation": "Saral bhav: Main aapake isa adrishtapoorva roopa ko dekhakara harshita ho rahaa hoon aura meraa mana bhaya se ativyaakula bhee ho rahaa hain. isalie hey deva! aapa usa poorvakaala ko hee mujhey dikhaaiye. hey devesha! hey jagannivaasa! aapa prasanna hoiye. Iska sandarbh Adhyay 11 ke mool vishay se juda hai: vishvaroop ke darshan se Ishwar ki anant shakti aur kaal-tattva samajh aata hai.",
-                "lifeLesson": "Man ko saadhne se jeevan mein santulan, dhairya aur spashtata aati hai."
+                "sanskrit": "अदृष्टपूर्वं हृषितोऽस्मि दृष्ट्वा\nभयेन च प्रव्यथितं मनो मे ।\nतदेव मे दर्शय देव रूपं\nप्रसीद देवेश जगन्निवास ॥ ४५॥",
+                "transliteration": "Adrishta Purvam Hrishito Smi Drishtva\nBhayena Ca Pravyathitam Mano Me,\nTad Eva Me Darshaya Deva Rupam\nPrasida Devesha Jagannivasa.",
+                "englishMeaning": "I am overjoyed having beheld this marvel never seen before, yet my mind is afflicted with fear! Please reveal unto me that familiar divine form once again; be gracious, O Lord of gods, O Refuge of the cosmos!",
+                "hinglishMeaning": "Pehle kabhi na dekhe gaye is divya roop ko dekhkar main harshit (khush) toh hoon, lekin mera man bhay se vyathit bhi ho raha hai. Isliye hey Prabhu! Mujhe apna wahi poorva roop dikhaiye. Hey Devesh! Hey Jagannivas! Kripa karke prasanna hoiye.",
+                "simpleExplanation": "Arjun kehte hain ki ek taraf toh mujhe anand ho raha hai ki maine aapka itna vishal aur adbhut roop dekha jo kisi ne nahi dekha.\n\nLekin doosri taraf aapka ugra roop dekhkar mera mann darr se ghabra raha hai. Isliye Prabhu, ab kripa karke apna shant, sundar aur prem-may roop punah dikha dijiye.",
+                "lifeLesson": "Adhura gyaan ya bheetar ki ghabrahat insaan ko vichlit kar sakti hai. Hamesha Ishwar se shanti aur saumyata ki prarthana karni chahiye."
             },
             {
                 "verseNumber": 46,
-                "sanskrit": "किरीटिनं गदिनं चक्रहस्तं\nइच्छामि त्वां द्रष्टुमहं तथैव ।\nतेनैव रूपेण चतुर्भुजेन\nसहस्रबाहो भव विश्वमूर्ते ॥",
-                "transliteration": "kirīṭinaṃ gadinaṃ cakrahastaṃ icchāmi tvāṃ draṣṭumahaṃ tathaiva.\ntenaiva rūpeṇa caturbhujena sahasrabāho bhava viśvamūrte",
-                "hinglishMeaning": "Main aapako usee prakaara mukutadhaaree, gadaa aura chakra haatha men lie hue dekhanaa chaahataa hoon. hey vishvamoorte! hey sahasrabaaho! aapa usa chaturbhujaroopa ke hee bana jaaie",
-                "simpleExplanation": "Saral bhav: Main aapako usee prakaara mukutadhaaree, gadaa aura chakra haatha men lie hue dekhanaa chaahataa hoon. hey vishvamoorte! hey sahasrabaaho! aapa usa chaturbhujaroopa ke hee bana jaaie. Iska sandarbh Adhyay 11 ke mool vishay se juda hai: vishvaroop ke darshan se Ishwar ki anant shakti aur kaal-tattva samajh aata hai.",
-                "lifeLesson": "Shraddha aur prem se ki gayi chhoti kriya bhi Bhagavan tak pahunchti hai."
+                "sanskrit": "किरीटिनं गदिनं चक्रहस्तं\nइच्छामि त्वां द्रष्टुमहं तथैव ।\nतेनैव रूपेण चतुर्भुजेन\nसहस्रबाहो भव विश्वमूर्ते ॥ ४६॥",
+                "transliteration": "Kiritinam Gadinam Cakra Hastam\nIcchami Tvam Drashtum Aham Tathaiva,\nTenaiva Rupena Catur Bhujena\nSahasra Baho Bhava Vishva Murte.",
+                "englishMeaning": "I yearn to behold You as before, wearing a radiant crown, bearing a mace, and holding the discus in hand! In that very gentle, four-armed form, do You appear, O thousand-armed One of universal form!",
+                "hinglishMeaning": "Main aapko pehle ki tarah hi mukut pehne hue, gada aur chakra haath mein liye dekhna chahta hoon. Hey hazaron bhujaon wale vishwaroop Prabhu! Aap apne usi char bhujaon wale (chaturbhuja) sundar roop mein prakat ho jaiye.",
+                "simpleExplanation": "Arjun Krishna se unke prem-may Chaturbhuj Narayan roop aur unke saumya sakha roop mein lautne ki prarthana karte hain.\n\nWoh hazaron bhujaon wale bhayanak roop ke bajaye shant, shobhamay aur aashirwad dene wale sundar roop ka darshan karna chahte hain.",
+                "lifeLesson": "Bhakti mein aatmiyata aur shanti tab milti hai jab hum Ishwar ke prem aur kripa wale roop se judte hain."
             },
             {
                 "verseNumber": 47,
-                "sanskrit": "श्रीभगवानुवाच ।\nमया प्रसन्नेन तवार्जुनेदं\nरूपं परं दर्शितमात्मयोगात् ।\nतेजोमयं विश्वमनन्तमाद्यं\nयन्मे त्वदन्येन न दृष्टपूर्वम् ॥",
-                "transliteration": "śrībhagavānuvāca.\nmayā prasannena tavārjunedaṃ rūpaṃ paraṃ darśitamātmayogāt.\ntejomayaṃ viśvamanantamādyaṃ yanme tvadanyena na dṛṣṭapūrvam",
-                "hinglishMeaning": "Hey Arjun! tuma para prasanna hokara mainne apanee yogashakti (aatmayogaat) ke prabhaava se yaha apanaa parama tejomaya, sabakaa aadi aura ananta vishvaroopa tujhey darshaayaa hai, jise tumhaare poorva kisee ne naheen dekhaa hai",
-                "simpleExplanation": "Saral bhav: Hey Arjun! tuma para prasanna hokara mainne apanee yogashakti (aatmayogaat) ke prabhaava se yaha apanaa parama tejomaya, sabakaa aadi aura ananta vishvaroopa tujhey darshaayaa hai, jise tumhaare poorva kisee ne naheen dekhaa hai. Iska sandarbh Adhyay 11 ke mool vishay se juda hai: vishvaroop ke darshan se Ishwar ki anant shakti aur kaal-tattva samajh aata hai.",
-                "lifeLesson": "Apni asli pehchaan shareer se pare samajhne par bhay aur moh kam hote hain."
+                "sanskrit": "श्रीभगवानुवाच ।\nमया प्रसन्नेन तवार्जुनेदं\nरूपं परं दर्शितमात्मयोगात् ।\nतेजोमयं विश्वमनन्तमाद्यं\nयन्मे त्वदन्येन न दृष्टपूर्वम् ॥ ४७॥",
+                "transliteration": "Shri Bhagavan Uvacha:\nMaya Prasannena Tavarjunedam\nRupam Param Darshitam Atma Yogat,\nTejomayam Vishvam Anantam Adyam\nYan Me Tvad Anyena Na Drishta Purvam.",
+                "englishMeaning": "The Blessed Lord said: Being pleased with you, O Arjuna, I have revealed unto you through My supreme yogic power this transcendental, radiant, universal, boundless, and primal form of Mine, which has never before been seen by anyone other than you!",
+                "hinglishMeaning": "Shri Bhagavan ne kaha: Hey Arjun! Maine tum par prasanna hokar apni yog-shakti ke bal par apna yeh param tejomay, anant, sabka aadi aur vishwaroop tumhe dikhaya hai, jise tumhare alawa pehle kisi ne kabhi nahi dekha.",
+                "simpleExplanation": "Krishna Arjun ko saantvana dete hain: 'Arjun, ghabrao mat! Yeh roop kisi krodh se nahi, balki tumhare nishchhal prem aur bhakti par prasanna hokar maine tumhe dikhaya hai.'\n\nYeh darshan durlabh tha aur sirf Arjun ke sachche prem ki wajah se sambhav hua.",
+                "lifeLesson": "Parmatma ka gahan satya keval prem aur samarpana se milta hai. Jab Ishwar kisi par prasanna hote hain, tabhi anant rahasya khulte hain."
             },
             {
                 "verseNumber": 48,
-                "sanskrit": "न वेदयज्ञाध्ययनैर्न दानैर्-\nन च क्रियाभिर्न तपोभिरुग्रैः ।\nएवंरूपः शक्य अहं नृलोके\nद्रष्टुं त्वदन्येन कुरुप्रवीर ॥",
-                "transliteration": "na vedayajñādhyayanairna dānaira- na ca kriyābhirna tapobhirugraiḥ.\nevaṃrūpaḥ śakya ahaṃ nṛloke draṣṭuṃ tvadanyena kurupravīra",
-                "hinglishMeaning": "Hey kurupraveera! tumhaare atirikta isa manushya loka men kisee anya ke dvaaraa main isa roopa men, na vedaadhyayana aura na yajnya, na daana aura na (dhaarmika) kriyaayon ke dvaaraa aura na ugra tapon ke dvaaraa hee dekhaa jaa sakataa hoon",
-                "simpleExplanation": "Saral bhav: Hey kurupraveera! tumhaare atirikta isa manushya loka men kisee anya ke dvaaraa main isa roopa men, na vedaadhyayana aura na yajnya, na daana aura na (dhaarmika) kriyaayon ke dvaaraa aura na ugra tapon ke dvaaraa hee dekhaa jaa sakataa hoon. Iska sandarbh Adhyay 11 ke mool vishay se juda hai: vishvaroop ke darshan se Ishwar ki anant shakti aur kaal-tattva samajh aata hai.",
-                "lifeLesson": "Apni asli pehchaan shareer se pare samajhne par bhay aur moh kam hote hain."
+                "sanskrit": "न वेदयज्ञाध्ययनैर्न दानैर्-\nन च क्रियाभिर्न तपोभिरुग्रैः ।\nएवंरूपः शक्य अहं नृलोके\nद्रष्टुं त्वदन्येन कुरुप्रवीर ॥ ४८॥",
+                "transliteration": "Na Veda Yajnadhyayanair Na Danair\nNa Ca Kriyabhir Na Tapobhir Ugraih,\nEvam Rupah Shakya Aham Nriloke\nDrashtum Tvad Anyena Kuru Pravira.",
+                "englishMeaning": "Neither by the study of the Vedas, nor by sacrifices, nor by charity, nor by ritualistic ceremonies, nor by severe penances can I be seen in such a cosmic form in the world of mortals by anyone other than you, O hero of the Kurus!",
+                "hinglishMeaning": "Hey Kurushreshtha! Manushya-lok mein tumhare atirikt koi bhi doosra vyakti na toh Vedon ke adhyayan se, na yajyo se, na daan se, na karmakando se aur na hi kathor tapasyaon dwara mere is roop ko dekh sakta hai.",
+                "simpleExplanation": "Krishna spasht karte hain ki sirf kitaabi gyaan, dikhawe ka daan ya kathor sharirik tapasya se Ishwar ka saakshaatkar nahi hota.\n\nYeh sabhi sadhan ache hain, par jab tak bheetar ananya bhakti aur nishchhal prem na ho, tab tak vishwaroop ka darshan asambhav hai.",
+                "lifeLesson": "Bahari dikhava, ghamand bhari tapasya ya karmakand se Parmatma nahi milte. Shuddh aur nishkapat hriday hi Ishwar ko pane ka ekmatra rasta hai."
             },
             {
                 "verseNumber": 49,
-                "sanskrit": "मा ते व्यथा मा च विमूढभावो\nदृष्ट्वा रूपं घोरमीदृङ्ममेदम् ।\nव्यपेतभीः प्रीतमनाः पुनस्त्वं\nतदेव मे रूपमिदं प्रपश्य ॥",
-                "transliteration": "mā te vyathā mā ca vimūḍhabhāvo dṛṣṭvā rūpaṃ ghoramīdṛṅmamedam.\nvyapetabhīḥ prītamanāḥ punastvaṃ tadeva me rūpamidaṃ prapaśya",
-                "hinglishMeaning": "Isa prakaara mere isa ghora roopa ko dekhakara tuma vyathaa aura moodhabhaava ko mata praapta ho. nirbhaya aura prasannachitta hokara tuma puna: mere usee (poorva ke) roopa ko dekho",
-                "simpleExplanation": "Saral bhav: Isa prakaara mere isa ghora roopa ko dekhakara tuma vyathaa aura moodhabhaava ko mata praapta ho. nirbhaya aura prasannachitta hokara tuma puna: mere usee (poorva ke) roopa ko dekho. Iska sandarbh Adhyay 11 ke mool vishay se juda hai: vishvaroop ke darshan se Ishwar ki anant shakti aur kaal-tattva samajh aata hai.",
-                "lifeLesson": "Man ko saadhne se jeevan mein santulan, dhairya aur spashtata aati hai."
+                "sanskrit": "मा ते व्यथा मा च विमूढभावो\nदृष्ट्वा रूपं घोरमीदृङ्ममेदम् ।\nव्यपेतभीः प्रीतमनाः पुनस्त्वं\nतदेव मे रूपमिदं प्रपश्य ॥ ४९॥",
+                "transliteration": "Ma Te Vyatha Ma Ca Vimudha Bhavo\nDrishtva Rupam Ghoram Idring Mamedam,\nVyapetabhih Prita Manah Punas Tvam\nTad Eva Me Rupam Idam Prapashya.",
+                "englishMeaning": "Let there be no bewilderment nor fear in you upon seeing this awe-inspiring, terrible form of Mine. Free from fear and with a gladdened heart, behold once again that very gentle form of Mine as before!",
+                "hinglishMeaning": "Mere is ghor aur bhayanak roop ko dekhkar tum vyatha (darr) aur moh mein mat pado. Bhay-mukt hokar aur prasanna chit hokar tum punah mere usi priya aur saumya roop ko dekho.",
+                "simpleExplanation": "Krishna jaise ek snehi mitra aur pita ki tarah Arjun ko dharas bandhate hain: 'Darr mat Arjun, chinta chhod do. Apne dil ko shant karo aur khush hokar dekho — main wapas apne usi snehamayi roop mein aa raha hoon.'\n\nYeh Bhagavan ki apar karuna ko dikhata hai.",
+                "lifeLesson": "Parmatma kabhi apne bhakt ko bhaybheet nahi dekhna chahte. Prem aur karuna hi Ishwar ka aakhiri aur mool swaroop hai."
             },
             {
                 "verseNumber": 50,
-                "sanskrit": "सञ्जय उवाच ।\nइत्यर्जुनं वासुदेवस्तथोक्त्वा\nस्वकं रूपं दर्शयामास भूयः ।\nआश्वासयामास च भीतमेनं\nभूत्वा पुनः सौम्यवपुर्महात्मा ॥",
-                "transliteration": "sañjaya uvāca.\nityarjunaṃ vāsudevastathoktvā svakaṃ rūpaṃ darśayāmāsa bhūyaḥ.\nāśvāsayāmāsa ca bhītamenaṃ bhūtvā punaḥ saumyavapurmahātmā",
-                "hinglishMeaning": "Sanjaya ne kahaa -- bhagavaan vaasudeva ne Arjun se isa prakaara kahakara, puna: apane (poorva) roopa ko darshaayaa, aura phira, saumyaroopa mahatma shreeKrishna ne isa bhayabheeta Arjun ko aashvasta kiyaa",
-                "simpleExplanation": "Saral bhav: Sanjaya ne kahaa -- bhagavaan vaasudeva ne Arjun se isa prakaara kahakara, puna: apane (poorva) roopa ko darshaayaa, aura phira, saumyaroopa mahatma shreeKrishna ne isa bhayabheeta Arjun ko aashvasta kiyaa. Iska sandarbh Adhyay 11 ke mool vishay se juda hai: vishvaroop ke darshan se Ishwar ki anant shakti aur kaal-tattva samajh aata hai.",
-                "lifeLesson": "Shraddha aur prem se ki gayi chhoti kriya bhi Bhagavan tak pahunchti hai."
+                "sanskrit": "सञ्जय उवाच ।\nइत्यर्जुनं वासुदेवस्तथोक्त्वा\nस्वकं रूपं दर्शयामास भूयः ।\nआश्वासयामास च भीतमेनं\nभूत्वा पुनः सौम्यवपुर्महात्मा ॥ ५०॥",
+                "transliteration": "Sanjaya Uvacha:\nIty Arjunam Vasudevas Tathoktva\nSvakam Rupam Darshayam Asa Bhuyah,\nAshvasayam Asa Ca Bhitam Enam\nBhutva Punah Saumya Vapur Mahatma.",
+                "englishMeaning": "Sanjaya said: Having spoken thus to Arjuna, Vasudeva revealed once again His own familiar, gentle form, and assuming His pleasant, graceful appearance, the Great Soul comforted the terrified Arjuna.",
+                "hinglishMeaning": "Sanjay ne kaha: Bhagavan Vasudeva ne Arjun se aisa kehkar, punah apna saumya manushya roop dikhaya; aur us mahan aatma Shri Krishna ne punah sundar aur sheetal swaroop dharan karke bhaybheet Arjun ko poori tarah aashvast aur shant kiya.",
+                "simpleExplanation": "Sanjay Dhritarashtra ko batate hain ki Krishna ne turant apna bhayanak vishwaroop samet liya aur wapas wahi muskurate hue, sundar, peetambar-dhari Shri Krishna ban gaye.\n\nUnhone Arjun ke paas aakar use prem se sambhala aur uski ghabrahat door ki.",
+                "lifeLesson": "Mahan wahi hota hai jo doosre ke darr ko samjhe aur use sahas tatha prem pradan kare. Krishna ka saumya roop har darr ka ant kar deta hai."
             },
             {
                 "verseNumber": 51,
-                "sanskrit": "अर्जुन उवाच ।\nदृष्ट्वेदं मानुषं रूपं तव सौम्यं जनार्दन ।\nइदानीमस्मि संवृत्तः सचेताः प्रकृतिं गतः ॥",
-                "transliteration": "arjuna uvāca.\ndṛṣṭvedaṃ mānuṣaṃ rūpaṃ tava saumyaṃ janārdana.\nidānīmasmi saṃvṛttaḥ sacetāḥ prakṛtiṃ gataḥ",
-                "hinglishMeaning": "Arjun ne kahaa -- hey janaardana! aapake isa saumya manushya roopa ko dekhakara aba main shaantachitta huaa apane svabhaava ko praapta ho gayaa hoon",
-                "simpleExplanation": "Saral bhav: Arjun ne kahaa -- hey janaardana! aapake isa saumya manushya roopa ko dekhakara aba main shaantachitta huaa apane svabhaava ko praapta ho gayaa hoon. Iska sandarbh Adhyay 11 ke mool vishay se juda hai: vishvaroop ke darshan se Ishwar ki anant shakti aur kaal-tattva samajh aata hai.",
-                "lifeLesson": "Man ko saadhne se jeevan mein santulan, dhairya aur spashtata aati hai."
+                "sanskrit": "अर्जुन उवाच ।\nदृष्ट्वेदं मानुषं रूपं तव सौम्यं जनार्दन ।\nइदानीमस्मि संवृत्तः सचेताः प्रकृतिं गतः ॥ ५१॥",
+                "transliteration": "Arjuna Uvacha:\nDrishtvedam Manusham Rupam\nTava Saumyam Janardana,\nIdanim Asmi Samvrittah\nSacatah Prakritim Gatah.",
+                "englishMeaning": "Arjuna said: Beholding this gentle human form of Yours, O Janardana, I have now become composed in mind and restored to my normal, peaceful self!",
+                "hinglishMeaning": "Arjun ne kaha: Hey Janardana! Aapke is atyant saumya aur manohar manushya-roop ko dekhkar ab mera chitta shant ho gaya hai aur main wapas apni swabhavik dasha mein laut aaya hoon.",
+                "simpleExplanation": "Krishna ke sundar aur muskurate hue mukh ko dekhkar Arjun ki saari ghabrahat pal bhar mein gayab ho gayi.\n\nArjun ne gehri saans li aur kaha: 'Prabhu, aapke is shant manav-roop ko dekhkar mere mann ko sukoon mil gaya hai aur meri aatma tript ho gayi hai.'",
+                "lifeLesson": "Jab insaan Ishwar ke prem aur kripa se judta hai, tab saari bechaini door ho jaati hai aur mann mein sachchi shanti laut aati hai."
             },
             {
                 "verseNumber": 52,
-                "sanskrit": "श्रीभगवानुवाच ।\nसुदुर्दर्शमिदं रूपं दृष्टवानसि यन्मम ।\nदेवा अप्यस्य रूपस्य नित्यं दर्शनकाङ्क्षिणः ॥",
-                "transliteration": "śrībhagavānuvāca.\nsudurdarśamidaṃ rūpaṃ dṛṣṭavānasi yanmama.\ndevā apyasya rūpasya nityaṃ darśanakāṅkṣiṇaḥ",
-                "hinglishMeaning": "Shreebhagavaan ne kahaa -- meraa yaha roopa dekhane ko milanaa ati durlabha hai, jisako ki tumane dekhaa hai. devataagana bhee sadaa isa roopa ke darshana ke ichchhuka rahate hain",
-                "simpleExplanation": "Saral bhav: Shreebhagavaan ne kahaa -- meraa yaha roopa dekhane ko milanaa ati durlabha hai, jisako ki tumane dekhaa hai. devataagana bhee sadaa isa roopa ke darshana ke ichchhuka rahate hain. Iska sandarbh Adhyay 11 ke mool vishay se juda hai: vishvaroop ke darshan se Ishwar ki anant shakti aur kaal-tattva samajh aata hai.",
-                "lifeLesson": "Man ko saadhne se jeevan mein santulan, dhairya aur spashtata aati hai."
+                "sanskrit": "श्रीभगवानुवाच ।\nसुदुर्दर्शमिदं रूपं दृष्टवानसि यन्मम ।\nदेवा अप्यस्य रूपस्य नित्यं दर्शनकाङ्क्षिणः ॥ ५२॥",
+                "transliteration": "Shri Bhagavan Uvacha:\nSu Durdarsham Idam Rupam\nDrishtavan Asi Yan Mama,\nDeva Apy Asya Rupasya\nNityam Darshana Kankshinah.",
+                "englishMeaning": "The Blessed Lord said: Extremely difficult to behold is this cosmic form of Mine which you have just seen! Even the celestial gods ever long to gaze upon this sublime form!",
+                "hinglishMeaning": "Shri Bhagavan ne kaha: Mera yeh vishwaroop jise tumne abhi dekha hai, behad durlabh hai! Yahan tak ki swarg ke devta bhi is roop ke darshan ke liye sadaiv taraste rehte hain.",
+                "simpleExplanation": "Krishna Arjun ko samjhate hain ki jo tumne dekha, woh koi sadharan anubhav nahi tha.\n\nBade-bade tapasvi aur swarg ke devta bhi is darshan ke liye yugon-yugon tak prarthana karte hain, par unhe bhi yeh dekhne ko nahi milta. Yeh keval Arjun ki ananya bhakti ka prasad tha.",
+                "lifeLesson": "Bhakti ki shakti itni mahan hai ki jo cheez bade-bade devtaon ko nahi milti, woh ek sachche aur nishkapat bhakt ko sahaj hi praapt ho jaati hai."
             },
             {
                 "verseNumber": 53,
-                "sanskrit": "नाहं वेदैर्न तपसा न दानेन न चेज्यया ।\nशक्य एवंविधो द्रष्टुं दृष्टवानसि मां यथा ॥",
-                "transliteration": "nāhaṃ vedairna tapasā na dānena na cejyayā.\nśakya evaṃvidho draṣṭuṃ dṛṣṭavānasi māṃ yathā",
-                "hinglishMeaning": "Na vedon se, na tapa se, na daana se aura na yajnya se hee main isa prakaara dekhaa jaa sakataa hoon, jaisaa ki tumane mujhey dekhaa hai",
-                "simpleExplanation": "Saral bhav: Na vedon se, na tapa se, na daana se aura na yajnya se hee main isa prakaara dekhaa jaa sakataa hoon, jaisaa ki tumane mujhey dekhaa hai. Iska sandarbh Adhyay 11 ke mool vishay se juda hai: vishvaroop ke darshan se Ishwar ki anant shakti aur kaal-tattva samajh aata hai.",
-                "lifeLesson": "Man ko saadhne se jeevan mein santulan, dhairya aur spashtata aati hai."
+                "sanskrit": "नाहं वेदैर्न तपसा न दानेन न चेज्यया ।\nशक्य एवंविधो द्रष्टुं दृष्टवानसि मां यथा ॥ ५३॥",
+                "transliteration": "Naham Vedair Na Tapasa\nNa Danena Na Cejyaya,\nShakya Evam Vidho Drashtum\nDrishtavan Asi Mam Yatha.",
+                "englishMeaning": "Neither by the Vedas, nor by penances, nor by charity, nor by sacrifices can I be seen in this divine form as you have seen Me!",
+                "hinglishMeaning": "Na Vedon ke paath se, na kathor tapasya se, na daan dene se aur na yajyo dwara main is tarah dekha ja sakta hoon, jaise tumne mujhe sakshat dekha hai.",
+                "simpleExplanation": "Krishna dobara is baat par zor dete hain ki bahari sadhan — chahe kitni bhi padhai ho, daan ho ya yajya — akele kaafi nahi hain.\n\nIn sabhi sadhano se insaan ko punyo ka fal toh mil sakta hai, par Parmatma ka saakshaatkar sirf aur sirf prem se hota hai.",
+                "lifeLesson": "Parmatma ko kisi saundaryabodh, dhan ya ghamand se nahi kharida ja sakta. Sirf dil ki shuddhata aur nishkapat prem hi unhe paane ki kunji hai."
             },
             {
                 "verseNumber": 54,
-                "sanskrit": "भक्त्या त्वनन्यया शक्य अहमेवंविधोऽर्जुन ।\nज्ञातुं द्रष्टुं च तत्त्वेन प्रवेष्टुं च परन्तप ॥",
-                "transliteration": "bhaktyā tvananyayā śakya ahamevaṃvidho.arjuna.\njñātuṃ draṣṭuṃ ca tattvena praveṣṭuṃ ca parantapa",
-                "hinglishMeaning": "Parantu hey parantapa Arjun! ananya bhakti ke dvaaraa main tattvata: 'jaanane', 'dekhane' aura 'pravesha' karane ke lie (ekee bhaava se praapta hone ke lie) bhee, shakya hoon!",
-                "simpleExplanation": "Saral bhav: Parantu hey parantapa Arjun! ananya bhakti ke dvaaraa main tattvata: 'jaanane', 'dekhane' aura 'pravesha' karane ke lie (ekee bhaava se praapta hone ke lie) bhee, shakya hoon!. Iska sandarbh Adhyay 11 ke mool vishay se juda hai: vishvaroop ke darshan se Ishwar ki anant shakti aur kaal-tattva samajh aata hai.",
-                "lifeLesson": "Shraddha aur prem se ki gayi chhoti kriya bhi Bhagavan tak pahunchti hai."
+                "sanskrit": "भक्त्या त्वनन्यया शक्य अहमेवंविधोऽर्जुन ।\nज्ञातुं द्रष्टुं च तत्त्वेन प्रवेष्टुं च परन्तप ॥ ५४॥",
+                "transliteration": "Bhaktya Tv Ananyaya Shakya\nAham Evam Vidho Rjuna,\nJnatum Drashtum Ca Tattvena\nPraveshtum Ca Parantapa.",
+                "englishMeaning": "But by unalloyed, single-minded devotion (ananya bhakti) alone can I be truly known, directly beheld, and entered into, O Arjuna, scorcher of foes!",
+                "hinglishMeaning": "Parantu hey Parantapa Arjun! Keval ananya bhakti (poorn samarpit prem) dwara hi mujhe tatva se jaana ja sakta hai, saakshaat dekha ja sakta hai aur mujhme pravesh (ekatva) kiya ja sakta hai!",
+                "simpleExplanation": "Yahan Krishna aadhyaatma ka sabse bada rahasya batate hain: 'Bhaktya Tu Ananyaya' — Keval Ananya Bhakti se!\n\nAnanya bhakti ka matlab hai aisa prem jisme koi shart na ho, koi swarth na ho aur Ishwar ke alawa doosra koi sahara na ho. Aise prem se insaan Parmatma ko jaanta bhi hai, dekhta bhi hai aur ant mein unhi mein leen ho jaata hai.",
+                "lifeLesson": "Jab jeevan mein bhatkan chhodkar ekagrachit prem aur samarpana aata hai, tab Ishwar ka anubhav atyant sahaj aur nikat ho jaata hai."
             },
             {
                 "verseNumber": 55,
-                "sanskrit": "मत्कर्मकृन्मत्परमो मद्भक्तः सङ्गवर्जितः ।\nनिर्वैरः सर्वभूतेषु यः स मामेति पाण्डव ॥",
-                "transliteration": "matkarmakṛnmatparamo madbhaktaḥ saṅgavarjitaḥ.\nnirvairaḥ sarvabhūteṣu yaḥ sa māmeti pāṇḍava",
-                "hinglishMeaning": "Hey paandava! jo purusha mere lie hee karma karane vaalaa hai, aura mujhey hee parama lakshya maanataa hai, jo meraa bhakta hai tathaa sangarahita hai, jo bhootamaatra ke prati nirvaira hai, vaha mujhey praapta hotaa hai",
-                "simpleExplanation": "Saral bhav: Hey paandava! jo purusha mere lie hee karma karane vaalaa hai, aura mujhey hee parama lakshya maanataa hai, jo meraa bhakta hai tathaa sangarahita hai, jo bhootamaatra ke prati nirvaira hai, vaha mujhey praapta hotaa hai. Iska sandarbh Adhyay 11 ke mool vishay se juda hai: vishvaroop ke darshan se Ishwar ki anant shakti aur kaal-tattva samajh aata hai.",
-                "lifeLesson": "Apna kartavya imaandari se karo, par phal ki chinta mein apni shanti mat khona."
+                "sanskrit": "मत्कर्मकृन्मत्परमो मद्भक्तः सङ्गवर्जितः ।\nनिर्वैरः सर्वभूतेषु यः स मामेति पाण्डव ॥ ५५॥",
+                "transliteration": "Mat Karma Krin Mat Paramo\nMad Bhaktah Sanga Varjitah,\nNirvairah Sarva Bhuteshu\nYah Sa Mam Eti Pandava.",
+                "englishMeaning": "One who performs all actions for My sake, who regards Me as the supreme goal, who is devoted to Me, free from attachment, and free from malice toward any living being — such a person attains Me, O son of Pandu!",
+                "hinglishMeaning": "Hey Pandav Arjun! Jo vyakti apne samast karm mere liye karta hai, jo mujhe hi apna param lakshya maanta hai, jo mera nishtha-vaan bhakt hai, jo aasakti se rahit hai aur sabhi praaniyon ke prati vair-bhav (dushmani) se mukt hai — woh nishchit roop se mujhe hi praapt hota hai.",
+                "simpleExplanation": "Yeh Chapter 11 ka aakhiri aur poori Bhagavad Gita ke saar-shloko mein se ek mahan shlok hai!\nKrishna yahan moksha aur Ishwar-praapti ka 5 sutra formula dete hain:\n1. Mat-karmakrit — Apne har kaam ko Ishwar ki sewa samajhkar karo.\n2. Mat-paramah — Zindagi ka aakhiri lakshya Ishwar ko banao.\n3. Mad-bhaktah — Dil mein sachcha prem rakho.\n4. Sanga-varjitah — Sansarik buraiyon aur moh se bacho.\n5. Nirvairah sarva-bhuteshu — Kisi bhi jeev ya insaan ke prati dil mein nafrat ya dushmani mat rakho.\nJo in 5 baaton ko apnata hai, use Ishwar zaroor milte hain.",
+                "lifeLesson": "Kisi se nafrat mat karo, apne kaam ko imaandari se Ishwar ki pooja samajhkar karo, aur sabke prati prem rakho — yahi jeevan ki sabse badi sadhana aur mukti ka marg hai."
             }
         ]
     },
@@ -4091,163 +4146,183 @@
         "verses": [
             {
                 "verseNumber": 1,
-                "sanskrit": "अर्जुन उवाच ।\nएवं सततयुक्ता ये भक्तास्त्वां पर्युपासते ।\nये चाप्यक्षरमव्यक्तं तेषां के योगवित्तमाः ॥",
-                "transliteration": "arjuna uvāca.\nevaṃ satatayuktā ye bhaktāstvāṃ paryupāsate.\nye cāpyakṣaramavyaktaṃ teṣāṃ ke yogavittamāḥ",
-                "hinglishMeaning": "Arjun ne kahaa -- jo bhakta, satata yukta hokara isa (poorvokta) prakaara se aapakee upaasanaa karate hain aura jo bhakta akshara, aura avyakta kee upaasanaa karate hain, una donon men kauna uttama yogavit hai",
-                "simpleExplanation": "Saral bhav: Arjun ne kahaa -- jo bhakta, satata yukta hokara isa (poorvokta) prakaara se aapakee upaasanaa karate hain aura jo bhakta akshara, aura avyakta kee upaasanaa karate hain, una donon men kauna uttama yogavit hai. Iska sandarbh Adhyay 12 ke mool vishay se juda hai: saral, nishtha-bhari bhakti aur dayalu jeevan ko uttam marg batata hai.",
-                "lifeLesson": "Shraddha aur prem se ki gayi chhoti kriya bhi Bhagavan tak pahunchti hai."
+                "sanskrit": "अर्जुन उवाच ।\nएवं सततयुक्ता ये भक्तास्त्वां पर्युपासते ।\nये चाप्यक्षरमव्यक्तं तेषां के योगवित्तमाः ॥ १॥",
+                "transliteration": "Arjuna Uvacha:\nEvam Satata Yukta Ye Bhaktas Tvam Paryupasate,\nYe Capy Aksharam Avyaktam Tesham Ke Yoga Vittamah.",
+                "englishMeaning": "Arjuna said: Those devotees who are constantly devoted and worship You thus in Your personal form, and those who worship the imperishable, unmanifest Supreme — of these, who are the foremost knowers of yoga?",
+                "hinglishMeaning": "Arjun ne poochha: Jo bhakt nirantar aapke sakar roop ki ananya bhav se upaasna karte hain, aur jo avinashi, nirakar avyakta tatva ki dhyan-sadhan karte hain — in dono mein se yoga ke sarvashreshtha gyani kaun hain?",
+                "simpleExplanation": "Arjun yahan aadhyaatma ka ek bohot bada prashna poochte hain: 'Hey Krishna, Ishwar ki bhakti sakar roop (Prem, Murti, Swaroop) mein karna behtar hai, ya nirakar roop (Adrishya, Nirgun, Avyakta) mein?'\n\nYeh sawaal har aam seeker ke mann mein aata hai ki Bhagavan ko roop mein poojein ya bina roop ke.",
+                "lifeLesson": "Bhakti ke marg par chalte samay dvidha mein mat raho. Apne hriday aur swabhav ke anusaar Ishwar se gehra rishta jodna hi sabse zaroori hai."
             },
             {
                 "verseNumber": 2,
-                "sanskrit": "श्रीभगवानुवाच ।\nमय्यावेश्य मनो ये मां नित्ययुक्ता उपासते ।\nश्रद्धया परयोपेताः ते मे युक्ततमा मताः ॥",
-                "transliteration": "śrībhagavānuvāca.\nmayyāveśya mano ye māṃ nityayuktā upāsate.\nśraddhayā parayopetāḥ te me yuktatamā matāḥ",
-                "hinglishMeaning": "Shreebhagavaan ne kahaa -- mujhamen mana ko ekaagra karake nityayukta hue jo bhaktajana parama shraddhaa se yukta hokara meree upaasanaa karate hain, ve, mere mata se, yuktatama hain arthaat shreshtha hain",
-                "simpleExplanation": "Saral bhav: Shreebhagavaan ne kahaa -- mujhamen mana ko ekaagra karake nityayukta hue jo bhaktajana parama shraddhaa se yukta hokara meree upaasanaa karate hain, ve, mere mata se, yuktatama hain arthaat shreshtha hain. Iska sandarbh Adhyay 12 ke mool vishay se juda hai: saral, nishtha-bhari bhakti aur dayalu jeevan ko uttam marg batata hai.",
-                "lifeLesson": "Shraddha aur prem se ki gayi chhoti kriya bhi Bhagavan tak pahunchti hai."
+                "sanskrit": "श्रीभगवानुवाच ।\nमय्यावेश्य मनो ये मां नित्ययुक्ता उपासते ।\nश्रद्धया परयोपेताः ते मे युक्ततमा मताः ॥ २॥",
+                "transliteration": "Shri Bhagavan Uvacha:\nMayy Aveshya Mano Ye Mam Nitya Yukta Upasate,\nShraddhaya Parayopetas Te Me Yuktatama Matah.",
+                "englishMeaning": "The Blessed Lord said: Those who, fixing their minds on Me, worship Me with constant devotion, endowed with supreme faith — them do I consider the foremost among yogis!",
+                "hinglishMeaning": "Shri Bhagavan ne kaha: Jo log apne man ko mujhme poori tarah ekaagra karke, nitya mujhse jude rehkar param shraddha ke saath meri upaasna karte hain, unhe main sarvashreshtha yogi maanta hoon.",
+                "simpleExplanation": "Krishna spasht uttar dete hain: 'Jo bhakt apne mann ko poori tarah mujhme samarpit kar dete hain, jinke dil mein apar prem aur atoot vishwas hota hai, woh yogiyon mein sabse shreshtha hain.'\n\nSakar bhakti isliye saral aur shreshtha hai kyunki isme hriday ka prem sahaj roop se behta hai.",
+                "lifeLesson": "Jeevan mein kisi bhi lakshya ya Ishwar ko paane ke liye atoot shraddha aur man ki ekaagrata hi sabse badi taaqat hai."
             },
             {
                 "verseNumber": 3,
-                "sanskrit": "ये त्वक्षरमनिर्देश्यमव्यक्तं पर्युपासते ।\nसर्वत्रगमचिन्त्यञ्च कूटस्थमचलन्ध्रुवम् ॥",
-                "transliteration": "ye tvakṣaramanirdeśyamavyaktaṃ paryupāsate.\nsarvatragamacintyañca kūṭasthamacalandhruvam",
-                "hinglishMeaning": "Swami Tejomayananda did not comment on this sloka",
-                "simpleExplanation": "Saral bhav: Swami Tejomayananda did not comment on this sloka. Iska sandarbh Adhyay 12 ke mool vishay se juda hai: saral, nishtha-bhari bhakti aur dayalu jeevan ko uttam marg batata hai.",
-                "lifeLesson": "Man ko saadhne se jeevan mein santulan, dhairya aur spashtata aati hai."
+                "sanskrit": "ये त्वक्षरमनिर्देश्यमव्यक्तं पर्युपासते ।\nसर्वत्रगमचिन्त्यञ्च कूटस्थमचलन्ध्रुवम् ॥ ३॥",
+                "transliteration": "Ye Tv Aksharam Anirdeshyam Avyaktam Paryupasate,\nSarvatragam Acintyam Ca Kutastham Acalam Dhruvam.",
+                "englishMeaning": "Yet those who worship the imperishable, the indefinable, the unmanifest, the all-pervading, the unthinkable, the unchanging, the immovable, and the eternal,",
+                "hinglishMeaning": "Lekin jo log us avinashi, anirvachaneeya (jise shabdon mein bayaan na kiya ja sake), avyakta, sarvavyapi, achintya (jo kalpana se pare ho), kootastha (aparivartan-sheel), achal aur shashwat tatva ki upaasna karte hain,",
+                "simpleExplanation": "Krishna Nirgun-Nirakar marg ka varnan karte hain:\nWoh tatva jise aankhon se nahi dekha ja sakta, jise shabdon mein nahi baandha ja sakta, jo har jagah hai par roop-rahit hai.\n\nYeh gyaan ka marg hai jahan aatma bina kisi chitra ya aakar ke keval shuddh chetna mein dhyan lagati hai.",
+                "lifeLesson": "Parmatma shabdon aur aakaron se pare hain. Jo log gehri dhyan-avastha mein shanti ko khojte hain, unke liye bhi satya utna hi mahan hai."
             },
             {
                 "verseNumber": 4,
-                "sanskrit": "सन्नियम्येन्द्रियग्रामं सर्वत्र समबुद्धयः ।\nते प्राप्नुवन्ति मामेव सर्वभूतहिते रताः ॥",
-                "transliteration": "sanniyamyendriyagrāmaṃ sarvatra samabuddhayaḥ.\nte prāpnuvanti māmeva sarvabhūtahite ratāḥ",
-                "hinglishMeaning": "Indriya samudaaya ko samyak prakaara se niyamita karake, sarvatra samabhaava vaale, bhootamaatra ke hita men rata ve bhakta mujhey hee praapta hote hain",
-                "simpleExplanation": "Saral bhav: Indriya samudaaya ko samyak prakaara se niyamita karake, sarvatra samabhaava vaale, bhootamaatra ke hita men rata ve bhakta mujhey hee praapta hote hain. Iska sandarbh Adhyay 12 ke mool vishay se juda hai: saral, nishtha-bhari bhakti aur dayalu jeevan ko uttam marg batata hai.",
-                "lifeLesson": "Shraddha aur prem se ki gayi chhoti kriya bhi Bhagavan tak pahunchti hai."
+                "sanskrit": "सन्नियम्येन्द्रियग्रामं सर्वत्र समबुद्धयः ।\nते प्राप्नुवन्ति मामेव सर्वभूतहिते रताः ॥ ४॥",
+                "transliteration": "Sanniyamyendriya Gramam Sarvatra Sama Buddhayah,\nTe Prapnuvanti Mam Eva Sarva Bhuta Hite Ratah.",
+                "englishMeaning": "Having fully mastered all their senses, maintaining an equal vision everywhere, and actively devoted to the welfare of all living beings — they too attain Me alone!",
+                "hinglishMeaning": "Apni samast indriyon ko poori tarah vash mein karke, har sthiti aur har praani mein sam-bhav (samata) rakhne wale aur sabhi jeevon ke kalyan mein lage rehne wale log bhi mujhe hi praapt hote hain.",
+                "simpleExplanation": "Nirakar marg par chalne walon ke liye Krishna do badi shartein batate hain:\n1. Indriyon par poora niyantran aur har sthiti mein samta.\n2. 'Sarva-bhuta-hite ratah' — Sabhi praaniyon ki bhalai aur kalyan mein lage rehna!\n\nJo log sabhi ki sewa karte hain aur sabme ek hi chetna dekhte hain, woh bhi ant mein Krishna ko hi paate hain.",
+                "lifeLesson": "Sanyam aur doosron ke kalyan ki bhavna ke bina gyaan adhura hai. Sabhi jeevon ke prati dayavan hona hi sachchi aatmik unnti hai."
             },
             {
                 "verseNumber": 5,
-                "sanskrit": "क्लेशोऽधिकतरस्तेषामव्यक्तासक्तचेतसाम् ।\nअव्यक्ता हि गतिर्दुःखं देहवद्भिरवाप्यते ॥",
-                "transliteration": "kleśo.adhikatarasteṣāmavyaktāsaktacetasām ||\navyaktā hi gatirduḥkhaṃ dehavadbhiravāpyate",
-                "hinglishMeaning": "Parantu una avyakta men aasakta hue chitta vaale purushon ko klesha adhika hotaa hai, kyonki dehadhaariyon se avyakta kee gati kathinaaeepoorvaka praapta kee jaatee hai",
-                "simpleExplanation": "Saral bhav: Parantu una avyakta men aasakta hue chitta vaale purushon ko klesha adhika hotaa hai, kyonki dehadhaariyon se avyakta kee gati kathinaaeepoorvaka praapta kee jaatee hai. Iska sandarbh Adhyay 12 ke mool vishay se juda hai: saral, nishtha-bhari bhakti aur dayalu jeevan ko uttam marg batata hai.",
-                "lifeLesson": "Man ko saadhne se jeevan mein santulan, dhairya aur spashtata aati hai."
+                "sanskrit": "क्लेशोऽधिकतरस्तेषामव्यक्तासक्तचेतसाम् ।\nअव्यक्ता हि गतिर्दुःखं देहवद्भिरवाप्यते ॥ ५॥",
+                "transliteration": "Klesho Dhikataras Tesham Avyaktasakta Cetasam,\nAvyakta Hi Gatir Duhkham Dehavadbhir Avapyate.",
+                "englishMeaning": "Greater is the struggle for those whose minds are attached to the unmanifest; for the unmanifest path is exceedingly difficult for embodied beings to attain.",
+                "hinglishMeaning": "Avyakta (nirakar) tatva mein mann lagane walon ke liye klesh (kathinai aur sangharsh) bahut adhik hota hai; kyunki shareer-dhari jeevon ke liye nirakar ki gati ko paana behad dukhdayak aur kathin hota hai.",
+                "simpleExplanation": "Hum sab shareer wale manushya hain. Jab tak humara astitva aakar mein hai, tab tak aakar-rahit (nirakar) mein dhyan lagana man ke liye behad mushkil hota hai.\n\nMan bhatak jaata hai kyunki use koi aalamban (sahara) nahi milta. Isliye Krishna kehte hain ki nirakar ka rasta kathin hai, jabki prem aur bhakti ka rasta saral aur anand-dayak hai.",
+                "lifeLesson": "Apni swabhavik kshamta ko pehchano. Aatmik yatra mein zabardasti ke kathor raste ke bajaye sahaj, prem-bharia aur saral rasta chunna zyaada labhdayak hota hai."
             },
             {
                 "verseNumber": 6,
-                "sanskrit": "ये तु सर्वाणि कर्माणि मयि संन्यस्य मत्परः ।\nअनन्येनैव योगेन मां ध्यायन्त उपासते ॥",
-                "transliteration": "ye tu sarvāṇi karmāṇi mayi saṃnyasya matparaḥ.\nananyenaiva yogena māṃ dhyāyanta upāsate",
-                "hinglishMeaning": "Parantu jo bhaktajana mujhey hee parama lakshya samajhate hue saba karmon ko mujhey arpana karake ananyayoga ke dvaaraa meraa (saguna kaa) hee dhyaana karate hain",
-                "simpleExplanation": "Saral bhav: Parantu jo bhaktajana mujhey hee parama lakshya samajhate hue saba karmon ko mujhey arpana karake ananyayoga ke dvaaraa meraa (saguna kaa) hee dhyaana karate hain. Iska sandarbh Adhyay 12 ke mool vishay se juda hai: saral, nishtha-bhari bhakti aur dayalu jeevan ko uttam marg batata hai.",
-                "lifeLesson": "Apna kartavya imaandari se karo, par phal ki chinta mein apni shanti mat khona."
+                "sanskrit": "ये तु सर्वाणि कर्माणि मयि संन्यस्य मत्परः ।\nअनन्येनैव योगेन मां ध्यायन्त उपासते ॥ ६॥",
+                "transliteration": "Ye Tu Sarvani Karmani Mayi Sannyasya Mat Parah,\nAnanyenaiva Yogena Mam Dhyayanta Upasate.",
+                "englishMeaning": "But those who dedicate all their actions unto Me, regarding Me as the supreme goal, meditating on Me with unswerving devotion,",
+                "hinglishMeaning": "Lekin jo log apne samast karmon ko mujhe samarpit karke, mujhe hi param lakshya maante hue, ananya bhav se mera dhyan karte hue meri upaasna karte hain,",
+                "simpleExplanation": "Bhakti marg ki sundarta yeh hai ki isme kuch chhodna nahi padta, balki sab kuch Ishwar ko arpan karna hota hai.\n\nJo log apna har karya, har saans aur har chintan Bhagavan ko samarpit kar dete hain, unhe alag se kathor tapasya nahi karni padti.",
+                "lifeLesson": "Apne har karm ko imaandari aur nishkam bhav se Ishwar ki bhent bana do; aisa karne se zindagi ka har pal pooja ban jaata hai."
             },
             {
                 "verseNumber": 7,
-                "sanskrit": "तेषामहं समुद्धर्ता मृत्युसंसारसागरात् ।\nभवामि नचिरात्पार्थ मय्यावेशितचेतसाम् ॥",
-                "transliteration": "teṣāmahaṃ samuddhartā mṛtyusaṃsārasāgarāt.\nbhavāmi nacirātpārtha mayyāveśitacetasām",
-                "hinglishMeaning": "Hey paartha ! jinakaa chitta mujhamen hee sthira huaa hai aise bhakton kaa main sheeghra hee mrityuroopa sansaara saagara se uddhaara karane vaalaa hotaa hoon",
-                "simpleExplanation": "Saral bhav: Hey paartha ! jinakaa chitta mujhamen hee sthira huaa hai aise bhakton kaa main sheeghra hee mrityuroopa sansaara saagara se uddhaara karane vaalaa hotaa hoon. Iska sandarbh Adhyay 12 ke mool vishay se juda hai: saral, nishtha-bhari bhakti aur dayalu jeevan ko uttam marg batata hai.",
-                "lifeLesson": "Shraddha aur prem se ki gayi chhoti kriya bhi Bhagavan tak pahunchti hai."
+                "sanskrit": "तेषामहं समुद्धर्ता मृत्युसंसारसागरात् ।\nभवामि नचिरात्पार्थ मय्यावेशितचेतसाम् ॥ ७॥",
+                "transliteration": "Tesham Aham Samuddharta Mrityu Samsara Sagarat,\nBhavami Na Cirat Partha Mayy Aveshita Cetasam.",
+                "englishMeaning": "For them, whose minds are absorbed in Me, I swiftly become their deliverer from the ocean of death and mortal existence, O Partha!",
+                "hinglishMeaning": "Hey Partha! Mujhme man lagane wale aise bhakton ka main bina kisi vilamb ke (sheeghra hi) mrityu-roopi sansaar ke saagar se uddhar karne wala ban jaata hoon.",
+                "simpleExplanation": "Yeh Bhagavan ka pavan aashirwad hai!\nKrishna wada karte hain: 'Arjun, jo mujh par bharosa karta hai, use akele sangharsh nahi karna padta. Sansaar ke dukh-dard aur janm-mrityu ke samudra se main khud use haath pakad kar paar kara deta hoon.'",
+                "lifeLesson": "Jab hum apna bhaar Ishwar par chhod dete hain, tab woh humara hath tham lete hain. Bharosa rakho, sankat ke samay Parmatma khud sahayak bante hain."
             },
             {
                 "verseNumber": 8,
-                "sanskrit": "मय्येव मन आधत्स्व मयि बुद्धिं निवेशय ।\nनिवसिष्यसि मय्येव अत ऊर्ध्वं न संशयः ॥",
-                "transliteration": "mayyeva mana ādhatsva mayi buddhiṃ niveśaya.\nnivasiṣyasi mayyeva ata ūrdhvaṃ na saṃśayaḥ",
-                "hinglishMeaning": "Tuma apane mana aura buddhi ko mujhamen hee sthira karo, taduparaanta tuma mujhamen hee nivaasa karoge, isamen koee sanshaya naheen hai",
-                "simpleExplanation": "Saral bhav: Tuma apane mana aura buddhi ko mujhamen hee sthira karo, taduparaanta tuma mujhamen hee nivaasa karoge, isamen koee sanshaya naheen hai. Iska sandarbh Adhyay 12 ke mool vishay se juda hai: saral, nishtha-bhari bhakti aur dayalu jeevan ko uttam marg batata hai.",
-                "lifeLesson": "Sahi gyaan ahankar ko kam karta hai aur drishti ko saaf banata hai."
+                "sanskrit": "मय्येव मन आधत्स्व मयि बुद्धिं निवेशय ।\nनिवसिष्यसि मय्येव अत ऊर्ध्वं न संशयः ॥ ८॥",
+                "transliteration": "Mayy Eva Mana Adhatsva Mayi Buddhim Niveshaya,\nNivasishyasi Mayy Eva Ata Urdhvam Na Samshayah.",
+                "englishMeaning": "Fix your mind on Me alone, and rest your intellect in Me; thereafter, you shall undoubtedly live in Me forever!",
+                "hinglishMeaning": "Tum apna man mujh mein hi sthir karo aur apni buddhi ko mujhme hi lagao; iske baad tum nishchit roop se mujh mein hi nivas karoge, isme koi sanshay nahi hai.",
+                "simpleExplanation": "Man bhavnaon ka kendra hai aur buddhi faisle lene ka kendra hai.\n\nKrishna kehte hain: 'Apna prem (man) aur apni samajh (buddhi) dono ko mere saath jod do.' Jab dil aur dimag dono ek disha mein chalte hain, tab insaan ka jeevan Ishwar-roop ho jaata hai.",
+                "lifeLesson": "Keval dil se sochna ya keval dimag se sochna kaafi nahi hota. Dil ki shradha aur dimag ke vivek ko jab ek achhe lakshya mein lagaya jaaye, tab safalta nishchit hoti hai."
             },
             {
                 "verseNumber": 9,
-                "sanskrit": "अथ चित्तं समाधातुं न शक्नोषि मयि स्थिरम् ।\nअभ्यासयोगेन ततो मामिच्छाप्तुं धनञ्जय ॥",
-                "transliteration": "atha cittaṃ samādhātuṃ na śaknoṣi mayi sthiram.\nabhyāsayogena tato māmicchāptuṃ dhanañjaya",
-                "hinglishMeaning": "Hey dhananjaya ! yadi tuma apane mana ko mujhamen sthira karane men samartha naheen ho, to abhyaasayoga ke dvaaraa tuma mujhey praapta karane kee ichchhaa (arthaat prayatna) karo",
-                "simpleExplanation": "Saral bhav: Hey dhananjaya ! yadi tuma apane mana ko mujhamen sthira karane men samartha naheen ho, to abhyaasayoga ke dvaaraa tuma mujhey praapta karane kee ichchhaa (arthaat prayatna) karo. Iska sandarbh Adhyay 12 ke mool vishay se juda hai: saral, nishtha-bhari bhakti aur dayalu jeevan ko uttam marg batata hai.",
-                "lifeLesson": "Man ko saadhne se jeevan mein santulan, dhairya aur spashtata aati hai."
+                "sanskrit": "अथ चित्तं समाधातुं न शक्नोषि मयि स्थिरम् ।\nअभ्यासयोगेन ततो मामिच्छाप्तुं धनञ्जय ॥ ९॥",
+                "transliteration": "Atha Cittam Samadhatum Na Shaknoshi Mayi Sthiram,\nAbhyasa Yogena Tato Mam Icchaptum Dhananjaya.",
+                "englishMeaning": "If you are unable to fix your mind steadily on Me, then seek to attain Me through the regular practice of yoga (Abhyasa Yoga), O Dhananjaya!",
+                "hinglishMeaning": "Yadi tum apne man ko mujhme achal roop se sthir karne mein asamarth ho, toh hey Dhananjaya (Arjun)! Abhyas-yoga (nirantar prayas) ke dwara mujhe paane ki ichha karo.",
+                "simpleExplanation": "Krishna bohot dayalu guru hain. Woh jaante hain ki ek hi din mein man ko sthir karna aasan nahi hai.\n\nIsliye woh seedhi ka agla kadam batate hain: 'Agar man baar-baar bhatakta hai, toh chinta mat karo. Abhyas karo — man jab-jab bhatke, use dheere se wapas sahi disha mein lao.'",
+                "lifeLesson": "Kisi bhi achhi aadat ya dhyan ko paane ke liye baar-baar abhyas (practice) ki zaroorat hoti hai. Asafalta se haar mat maano, lagatar koshish hi jeet dilati hai."
             },
             {
                 "verseNumber": 10,
-                "sanskrit": "अभ्यासेऽप्यसमर्थोऽसि मत्कर्मपरमो भव ।\nमदर्थमपि कर्माणि कुर्वन्सिद्धिमवाप्स्यसि ॥",
-                "transliteration": "abhyāse.apyasamartho.asi matkarmaparamo bhava.\nmadarthamapi karmāṇi kurvansiddhimavāpsyasi",
-                "hinglishMeaning": "Yadi tuma abhyaasa men bhee asamartha ho to matkarma paraayana bano; isa prakaara mere lie karmon ko karate hue bhee tuma siddhi ko praapta karoge",
-                "simpleExplanation": "Saral bhav: Yadi tuma abhyaasa men bhee asamartha ho to matkarma paraayana bano; isa prakaara mere lie karmon ko karate hue bhee tuma siddhi ko praapta karoge. Iska sandarbh Adhyay 12 ke mool vishay se juda hai: saral, nishtha-bhari bhakti aur dayalu jeevan ko uttam marg batata hai.",
-                "lifeLesson": "Apna kartavya imaandari se karo, par phal ki chinta mein apni shanti mat khona."
+                "sanskrit": "अभ्यासेऽप्यसमर्थोऽसि मत्कर्मपरमो भव ।\nमदर्थमपि कर्माणि कुर्वन्सिद्धिमवाप्स्यसि ॥ १०॥",
+                "transliteration": "Abhyase Py Asamartho Si Mat Karma Paramo Bhava,\nMad Artham Api Karmani Kurvan Siddhim Avapsyasi.",
+                "englishMeaning": "If you are unable even to practice meditation regularly, then be devoted to working for My sake. Even by performing actions for My sake, you shall attain perfection!",
+                "hinglishMeaning": "Yadi tum niyamit abhyas karne mein bhi asamarth ho, toh mere liye karm karne mein lag jao. Mere nimit (sewa-bhav se) karm karte hue bhi tum param siddhi ko praapt karoge.",
+                "simpleExplanation": "Agar dhyan lagane ka samay ya abhyas nahi ho paata, toh Krishna ek aur aasan rasta batate hain:\n'Jo bhi kaam tum karte ho — chahe naukri, vyapar, ghar ke kaam ya samaj ki sewa — use doosron ke kalyan aur Ishwar ki sewa samajh kar karo.' Aisa karm-yoga dhyan jitna hi pavitra ban jaata hai.",
+                "lifeLesson": "Agar aap roz ghanto dhyan nahi laga sakte, toh apne har kaam ko imandari aur sewa-bhav se karo. Sewa hi sabse bada dhyan hai."
             },
             {
                 "verseNumber": 11,
-                "sanskrit": "अथैतदप्यशक्तोऽसि कर्तुं मद्योगमाश्रितः ।\nसर्वकर्मफलत्यागं ततः कुरु यतात्मवान् ॥",
-                "transliteration": "athaitadapyaśakto.asi kartuṃ madyogamāśritaḥ.\nsarvakarmaphalatyāgaṃ tataḥ kuru yatātmavān",
-                "hinglishMeaning": "Aura yadi isako bhee karane ke lie tuma asamartha ho, to aatmasanyama se yukta hokara meree praapti roopa yoga kaa aashraya lekara, tuma samasta karmon ke phala kaa tyaaga karo",
-                "simpleExplanation": "Saral bhav: Aura yadi isako bhee karane ke lie tuma asamartha ho, to aatmasanyama se yukta hokara meree praapti roopa yoga kaa aashraya lekara, tuma samasta karmon ke phala kaa tyaaga karo. Iska sandarbh Adhyay 12 ke mool vishay se juda hai: saral, nishtha-bhari bhakti aur dayalu jeevan ko uttam marg batata hai.",
-                "lifeLesson": "Apna kartavya imaandari se karo, par phal ki chinta mein apni shanti mat khona."
+                "sanskrit": "अथैतदप्यशक्तोऽसि कर्तुं मद्योगमाश्रितः ।\nसर्वकर्मफलत्यागं ततः कुरु यतात्मवान् ॥ ११॥",
+                "transliteration": "Athaitad Apy Ashakto Si Kartum Mad Yogam Ashritah,\nSarva Karma Phala Tyagam Tatah Kuru Yatatma Van.",
+                "englishMeaning": "If you are unable to do even this, then taking refuge in My divine yoga, surrender the fruits of all your actions with self-restraint!",
+                "hinglishMeaning": "Aur yadi tum isko bhi karne mein asamarth ho, toh aatm-sanyam se yukt hokar mere aashray mein aao aur apne sabhi karmon ke phal ki aasakti ka tyag kar do.",
+                "simpleExplanation": "Yeh Krishna ki karuna ki hadh hai! Woh aam insaan ke liye rasta aur aasan bana dete hain:\n'Agar tum sab kuch Ishwar ko arpan karna bhi nahi samajh paate, toh bas itna karo ki jo bhi kaam karo, uske parinaam (result) ki chinta chhod do. Kaam poora karo, par fal ke lalach mein mat phaso.'",
+                "lifeLesson": "Parinaam ki chinta chhod kar vartaman mein imaandari se mehnat karo. Fal ki apeksha na rakhna hi man ko tanav aur darr se mukt karta hai."
             },
             {
                 "verseNumber": 12,
-                "sanskrit": "श्रेयो हि ज्ञानमभ्यासाज्ज्ञानाद्ध्यानं विशिष्यते ।\nध्यानात्कर्मफलत्यागस्त्यागाच्छान्तिरनन्तरम् ॥",
-                "transliteration": "śreyo hi jñānamabhyāsājjñānāddhyānaṃ viśiṣyate.\ndhyānātkarmaphalatyāgastyāgācchāntiranantaram",
-                "hinglishMeaning": "Abhyaasa se jnyaana shreshtha hai; jnyaana se shreshtha dhyaana hai aura dhyaana se bhee shreshtha karmaphala tyaaga hai tyaaga; se tatkaala hee shaanti milatee hai",
-                "simpleExplanation": "Saral bhav: Abhyaasa se jnyaana shreshtha hai; jnyaana se shreshtha dhyaana hai aura dhyaana se bhee shreshtha karmaphala tyaaga hai tyaaga; se tatkaala hee shaanti milatee hai. Iska sandarbh Adhyay 12 ke mool vishay se juda hai: saral, nishtha-bhari bhakti aur dayalu jeevan ko uttam marg batata hai.",
-                "lifeLesson": "Apna kartavya imaandari se karo, par phal ki chinta mein apni shanti mat khona."
+                "sanskrit": "श्रेयो हि ज्ञानमभ्यासाज्ज्ञानाद्ध्यानं विशिष्यते ।\nध्यानात्कर्मफलत्यागस्त्यागाच्छान्तिरनन्तरम् ॥ १२॥",
+                "transliteration": "Shreyo Hi Jnanam Abhyasaj Jnanad Dhyanam Vishishyate,\nDhyanat Karma Phala Tyagas Tyagac Chantir Anantaram.",
+                "englishMeaning": "Better indeed is knowledge than blind mechanical practice; better than knowledge is meditation; better than meditation is the surrender of the fruits of action; for immediate peace follows such surrender!",
+                "hinglishMeaning": "Bina samjhe kiye gaye abhyas se gyaan shreshtha hai; gyaan se dhyan shreshtha hai; aur dhyan se bhi shreshtha karm-phal ka tyag hai; kyunki tyag karte hi tatkaal param shanti praapt hoti hai!",
+                "simpleExplanation": "Gita ka ek adbhut shlok jisme man ki shanti ka sidha formula diya gaya hai:\n1. Ratne wale abhyas se behtar hai samajh (gyaan).\n2. Gyaan se behtar hai us par manan (dhyan).\n3. Aur dhyan se bhi bada hai 'fal ki chinta chhodna' (tyag).\nJaise hi insaan parinaam ki chinta aur lalach chhod deta hai, usi pal uske bheetar shanti ka jharokha khul jaata hai.",
+                "lifeLesson": "Zindagi mein tanav aur bechaini ka mool kaaran 'har cheez apne hisaab se chaahna' hai. Parinaam ki pakad chhodte hi mann mein tatkaal shanti laut aati hai."
             },
             {
                 "verseNumber": 13,
-                "sanskrit": "अद्वेष्टा सर्वभूतानां मैत्रः करुण एव च ।\nनिर्ममो निरहङ्कारः समदुःखसुखः क्षमी ॥",
-                "transliteration": "adveṣṭā sarvabhūtānāṃ maitraḥ karuṇa eva ca.\nnirmamo nirahaṅkāraḥ samaduḥkhasukhaḥ kṣamī",
-                "hinglishMeaning": "Bhootamaatra ke prati jo dvesharahita hai tathaa sabakaa mitra tathaa karunaavaan hai; jo mamataa aura ahankaara se rahita, sukha aura du:kha men sama aura kshamaavaan hai",
-                "simpleExplanation": "Saral bhav: Bhootamaatra ke prati jo dvesharahita hai tathaa sabakaa mitra tathaa karunaavaan hai; jo mamataa aura ahankaara se rahita, sukha aura du:kha men sama aura kshamaavaan hai. Iska sandarbh Adhyay 12 ke mool vishay se juda hai: saral, nishtha-bhari bhakti aur dayalu jeevan ko uttam marg batata hai.",
-                "lifeLesson": "Shraddha aur prem se ki gayi chhoti kriya bhi Bhagavan tak pahunchti hai."
+                "sanskrit": "अद्वेष्टा सर्वभूतानां मैत्रः करुण एव च ।\nनिर्ममो निरहङ्कारः समदुःखसुखः क्षमी ॥ १३॥",
+                "transliteration": "Adveshta Sarva Bhutanam Maitrah Karuna Eva Ca,\nNirmamo Nirahankarah Sama Duhkha Sukhah Kshami.",
+                "englishMeaning": "One who bears no malice toward any living creature, who is friendly and compassionate, free from possessiveness and ego, equal in joy and sorrow, and ever forgiving,",
+                "hinglishMeaning": "Jo kisi bhi praani se dvesh (nafrat) nahi karta, jo sabka sachcha mitra hai aur karunawan (dayalu) hai, jo mamta (mera-mera) aur ahankar se mukt hai, sukh aur dukh mein ek saman rehta hai aur kshama-sheel hai,",
+                "simpleExplanation": "Yahan se Krishna batate hain ki unhe kaisa insaan sabse priya hai:\n1. Adveshta — kisi se jalan ya dushmani na ho.\n2. Maitrah aur Karuna — sabke prati dosti aur daya ka bhav ho.\n3. Nirmamah, Nirahankarah — ghamand aur lalach se door ho.\n4. Kshami — doosron ki galtiyon ko maaf karne ki vishalta ho.",
+                "lifeLesson": "Nafrat ko dil se nikaalo, sabke dost bano aur maaf karna seekho. Jo vyakti dukh aur sukh mein shant rehta hai, wahi sachcha aatmik insaan hai."
             },
             {
                 "verseNumber": 14,
-                "sanskrit": "सन्तुष्टः सततं योगी यतात्मा दृढनिश्चयः ।\nमय्यर्पितमनोबुद्धिर्यो मद्भक्तः स मे प्रियः ॥",
-                "transliteration": "santuṣṭaḥ satataṃ yogī yatātmā dṛḍhaniścayaḥ.\nmayyarpitamanobuddhiryo madbhaktaḥ sa me priyaḥ",
-                "hinglishMeaning": "Jo sanyatatma, dridhanishchayee yogee sadaa santushta hai, jo apane mana aura buddhi ko mujhamen arpana kiye hue hai, jo aisaa meraa bhakta hai, vaha mujhey priya hai",
-                "simpleExplanation": "Saral bhav: Jo sanyatatma, dridhanishchayee yogee sadaa santushta hai, jo apane mana aura buddhi ko mujhamen arpana kiye hue hai, jo aisaa meraa bhakta hai, vaha mujhey priya hai. Iska sandarbh Adhyay 12 ke mool vishay se juda hai: saral, nishtha-bhari bhakti aur dayalu jeevan ko uttam marg batata hai.",
-                "lifeLesson": "Shraddha aur prem se ki gayi chhoti kriya bhi Bhagavan tak pahunchti hai."
+                "sanskrit": "सन्तुष्टः सततं योगी यतात्मा दृढनिश्चयः ।\nमय्यर्पितमनोबुद्धिर्यो मद्भक्तः स मे प्रियः ॥ १४॥",
+                "transliteration": "Santushtah Satatam Yogi Yatatma Dridha Nishcayah,\nMayy Arpita Mano Buddhir Yo Mad Bhaktah Sa Me Priyah.",
+                "englishMeaning": "Ever content, constantly united in yoga, self-restrained, firm in conviction, with mind and intellect dedicated unto Me — such a devotee of Mine is exceedingly dear to Me!",
+                "hinglishMeaning": "Jo sadaiv santusht rehta hai, nityayukt yogi hai, sanyami aatma wala hai, dridh nishchay wala hai, aur jisne apna man aur buddhi mujhe samarpit kar rakhi hai — aisa mera bhakt mujhe atyant priya hai.",
+                "simpleExplanation": "Krishna kehte hain ki mujhe woh insaan bohot pyara lagta hai jo:\n- Har halaat mein santusht rehta hai, bina shikayat kiye.\n- Apne niyam aur dridh sankalp par atal rehta hai.\n- Jiska man aur samajh Parmatma ke prem mein bandhi hui hai.",
+                "lifeLesson": "Santosh (contentment) sabse bada dhan hai. Jo insaan bheetar se santusht aur dridh nishchayi hota hai, woh sansaar ki kisi bhi mushkil se nahi darta."
             },
             {
                 "verseNumber": 15,
-                "sanskrit": "यस्मान्नोद्विजते लोको लोकान्नोद्विजते च यः ।\nहर्षामर्षभयोद्वेगैर्मुक्तो यः स च मे प्रियः ॥",
-                "transliteration": "yasmānnodvijate loko lokānnodvijate ca yaḥ.\nharṣāmarṣabhayodvegairmukto yaḥ sa ca me priyaḥ",
-                "hinglishMeaning": "Jisase koee loka (arthaat jeeva, vyakti) udvega ko praapta naheen hotaa aura jo svayan bhee kisee vyakti se udvega anubhava naheen karataa tathaa jo harsha, amarsha (asahishnutaa) bhaya aura udvegon se mukta hai,vaha bhakta mujhey priya hai",
-                "simpleExplanation": "Saral bhav: Jisase koee loka (arthaat jeeva, vyakti) udvega ko praapta naheen hotaa aura jo svayan bhee kisee vyakti se udvega anubhava naheen karataa tathaa jo harsha, amarsha (asahishnutaa) bhaya aura udvegon se mukta hai,vaha bhakta mujhey priya hai. Iska sandarbh Adhyay 12 ke mool vishay se juda hai: saral, nishtha-bhari bhakti aur dayalu jeevan ko uttam marg batata hai.",
-                "lifeLesson": "Shraddha aur prem se ki gayi chhoti kriya bhi Bhagavan tak pahunchti hai."
+                "sanskrit": "यस्मान्नोद्विजते लोको लोकान्नोद्विजते च यः ।\nहर्षामर्षभयोद्वेगैर्मुक्तो यः स च मे प्रियः ॥ १५॥",
+                "transliteration": "Yasman Nodvijate Loko Lokan Nodvijate Ca Yah,\nHarshamarsha Bhayodvegair Mukto Yah Sa Ca Me Priyah.",
+                "englishMeaning": "One by whom the world is not agitated, and who is not agitated by the world, free from the grips of excessive excitement, resentment, fear, and anxiety — such a one is dearly beloved to Me!",
+                "hinglishMeaning": "Jiske kaaran kisi bhi doosre vyakti ko koi dukh ya kshobh (tension) nahi hota, aur jo khud bhi kisi vyakti ke vyavahar se pareshan nahi hota; jo atyadhik harsha, jalan (amarsha), bhay aur chinta se mukt hai — aisa vyakti mujhe priya hai.",
+                "simpleExplanation": "Yeh jeevan jeene ka ek mahan niyam hai:\n1. Na toh kisi ko dukh ya tanav do.\n2. Aur na hi doosron ke burre vyavahar se khud ko pareshan hone do.\nJo vyakti gusse, jalan aur darr se upar uthkar shant jeeta hai, Krishna use apna sabse pyara kehte hain.",
+                "lifeLesson": "Na kisi ki chinta ka kaaran bano, na doosron ki baaton se apna sukoon kho do. Apne mann ka remote control apne haath mein rakho."
             },
             {
                 "verseNumber": 16,
-                "sanskrit": "अनपेक्षः शुचिर्दक्ष उदासीनो गतव्यथः ।\nसर्वारम्भपरित्यागी यो मद्भक्तः स मे प्रियः ॥",
-                "transliteration": "anapekṣaḥ śucirdakṣa udāsīno gatavyathaḥ.\nsarvārambhaparityāgī yo madbhaktaḥ sa me priyaḥ",
-                "hinglishMeaning": "Jo apekshaarahita, shuddha, daksha, udaaseena, vyathaarahita aura sarvakarmon kaa sannyaasa karane vaalaa meraa bhakta hai, vaha mujhey priya hai",
-                "simpleExplanation": "Saral bhav: Jo apekshaarahita, shuddha, daksha, udaaseena, vyathaarahita aura sarvakarmon kaa sannyaasa karane vaalaa meraa bhakta hai, vaha mujhey priya hai. Iska sandarbh Adhyay 12 ke mool vishay se juda hai: saral, nishtha-bhari bhakti aur dayalu jeevan ko uttam marg batata hai.",
-                "lifeLesson": "Apna kartavya imaandari se karo, par phal ki chinta mein apni shanti mat khona."
+                "sanskrit": "अनपेक्षः शुचिर्दक्ष उदासीनो गतव्यथः ।\nसर्वारम्भपरित्यागी यो मद्भक्तः स मे प्रियः ॥ १६॥",
+                "transliteration": "Anapekshah Shucir Daksha Udasino Gata Vyathah,\nSarvarambha Parityagi Yo Mad Bhaktah Sa Me Priyah.",
+                "englishMeaning": "One who is free from selfish expectation, pure inside and out, skillful and capable, detached, free from anxiety, and who has renounced the ego of doership in all undertakings — such a devotee is dear to Me!",
+                "hinglishMeaning": "Jo kisi apeksha (swarth) se rahit hai, bheetar aur bahar se pavitra hai, apne karya mein daksh (efficient) hai, nishpaksh hai, chintaon se mukt hai aur sabhi karmon mein karta-pan ke ahankar se rahit hai — aisa mera bhakt mujhe priya hai.",
+                "simpleExplanation": "Krishna yahan 6 adbhut gun batate hain:\n- Anapekshah: Kisi se koi faltu umeed na rakhna.\n- Shucih: Tan aur man ki pavitrata.\n- Dakshah: Apne kaam mein nipun aur mehanti hona.\n- Udasinah: Bina pakshpaat ke nishpaksh rehna.\n- Gata-vyathah: Chinta aur darr se aazad hona.\n- Sarvarambha-parityagi: 'Yeh sab maine kiya' wale ghamand se mukt hona.",
+                "lifeLesson": "Apne kaam mein expert bano, par swarth aur ghamand se door raho. Jab apekshayein kam hoti hain, tab jeevan saral aur shant ban jaata hai."
             },
             {
                 "verseNumber": 17,
-                "sanskrit": "यो न हृष्यति न द्वेष्टि न शोचति न काङ्क्षति ।\nशुभाशुभपरित्यागी भक्तिमान्यः स मे प्रियः ॥",
-                "transliteration": "yo na hṛṣyati na dveṣṭi na śocati na kāṅkṣati.\nśubhāśubhaparityāgī bhaktimānyaḥ sa me priyaḥ",
-                "hinglishMeaning": "Jo na harshita hotaa hai aura na dvesha karataa hai; na shoka karataa hai aura na aakaankshaa; tathaa jo shubha aura ashubha ko tyaaga detaa hai, vaha bhaktimaan purusha mujhey priya hai",
-                "simpleExplanation": "Saral bhav: Jo na harshita hotaa hai aura na dvesha karataa hai; na shoka karataa hai aura na aakaankshaa; tathaa jo shubha aura ashubha ko tyaaga detaa hai, vaha bhaktimaan purusha mujhey priya hai. Iska sandarbh Adhyay 12 ke mool vishay se juda hai: saral, nishtha-bhari bhakti aur dayalu jeevan ko uttam marg batata hai.",
-                "lifeLesson": "Shraddha aur prem se ki gayi chhoti kriya bhi Bhagavan tak pahunchti hai."
+                "sanskrit": "यो न हृष्यति न द्वेष्टि न शोचति न काङ्क्षति ।\nशुभाशुभपरित्यागी भक्तिमान्यः स मे प्रियः ॥ १७॥",
+                "transliteration": "Yo Na Hrishyati Na Dveshti Na Shocati Na Kankshati,\nShubhashubha Parityagi Bhaktiman Yah Sa Me Priyah.",
+                "englishMeaning": "One who neither rejoices excessively nor hates, who neither grieves nor craves, and who renounces both good and bad attachments, full of pure devotion — such a one is dear to Me!",
+                "hinglishMeaning": "Jo na toh atyadhik khush hokar aapa khota hai, na kisi se dvesh karta hai, na nuksaan hone par shok karta hai, na kisi cheez ki laalsa karta hai; aur jo shubh tatha ashubh dono falon se upar uth chuka hai — aisa bhaktiman vyakti mujhe priya hai.",
+                "simpleExplanation": "Insaan aamtaur par acchi cheez milne par uchhal padta hai aur buri cheez milne par rone lagta hai.\n\nKrishna kehte hain ki santulit manushya woh hai jo har sthiti mein sthir rehta hai — na kisi se nafrat, na be-wajah shok aur na lalach. Uska dhyan keval Parmatma mein laga hota hai.",
+                "lifeLesson": "Zindagi mein utaar-chadhaav aate rahenge. Khushi mein zameen mat chhod aur dukh mein himmat mat haaro; santulan hi asli yog hai."
             },
             {
                 "verseNumber": 18,
-                "sanskrit": "समः शत्रौ च मित्रे च तथा मानापमानयोः ।\nशीतोष्णसुखदुःखेषु समः सङ्गविवर्जितः ॥",
-                "transliteration": "samaḥ śatrau ca mitre ca tathā mānāpamānayoḥ.\nśītoṣṇasukhaduḥkheṣu samaḥ saṅgavivarjitaḥ",
-                "hinglishMeaning": "Swami Tejomayananda did not comment on this sloka",
-                "simpleExplanation": "Saral bhav: Swami Tejomayananda did not comment on this sloka. Iska sandarbh Adhyay 12 ke mool vishay se juda hai: saral, nishtha-bhari bhakti aur dayalu jeevan ko uttam marg batata hai.",
-                "lifeLesson": "Shraddha aur prem se ki gayi chhoti kriya bhi Bhagavan tak pahunchti hai."
+                "sanskrit": "समः शत्रौ च मित्रे च तथा मानापमानयोः ।\nशीतोष्णसुखदुःखेषु समः सङ्गविवर्जितः ॥ १८॥",
+                "transliteration": "Samah Shatrau Ca Mitre Ca Tatha Manapamanayoh,\nShitoshna Sukha Duhkheshu Samah Sanga Vivarjitah.",
+                "englishMeaning": "One who treats friend and foe alike, who remains equal in honor and dishonor, the same in cold and heat, pleasure and pain, and free from all selfish attachment,",
+                "hinglishMeaning": "Jo shatru aur mitra mein ek saman bhav rakhta hai, maan aur apmaan mein shant rehta hai, sardi aur garmi tatha sukh aur dukh mein samta banaye rakhta hai, aur sabhi asaktiyon se mukt hai,",
+                "simpleExplanation": "Arjun ko Krishna samjhate hain ki aatmik unnti ki sachchi pehchan tab hoti hai jab koi aapki tareef kare ya be-izzati kare, par aapka bheetari sukoon na toote.\n\nJaise pahaad par mausam ka asar nahi hota, waise hi sachche bhakt ke mann par paristithiyon ki thand aur garmi ka bura asar nahi padta.",
+                "lifeLesson": "Duniya ki tareef aur burai dono aani-jaani dhoop-chhaon hain. Apne bheetar ki shanti ko doosron ki rai par nirbhar mat hone do."
             },
             {
                 "verseNumber": 19,
-                "sanskrit": "तुल्यनिन्दास्तुतिर्मौनी सन्तुष्टो येन केनचित् ।\nअनिकेतः स्थिरमतिर्भक्तिमान्मे प्रियो नरः ॥",
-                "transliteration": "tulyanindāstutirmaunī santuṣṭo yena kenacit.\naniketaḥ sthiramatirbhaktimānme priyo naraḥ",
-                "hinglishMeaning": "Jisako nindaa aura stuti donon hee tulya hai, jo maunee hai, jo kisee alpa vastu se bhee santushta hai, jo aniketa hai, vaha sthira buddhi kaa bhaktimaan purusha mujhey priya hai",
-                "simpleExplanation": "Saral bhav: Jisako nindaa aura stuti donon hee tulya hai, jo maunee hai, jo kisee alpa vastu se bhee santushta hai, jo aniketa hai, vaha sthira buddhi kaa bhaktimaan purusha mujhey priya hai. Iska sandarbh Adhyay 12 ke mool vishay se juda hai: saral, nishtha-bhari bhakti aur dayalu jeevan ko uttam marg batata hai.",
-                "lifeLesson": "Shraddha aur prem se ki gayi chhoti kriya bhi Bhagavan tak pahunchti hai."
+                "sanskrit": "तुल्यनिन्दास्तुतिर्मौनी सन्तुष्टो येन केनचित् ।\nअनिकेतः स्थिरमतिर्भक्तिमान्मे प्रियो नरः ॥ १९॥",
+                "transliteration": "Tulya Ninda Stutir Mauni Santushto Yena Kenacit,\nAniketah Sthira Matir Bhaktiman Me Priyo Narah.",
+                "englishMeaning": "To whom praise and blame are equal, who is contemplative and silent, content with whatever comes unsought, free from possessiveness of home, and of steady intellect — such a devoted person is dear to Me!",
+                "hinglishMeaning": "Jiske liye ninda aur prashansa dono barabar hain, jo mauni (chup rehne aur aatm-chintan karne wala) hai, jo kuch bhi mil jaaye usme santusht rehta hai, ghar ya sthan ke moh se mukt hai aur dridh buddhi wala hai — aisa bhakt mujhe atyant priya hai.",
+                "simpleExplanation": "Krishna kehte hain:\n- Mauni ka matlab hai bina wajah faltu baatein na bolna aur andar shanti rakhna.\n- Ninda aur stuti mein barabari — koi bura kahe toh gussa nahi, accha kahe toh ahankar nahi.\n- Jo mil gaya, usi mein khush rehna.\nAisa vyakti jahan bhi rehta hai, wahan mandir ban jaata hai.",
+                "lifeLesson": "Kam bolo, gehra socho aur jo prasad-swaroop mil jaaye usme santusht raho. Sthir buddhi hi insaan ko shanti deti hai."
             },
             {
                 "verseNumber": 20,
-                "sanskrit": "ये तु धर्म्यामृतमिदं यथोक्तं पर्युपासते ।\nश्रद्दधाना मत्परमा भक्तास्तेऽतीव मे प्रियाः ॥",
-                "transliteration": "ye tu dharmyāmṛtamidaṃ yathoktaṃ paryupāsate.\nśraddadhānā matparamā bhaktāste.atīva me priyāḥ",
-                "hinglishMeaning": "Jo bhakta shraddhaavaan tathaa mujhey hee parama lakshya samajhane vaale hain aura isa yathokta dharmamaya amrita kaa arthaat dharmamaya jeevana kaa paalana karate hain, ve mujhey atishaya priya hain",
-                "simpleExplanation": "Saral bhav: Jo bhakta shraddhaavaan tathaa mujhey hee parama lakshya samajhane vaale hain aura isa yathokta dharmamaya amrita kaa arthaat dharmamaya jeevana kaa paalana karate hain, ve mujhey atishaya priya hain. Iska sandarbh Adhyay 12 ke mool vishay se juda hai: saral, nishtha-bhari bhakti aur dayalu jeevan ko uttam marg batata hai.",
-                "lifeLesson": "Shraddha aur prem se ki gayi chhoti kriya bhi Bhagavan tak pahunchti hai."
+                "sanskrit": "ये तु धर्म्यामृतमिदं यथोक्तं पर्युपासते ।\nश्रद्दधाना मत्परमा भक्तास्तेऽतीव मे प्रियाः ॥ २०॥",
+                "transliteration": "Ye Tu Dharmyamritam Idam Yathoktam Paryupasate,\nShraddadhana Mat Parama Bhaktas Te Tiva Me Priyah.",
+                "englishMeaning": "Those who with deep faith cultivate this immortal nectar of righteous wisdom (dharmyamritam) as declared, regarding Me as the supreme goal — such devotees are exceedingly dear to Me!",
+                "hinglishMeaning": "Jo bhakt shraddha-yukt hokar, mujhe hi apna param aashray aur lakshya maante hue, is upar kahe gaye dharm-may amrit ka (in sabhi mahan gunon ka) aacharan karte hain — woh bhakt mujhe sabse adhik priya hain!",
+                "simpleExplanation": "Yeh Chapter 12 ka aakhiri shlok hai aur Bhakti Yoga ka amrit hai!\nKrishna kehte hain: 'Jo log sirf sunte hi nahi, balki is amrit-tulya dharma ko apne aacharan aur vyavahar mein utarte hain — jinme daya hai, kshama hai, santosh hai aur prem hai — woh bhakt mere dil ke sabse kareeb hain.'",
+                "lifeLesson": "Gyaan sirf baatein karne ke liye nahi, jeevan mein jeene ke liye hota hai. Daya, prem, shanti aur vinamrata ko apne rozana ke vyavahar mein utaro — yahi Bhagavan ki sabse badi pooja hai."
             }
         ]
     },
