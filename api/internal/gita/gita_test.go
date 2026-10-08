@@ -106,4 +106,51 @@ func TestLoad(t *testing.T) {
 			t.Errorf("ch12 verse %d missing LifeLesson", v.VerseNumber)
 		}
 	}
+
+	// Verify Chapter 13
+	ch13Verses := GetChapterVerses(13)
+	if len(ch13Verses) != 34 {
+		t.Fatalf("expected 34 verses in chapter 13, got %d", len(ch13Verses))
+	}
+	for i, v := range ch13Verses {
+		if v.VerseNumber != i+1 {
+			t.Errorf("ch13 verse number mismatch: expected %d, got %d", i+1, v.VerseNumber)
+		}
+		if v.EnglishMeaning == "" {
+			t.Errorf("ch13 verse %d missing EnglishMeaning", v.VerseNumber)
+		}
+		if v.HinglishMeaning == "" {
+			t.Errorf("ch13 verse %d missing HinglishMeaning", v.VerseNumber)
+		}
+		if v.SimpleExplanation == "" {
+			t.Errorf("ch13 verse %d missing SimpleExplanation", v.VerseNumber)
+		}
+		if v.LifeLesson == "" {
+			t.Errorf("ch13 verse %d missing LifeLesson", v.VerseNumber)
+		}
+	}
+
+	// Verify Chapter 14
+	ch14Verses := GetChapterVerses(14)
+	if len(ch14Verses) != 27 {
+		t.Fatalf("expected 27 verses in chapter 14, got %d", len(ch14Verses))
+	}
+	for i, v := range ch14Verses {
+		if v.VerseNumber != i+1 {
+			t.Errorf("ch14 verse number mismatch: expected %d, got %d", i+1, v.VerseNumber)
+		}
+		if v.EnglishMeaning == "" {
+			t.Errorf("ch14 verse %d missing EnglishMeaning", v.VerseNumber)
+		}
+		if v.HinglishMeaning == "" {
+			t.Errorf("ch14 verse %d missing HinglishMeaning", v.VerseNumber)
+		}
+		if v.SimpleExplanation == "" {
+			t.Errorf("ch14 verse %d missing SimpleExplanation", v.VerseNumber)
+		}
+		if v.LifeLesson == "" {
+			t.Errorf("ch14 verse %d missing LifeLesson", v.VerseNumber)
+		}
+	}
 }
+
