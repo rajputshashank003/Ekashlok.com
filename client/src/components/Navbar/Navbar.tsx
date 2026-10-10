@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef, useCallback, useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { useUser } from "../../hooks/useUser";
 import { APP_NAME } from "../../utils/constants";
@@ -16,19 +16,79 @@ const Navbar: React.FC<NavbarProps> = ({ transparent = false }) => {
     const [isOpen, setIsOpen] = useState(false);
     const [showOTP, setShowOTP] = useState(false);
 
-    const handleLinkClick = (path: string) => {
+    const navRef = useRef<HTMLElement>(null);
+    const [navTop, setNavTop] = useState(0);
+
+    const updateNavTop = useCallback(() => {
+        if (navRef.current) {
+            const rect = navRef.current.getBoundingClientRect();
+            setNavTop(Math.max(0, Math.round(rect.top)));
+        }
+    }, []);
+
+    useEffect(() => {
+        updateNavTop();
+        window.addEventListener("resize", updateNavTop, { passive: true });
+        return () => {
+            window.removeEventListener("resize", updateNavTop);
+        };
+    }, [dispatchMaintenance, updateNavTop]);
+
+    // Lock body scroll when drawer is open
+    useEffect(() => {
+        if (isOpen) {
+            const originalOverflow = document.body.style.overflow;
+            document.body.style.overflow = "hidden";
+            return () => {
+                document.body.style.overflow = originalOverflow;
+            };
+        }
+    }, [isOpen]);
+
+    const closeDrawer = (callback?: () => void) => {
+        if (!isOpen) return;
         setIsOpen(false);
-        navigate(path);
+        if (callback) {
+            setTimeout(callback, 140);
+        }
+    };
+
+    const toggleDrawer = () => {
+        if (isOpen) {
+            closeDrawer();
+        } else {
+            updateNavTop();
+            setIsOpen(true);
+        }
+    };
+
+    const handleLinkClick = (path: string) => {
+        closeDrawer(() => {
+            navigate(path);
+        });
     };
 
     const handleWhatsAppCTA = () => {
-        setIsOpen(false);
-        if (isAuthenticated) {
-            setShowOTP(true);
-        } else {
-            navigate("/login");
-        }
+        closeDrawer(() => {
+            if (isAuthenticated) {
+                setShowOTP(true);
+            } else {
+                navigate("/login");
+            }
+        });
     };
+
+    // Close drawer on Escape key press
+    useEffect(() => {
+        const handleKeyDown = (e: KeyboardEvent) => {
+            if (e.key === "Escape" && isOpen) {
+                closeDrawer();
+            }
+        };
+        window.addEventListener("keydown", handleKeyDown);
+        return () => window.removeEventListener("keydown", handleKeyDown);
+    }, [isOpen]);
+
 
     return (
         <>
@@ -38,19 +98,34 @@ const Navbar: React.FC<NavbarProps> = ({ transparent = false }) => {
                     style={{
                         background: "linear-gradient(90deg, #92400e, #b45309)",
                         color: "#fef3c7",
-                        textAlign: "center",
-                        padding: "0.5rem 1rem",
-                        fontSize: "0.82rem",
-                        fontWeight: 600,
-                        letterSpacing: "0.01em",
+                        padding: "0.38rem 0.85rem",
+                        fontSize: "0.76rem",
+                        lineHeight: 1.4,
                         zIndex: 200,
                         position: "relative",
+                        textAlign: "center",
+                        borderBottom: "1px solid rgba(254, 243, 199, 0.15)",
                     }}
                 >
-                    🔧 WhatsApp delivery is currently under maintenance — daily shloks are paused. We'll be back soon!
+                    <div
+                        style={{
+                            maxWidth: "1100px",
+                            margin: "0 auto",
+                            display: "inline-flex",
+                            alignItems: "center",
+                            justifyContent: "center",
+                            flexWrap: "wrap",
+                            gap: "0.25rem 0.5rem",
+                        }}
+                    >
+                        <span>
+                            <strong>WhatsApp notifications paused due to maintenance</strong> — Read daily on web to build streaks & track in Activity Tracker! 🔥
+                        </span>
+                    </div>
                 </div>
             )}
             <nav
+                ref={navRef}
                 style={{
                     position: "sticky",
                     top: 0,
@@ -278,11 +353,16 @@ const Navbar: React.FC<NavbarProps> = ({ transparent = false }) => {
                         </div>
                     )}
                     <button
-                        className={`hamburger-btn ${isOpen ? "active" : ""}`}
-                        onClick={() => setIsOpen(!isOpen)}
-                        aria-label="Toggle navigation menu"
+                        className="hamburger-btn"
+                        onClick={toggleDrawer}
+                        aria-label={isOpen ? "Close navigation menu" : "Open navigation menu"}
+                        aria-expanded={isOpen}
                     >
-                        <span className="hamburger-icon" />
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round">
+                            <line x1="4.5" y1="7" x2="19.5" y2="7" />
+                            <line x1="4.5" y1="12" x2="19.5" y2="12" />
+                            <line x1="4.5" y1="17" x2="19.5" y2="17" />
+                        </svg>
                     </button>
                 </div>
             </nav>
@@ -290,167 +370,207 @@ const Navbar: React.FC<NavbarProps> = ({ transparent = false }) => {
             {/* Mobile Drawer Overlay */}
             <div
                 className={`nav-mobile-overlay ${isOpen ? "active" : ""}`}
-                onClick={() => setIsOpen(false)}
+                style={{
+                    top: `${navTop}px`,
+                    height: `calc(100dvh - ${navTop}px)`,
+                }}
+                onClick={() => closeDrawer()}
+                aria-hidden="true"
             />
 
             {/* Mobile Navigation Drawer */}
-            <div className={`nav-mobile-drawer ${isOpen ? "active" : ""}`}>
-                {/* Drawer Header */}
-                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", borderBottom: "1px solid var(--border)", paddingBottom: "1rem" }}>
-                    <span style={{ fontWeight: 800, color: "var(--bhagwa)", fontSize: "1.1rem" }}>Menu</span>
+            <div
+                className={`nav-mobile-drawer ${isOpen ? "active" : ""}`}
+                style={{
+                    top: `${navTop}px`,
+                    height: `calc(100dvh - ${navTop}px)`,
+                    bottom: "auto",
+                }}
+                role="dialog"
+                aria-modal="true"
+                aria-label="Navigation Menu"
+            >
+                {/* Sticky Drawer Header - NEVER hides on scroll, permanently visible */}
+                <div className="nav-drawer-header">
+                    <div className="nav-drawer-header-left">
+                        <span className="nav-drawer-om-badge">ॐ</span>
+                        <span className="nav-drawer-title">{APP_NAME}</span>
+                    </div>
                     <button
-                        onClick={() => setIsOpen(false)}
-                        style={{ background: "transparent", border: "none", fontSize: "1.5rem", color: "var(--text-muted)", cursor: "pointer", lineHeight: 1 }}
+                        className="nav-drawer-close-btn"
+                        onClick={() => closeDrawer()}
+                        aria-label="Close navigation menu"
                     >
-                        &times;
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+                            <line x1="18" y1="6" x2="6" y2="18"></line>
+                            <line x1="6" y1="6" x2="18" y2="18"></line>
+                        </svg>
                     </button>
                 </div>
 
-                {/* User Profile Summary */}
-                <div style={{ padding: "0.5rem 0" }}>
-                    {isAuthenticated && user ? (
-                        <div style={{ display: "flex", alignItems: "center", gap: "0.75rem" }}>
-                            {user.avatar_url ? (
-                                <img
-                                    src={user.avatar_url}
-                                    alt={user.name}
-                                    style={{ width: 44, height: 44, borderRadius: "50%", objectFit: "cover", border: "1px solid var(--border)" }}
-                                />
+
+                    {/* Scrollable Drawer Body */}
+                    <div className="nav-drawer-body">
+                        {/* User Profile Summary Card */}
+                        <div className="nav-drawer-profile-card">
+                            {isAuthenticated && user ? (
+                                <div style={{ display: "flex", alignItems: "center", gap: "0.75rem" }}>
+                                    {user.avatar_url ? (
+                                        <img
+                                            src={user.avatar_url}
+                                            alt={user.name}
+                                            style={{ width: 44, height: 44, borderRadius: "50%", objectFit: "cover", border: "1.5px solid rgba(255,107,0,0.25)", flexShrink: 0 }}
+                                        />
+                                    ) : (
+                                        <div
+                                            style={{
+                                                width: 44,
+                                                height: 44,
+                                                borderRadius: "50%",
+                                                background: "var(--grad-hero)",
+                                                display: "flex",
+                                                alignItems: "center",
+                                                justifyContent: "center",
+                                                color: "white",
+                                                fontSize: "1.1rem",
+                                                fontWeight: 700,
+                                                flexShrink: 0,
+                                                boxShadow: "0 2px 8px rgba(255,107,0,0.2)",
+                                            }}
+                                        >
+                                            {user.name?.[0]?.toUpperCase() ?? "U"}
+                                        </div>
+                                    )}
+                                    <div style={{ minWidth: 0, flex: 1 }}>
+                                        <h4 style={{ fontWeight: 700, fontSize: "0.95rem", color: "var(--text-primary)", whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>
+                                            {user.name}
+                                        </h4>
+                                        <p style={{ fontSize: "0.75rem", color: "var(--text-muted)", whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>
+                                            {user.email}
+                                        </p>
+                                    </div>
+                                </div>
                             ) : (
+                                <div>
+                                    <p style={{ fontSize: "0.85rem", color: "var(--text-muted)", marginBottom: "0.75rem" }}>
+                                        Sign in to customize your Gita journey.
+                                    </p>
+                                    <button
+                                        className="btn-primary"
+                                        style={{ width: "100%", borderRadius: "10px", padding: "0.6rem 1rem", fontSize: "0.88rem" }}
+                                        onClick={() => handleLinkClick("/login")}
+                                    >
+                                        Login with Google
+                                    </button>
+                                </div>
+                            )}
+                        </div>
+
+                        {/* Drawer Links */}
+                        <div className="nav-drawer-nav-group">
+                            <button
+                                className="nav-drawer-link-btn"
+                                onClick={() => handleLinkClick("/shloks")}
+                            >
+                                <span style={{ fontSize: "1.1rem" }}>📖</span>
+                                <span>Browse All Shloks</span>
+                            </button>
+
+                            {isAuthenticated && user && (
+                                <>
+                                    <button
+                                        className="nav-drawer-link-btn"
+                                        onClick={() => handleLinkClick("/home")}
+                                    >
+                                        <span style={{ fontSize: "1.1rem" }}>🌅</span>
+                                        <span>Today's Shlok</span>
+                                    </button>
+
+                                    <button
+                                        className="nav-drawer-link-btn"
+                                        onClick={() => handleLinkClick("/profile")}
+                                    >
+                                        <span style={{ fontSize: "1.1rem" }}>👤</span>
+                                        <span>My Profile</span>
+                                    </button>
+
+                                    {user.is_admin && (
+                                        <button
+                                            className="nav-drawer-link-btn"
+                                            style={{ color: "var(--bhagwa)" }}
+                                            onClick={() => handleLinkClick("/admin")}
+                                        >
+                                            <span style={{ fontSize: "1.1rem" }}>⚙️</span>
+                                            <span>Admin Dashboard</span>
+                                        </button>
+                                    )}
+                                </>
+                            )}
+                        </div>
+
+                        {/* WhatsApp USP Section */}
+                        <div style={{ marginTop: "auto", borderTop: "1px solid rgba(255,107,0,0.12)", paddingTop: "1.25rem" }}>
+                            {isAuthenticated && user && user.is_wa_subscribed ? (
                                 <div
                                     style={{
-                                        width: 44,
-                                        height: 44,
-                                        borderRadius: "50%",
-                                        background: "var(--grad-hero)",
+                                        display: "flex",
+                                        alignItems: "center",
+                                        gap: "0.6rem",
+                                        padding: "0.75rem 1rem",
+                                        background: "rgba(34,197,94,0.08)",
+                                        borderRadius: "12px",
+                                        border: "1px solid rgba(34,197,94,0.22)",
+                                    }}
+                                >
+                                    <span style={{ fontSize: "1.2rem" }}>✅</span>
+                                    <div>
+                                        <p style={{ fontWeight: 700, fontSize: "0.85rem", color: "#15803d" }}>WhatsApp Active</p>
+                                        <p style={{ fontSize: "0.72rem", color: "#166534" }}>Receiving daily shloks</p>
+                                    </div>
+                                </div>
+                            ) : (
+                                <button
+                                    className="btn-primary wa-pulse-btn"
+                                    onClick={handleWhatsAppCTA}
+                                    style={{
+                                        width: "100%",
+                                        padding: "0.8rem 1rem",
+                                        borderRadius: "12px",
+                                        fontSize: "0.9rem",
+                                        fontWeight: 700,
                                         display: "flex",
                                         alignItems: "center",
                                         justifyContent: "center",
-                                        color: "white",
-                                        fontSize: "1.1rem",
-                                        fontWeight: 700,
+                                        gap: "0.5rem",
                                     }}
                                 >
-                                    {user.name?.[0]?.toUpperCase() ?? "U"}
-                                </div>
-                            )}
-                            <div>
-                                <h4 style={{ fontWeight: 700, fontSize: "0.95rem", color: "var(--text-primary)" }}>{user.name}</h4>
-                                <p style={{ fontSize: "0.75rem", color: "var(--text-muted)" }}>{user.email}</p>
-                            </div>
-                        </div>
-                    ) : (
-                        <div>
-                            <p style={{ fontSize: "0.85rem", color: "var(--text-muted)", marginBottom: "0.75rem" }}>
-                                Sign in to customize your Gita journey.
-                            </p>
-                            <button
-                                className="btn-primary"
-                                style={{ width: "100%", borderRadius: "10px", padding: "0.6rem 1rem", fontSize: "0.88rem" }}
-                                onClick={() => handleLinkClick("/login")}
-                            >
-                                Login with Google
-                            </button>
-                        </div>
-                    )}
-                </div>
-
-                {/* Drawer Links */}
-                <div style={{ display: "flex", flexDirection: "column", gap: "0.75rem", marginTop: "0.5rem" }}>
-                    <button
-                        className="btn-ghost"
-                        style={{ width: "100%", justifyContent: "flex-start", padding: "0.75rem 1rem", fontSize: "0.95rem" }}
-                        onClick={() => handleLinkClick("/shloks")}
-                    >
-                        📖 Browse All Shloks
-                    </button>
-
-                    {isAuthenticated && user && (
-                        <>
-                            <button
-                                className="btn-ghost"
-                                style={{ width: "100%", justifyContent: "flex-start", padding: "0.75rem 1rem", fontSize: "0.95rem" }}
-                                onClick={() => handleLinkClick("/home")}
-                            >
-                                🌅 Today's Shlok
-                            </button>
-
-                            <button
-                                className="btn-ghost"
-                                style={{ width: "100%", justifyContent: "flex-start", padding: "0.75rem 1rem", fontSize: "0.95rem" }}
-                                onClick={() => handleLinkClick("/profile")}
-                            >
-                                👤 My Profile
-                            </button>
-
-                            {user.is_admin && (
-                                <button
-                                    className="btn-ghost"
-                                    style={{ width: "100%", justifyContent: "flex-start", padding: "0.75rem 1rem", fontSize: "0.95rem", color: "var(--bhagwa)" }}
-                                    onClick={() => handleLinkClick("/admin")}
-                                >
-                                    ⚙️ Admin Dashboard
+                                    <span>📲</span> Subscribe to WhatsApp
                                 </button>
                             )}
-                        </>
-                    )}
-                </div>
-
-                {/* WhatsApp USP Prominent Placement inside Drawer */}
-                <div style={{ marginTop: "auto", borderTop: "1px solid var(--border)", paddingTop: "1.5rem" }}>
-                    {isAuthenticated && user && user.is_wa_subscribed ? (
-                        <div
-                            style={{
-                                display: "flex",
-                                alignItems: "center",
-                                gap: "0.5rem",
-                                padding: "0.75rem 1rem",
-                                background: "rgba(34,197,94,0.08)",
-                                borderRadius: "10px",
-                                border: "1px solid rgba(34,197,94,0.2)",
-                            }}
-                        >
-                            <span style={{ fontSize: "1.2rem" }}>✅</span>
-                            <div>
-                                <p style={{ fontWeight: 700, fontSize: "0.85rem", color: "#15803d" }}>WhatsApp Active</p>
-                                <p style={{ fontSize: "0.72rem", color: "#166534" }}>Receiving daily shloks</p>
-                            </div>
                         </div>
-                    ) : (
-                        <button
-                            className="btn-primary wa-pulse-btn"
-                            onClick={handleWhatsAppCTA}
-                            style={{
-                                width: "100%",
-                                padding: "0.8rem 1rem",
-                                borderRadius: "12px",
-                                fontSize: "0.9rem",
-                                fontWeight: 700,
-                                display: "flex",
-                                alignItems: "center",
-                                justifyContent: "center",
-                                gap: "0.5rem",
-                            }}
-                        >
-                            <span>📲</span> Subscribe to WhatsApp
-                        </button>
-                    )}
-                </div>
 
-                {/* Logout at bottom */}
-                {isAuthenticated && user && (
-                    <button
-                        onClick={() => {
-                            setIsOpen(false);
-                            logout();
-                        }}
-                        className="btn-ghost"
-                        style={{ justifyContent: "center", fontSize: "0.85rem", color: "#dc2626", border: "1px solid rgba(220,38,38,0.15)", borderRadius: "10px", marginTop: "1rem" }}
-                    >
-                        Logout
-                    </button>
-                )}
-            </div>
+                        {/* Logout at bottom */}
+                        {isAuthenticated && user && (
+                            <button
+                                onClick={() => {
+                                    closeDrawer(() => logout());
+                                }}
+                                className="nav-drawer-link-btn"
+                                style={{
+                                    justifyContent: "center",
+                                    fontSize: "0.88rem",
+                                    color: "#dc2626",
+                                    border: "1px solid rgba(220,38,38,0.2)",
+                                    background: "rgba(220,38,38,0.04)",
+                                    borderRadius: "11px",
+                                    marginTop: "0.25rem",
+                                }}
+                            >
+                                Logout
+                            </button>
+                        )}
+                    </div>
+                </div>
 
             {/* OTP Subscription Modal */}
             {showOTP && user && (

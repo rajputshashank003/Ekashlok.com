@@ -5,6 +5,7 @@ import Navbar from "../../components/Navbar/Navbar";
 import OTPModal from "../../components/OTPModal/OTPModal";
 import { shlokApi } from "../../utils/api_request/shlok";
 import { waApi } from "../../utils/api_request/whatsapp";
+import { emailApi } from "../../utils/api_request/email";
 import { useUser } from "../../hooks/useUser";
 import { TOTAL_SHLOKS, DAILY_SEND_TIME, APP_NAME } from "../../utils/constants";
 
@@ -17,11 +18,30 @@ const Profile: React.FC = () => {
   const [saving, setSaving] = useState(false);
   const [customInput, setCustomInput] = useState("");
   const [unsubscribing, setUnsubscribing] = useState(false);
+  const [togglingEmail, setTogglingEmail] = useState(false);
 
   if (!isLoading && !isAuthenticated) return <Navigate to="/" replace />;
   if (!user) return null;
 
   const progressPct = Math.round(((user.shlok_count || 0) / TOTAL_SHLOKS) * 100);
+
+  const handleToggleEmailSubscription = async () => {
+    setTogglingEmail(true);
+    const newSubscribed = Boolean(user.email_unsubscribed);
+    try {
+      await emailApi.toggleEmailSubscription(newSubscribed);
+      updateUser({ email_unsubscribed: !newSubscribed });
+      toast.success(
+        newSubscribed
+          ? "Subscribed to email shlok broadcast ✉️"
+          : "Unsubscribed from email shlok broadcast"
+      );
+    } catch {
+      toast.error("Failed to update email preferences");
+    } finally {
+      setTogglingEmail(false);
+    }
+  };
 
   /** Reset to beginning: sets count to 0 → tomorrow will deliver shlok #1 */
   const handleReset = async () => {
@@ -70,45 +90,38 @@ const Profile: React.FC = () => {
     <div style={{ minHeight: "100vh", background: "var(--cream)" }}>
       <Navbar />
 
-      <div className="container-app" style={{ maxWidth: "680px", padding: "2rem 1.5rem" }}>
-        <h1 style={{ fontSize: "1.5rem", fontWeight: 900, color: "var(--text-primary)", marginBottom: "2rem" }}>
+      <div className="container-app profile-container">
+        <h1 style={{ fontSize: "1.5rem", fontWeight: 900, color: "var(--text-primary)", marginBottom: "1.75rem" }}>
           My Profile
         </h1>
 
         {/* ── User Info Card ── */}
-        <div className="card" style={{ padding: "1.75rem", marginBottom: "1.25rem" }}>
-          <div style={{ display: "flex", alignItems: "center", gap: "1rem" }}>
+        <div className="card profile-card">
+          <div className="profile-user-header">
             {user.avatar_url ? (
               <img
                 src={user.avatar_url}
                 alt={user.name}
-                style={{ width: 64, height: 64, borderRadius: "50%", objectFit: "cover", border: "2px solid var(--border)" }}
+                className="profile-user-avatar"
               />
             ) : (
-              <div
-                style={{
-                  width: 64, height: 64, borderRadius: "50%",
-                  background: "var(--grad-hero)",
-                  display: "flex", alignItems: "center", justifyContent: "center",
-                  fontSize: "1.5rem", fontWeight: 800, color: "white",
-                }}
-              >
+              <div className="profile-user-avatar-placeholder">
                 {user.name?.[0]?.toUpperCase() ?? "U"}
               </div>
             )}
-            <div>
-              <h2 style={{ fontWeight: 700, fontSize: "1.1rem", color: "var(--text-primary)" }}>{user.name}</h2>
-              <p style={{ fontSize: "0.85rem", color: "var(--text-muted)" }}>{user.email}</p>
-              {user.is_admin && <span className="badge badge-bhagwa" style={{ marginTop: "0.3rem" }}>Admin</span>}
+            <div className="profile-user-info">
+              <h2 className="profile-user-name">{user.name}</h2>
+              <p className="profile-user-email">{user.email}</p>
+              {user.is_admin && <span className="badge badge-bhagwa" style={{ marginTop: "0.35rem", display: "inline-block" }}>Admin</span>}
             </div>
           </div>
-          <button className="btn-ghost" style={{ marginTop: "1rem", fontSize: "0.85rem", color: "#dc2626" }} onClick={logout}>
+          <button className="btn-ghost" style={{ marginTop: "0.85rem", fontSize: "0.82rem", color: "#dc2626", padding: "0.25rem 0.5rem", borderRadius: "6px" }} onClick={logout}>
             Sign Out
           </button>
         </div>
 
         {/* ── Shlok Progress + Settings Card ── */}
-        <div className="card" style={{ padding: "1.75rem", marginBottom: "1.25rem" }}>
+        <div className="card profile-card">
           <h3 style={{ fontWeight: 700, fontSize: "1rem", marginBottom: "0.35rem", color: "var(--text-primary)" }}>
             📖 Reading Progress
           </h3>
@@ -130,8 +143,23 @@ const Profile: React.FC = () => {
             {progressPct}% of Bhagavad Gita completed
           </p>
 
+          {/* Login Milestone */}
+          <div style={{ marginTop: "1.25rem", paddingTop: "1rem", borderTop: "1px solid var(--border)", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+            <div>
+              <span style={{ fontSize: "0.85rem", fontWeight: 600, color: "var(--text-primary)" }}>
+                🌟 Login Milestone
+              </span>
+              <p style={{ fontSize: "0.75rem", color: "var(--text-muted)", marginTop: "0.15rem" }}>
+                Progressive shlok delivered to your email on each login
+              </p>
+            </div>
+            <span className="badge badge-bhagwa" style={{ fontSize: "0.8rem" }}>
+              #{user.logged_count || 0} / 700
+            </span>
+          </div>
+
           {/* Two action buttons */}
-          <div style={{ display: "flex", gap: "0.75rem", flexWrap: "wrap" }}>
+          <div style={{ display: "flex", gap: "0.75rem", flexWrap: "wrap", marginTop: "1.25rem" }}>
             <button
               className="btn-ghost"
               style={{ flex: 1, minWidth: "140px", border: "1px solid #fecaca", borderRadius: "10px", fontSize: "0.88rem", color: "#dc2626", justifyContent: "center" }}
@@ -149,8 +177,127 @@ const Profile: React.FC = () => {
           </div>
         </div>
 
+        {/* ── Email Subscription Section ── */}
+        <div className="card profile-card">
+          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "1rem" }}>
+            <h3 style={{ fontWeight: 700, fontSize: "1rem", margin: 0, color: "var(--text-primary)" }}>
+              ✉️ Email Shlok Broadcast
+            </h3>
+            <span
+              style={{
+                fontSize: "0.72rem",
+                fontWeight: 700,
+                padding: "0.2rem 0.6rem",
+                borderRadius: "20px",
+                background: !user.email_unsubscribed ? "rgba(34,197,94,0.12)" : "rgba(220,38,38,0.1)",
+                color: !user.email_unsubscribed ? "#15803d" : "#dc2626",
+                border: !user.email_unsubscribed ? "1px solid rgba(34,197,94,0.25)" : "1px solid rgba(220,38,38,0.2)",
+              }}
+            >
+              {!user.email_unsubscribed ? "● Active Subscription" : "○ Unsubscribed"}
+            </span>
+          </div>
+
+          {!user.email_unsubscribed ? (
+            <div>
+              <div
+                style={{
+                  padding: "1rem",
+                  background: "rgba(34,197,94,0.06)",
+                  borderRadius: "12px",
+                  border: "1px solid rgba(34,197,94,0.22)",
+                  marginBottom: "1rem",
+                }}
+              >
+                <div style={{ display: "flex", alignItems: "center", gap: "0.6rem", marginBottom: "0.5rem" }}>
+                  <span style={{ fontSize: "1.25rem" }}>✅</span>
+                  <div>
+                    <p style={{ fontWeight: 800, fontSize: "0.92rem", color: "#15803d", margin: 0 }}>
+                      Active Subscription
+                    </p>
+                    <p style={{ fontSize: "0.82rem", color: "#166534", margin: "0.15rem 0 0" }}>
+                      Receiving scheduled shloks at <strong>{user.email}</strong>
+                    </p>
+                  </div>
+                </div>
+
+                <div
+                  style={{
+                    background: "#FFFFFF",
+                    borderRadius: "10px",
+                    padding: "0.85rem 0.95rem",
+                    border: "1px solid rgba(34,197,94,0.18)",
+                    marginTop: "0.65rem",
+                  }}
+                >
+                  <p style={{ fontSize: "0.8rem", color: "var(--text-secondary)", lineHeight: 1.5, margin: "0 0 0.5rem" }}>
+                    🌿 <strong>Universal Community Shlok:</strong> This email broadcast is sent as a common sacred verse to all registered devotees simultaneously (weekly or daily based on the active broadcast schedule).
+                  </p>
+                  <div style={{ display: "grid", gridTemplateColumns: "1fr", gap: "0.35rem", fontSize: "0.76rem", color: "var(--text-muted)" }}>
+                    <div style={{ display: "flex", alignItems: "center", gap: "0.4rem" }}>
+                      <span>🗓️</span>
+                      <span>Delivered automatically as per the system schedule</span>
+                    </div>
+                    <div style={{ display: "flex", alignItems: "center", gap: "0.4rem" }}>
+                      <span>🕉️</span>
+                      <span>Everyone receives the same shlok with full Sanskrit verse, transliteration, and authentic meaning</span>
+                    </div>
+                    <div style={{ display: "flex", alignItems: "center", gap: "0.4rem" }}>
+                      <span>🔄</span>
+                      <span>Separate from your personal web progress tracker</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <button
+                className="btn-ghost"
+                style={{ width: "100%", justifyContent: "center", fontSize: "0.88rem", border: "1px solid #fecaca", borderRadius: "10px", color: "#dc2626" }}
+                onClick={handleToggleEmailSubscription}
+                disabled={togglingEmail}
+              >
+                {togglingEmail ? "Updating…" : "Unsubscribe from Email Broadcast"}
+              </button>
+            </div>
+          ) : (
+            <div>
+              <div
+                style={{
+                  padding: "1rem",
+                  background: "rgba(220,38,38,0.05)",
+                  borderRadius: "12px",
+                  border: "1px solid rgba(220,38,38,0.18)",
+                  marginBottom: "1rem",
+                }}
+              >
+                <div style={{ display: "flex", alignItems: "center", gap: "0.6rem", marginBottom: "0.4rem" }}>
+                  <span style={{ fontSize: "1.25rem" }}>🚫</span>
+                  <div>
+                    <p style={{ fontWeight: 800, fontSize: "0.92rem", color: "#dc2626", margin: 0 }}>Unsubscribed</p>
+                    <p style={{ fontSize: "0.82rem", color: "var(--text-muted)", margin: "0.15rem 0 0" }}>
+                      You are not receiving scheduled broadcast shloks at <strong>{user.email}</strong>.
+                    </p>
+                  </div>
+                </div>
+                <p style={{ fontSize: "0.78rem", color: "var(--text-muted)", lineHeight: 1.45, margin: "0.5rem 0 0" }}>
+                  Re-subscribing will include you in the weekly / daily common Gita shlok broadcast sent to all community members.
+                </p>
+              </div>
+
+              <button
+                className="btn-primary"
+                style={{ width: "100%", justifyContent: "center" }}
+                onClick={handleToggleEmailSubscription}
+                disabled={togglingEmail}
+              >
+                {togglingEmail ? "Updating…" : "Re-subscribe to Email Shloks →"}
+              </button>
+            </div>
+          )}
+        </div>
+
         {/* ── WhatsApp Section ── */}
-        <div className="card" style={{ padding: "1.75rem" }}>
+        <div className="card profile-card">
           <h3 style={{ fontWeight: 700, fontSize: "1rem", marginBottom: "1rem", color: "var(--text-primary)" }}>
             📲 WhatsApp Subscription
           </h3>

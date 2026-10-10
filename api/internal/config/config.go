@@ -4,6 +4,7 @@ import (
 	"log"
 	"os"
 	"strconv"
+	"strings"
 
 	"github.com/joho/godotenv"
 )
@@ -38,6 +39,17 @@ var (
 
 	// WhatsApp dispatch time
 	WASendTime string // e.g. "0600" = 6:00 AM, "1345" = 13:45 IST
+
+	// Email (Resend)
+	ResendAPIKey              string
+	ResendFromEmail           string // e.g. "shlok@ekashlok.com"
+	AdminNotificationEmail    string // alert destination, e.g. admin email
+	EmailShlokEnabled         bool   // master on/off switch
+	EmailShlokDay             string // "daily", "monday", "tuesday", …
+	EmailShlokTime            string // "0600" = 6:00 AM IST
+	EmailUserLimit            string // "ALL" or a positive integer string
+	EmailBatchSize            int    // emails per batch (default 10)
+	EmailBatchDelaySeconds    int    // sleep between batches (default 2)
 )
 
 // Load initialises all environment variables into the Go process.
@@ -73,6 +85,27 @@ func Load() {
 	MaxDailyWAMessages = maxWA
 
 	WASendTime = getEnvOrDefault("WA_SEND_TIME", "0600")
+
+	// Email (Resend)
+	ResendAPIKey           = os.Getenv("RESEND_API_KEY")
+	ResendFromEmail        = getEnvOrDefault("RESEND_FROM_EMAIL", "shlok@ekashlok.com")
+	AdminNotificationEmail = getEnvOrDefault("ADMIN_NOTIFICATION_EMAIL", AdminEmail)
+	EmailShlokEnabled      = os.Getenv("EMAIL_SHLOK_ENABLED") == "true"
+	EmailShlokDay          = strings.ToLower(getEnvOrDefault("EMAIL_SHLOK_DAY", "monday"))
+	EmailShlokTime         = getEnvOrDefault("EMAIL_SHLOK_TIME", "0600")
+	EmailUserLimit         = getEnvOrDefault("EMAIL_USER_LIMIT", "ALL")
+
+	batchSize, bse := strconv.Atoi(os.Getenv("EMAIL_BATCH_SIZE"))
+	if bse != nil || batchSize <= 0 {
+		batchSize = 10
+	}
+	EmailBatchSize = batchSize
+
+	batchDelay, bde := strconv.Atoi(os.Getenv("EMAIL_BATCH_DELAY_SECONDS"))
+	if bde != nil || batchDelay < 0 {
+		batchDelay = 2
+	}
+	EmailBatchDelaySeconds = batchDelay
 }
 
 func getEnvOrDefault(key, fallback string) string {

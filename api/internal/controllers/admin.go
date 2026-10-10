@@ -5,6 +5,7 @@ import (
 	"strconv"
 	"time"
 
+	"bgs/internal/config"
 	"bgs/internal/database"
 	"bgs/internal/models"
 	"bgs/internal/services"
@@ -16,9 +17,19 @@ import (
 // allowedSettingKeys is the whitelist of valid app_settings keys.
 // UpdateSettings rejects any key not in this list.
 var allowedSettingKeys = map[string]bool{
-	"max_daily_wa_messages": true,
-	"otp_maintenance":       true,
-	"dispatch_maintenance":  true,
+	"max_daily_wa_messages":     true,
+	"otp_maintenance":           true,
+	"dispatch_maintenance":      true,
+	"email_shlok_enabled":       true,
+	"resend_from_email":         true,
+	"admin_notification_email":  true,
+	"email_shlok_day":           true,
+	"email_shlok_time":          true,
+	"email_user_limit":          true,
+	"email_batch_size":          true,
+	"email_batch_delay_seconds": true,
+	"email_shlok_count":         true,
+	"last_email_dispatch_date":  true,
 }
 
 // GetAdminStats returns top-level stats for the admin dashboard.
@@ -51,8 +62,10 @@ func GetAdminStats(c *gin.Context) {
 	})
 }
 
-// GetAdminUsers returns a paginated list of all users.
-// GET /api/admin/users?page=1&limit=20
+// GetAdminUsers returns a paginated, filtered list of all users.
+// GET /api/admin/users?page=1&limit=20&shlok_count_gte=5&shlok_count_lte=100
+//   &last_login_from=2024-01-01&last_login_to=2024-12-31
+//   &created_from=2024-01-01&created_to=2024-12-31
 func GetAdminUsers(c *gin.Context) {
 	page, _ := strconv.Atoi(c.DefaultQuery("page", "1"))
 	limit, _ := strconv.Atoi(c.DefaultQuery("limit", "20"))
@@ -64,10 +77,70 @@ func GetAdminUsers(c *gin.Context) {
 	}
 	offset := (page - 1) * limit
 
-	var users []models.User
+	q := database.DB.Model(&models.User{})
+
+	// shlok_count filters
+	if v := c.Query("shlok_count_gte"); v != "" {
+		if n, err := strconv.Atoi(v); err == nil {
+			q = q.Where("shlok_count >= ?", n)
+		}
+	}
+	if v := c.Query("shlok_count_lte"); v != "" {
+		if n, err := strconv.Atoi(v); err == nil {
+			q = q.Where("shlok_count <= ?", n)
+		}
+	}
+
+	// logged_count filters
+	if v := c.Query("logged_count_gte"); v != "" {
+		if n, err := strconv.Atoi(v); err == nil {
+			q = q.Where("logged_count >= ?", n)
+		}
+	}
+	if v := c.Query("logged_count_lte"); v != "" {
+		if n, err := strconv.Atoi(v); err == nil {
+			q = q.Where("logged_count <= ?", n)
+		}
+	}
+
+	// email subscription filter
+	if v := c.Query("email_status"); v != "" {
+		if v == "subscribed" {
+			q = q.Where("email_unsubscribed = false")
+		} else if v == "unsubscribed" {
+			q = q.Where("email_unsubscribed = true")
+		}
+	}
+
+	// last login date range filters (checks last_active_at or last_shlok_advanced)
+	if v := c.Query("last_login_from"); v != "" {
+		if t, err := time.Parse("2006-01-02", v); err == nil {
+			q = q.Where("COALESCE(last_active_at, last_shlok_advanced) >= ?", t.UTC())
+		}
+	}
+	if v := c.Query("last_login_to"); v != "" {
+		if t, err := time.Parse("2006-01-02", v); err == nil {
+			q = q.Where("COALESCE(last_active_at, last_shlok_advanced) <= ?", t.Add(24*time.Hour).UTC())
+		}
+	}
+
+	// signup (created_at) date range filters
+	if v := c.Query("created_from"); v != "" {
+		if t, err := time.Parse("2006-01-02", v); err == nil {
+			q = q.Where("created_at >= ?", t.UTC())
+		}
+	}
+	if v := c.Query("created_to"); v != "" {
+		if t, err := time.Parse("2006-01-02", v); err == nil {
+			q = q.Where("created_at <= ?", t.Add(24*time.Hour).UTC())
+		}
+	}
+
 	var total int64
-	database.DB.Model(&models.User{}).Count(&total)
-	database.DB.Order("created_at desc").Limit(limit).Offset(offset).Find(&users)
+	q.Count(&total)
+
+	var users []models.User
+	q.Order("created_at desc").Limit(limit).Offset(offset).Find(&users)
 
 	c.JSON(http.StatusOK, gin.H{
 		"users": users,
@@ -119,13 +192,29 @@ func ToggleAdminStatus(c *gin.Context) {
 // GetSettings returns all admin-configurable app settings.
 // GET /api/admin/settings
 func GetSettings(c *gin.Context) {
-	var settings []models.AppSetting
-	database.DB.Find(&settings)
+	var settingsList []models.AppSetting
+	database.DB.Find(&settingsList)
 
-	result := make(map[string]string, len(settings))
-	for _, s := range settings {
+	result := make(map[string]string, len(settingsList)+10)
+	for _, s := range settingsList {
 		result[s.Key] = s.Value
 	}
+
+	setIfMissing := func(k, def string) {
+		if v, ok := result[k]; !ok || v == "" {
+			result[k] = def
+		}
+	}
+	setIfMissing("email_shlok_enabled", strconv.FormatBool(config.EmailShlokEnabled))
+	setIfMissing("resend_from_email", config.ResendFromEmail)
+	setIfMissing("admin_notification_email", config.AdminNotificationEmail)
+	setIfMissing("email_shlok_day", config.EmailShlokDay)
+	setIfMissing("email_shlok_time", config.EmailShlokTime)
+	setIfMissing("email_user_limit", config.EmailUserLimit)
+	setIfMissing("email_batch_size", strconv.Itoa(config.EmailBatchSize))
+	setIfMissing("email_batch_delay_seconds", strconv.Itoa(config.EmailBatchDelaySeconds))
+	setIfMissing("email_shlok_count", "1")
+
 	c.JSON(http.StatusOK, gin.H{"settings": result})
 }
 
@@ -147,12 +236,19 @@ func UpdateSettings(c *gin.Context) {
 	}
 
 	for k, v := range req {
-		database.DB.Model(&models.AppSetting{}).
-			Where("key = ?", k).
-			Updates(map[string]interface{}{
+		var s models.AppSetting
+		if err := database.DB.Where("key = ?", k).First(&s).Error; err != nil {
+			database.DB.Create(&models.AppSetting{
+				Key:       k,
+				Value:     v,
+				UpdatedAt: time.Now(),
+			})
+		} else {
+			database.DB.Model(&s).Updates(map[string]interface{}{
 				"value":      v,
 				"updated_at": time.Now(),
 			})
+		}
 	}
 
 	c.JSON(http.StatusOK, gin.H{"message": "Settings updated"})
@@ -168,8 +264,8 @@ func GetPublicSettings(c *gin.Context) {
 	})
 }
 
-// GetFailedSignupAttempts returns a paginated log of all WA signup failures.
-// GET /api/admin/signup-attempts?page=1&limit=20
+// GetFailedSignupAttempts returns a paginated, filtered log of all WA signup failures.
+// GET /api/admin/signup-attempts?page=1&limit=20&created_from=2024-01-01&created_to=2024-12-31
 func GetFailedSignupAttempts(c *gin.Context) {
 	page, _ := strconv.Atoi(c.DefaultQuery("page", "1"))
 	limit, _ := strconv.Atoi(c.DefaultQuery("limit", "20"))
@@ -181,12 +277,25 @@ func GetFailedSignupAttempts(c *gin.Context) {
 	}
 	offset := (page - 1) * limit
 
-	var attempts []models.WASignupAttempt
-	var total int64
+	q := database.DB.Model(&models.WASignupAttempt{})
 
-	database.DB.Model(&models.WASignupAttempt{}).Count(&total)
-	database.DB.
-		Preload("User").
+	// created_at date range filters
+	if v := c.Query("created_from"); v != "" {
+		if t, err := time.Parse("2006-01-02", v); err == nil {
+			q = q.Where("created_at >= ?", t.UTC())
+		}
+	}
+	if v := c.Query("created_to"); v != "" {
+		if t, err := time.Parse("2006-01-02", v); err == nil {
+			q = q.Where("created_at <= ?", t.Add(24*time.Hour).UTC())
+		}
+	}
+
+	var total int64
+	q.Count(&total)
+
+	var attempts []models.WASignupAttempt
+	q.Preload("User").
 		Order("created_at desc").
 		Limit(limit).
 		Offset(offset).

@@ -61,6 +61,7 @@ func main() {
 
 	// 8. Start background jobs
 	services.StartDailyShlokCron(ctx)
+	services.StartEmailShlokCron(ctx)
 	services.StartOTPCleanupCron()
 
 	if config.RunUptimeCron {

@@ -24,6 +24,11 @@ type User struct {
 	IsPhoneVerified bool   `gorm:"default:false" json:"is_phone_verified"`
 	IsWASubscribed  bool   `gorm:"default:false" json:"is_wa_subscribed"`
 
+	// Email features
+	EmailUnsubscribed bool       `gorm:"default:false;index" json:"email_unsubscribed"`
+	LoggedCount       int        `gorm:"default:0" json:"logged_count"`
+	LastActiveAt      *time.Time `gorm:"index" json:"last_active_at"`
+
 	CreatedAt time.Time      `json:"created_at"`
 	UpdatedAt time.Time      `json:"updated_at"`
 	DeletedAt gorm.DeletedAt `gorm:"index" json:"-"`

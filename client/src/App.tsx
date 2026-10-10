@@ -14,6 +14,8 @@ const Profile = lazy(() => import("./screens/Profile/Profile"));
 const AdminDashboard = lazy(() => import("./screens/Admin/AdminDashboard"));
 const AdminUsers = lazy(() => import("./screens/Admin/AdminUsers"));
 const AdminSignupAttempts = lazy(() => import("./screens/Admin/AdminSignupAttempts"));
+const Unsubscribe = lazy(() => import("./screens/Unsubscribe/Unsubscribe"));
+const EmailPreview = lazy(() => import("./screens/EmailPreview/EmailPreview"));
 
 const PageLoader = () => (
     <div style={{ display: "flex", alignItems: "center", justifyContent: "center", minHeight: "100vh", background: "var(--cream)" }}>
@@ -40,6 +42,8 @@ function App() {
                     {/* Public */}
                     <Route path="/" element={<Landing />} />
                     <Route path="/login" element={<Login />} />
+                    <Route path="/unsubscribe" element={<Unsubscribe />} />
+                    <Route path="/template/email" element={<EmailPreview />} />
 
                     {/* Shlok Browse (public) */}
                     <Route path="/shloks" element={<ShlokBrowser />} />

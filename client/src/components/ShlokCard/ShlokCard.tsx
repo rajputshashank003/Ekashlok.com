@@ -11,6 +11,8 @@ interface Verse {
   sanskrit: string;
   transliteration: string;
   hinglishMeaning: string;
+  englishMeaning?: string;
+  english_meaning?: string;
   simpleExplanation: string;
   lifeLesson: string;
   global_count?: number;
@@ -124,6 +126,19 @@ const ShlokCard: React.FC<ShlokCardProps> = ({
           {verse.hinglishMeaning}
         </p>
       </section>
+
+      {/* English Meaning (rendered if available) */}
+      {Boolean(verse.englishMeaning || verse.english_meaning) && (
+        <section style={{ marginBottom: "1.25rem" }}>
+          <div style={{ display: "flex", alignItems: "center", gap: "0.4rem", marginBottom: "0.5rem" }}>
+            <span style={{ fontSize: "0.9rem" }}>📖</span>
+            <span style={{ fontSize: "0.75rem", fontWeight: 700, color: "var(--bhagwa)", textTransform: "uppercase", letterSpacing: "0.06em" }}>English Meaning</span>
+          </div>
+          <p style={{ fontSize: "clamp(0.88rem, 3vw, 0.95rem)", color: "var(--text-primary)", lineHeight: 1.7 }}>
+            {verse.englishMeaning || verse.english_meaning}
+          </p>
+        </section>
+      )}
 
       {!compact && (
         <>

@@ -11,6 +11,7 @@ interface Verse {
   sanskrit: string;
   transliteration: string;
   hinglishMeaning: string;
+  englishMeaning?: string;
   simpleExplanation: string;
   lifeLesson: string;
   global_count: number;

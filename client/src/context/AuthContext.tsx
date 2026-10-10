@@ -14,6 +14,9 @@ export interface User {
   phone: string;
   is_phone_verified: boolean;
   is_wa_subscribed: boolean;
+  logged_count?: number;
+  email_unsubscribed?: boolean;
+  last_active_at?: string | null;
   created_at: string;
 }
 

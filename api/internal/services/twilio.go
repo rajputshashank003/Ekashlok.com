@@ -205,11 +205,17 @@ func GetDailyWAStats() (sent int, limit int) {
 // FormatShlokMessage formats a Gita verse into the WhatsApp delivery template.
 // Matches exactly the format shown in the product spec.
 func FormatShlokMessage(v *gita.Verse) string {
+	englishSection := ""
+	if v.EnglishMeaning != "" {
+		englishSection = fmt.Sprintf("📖 *English Meaning:*\n%s\n\n", v.EnglishMeaning)
+	}
+
 	return fmt.Sprintf(
 		"🌼 *Bhagavad Gita – Adhyay %d, Shlok %d*\n\n"+
 			"🕉️ *Sanskrit:*\n%s\n\n"+
 			"🔤 *Transliteration:*\n%s\n\n"+
 			"🪷 *Hinglish Meaning:*\n%s\n\n"+
+			"%s"+
 			"✨ *Simple Explanation (Hinglish):*\n%s\n\n"+
 			"📚 *Life Lesson:*\n%s\n\n"+
 			"— _Gita Daily_ 🙏",
@@ -217,6 +223,7 @@ func FormatShlokMessage(v *gita.Verse) string {
 		v.Sanskrit,
 		v.Transliteration,
 		v.HinglishMeaning,
+		englishSection,
 		v.SimpleExplanation,
 		v.LifeLesson,
 	)

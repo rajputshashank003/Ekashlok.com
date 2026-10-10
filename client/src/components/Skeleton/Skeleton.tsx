@@ -76,6 +76,16 @@ export const SkeletonShlok: React.FC<{ compact?: boolean }> = ({ compact = false
         <SkeletonText variant="large" style={{ height: "12px" }} />
       </div>
 
+      {/* English Meaning section */}
+      <div style={{ marginBottom: "1.75rem" }}>
+        <div style={{ display: "flex", gap: "0.5rem", marginBottom: "0.75rem" }}>
+          <SkeletonBase style={{ width: "20px", height: "20px", borderRadius: "4px" }} />
+          <SkeletonText variant="short" style={{ height: "12px", width: "110px" }} />
+        </div>
+        <SkeletonText variant="full" style={{ height: "12px", marginBottom: "0.5rem" }} />
+        <SkeletonText variant="large" style={{ height: "12px" }} />
+      </div>
+
       {!compact && (
         <>
           {/* Simple Explanation section */}

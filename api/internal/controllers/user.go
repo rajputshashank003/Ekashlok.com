@@ -11,6 +11,7 @@ import (
 	"bgs/internal/database"
 	"bgs/internal/gita"
 	"bgs/internal/models"
+	"bgs/internal/services"
 
 	"github.com/gin-gonic/gin"
 )
@@ -331,4 +332,84 @@ func GetVerse(c *gin.Context) {
 	}
 
 	c.JSON(http.StatusOK, gin.H{"verse": verse})
+}
+
+// UnsubscribeEmail processes a 1-click email unsubscribe or re-subscribe from the link in a shlok email.
+// The link carries a signed HMAC token so no authentication is required.
+// POST /api/users/unsubscribe-email   (public)
+// Body: { "email": "...", "token": "...", "action": "unsubscribe"|"subscribe" }
+func UnsubscribeEmail(c *gin.Context) {
+	var req struct {
+		Email  string `json:"email" binding:"required,email"`
+		Token  string `json:"token" binding:"required"`
+		Action string `json:"action"` // "subscribe" or "unsubscribe" (default)
+	}
+	if err := c.ShouldBindJSON(&req); err != nil {
+		c.JSON(http.StatusBadRequest, gin.H{"error": "email and token are required"})
+		return
+	}
+
+	if !services.VerifyUnsubscribeToken(req.Email, req.Token) {
+		c.JSON(http.StatusUnauthorized, gin.H{"error": "Invalid or expired link"})
+		return
+	}
+
+	unsubscribed := true
+	if req.Action == "subscribe" || req.Action == "resubscribe" {
+		unsubscribed = false
+	}
+
+	result := database.DB.Model(&models.User{}).
+		Where("email = ?", req.Email).
+		Update("email_unsubscribed", unsubscribed)
+	if result.Error != nil {
+		c.JSON(http.StatusInternalServerError, gin.H{"error": "Failed to update email preferences"})
+		return
+	}
+	var targetUser models.User
+	if err := database.DB.Where("email = ?", req.Email).First(&targetUser).Error; err == nil {
+		cache.AppCache.Invalidate(fmt.Sprintf("user_%d", targetUser.ID))
+	}
+
+	if unsubscribed {
+		log.Printf("[EMAIL] %s unsubscribed from weekly shlok emails via link", req.Email)
+		c.JSON(http.StatusOK, gin.H{
+			"message":      "You have been unsubscribed from weekly Ekashlok emails.",
+			"unsubscribed": true,
+		})
+	} else {
+		log.Printf("[EMAIL] %s re-subscribed to weekly shlok emails via link", req.Email)
+		c.JSON(http.StatusOK, gin.H{
+			"message":      "Welcome back! You are now subscribed to weekly Ekashlok emails.",
+			"unsubscribed": false,
+		})
+	}
+}
+
+// ToggleEmailSubscription lets an authenticated user subscribe or unsubscribe from emails.
+// PATCH /api/users/email-subscription
+// Body: { "subscribed": true|false }
+func ToggleEmailSubscription(c *gin.Context) {
+	userID := c.MustGet("userID").(uint)
+
+	var req struct {
+		Subscribed bool `json:"subscribed"`
+	}
+	if err := c.ShouldBindJSON(&req); err != nil {
+		c.JSON(http.StatusBadRequest, gin.H{"error": "subscribed field required"})
+		return
+	}
+
+	if err := database.DB.Model(&models.User{}).Where("id = ?", userID).
+		Update("email_unsubscribed", !req.Subscribed).Error; err != nil {
+		c.JSON(http.StatusInternalServerError, gin.H{"error": "Failed to update subscription"})
+		return
+	}
+
+	cache.AppCache.Invalidate(fmt.Sprintf("user_%d", userID))
+	action := "subscribed"
+	if !req.Subscribed {
+		action = "unsubscribed"
+	}
+	c.JSON(http.StatusOK, gin.H{"message": "Email subscription updated", "status": action})
 }

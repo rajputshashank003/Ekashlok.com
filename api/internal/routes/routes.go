@@ -28,6 +28,9 @@ func SetupRoutes(r *gin.Engine) {
 			auth.POST("/google", controllers.VerifyGoogleToken)
 		}
 
+		// ── Public email unsubscribe (no auth — uses HMAC token) ──────────
+		api.POST("/users/unsubscribe-email", controllers.UnsubscribeEmail)
+
 		// ── Shlok Browse (Public) ─────────────────────────────────────────
 		shloks := api.Group("/shloks")
 		{
@@ -41,6 +44,7 @@ func SetupRoutes(r *gin.Engine) {
 		users.Use(middleware.RequireAuth())
 		{
 			users.GET("/me", controllers.GetMe)
+			users.PATCH("/email-subscription", controllers.ToggleEmailSubscription)
 		}
 
 		// ── Shlok (Protected) ─────────────────────────────────────────────

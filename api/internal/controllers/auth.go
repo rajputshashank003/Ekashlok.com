@@ -10,6 +10,7 @@ import (
 	"bgs/internal/config"
 	"bgs/internal/database"
 	"bgs/internal/models"
+	"bgs/internal/services"
 
 	"github.com/gin-gonic/gin"
 	"github.com/golang-jwt/jwt/v5"
@@ -50,22 +51,32 @@ func VerifyGoogleToken(c *gin.Context) {
 		// New user
 		isAdmin := strings.EqualFold(email, config.AdminEmail)
 		user = models.User{
-			Email:      email,
-			Name:       name,
-			AvatarURL:  picture,
-			GoogleID:   googleID,
-			IsAdmin:    isAdmin,
-			ShlokCount: 0, // 0 = brand new; first WA delivery tomorrow = shlok #1
+			Email:       email,
+			Name:        name,
+			AvatarURL:   picture,
+			GoogleID:    googleID,
+			IsAdmin:     isAdmin,
+			ShlokCount:  0, // 0 = brand new; first WA delivery tomorrow = shlok #1
+			LoggedCount: 1, // First login milestone
 		}
 		if err := database.DB.Create(&user).Error; err != nil {
 			c.JSON(http.StatusInternalServerError, gin.H{"error": "Failed to create user"})
 			return
 		}
+
+		// First login milestone email (transactional journey update)
+		if config.ResendAPIKey != "" {
+			services.SendLoginMilestoneEmail(user.Email, user.Name, 1)
+		}
 	} else {
 		// Existing user — update name/avatar, bootstrap admin if email matches
+		now := time.Now()
+		newLoggedCount := (user.LoggedCount%700) + 1
 		updates := map[string]interface{}{
-			"name":       name,
-			"avatar_url": picture,
+			"name":           name,
+			"avatar_url":     picture,
+			"logged_count":   newLoggedCount,
+			"last_active_at": now,
 		}
 		if strings.EqualFold(email, config.AdminEmail) && !user.IsAdmin {
 			updates["is_admin"] = true
@@ -73,8 +84,17 @@ func VerifyGoogleToken(c *gin.Context) {
 		database.DB.Model(&user).Updates(updates)
 		user.Name = name
 		user.AvatarURL = picture
+		user.LoggedCount = newLoggedCount
+		user.LastActiveAt = &now
 		if strings.EqualFold(email, config.AdminEmail) {
 			user.IsAdmin = true
+		}
+
+		// Fire milestone email asynchronously (non-blocking).
+		// Note: Login milestone emails are transactional journey updates and are always sent on login;
+		// user.EmailUnsubscribed only applies to weekly broadcasts.
+		if config.ResendAPIKey != "" {
+			services.SendLoginMilestoneEmail(user.Email, user.Name, newLoggedCount)
 		}
 	}
 
