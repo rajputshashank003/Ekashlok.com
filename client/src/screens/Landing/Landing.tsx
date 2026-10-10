@@ -197,32 +197,74 @@ const Landing: React.FC = () => {
                     </p>
                 </div>
 
-                {/* WhatsApp bubble wrapper */}
+                {/* Sample Shlok Preview Container (Matches Ekashlok Signature Template Design) */}
                 <div
-                    className="wa-preview-container"
                     style={{
                         position: "relative",
-                        background: "linear-gradient(135deg, #128C7E 0%, #075E54 100%)",
+                        background: "#FFF8F0",
                         borderRadius: "20px",
-                        boxShadow: "0 16px 48px rgba(7,94,84,0.3)",
+                        boxShadow: "0 16px 48px rgba(255,107,0,0.14)",
+                        border: "1px solid rgba(255,107,0,0.22)",
+                        overflow: "hidden",
                     }}
                 >
-                    <div style={{ display: "flex", alignItems: "center", gap: "0.6rem", marginBottom: "1rem" }}>
+                    {/* Header: Signature Bhagwa Gradient */}
+                    <div
+                        style={{
+                            background: "linear-gradient(135deg, #FF6B00 0%, #FF8500 45%, #FFA033 100%)",
+                            padding: "28px 24px 22px",
+                            textAlign: "center",
+                            color: "#FFFFFF",
+                        }}
+                    >
                         <div
                             style={{
-                                width: 36, height: 36, borderRadius: "50%",
-                                background: "rgba(255,255,255,0.15)",
-                                display: "flex", alignItems: "center", justifyContent: "center",
-                                fontSize: "1.1rem",
+                                display: "inline-block",
+                                background: "rgba(255, 255, 255, 0.2)",
+                                border: "1px solid rgba(255, 255, 255, 0.35)",
+                                borderRadius: "99px",
+                                padding: "3px 14px",
+                                fontSize: "11px",
+                                fontWeight: 700,
+                                color: "#FFFFFF",
+                                letterSpacing: "0.08em",
+                                textTransform: "uppercase",
+                                marginBottom: "10px",
                             }}
-                        >ॐ</div>
-                        <div>
-                            <div style={{ color: "white", fontWeight: 700, fontSize: "0.9rem" }}>{APP_NAME}</div>
-                            <div style={{ color: "rgba(255,255,255,0.65)", fontSize: "0.75rem" }}>Business · 6:00 AM</div>
+                        >
+                            🌼 DAILY WISDOM · हर दिन एक श्लोक
                         </div>
+                        <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: "8px" }}>
+                            <span
+                                style={{
+                                    fontFamily: "'Noto Serif Devanagari', serif",
+                                    fontSize: "28px",
+                                    lineHeight: 1,
+                                    color: "#FFFFFF",
+                                }}
+                            >
+                                ॐ
+                            </span>
+                            <h3
+                                style={{
+                                    margin: 0,
+                                    fontSize: "24px",
+                                    fontWeight: 900,
+                                    color: "#FFFFFF",
+                                    letterSpacing: "-0.01em",
+                                }}
+                            >
+                                {APP_NAME} · Bhagavad Gita
+                            </h3>
+                        </div>
+                        <p style={{ margin: "6px 0 0", color: "rgba(255, 255, 255, 0.92)", fontSize: "12.5px", fontWeight: 500 }}>
+                            700 Verses · Ancient Wisdom for Modern Living
+                        </p>
                     </div>
-                    <div style={{ background: "rgba(255,255,255,0.95)", borderRadius: "12px", overflow: "hidden" }}>
-                        <ShlokCard verse={SAMPLE_VERSE} />
+
+                    {/* Today's Shlok Card Component */}
+                    <div style={{ padding: "20px 18px" }}>
+                        <ShlokCard verse={SAMPLE_VERSE} shlokCount={47} totalVerses={TOTAL_SHLOKS} />
                     </div>
                 </div>
             </section>
